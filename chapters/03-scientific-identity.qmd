@@ -50,7 +50,7 @@ flowchart LR
 
 ## Where the science lives: data and methods
 
-Our near-term implementation cycle emphasizes **real-world and computational validation** using existing surveillance, claims/pharmacy, and biomarker-rich repositories rather than only new ex vivo functional assays. Core resources include:
+Our near-term implementation cycle emphasizes **real-world and computational validation** using existing surveillance, healthcare data, and biomarker-rich repositories rather than only new ex vivo functional assays. Core resources include:
 
 - **Surveillance & claims:** Puerto Rico fungal-spore and respiratory-virus surveillance; incoming PR Department of Health / ASES claims and pharmacy data.
 - **National repositories:** BioLINCC, BioData Catalyst, *All of Us*, MESA, Framingham, AsthmaNet, and NHANES.
