@@ -19,6 +19,25 @@ Success at RIPLRT is broader than grants and papers. We define it to include **s
 | Public-health playbook | Agencies, decision-makers | Project Lead + SciComm Lead | (pod charter) |
 | Bilingual sci-comm content | General public | Science Communication Lead | (pod charter) |
 
+Among other products not yet listed here.
+
+### Ownership of research products {#sec-ip-ownership}
+
+Datasets, code, dashboards, models, and other products carry **ownership and intellectual-property (IP) implications that follow the umbrella under which they were created and the resources used** (@sec-entity-structure). Get this right *before* a product with potential value is built.
+
+General principles (confirm specifics before relying on them):
+
+- **Products created within Lynn University** — by Lynn-employed personnel, or using Lynn resources, time, or funding — are subject to **Lynn University's IP policy**, which may assign ownership or co-ownership to the University. Do not assume a Lynn-built product belongs to RIPLRT or the LLC.
+- **Products created under the RIPLRT Institute / LLC** outside Lynn employment and resources — including tools developed by **FERM Technologies** — are owned by **Felix E. Rivera-Mariani, PhD, LLC**, subject to any sponsor terms.
+- **UPR or external contributions** are subject to that institution's IP policy.
+- **Cross-umbrella products** (e.g., a Lynn student contributing to an LLC/FERM tool) require a **written ownership understanding agreed in advance** with all relevant institutions.
+
+::: {.callout-warning}
+## Before building anything with commercial or licensable value
+Do not label a product as LLC/FERM-owned, or pursue licensing or commercialization, until ownership is confirmed in writing against **Lynn University's IP policy** and, where relevant, UPR's. When the answer is unclear, the PI obtains written clarification — and, where warranted, institutional or legal counsel — *before* development proceeds. This protects the member, the Institute, and the University alike.
+:::
+
+
 ## Manuscripts
 
 - Start with the **Manuscript Planning Sheet**: target journal, key message, figures, authorship plan, and timeline — *before* drafting.
