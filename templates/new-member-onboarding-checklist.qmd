@@ -1,0 +1,39 @@
+---
+title: "New Member Onboarding Checklist"
+---
+
+> Copy this into the new member's onboarding folder. Mentor and member complete it together.
+
+**Member:** _______________  **Role:** _______________  **Pod/Project:** _______________
+**Mentor:** _______________  **Start date:** _______________
+
+## First 7 days
+- [ ] Read the RIPLRT Institute Research Group Manual
+- [ ] Sign the **Manual Acknowledgment Form** (`/forms/manual-acknowledgment.md`)
+- [ ] Intro meeting with mentor; intro meeting with PI
+- [ ] Understand assigned project and pod role
+- [ ] Accounts/access provisioned (least privilege):
+  - [ ] Messaging channel
+  - [ ] GitHub organization
+  - [ ] Shared drive (Google Drive/OneDrive)
+  - [ ] Project tool (ClickUp / GitHub Projects)
+  - [ ] Project-specific tools (list): _______________
+- [ ] Add short bio + (optional) photo to group directory
+- [ ] Set/share availability
+
+## First 30 days
+- [ ] CITI/IRB training appropriate to role completed
+- [ ] Added by name to relevant IRB protocol(s) (if human-subjects data)
+- [ ] Tool onboarding: Git/GitHub basics
+- [ ] Tool onboarding: R or Python environment set up
+- [ ] Tool onboarding: reproducible-notebook walkthrough
+- [ ] Reviewed Data Governance (Ch. 11) and Responsible AI (Ch. 13)
+- [ ] Owns one defined, mentored task mapped to a deliverable
+- [ ] Individual Development Plan (IDP) drafted with mentor
+
+## First 90 days
+- [ ] Independently owns a named deliverable
+- [ ] Presented once to pod/group
+- [ ] First IDP check-in completed
+
+**Onboarding complete — sign-off:** Member ______  Mentor ______  Date ______

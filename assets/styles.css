@@ -1,0 +1,69 @@
+/* ============================================================
+   RIPLRT Institute Research Group Manual — custom styles
+   2026 Edition (v2.0)
+   Loaded by _quarto.yml (html: css: assets/styles.css)
+   Light, low-risk overrides layered on the Cosmo/Darkly themes.
+   ============================================================ */
+
+:root {
+  --riplrt-primary: #1f6f8b;   /* exposure/ocean teal */
+  --riplrt-accent:  #2e8b57;   /* equity/health green */
+  --riplrt-ink:     #1b1f24;
+  --riplrt-muted:   #5c6770;
+}
+
+/* Title block a touch more distinctive */
+.quarto-title-block .quarto-title .title {
+  color: var(--riplrt-primary);
+  font-weight: 700;
+}
+
+.quarto-title-block .subtitle {
+  color: var(--riplrt-muted);
+  font-style: italic;
+}
+
+/* Part / chapter headings */
+h1, h2 {
+  color: var(--riplrt-primary);
+}
+
+h3, h4 {
+  color: var(--riplrt-ink);
+}
+
+/* Links pick up the accent on hover */
+a {
+  color: var(--riplrt-primary);
+}
+a:hover {
+  color: var(--riplrt-accent);
+}
+
+/* Tables: readable, lightly striped */
+table {
+  border-collapse: collapse;
+}
+thead th {
+  border-bottom: 2px solid var(--riplrt-primary);
+}
+tbody tr:nth-child(odd) {
+  background-color: rgba(31, 111, 139, 0.04);
+}
+
+/* Make the many checklists in templates/forms breathe a bit */
+ul li input[type="checkbox"] {
+  margin-right: 0.4rem;
+}
+
+/* Footer */
+.nav-footer {
+  border-top: 1px solid rgba(31, 111, 139, 0.2);
+}
+
+/* Respect dark mode: soften the striping so it isn't harsh */
+@media (prefers-color-scheme: dark) {
+  tbody tr:nth-child(odd) {
+    background-color: rgba(255, 255, 255, 0.03);
+  }
+}

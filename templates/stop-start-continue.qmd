@@ -1,0 +1,22 @@
+---
+title: "Stop / Start / Continue Feedback Form"
+---
+
+> Used in one-on-ones, retrospectives, and the annual operating review. Can be run anonymously for group-level climate feedback.
+
+**Context (project / group / period):** _______________  **Date:** _______________
+**Anonymous?** ☐ Yes ☐ No
+
+## STOP — what should we stop doing?
+- (behavior/process + why it isn't working)
+
+## START — what should we start doing?
+- (new behavior/process + expected benefit)
+
+## CONTINUE — what's working that we should keep?
+- (behavior/process worth protecting)
+
+## One change I'd prioritize
+-
+
+> Synthesis (facilitator): themes + 1–2 committed changes + owners.

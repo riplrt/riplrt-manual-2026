@@ -1,0 +1,31 @@
+---
+title: "Responsible AI Use Policy"
+---
+
+**Status:** Authoritative · **Owner:** PI · **Review:** Annually (fast-moving area)
+
+## 1. Principle
+AI accelerates judgment; it never replaces it. Members are fully responsible for everything they submit, regardless of which tools assisted.
+
+## 2. Permitted uses (with care)
+Coding assistance; writing structure/clarity/bilingual phrasing; literature orientation and summarization of papers you then read; workflow automation and documentation.
+
+## 3. Prohibited uses
+- Entering **restricted, identifiable, IRB-governed, claims/pharmacy/clinical, or DUA-controlled data** into any external AI tool. (Treat prompt boxes as public.)
+- Presenting unverified AI output as fact.
+- Letting AI **fabricate, alter, or "clean" data or results** (research misconduct).
+- Submitting AI-assisted work you cannot understand or defend.
+- Listing AI tools as **authors**.
+
+## 4. Verification (mandatory)
+Independently verify all AI-touched **citations** (exist + support the claim), **numbers/stats**, **code** (read + test), and **facts/methods** (primary sources).
+
+## 5. Disclosure
+- Internally: note material AI assistance in commits/notebooks/docs.
+- For products: complete the AI-Use Disclosure form and apply the **target venue's** required AI-disclosure language and any prohibitions.
+
+## 6. AI and trainees
+AI is a tutor/assistant, not a substitute for skill-building. Mentors and mentees discuss AI use openly in IDPs/one-on-ones to ensure it accelerates — rather than replaces — learning.
+
+## 7. The defensibility test
+Before submitting anything AI helped with: *Could I explain and defend every claim, line of code, and citation as if no AI were involved?* If not, the work is not finished.

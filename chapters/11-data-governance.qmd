@@ -1,0 +1,79 @@
+---
+title: "Data Governance, IRB, Privacy, and Responsible Research"
+---
+
+{#sec-data-governance}
+
+We work with sensitive human-related data: clinical records, claims and pharmacy data, biomarkers, surveillance data, and repository datasets governed by strict use agreements. Mishandling any of it can harm people and end projects. This chapter is mandatory reading for **everyone**, and the standalone policy in `/policies/data-governance.qmd` is the authoritative reference.
+
+## Core principle
+
+> **Access is a privilege tied to training, approval, and need. We collect the minimum, protect it rigorously, and honor every agreement that lets us use it.**
+
+## Human-subjects training and IRB
+
+Before touching any human-subjects data (including tissues, raw data, or derived data), you must:
+
+1. Complete and maintain **CITI Program** training appropriate to your role — typically Biomedical Research (Basic), Responsible Conduct of Research, Data or Specimens, Conflicts of Interest, and Information Privacy for Researchers. Add bloodborne-pathogen training if any biospecimen work applies.
+2. Be **added by name to the approved IRB protocol** for your project. If you are not on the protocol, you cannot access the data or participate in the project — no exceptions.
+3. Confirm the **IRB-of-record** for your project (it varies by institution and partnership).
+
+::: {.callout-important}
+## Placeholder: IRB and training specifics
+The IRB-of-record, protocol numbers, CITI institutional affiliation, and required module list **must be confirmed per project** with the PI. Links and exact requirements are recorded in each project's pod charter. Do not assume; ask.
+:::
+
+## Dataset-specific rules
+
+Each dataset we use carries its own **Data Use Agreement (DUA)** and access rules. These are not interchangeable. Common examples:
+
+| Resource | Typical governance considerations |
+|---|---|
+| PR DoH / ASES claims & pharmacy | DUA terms, de-identification, approved analysts only, secure environment |
+| BioLINCC | Application, DUA, data security plan, no re-identification, citation requirements |
+| BioData Catalyst / *All of Us* Workbench | Cloud workspace, registered/controlled tiers, no data egress, workbench-only analysis |
+| MESA, Framingham, AsthmaNet, NHANES | Repository-specific use terms, acknowledgment language, redistribution limits |
+
+The **Data Steward** for each pod owns compliance with that project's DUA. Before you analyze, confirm with the steward: *What tier is this? Where must analysis happen? What can leave the environment? What must be cited or acknowledged?*
+
+Use the **Data-Use and Access Checklist** (`/templates/data-use-access-checklist.qmd`) at the start of every project.
+
+## De-identification and HIPAA-adjacent thinking
+
+Even when data are de-identified, we treat them with care:
+
+- **Never attempt re-identification** of any individual, ever.
+- Apply de-identification standards (e.g., removing or transforming direct identifiers; respecting small-cell suppression so individuals can't be inferred).
+- Report results at aggregate levels that protect individuals; watch out for small cells in stratified (equity) analyses.
+- Treat claims, pharmacy, and clinical data as **HIPAA-adjacent**: handle them with the caution you'd give protected health information even when a project is technically outside HIPAA's direct scope.
+
+## Access control and secure storage
+
+- **Least privilege:** people get access only to what their role requires.
+- **No restricted data in general channels.** Never put restricted or identifiable data in chat, email, personal drives, personal laptops, or public repos.
+- **Analyze where the agreement says to.** For controlled-tier repositories, analysis stays inside the approved workbench/environment; no downloading or egress unless explicitly permitted.
+- **Secrets stay out of code.** No credentials, tokens, or keys in GitHub. Use environment variables and a `.gitignore` that excludes data and secrets.
+- **Encryption and backups** follow institutional policy for any local handling that is permitted.
+
+## Privacy of people — including us
+
+- **No photos or videos of human research participants**, ever — that violates privacy and IRB rules.
+- Photos/videos of group members require **consent before capture**, and any public posting requires PI approval.
+- Respect the privacy of community partners and participants in everything we publish or post.
+
+## Responsible research conduct
+
+- **No fabrication, falsification, or plagiarism.** A negative result is still a result.
+- Document analyses so they are reproducible (@sec-reproducible); reproducibility is a privacy-and-integrity control, not just a quality one.
+- Disclose **conflicts of interest** per institutional policy.
+- Follow sponsor terms and **data-sharing/publication requirements** of each dataset and grant.
+
+## When something goes wrong
+
+If you suspect a data breach, an access error, a consent problem, or a possible integrity issue:
+
+1. **Stop** the activity in question.
+2. **Tell the PI and the Data Steward immediately** — early reporting protects you and the people in the data.
+3. Document what happened factually.
+
+This is explicitly a **no-blame, report-early** expectation. The only serious mistake is hiding the problem.

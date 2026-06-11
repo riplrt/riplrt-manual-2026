@@ -1,0 +1,23 @@
+---
+title: "Templates"
+---
+
+This appendix collects the reusable templates RIPLRT members use throughout a project's life. Copy a template into your project space and fill it in — don't edit the master here.
+
+| Template | Use when | File |
+|---|---|---|
+| New Member Onboarding Checklist | Someone joins | `new-member-onboarding-checklist.qmd` |
+| Project Pod Charter | A project starts | `project-pod-charter.qmd` |
+| Individual Development Plan (IDP) | Each semester, per member | `individual-development-plan.qmd` |
+| Student Research Plan | A student scopes a project | `student-research-plan.qmd` |
+| Manuscript Planning Sheet | Before drafting a paper | `manuscript-planning-sheet.qmd` |
+| Authorship/Contributorship Agreement | Project start; updated as roles change | `authorship-contributorship-agreement.qmd` |
+| Data-Use & Access Checklist | Before touching project data | `data-use-access-checklist.qmd` |
+| GitHub Repository Checklist | New repo setup | `github-repo-checklist.qmd` |
+| Reproducible Analysis Checklist | Before any submission | `reproducible-analysis-checklist.qmd` |
+| AI-Use Disclosure Form | Any product with material AI assistance | `ai-use-disclosure.qmd` |
+| Conference Abstract Planning Sheet | Before an abstract deadline | `conference-abstract-planning.qmd` |
+| Weekly Meeting Agenda | Every pod meeting | `weekly-meeting-agenda.qmd` |
+| One-on-One Mentoring Meeting | Biweekly mentor↔mentee | `one-on-one-meeting.qmd` |
+| Stop/Start/Continue Feedback | Reviews and retrospectives | `stop-start-continue.qmd` |
+| Offboarding Checklist | Someone leaves | `offboarding-checklist.qmd` |

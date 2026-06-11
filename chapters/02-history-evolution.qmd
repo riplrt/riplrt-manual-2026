@@ -1,0 +1,46 @@
+---
+title: "History and Evolution of RIPLRT"
+---
+
+Knowing where we came from helps you understand why we work the way we do. RIPLRT has evolved through distinct phases, and the current group is the most recent expression of a consistent through-line.
+
+## Origins (2018–2021): the wet-lab phase
+
+RIPLRT began as the **Respiratory and Immunology Project and Laboratory Research Team** within a College of Biomedical Sciences setting. The early group was organized around wet-lab immunology: human-based immuno-physiological approaches, molecular biology, and the immune effects of airborne pollutants crossing the respiratory barrier in susceptible people — those with asthma, respiratory allergies, and other chronic respiratory conditions.
+
+Even in this phase, the group built infrastructure that was ahead of its time:
+
+- A **written lab manual** (first created September 2018, revised February 2021), authored collaboratively and version-controlled on GitHub.
+- A reproducibility and open-science orientation using R, GitHub, OSF, FigShare, and Zenodo.
+- Clear **vision, mission, and core values**, role definitions, scientific-integrity policy, IRB/CITI compliance, and ICMJE-based authorship.
+- A culture of **inclusive mentoring** and student development.
+
+We acknowledge the past members and writing mentors who built that foundation — it is the backbone of this manual.
+
+## Transition (2021–2024): from bench to hybrid
+
+Over this period the group's center of gravity shifted from the bench toward a **hybrid computational and translational model**. Several forces drove this:
+
+- The rise of large, biomarker-rich public repositories and surveillance datasets.
+- Maturation of reproducible analytics and AI/ML methods.
+- A strategic decision to scale impact through **population-level forecasting** and **repository-based discovery** alongside molecular work.
+- A broadening geographic frame to Puerto Rico, the Caribbean basin, and the southern coastal United States.
+
+## The RIPLRT Institute (2026–): a senior, group-centered program
+
+Today, RIPLRT operates as the **RIPLRT Institute** — a senior, group-centered research program rather than a collection of individual projects. The work now spans scales from molecular immune modeling to population-level epidemiological surveillance, integrated through reproducible pipelines and equity-stratified analysis.
+
+The institutional frame is flexible by design. RIPLRT activities may run through **Lynn University**, the **RIPLRT Institute**, **Felix E. Rivera-Mariani, PhD LLC**, and **collaborating institutions and partners**, depending on the project, funding, and data-use agreement. Where a specific institutional home matters for a policy (IRB, payroll, data access), the manual flags it as a placeholder for confirmation.
+
+::: {.callout-note}
+## Placeholder: institutional affiliations
+Exact entity names, IRB-of-record, and data-use authorities vary by project. Project pod charters (@sec-roles-pods) record the governing institution, IRB protocol, and data-use agreement for each project. Confirm these with the PI before starting work.
+:::
+
+## What has stayed constant
+
+Across every phase, one thing has not changed: **the through-line.**
+
+> Exposure Science → Immune Bioactivity → Computational Forecasting → Equity-Focused Translation → Inclusive Workforce Development
+
+The methods have evolved from pipettes to pipelines, but the mission — understanding environmental drivers of respiratory and immune health and translating that understanding into equity — has been the constant since day one. This manual modernizes the *how* while protecting the *why*.

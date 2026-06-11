@@ -1,0 +1,49 @@
+---
+title: "Welcome to RIPLRT Institute"
+---
+
+Welcome to the **Respiratory and Immunology Project and Laboratory Research Team — the RIPLRT Institute.** Whether you are a returning member or this is your first day, we are glad you are here.
+
+This chapter orients you to what kind of place this is, what you can expect from us, and what we will ask of you in return.
+
+## What RIPLRT is
+
+RIPLRT is a **research group, a learning environment, and a scientific home.** We are a mentee-powered group studying how environmental exposures shape respiratory and immune health — and how to convert that understanding into tools that protect people, especially in communities that carry the heaviest environmental burden.
+
+You joined because of the science. We hope you stay because you feel valued, connected, mentored, and part of work that matters. Belonging is not a perk here; it is part of how we do good science. People who feel safe ask better questions, surface mistakes earlier, and take the creative risks that move projects forward.
+
+While you are with us, you will develop skills across several domains:
+
+- **Scientific:** environmental exposure science, immunology, respiratory and cardiovascular health, biomarker interpretation, and study design.
+- **Computational:** R and Python, reproducible analysis, version control with Git/GitHub, dashboards, and AI/ML methods used responsibly.
+- **Professional:** scientific writing, giving talks, building posters, presenting at conferences, and communicating science bilingually to non-specialist audiences.
+- **Human:** collaboration, feedback, mentoring others, and navigating team science.
+
+## What you can expect from us
+
+- A clear sense of how your work connects to the group's mission.
+- A mentor and a defined development pathway, not just a task list.
+- Honest, timely, and kind feedback.
+- Credit for your contributions, governed by transparent authorship rules (see @sec-authorship).
+- A psychologically safe environment where you can ask "naive" questions and disagree with the PI without fear.
+- Support for your growth, including conference travel, professional development, and help with next steps after RIPLRT.
+
+## What we expect from you
+
+- **Read this manual** and sign the acknowledgment form (`/forms/manual-acknowledgment.md`) within your first 7 days.
+- **Bring curiosity and reliability.** Do what you say you will do, and communicate early when you can't.
+- **Learn in public.** Own mistakes quickly; we fix them together. Hiding a mistake is the only unrecoverable error.
+- **Respect people's time** — show up to meetings prepared, meet deadlines, and renegotiate responsibly when life intervenes.
+- **Protect integrity and privacy.** Follow our data governance, IRB, and authorship rules without exception.
+- **Help each other.** What is done in isolation is usually done better in partnership.
+
+## How this manual came to be
+
+This manual is the **2026 Edition (v2.0)**. It is the direct descendant of the 2018 RIPLRT Lab Manual and its 2021 revision, which were inspired by the open lab-manual movement and built reproducibly in R. We have preserved the parts that made the original strong — the welcoming tone, our values, our commitment to integrity, open science, reproducibility, and clear authorship — and modernized everything else for who we are now: a hybrid computational and translational research group at Lynn University, operating across the RIPLRT Institute and affiliated entities.
+
+::: {.callout-note}
+## A living document
+This manual is a work in progress, and that is by design. If something is unclear, outdated, or missing, that is an invitation to improve it. Talk to the PI, your mentor, or any group lead — or open a GitHub issue. See `CONTRIBUTING.md`.
+:::
+
+Welcome to RIPLRT. Let's get to work.

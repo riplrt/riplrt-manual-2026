@@ -1,0 +1,58 @@
+---
+title: "What It Means to Belong to RIPLRT"
+---
+
+People join RIPLRT because of the science. They stay because they feel valued, connected, and part of something larger than any single task. This chapter is about belonging — and why we treat it as a research strategy, not a nicety.
+
+## Belonging is a retention strategy
+
+A research group is not only a productivity engine; it is a **scientific home.** Members who feel they belong stay longer, contribute more, ask better questions, and surface problems earlier. The lab should feel like *our* laboratory, not the PI's laboratory with helpers attached.
+
+This is a deliberate design choice. Connected teams can work fewer hours and still be more productive, because trust reduces friction: people coordinate faster, hide less, and recover from setbacks together.
+
+## The compact: what belonging gives and asks
+
+Belonging here is **reciprocal.**
+
+**What belonging gives you:**
+
+- Membership in a shared mission, not a transactional "do this analysis and publish" relationship.
+- A name, a profile, and a voice in the group — your ideas shape projects.
+- Mentorship aimed at *your* trajectory, not only the project's deliverables.
+- Visible credit for your contributions.
+- Rituals, traditions, and small celebrations that mark progress and make the work human.
+
+**What belonging asks of you:**
+
+- Show up — to meetings, to deadlines, to each other.
+- Contribute to the climate: be the teammate who makes it safe for others to learn in public.
+- Bring problems early; "no surprises" protects everyone.
+- Help newer members the way more senior members helped you.
+
+## We design culture on purpose
+
+Culture always develops — the only question is whether it develops *by design* or *by accident.* Left alone, culture tends to organize around urgency, the loudest personality, hierarchy, or stress. We choose instead to shape it around our values.
+
+Concretely, that means:
+
+- **Structure creates safety.** This manual, project operating charters, clear ground rules, and explicit communication channels exist so that no one has to guess what is expected. Ambiguity is a tax on belonging; we minimize it.
+- **Connection doesn't require formality.** Belonging is built in coffee chats, shared digital spaces, a monthly huddle, celebrating small wins, and showing up for one another — not only in formal meetings.
+- **Rituals reinforce identity.** Traditions like a recurring **"RIPLRT Wins & Roadblocks"** huddle help members working on different datasets feel part of one group.
+
+## Belonging across a hybrid, distributed group
+
+Many of us work remotely or across institutions and time zones. Belonging cannot depend on a shared physical room. We sustain it intentionally through:
+
+- A single primary messaging channel for quick, human, day-to-day connection.
+- Cameras-on-when-able norms for huddles, balanced against bandwidth and accessibility.
+- Asynchronous wins-sharing so contributions are seen even when schedules don't overlap.
+- Deliberate inclusion of remote members in decisions, authorship, and visibility.
+
+## Measuring belonging
+
+We treat belonging as something we can observe and improve, not just hope for. We run a brief **anonymous quarterly pulse check** (10 minutes) covering workload, role clarity, sense of belonging, mentorship quality, confidence with tasks, and barriers (@sec-annual-review). This turns belonging into data we can act on — and signals that we take the human side of the lab as seriously as the scientific side.
+
+::: {.callout-note}
+## If you ever feel on the outside
+Belonging sometimes wobbles — a new member's first weeks, a remote member feeling unseen, a hard stretch on a project. If that's you, say so to your mentor or the PI. Naming it is not a complaint; it's exactly the kind of early signal this group is built to hear.
+:::

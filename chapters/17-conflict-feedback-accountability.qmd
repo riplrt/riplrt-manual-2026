@@ -1,0 +1,79 @@
+---
+title: "Conflict Resolution, Feedback, and Accountability"
+---
+
+{#sec-accountability}
+
+Disagreement is normal and often productive; unaddressed conflict is corrosive. This chapter explains how we give feedback, work through conflict, and hold one another accountable — humanely and without surprises. It deliberately replaces the original manual's punitive wage-penalty mechanics with a professional, developmental approach.
+
+## Our stance
+
+> **We address problems early, directly, and kindly. We separate the person from the problem. We assume good faith. And we document, so accountability is fair and clear.**
+
+## Feedback culture
+
+Feedback is a routine, two-directional habit — not a rare, high-stakes event.
+
+- **Frequent and specific.** Small, timely feedback beats a once-a-year verdict. "Specifically, the lag window in this model needs justification" beats "be more rigorous."
+- **Kind and candid.** Care personally *and* challenge directly. Withholding honest feedback to be "nice" is neither kind nor helpful.
+- **Two-way.** Mentees give feedback to mentors and the PI, including in anonymous climate checks. Leaders model receiving feedback well.
+- **About the work.** We critique ideas, code, and drafts — never the worth of the person.
+
+Use the **Stop / Start / Continue Feedback Form** (`/templates/stop-start-continue.qmd`) in one-on-ones and reviews.
+
+## A structured way to handle difficult conversations
+
+When a conversation is hard, it helps to separate three things people usually tangle together:
+
+1. **What happened.** Get curious about each person's account before deciding who's "right." There are usually two reasonable stories. Ask, don't assume.
+2. **Feelings.** Name the emotions in play (yours and theirs) instead of letting them leak into the content. Frustration unacknowledged becomes blame.
+3. **Identity.** Notice what the conflict says to each person about themselves ("Am I competent? Am I respected?"). Many conflicts escalate because an identity feels threatened, not because the facts are far apart.
+
+Naming these explicitly — even just to yourself before the conversation — defuses most of the heat.
+
+## Practical conflict-resolution steps
+
+```{mermaid}
+flowchart TB
+    A[Notice friction early] --> B[Direct 1:1 conversation<br/>curious, specific, kind]
+    B --> C{Resolved?}
+    C -->|Yes| D[Document agreement<br/>+ follow up]
+    C -->|No| E[Bring in mentor / project lead<br/>as facilitator]
+    E --> F{Resolved?}
+    F -->|Yes| D
+    F -->|No| G[Escalate to PI<br/>for mediation]
+    G --> H[If needed: institutional<br/>processes / HR / ombuds]
+```
+
+1. **Start direct and small.** Most friction resolves in a respectful one-on-one. Lead with curiosity ("Help me understand…") and a specific issue, not an accusation.
+2. **Use a facilitator** if a direct conversation stalls — a mentor or project lead, not to take sides but to help both people be heard.
+3. **Escalate to the PI** for mediation when needed.
+4. **Use institutional channels** (HR, ombuds, Title IX, etc.) for matters of harassment, discrimination, safety, or misconduct — these go beyond the group and must follow institutional policy. The PI helps you access them.
+
+::: {.callout-note}
+## Communication techniques that help
+- **Observe, then state need.** Describe the observable behavior and its impact, then the request — without judgment language. ("When the analysis arrives the night before the meeting, I can't review it in time; could we set an internal deadline two days earlier?")
+- **Reflect back.** Briefly restate what you heard before responding, so the other person feels understood. Misunderstandings shrink when people feel heard.
+- **Ask, don't tell, in tense moments.** Calibrated, open questions ("How am I supposed to do that with the current timeline?") invite problem-solving instead of triggering defensiveness.
+:::
+
+## Accountability — professional, not punitive
+
+We hold real standards. We meet them through development and documentation, not penalties.
+
+**When performance or follow-through falls short:**
+
+1. **Early, private conversation.** Name the gap specifically; ask what's getting in the way; listen. Often the cause is unclear expectations, overload, or an unsurfaced obstacle — all fixable.
+2. **Clarify expectations and support.** Restate what "done" looks like, set a realistic plan, and offer help or resources.
+3. **Document.** Keep a brief, factual record of the conversation, the plan, and the timeline. Documentation protects both parties and keeps accountability fair.
+4. **Follow up.** Check progress against the plan; recognize improvement.
+5. **Use institutional/contractual processes** only where applicable and only after the developmental steps — handled through the proper institution or entity, never invented in this manual.
+
+::: {.callout-important}
+## What we explicitly retired
+The 2021 manual tied wage status and pay reductions to task completion and precision thresholds (e.g., 50% wage reduction for a missed cleanup step; waged↔non-waged conversions). **We have removed all punitive wage mechanics.** Compensation and employment terms are governed by the relevant institution or entity. Accountability here is about clarity, support, documentation, and the "no-surprises" deadline culture (@sec-communication) — not financial penalty.
+:::
+
+## The no-surprises principle, applied to accountability
+
+Accountability and feedback should never blindside anyone. If something is off, the person hears it from a teammate or mentor early and directly — not for the first time in a review, and never as a penalty out of nowhere. Both directions: leaders surface concerns early, and members surface obstacles early. Surprises are the failure mode we design against.

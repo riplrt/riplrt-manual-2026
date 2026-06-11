@@ -1,0 +1,55 @@
+---
+title: "Scientific Identity and Strategic Through-Line"
+---
+
+This chapter is the scientific spine of the manual. It explains what we study, the logic that connects our projects, and the strategic story — Community-to-Clinic-to-Cloud — that anchors everything from grant narratives to recruitment emails.
+
+## The one-sentence identity
+
+> **RIPLRT Institute is a mentee-powered environmental immunology and respiratory health equity research group that trains students to convert exposure, clinical, biomarker, and computational data into equitable decision tools for Puerto Rico, the Caribbean basin, South Florida, and the southern coastal United States.**
+
+If you can say this from memory, you can explain RIPLRT to a dean, a reviewer, a community partner, or a prospective student.
+
+## The strategic through-line
+
+Our portfolio is large, but it is not scattered. Every project sits somewhere on a single chain:
+
+1. **Exposure Science** — We measure and interpret environmental signals: bioaerosols and fungal spores, airway microbiome/mycobiome signatures, $PM_{2.5}$, $NO_2$, chemical and physical pollutants, meteorology, and wearable exposure streams.
+2. **Immune Bioactivity** — We connect those exposures to immune and inflammatory biomarkers and to biological response.
+3. **Computational Forecasting** — We use AI/ML, distributed lag models, mixed-effects models, and equity-aware metrics to forecast exposure-linked respiratory risk windows.
+4. **Equity-Focused Translation** — We convert forecasts into clinician-facing dashboards, community risk briefs, public-health playbooks, and peer-reviewed science.
+5. **Inclusive Workforce Development** — Across all of the above, mentees are embedded as active contributors, building an inclusive workforce in immunology, exposure science, respiratory health, computational biology, and data science.
+
+When you describe your project, locate it on this chain. It clarifies your aims, your collaborators, and your authorship plan.
+
+## The central narrative: Community-to-Clinic-to-Cloud
+
+```{mermaid}
+flowchart LR
+    A[Community<br/>Environmental signals:<br/>spores, pollutants, meteorology] --> B[Clinic<br/>Clinical, claims, pharmacy,<br/>biomarker outcomes]
+    B --> C[Cloud<br/>Reproducible pipelines,<br/>AI/ML forecasting,<br/>equity-aware metrics]
+    C --> D[Translation<br/>Dashboards, risk briefs,<br/>playbooks, manuscripts]
+    D --> A
+```
+
+- **Community:** We measure environmental signals where people live, work, and breathe.
+- **Clinic:** We link those signals to clinical, claims, pharmacy, biomarker, and repository-based outcomes.
+- **Cloud:** We build reproducible analytic pipelines that forecast risk and validate forecasts against real-world outcomes.
+- The loop closes when **translation** returns equity-aware tools to the communities and clinicians who need them.
+
+## Where the science lives: data and methods
+
+Our near-term implementation cycle emphasizes **real-world and computational validation** using existing surveillance, claims/pharmacy, and biomarker-rich repositories rather than new ex vivo functional assays. Core resources include:
+
+- **Surveillance & claims:** Puerto Rico fungal-spore and respiratory-virus surveillance; incoming PR Department of Health / ASES claims and pharmacy data.
+- **National repositories:** BioLINCC, BioData Catalyst, *All of Us*, MESA, Framingham, AsthmaNet, and NHANES.
+- **Methods:** AI/ML, distributed lag models, mixed-effects models, GWAS and polygenic risk scores, SHAP explainability, causal mediation analysis, multi-agent AI architectures, and equity-aware performance metrics — all within a reproducibility and equity-stratified analysis framework.
+
+::: {.callout-important}
+## Identity discipline
+We frame new work as a **forward progression**, not a repetition of past work. Every proposal, talk, or project should be positioned as the next step on the through-line. This is both a scientific and a strategic habit — it keeps the program coherent and the narrative under our control.
+:::
+
+## Why equity is structural, not symbolic
+
+The communities we study — in Puerto Rico, the Caribbean, and coastal regions — face converging climate, bioaerosol, pollution, and respiratory-health challenges and are often under-resourced and underrepresented in research. Equity is therefore built into the science itself: we stratify analyses by community, age, sex, and other relevant axes; we report equity-stratified performance; and we translate findings into bilingual materials communities can actually use. Equity is a design requirement of our pipelines, not a line in a diversity statement.

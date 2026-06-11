@@ -1,0 +1,66 @@
+---
+title: "Annual Review and Manual Maintenance"
+---
+
+{#sec-annual-review}
+
+A research group is a living system. This chapter describes the rhythms by which we review the group — scientifically and humanly — and keep this manual current.
+
+## Review rhythms at a glance
+
+| Cadence | Activity | Tool / output |
+|---|---|---|
+| Weekly | Pod check-ins; wins & roadblocks | Weekly agenda, action items |
+| Quarterly | Lab climate pulse; progress vs. SMART metrics | Anonymous pulse; one lead metric/goal |
+| Semesterly | IDP reviews | Updated IDPs |
+| Annually | Stop/Start/Continue; portfolio review; authorship audit; strategic alignment; manual maintenance | This chapter's checklists |
+
+This mirrors the IAP's quarterly review cadence: lock milestones (Q1), freeze first analyses and draft aims (Q2), move products toward submission (Q3), and score progress and re-plan (Q4).
+
+## Quarterly: lab climate pulse
+
+A **10-minute anonymous pulse** turns belonging into data. It covers: workload, role clarity, sense of belonging, mentorship quality, confidence with tasks, and barriers. The PI and leads review results, share back what they heard, and name one or two concrete changes. Measuring climate without acting on it erodes trust faster than not measuring at all.
+
+## Annually: the RIPLRT operating review
+
+Once a year we step back and review the group as a whole.
+
+### 1. Stop / Start / Continue (lab feedback)
+Everyone contributes (use `/templates/stop-start-continue.qmd`): What should the group **stop** doing? **start** doing? **continue** doing? Synthesize themes; commit to a short, public list of changes.
+
+### 2. Project portfolio review
+For each project: Is it advancing? Is it aligned with the through-line and a SMART goal? Is it appropriately staffed? Should it continue, pivot, pause, or close? This prevents drift and overextension — our main risk is too many half-supported projects, not too few people.
+
+### 3. Authorship audit
+Review every active and recent product against the documented contributorship agreements (@sec-authorship): Is credit accurate and fair? Are mentees getting the authorship their contributions earned? Are first-author/co-first-author trainee goals on track? Resolve any drift now, not at submission.
+
+### 4. Strategic alignment review
+Check the portfolio and the group's activities against the IAP's 12/36/60-month goals: Are we on pace? What needs to change? Update the goals based on funding, data access, and partner feedback. Refresh the through-line narrative if the science has progressed.
+
+### 5. Climate and inclusion review
+Review the year's climate pulses for trends. Is the group living its values? Is it inclusive in practice, not just branding? What will we change?
+
+## Manual maintenance
+
+This manual is itself reviewed annually (and amended as needed in between).
+
+**Maintenance process:**
+
+1. **Designate a maintainer** each year (often the Group Lead, with PI sign-off) to shepherd updates.
+2. **Collect proposed changes** throughout the year via GitHub issues/PRs (`CONTRIBUTING.md`) and the annual stop/start/continue.
+3. **Review and merge** approved changes; update `CHANGELOG.md`.
+4. **Re-render** the Quarto book and publish the new version.
+5. **Re-acknowledge:** when changes are substantive, members re-sign the acknowledgment so everyone is on the current version.
+
+::: {.callout-note}
+## Sections to review every year
+- **Tooling and platforms** (@sec-project-management) — tools change.
+- **Data governance and dataset rules** (@sec-data-governance) — DUAs and IRB terms change.
+- **Responsible AI** (@sec-responsible-ai) — this field moves fast.
+- **Institutional placeholders** — confirm affiliations, IRB-of-record, and policies.
+- **Vision/Mission/Values and SMART alignment** (@sec-authorship and Ch. 4) — keep them synced with the current IAP.
+:::
+
+## Closing the loop
+
+The point of all this review is not bureaucracy — it's **adaptation.** We observe how the group is doing (scientifically and humanly), we get feedback, and we change. Self-awareness, feedback, and the willingness to adjust are leadership responsibilities. A group that reviews itself honestly and acts on what it finds is a group that keeps getting better at both the science and the mentoring.

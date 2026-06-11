@@ -1,0 +1,92 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "RIPLRT Institute Research Group Manual"
+  subtitle: "A Guide for Environmental Immunology, Respiratory Health Equity, Computational Discovery, and Inclusive Mentoring"
+  author: "The RIPLRT Institute"
+  date: "2026-06-01"
+  edition: "2026 Edition (v2.0)"
+  description: >
+    The operating system of the RIPLRT Institute: a mentee-powered environmental
+    immunology and respiratory health equity research group translating environmental
+    exposures into equitable respiratory and immune health.
+  repo-url: https://github.com/riplrt/riplrt-manual-2026
+  repo-branch: main
+  repo-actions: [edit, issue]
+  sharing: [twitter, linkedin]
+  search: true
+  page-footer:
+    left: "RIPLRT Institute Research Group Manual — 2026 Edition"
+    right: "Built with [Quarto](https://quarto.org)"
+  chapters:
+    - index.qmd
+    - part: "Identity & Belonging"
+      chapters:
+        - chapters/01-welcome.qmd
+        - chapters/02-history-evolution.qmd
+        - chapters/03-scientific-identity.qmd
+        - chapters/04-vision-mission-values.qmd
+        - chapters/05-belonging.qmd
+    - part: "People & Structure"
+      chapters:
+        - chapters/06-roles-pods.qmd
+        - chapters/07-inclusive-mentoring.qmd
+        - chapters/08-culture-psych-safety.qmd
+        - chapters/09-communication-digital-body-language.qmd
+    - part: "How We Work"
+      chapters:
+        - chapters/10-project-management.qmd
+        - chapters/11-data-governance.qmd
+        - chapters/12-reproducible-open-science.qmd
+        - chapters/13-responsible-ai.qmd
+    - part: "Scholarship & Dissemination"
+      chapters:
+        - chapters/14-authorship-dissemination.qmd
+        - chapters/15-research-products.qmd
+    - part: "Operations & Care"
+      chapters:
+        - chapters/16-health-safety-fieldwork.qmd
+        - chapters/17-conflict-feedback-accountability.qmd
+        - chapters/18-funding-travel-development.qmd
+    - part: "Lifecycle & Maintenance"
+      chapters:
+        - chapters/19-onboarding-offboarding.qmd
+        - chapters/20-annual-review.qmd
+    - chapters/21-appendices.qmd
+  appendices:
+    - templates/index.qmd
+    - policies/index.qmd
+    - forms/index.qmd
+
+bibliography: references.bib
+csl: https://www.zotero.org/styles/apa
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    css: assets/styles.css
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    code-link: true
+  pdf:
+    documentclass: scrreprt
+    toc: true
+    number-sections: true
+    geometry:
+      - top=30mm
+      - left=25mm
+      - right=25mm
+      - bottom=30mm
+  docx:
+    toc: true
+    number-sections: true
+
+execute:
+  freeze: auto
+  echo: true
+  warning: false

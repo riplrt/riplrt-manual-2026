@@ -1,0 +1,62 @@
+---
+title: "Responsible Use of AI in Research and Writing"
+---
+
+{#sec-responsible-ai}
+
+AI tools (large language models, coding assistants, literature-synthesis and workflow-automation tools) are part of how modern research groups work — including ours. Used well, they accelerate good work. Used carelessly, they create integrity, privacy, and quality risks. This chapter sets our guardrails. The standalone policy in `/policies/responsible-ai-use.qmd` is the authoritative reference, and the disclosure form lives at `/templates/ai-use-disclosure.qmd`.
+
+## Core principle
+
+> **AI accelerates judgment; it never replaces it. You are fully responsible for everything you submit, regardless of which tools helped you make it.**
+
+## Where AI helps (encouraged, with care)
+
+- **Coding:** scaffolding functions, debugging, explaining errors, drafting tests. *You* read, understand, and verify every line before it enters a pipeline.
+- **Writing:** brainstorming structure, tightening prose, drafting non-results sections, improving clarity and bilingual phrasing. *You* own the claims, the citations, and the voice.
+- **Literature synthesis:** orienting to a new area, surfacing search terms, summarizing papers *you then read.*
+- **Workflow automation:** drafting scripts, templates, and documentation.
+
+## Where AI must not go (prohibited)
+
+::: {.callout-important}
+## Hard limits
+- **Never paste restricted, identifiable, IRB-governed, claims, pharmacy, clinical, or DUA-controlled data into any external AI tool.** This is a data-governance violation (@sec-data-governance). Treat AI prompt boxes as public.
+- **Never present AI-generated text or analysis as verified fact without checking it.** LLMs fabricate citations, statistics, and results convincingly.
+- **Never let AI fabricate, alter, or "clean up" data or results.** That is research misconduct.
+- **Never submit AI-written work you do not understand and cannot defend.** If you can't explain it, you can't submit it.
+:::
+
+## Verify everything
+
+AI output is a **draft to be checked**, never a source of truth:
+
+- **Citations:** confirm every reference exists, says what's claimed, and is correctly attributed. AI invents plausible-looking citations.
+- **Numbers and stats:** re-derive or independently verify any quantitative claim.
+- **Code:** read it, test it, and confirm it does what you think on real cases.
+- **Facts and methods:** cross-check against primary sources.
+
+## Disclosure and transparency
+
+We are transparent about AI use, both internally and in what we publish:
+
+- **Internally:** note material AI assistance in commit messages, notebooks, or the relevant doc so collaborators know what was AI-assisted and what was human-verified.
+- **For scholarly products:** follow the **AI-Use Disclosure** template and the disclosure requirements of the target journal, conference, or sponsor. Many venues require statements about AI use; some prohibit certain uses. Check before submitting.
+- AI tools are **not authors.** They cannot take responsibility for the work, so they do not meet authorship criteria (@sec-authorship).
+
+## AI and student work
+
+For mentees, AI is a learning accelerator *and* a learning hazard. Our stance:
+
+- AI is allowed for learning, drafting, and debugging — **as a tutor and assistant, not a substitute for developing skill.**
+- The goal of training is *your* capability. If AI does the thinking you were supposed to learn, you've been shortchanged. Use it to go faster on things you already understand and to learn things you then internalize.
+- Mentors and mentees discuss AI use openly in IDPs and one-on-ones — what's helping, what's becoming a crutch.
+
+## Why we hold this line
+
+Our credibility — with reviewers, partners, communities, and sponsors — rests on integrity and reproducibility. Equity-focused work especially cannot afford fabricated results or leaked data. Responsible AI use protects the people in our data, the trust of our partners, and the development of our trainees. Speed is never worth a shortcut on any of those.
+
+::: {.callout-tip}
+## The defensibility test
+Before submitting anything AI helped with, ask: *Could I explain and defend every claim, line of code, and citation here to the PI or a reviewer, as if no AI were involved?* If yes, proceed. If no, you're not done.
+:::

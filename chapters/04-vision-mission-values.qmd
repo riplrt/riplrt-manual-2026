@@ -1,0 +1,66 @@
+---
+title: "Vision, Mission, and Core Values"
+---
+
+This chapter states what we are working toward, how we pursue it, and the values that govern how we treat each other and the science. It is adapted directly from Dr. Rivera-Mariani's current Individual Academic Plan (IAP) so that the manual, the strategic roadmap, grant narratives, and recruitment all tell one coherent story.
+
+## Vision
+
+Over the next five years, the RIPLRT Institute will advance a **nationally recognized, equity-centered program in environmental immunology, exposure science, and computational respiratory and cardiovascular health.**
+
+Communities across Puerto Rico, the Caribbean basin, and the southern coastal United States face converging climate, bioaerosol, pollution, and respiratory-health challenges that require predictive and preventive solutions. We will identify critical short- and long-term risk windows for respiratory exacerbations and exposure-related immune and cardiopulmonary outcomes by integrating biological exposures (airway microbiome/mycobiome signatures and bioaerosols) with non-biological exposures ($PM_{2.5}$, $NO_2$, chemical and physical pollutants, meteorology), immune and inflammatory biomarkers, wearable exposure assessments, and advanced computational modeling.
+
+This vision is propelled by **mentee-integrated research, bilingual science communication, and community-responsive translation** that prevent disease, strengthen climate-health resilience, and narrow respiratory health disparities in environmentally threatened and socially underserved populations.
+
+## Mission
+
+We conduct **collaborative, extramurally supported, multi-cohort, repository-based, and prospective studies** that temporally align bioaerosols, airway microbiota/mycobiota, chemical and physical pollutants, wearable and environmental exposure streams, immune and inflammatory biomarkers, respiratory symptoms, lung function, clinical severity, pharmacy utilization, and care pathways.
+
+We leverage Puerto Rico surveillance data, incoming claims/pharmacy data, and accessible national resources (BioLINCC, BioData Catalyst, MESA, Framingham, AsthmaNet, NHANES, *All of Us*) to build reproducible analytic pipelines. Using AI/ML, distributed lag models, mixed-effects models, and equity-aware metrics, we forecast exposure-linked risk windows and validate forecasts against real-world clinical outcomes.
+
+Findings are translated into **clinician-facing dashboards, community risk briefs, public-health playbooks, peer-reviewed manuscripts, and student-centered training products.** Across every phase — from question generation and data access to analysis, authorship, presentations, and dissemination — **mentees are embedded as active contributors** to build an inclusive workforce.
+
+## Core Values
+
+Our values are not decoration. They must be **visible in daily behaviors and documented practices** — what we reward, how we run meetings, how we resolve conflict, and how we assign credit.
+
+### Values preserved from our founding
+
+- **Inclusiveness** — everyone's voice counts.
+- **Multidisciplinary focus** — we integrate disciplines rather than defend silos.
+- **Diversity** — we value and respect differences in perspective and opinion.
+- **Integrity** — we follow strict institutional, scientific, and ethical guidelines.
+- **Productivity** — we bring our best effort toward our goals, sustainably.
+- **Innovation** — we stay open-minded and learn from both successes and failures.
+- **Excellence** — we target the highest quality of scientific work.
+- **Collaboration** — what is done in isolation is usually done better in partnership.
+- **Leadership** — we cultivate intra- and inter-motivation and inspiration.
+
+### Values we add for the 2026 program
+
+- **Psychological safety** — people can ask naive questions, surface mistakes, and disagree with the PI without fear (@sec-psych-safety).
+- **Reproducibility** — if it isn't reproducible, it isn't finished.
+- **Transparency** — work lives in shared, version-controlled spaces; "no surprises" is the default in both science and communication.
+- **Health equity** — equity is a design requirement of our science, not an afterthought.
+- **Community responsiveness** — the communities we study are partners, not subjects.
+- **Bilingual science communication** — our science speaks Spanish and English, to specialists and to neighbors.
+- **Responsible AI** — we use AI to accelerate good work, never to outsource judgment or integrity (@sec-responsible-ai).
+
+::: {.callout-tip}
+## The vision sentence you can quote anywhere
+> *Our research group is dedicated to translating environmental exposures into equitable respiratory and immune health, and we make it happen by building reproducible, mentee-powered, community-responsive science.*
+:::
+
+## From values to behavior
+
+Values only matter if they change what we do. Throughout this manual you will see each value operationalized:
+
+| Value | Where it becomes a practice |
+|---|---|
+| Reproducibility | @sec-reproducible — version control, Quarto notebooks, analysis checklists |
+| Psychological safety | @sec-psych-safety — meeting norms, "learning in public," climate checks |
+| Inclusiveness & diversity | @sec-mentoring — inclusive mentoring, equitable recruitment |
+| Integrity & transparency | @sec-data-governance, @sec-authorship — data rules, contributorship |
+| Community responsiveness | @sec-research-products — risk briefs, bilingual translation |
+
+We hold ourselves to these as a group, and we expect leadership to **model** them — especially during the moments that test them: authorship discussions, revisions, deadlines, and conflict.

@@ -1,0 +1,70 @@
+---
+title: "Project Management and Workflow Systems"
+---
+
+{#sec-project-management}
+
+This chapter describes how a project moves from idea to product, and the systems that keep work findable, trackable, and reproducible. The goal is low cognitive load and high mentee independence.
+
+## The project lifecycle
+
+```{mermaid}
+flowchart LR
+    A[1. Charter<br/>aims, data, roles,<br/>authorship plan] --> B[2. Set up<br/>repo, data access,<br/>variable dictionary]
+    B --> C[3. Analyze<br/>locked analysis plan,<br/>reproducible notebooks]
+    C --> D[4. Synthesize<br/>figures, dashboards,<br/>drafts]
+    D --> E[5. Disseminate<br/>abstract, manuscript,<br/>brief]
+    E --> F[6. Archive<br/>OSF/Zenodo, changelog,<br/>authorship audit]
+```
+
+1. **Charter.** Complete the Project Pod Charter (`/templates/project-pod-charter.qmd`): aims, datasets, access rules, roles, deliverables, **authorship plan discussed at the start**, and weekly task structure.
+2. **Set up.** Create the GitHub repo (use the repo checklist), establish data access and the variable dictionary, and stand up the project tool board.
+3. **Analyze.** Lock a statistical/ML analysis plan (pre-registered or internally locked) *before* looking at outcomes; work in reproducible notebooks (@sec-reproducible).
+4. **Synthesize.** Produce figures, dashboards, and drafts using the planning templates.
+5. **Disseminate.** Submit abstracts, manuscripts, briefs, and dashboards (@sec-research-products).
+6. **Archive.** Deposit code/data appropriately, update the changelog, and run an authorship audit (@sec-annual-review).
+
+## Workflow systems
+
+We standardize on a small, deliberate toolset so members can move between projects without relearning everything.
+
+| Layer | Tool(s) | Purpose |
+|---|---|---|
+| Task & project tracking | **ClickUp** and/or **GitHub Projects** | Tasks, owners, due dates, status, sprints |
+| Code & versioning | **GitHub** (Git) | All code, issues, pull requests, code review |
+| Documents | **Google Drive / OneDrive** | Drafts, shared materials, meeting notes |
+| Analysis & reporting | **Quarto / R Markdown**, **R/RStudio**, **Python** | Reproducible notebooks, manuscripts, dashboards |
+| Structured data capture | **REDCap** *(if applicable to the project)* | Survey/clinical data capture |
+| Archiving & open science | **OSF, Zenodo, FigShare** | Preregistration, archival, DOIs |
+
+::: {.callout-note}
+## Placeholder: exact tool instances
+Specific accounts, workspace URLs, and license details (ClickUp workspace, GitHub org, Drive structure, REDCap instance, OSF projects) are confirmed during onboarding and recorded per project in the pod charter. Tooling may evolve; the *principles* (one source of truth, version control, reproducibility) do not.
+:::
+
+## Task hygiene
+
+A task is only real if it has:
+
+- **An owner** (one person, even if others help).
+- **A due date** (or an explicit "no date — backlog" status).
+- **A definition of done** (what the deliverable is).
+- **A link** to where the work lives (repo, doc, or board).
+
+We review the board in weekly check-ins: what shipped, what's blocked, what's next. Blocked tasks get surfaced early — "no surprises."
+
+## Managing the portfolio without overload
+
+The portfolio spans population-scale surveillance to molecular modeling. To keep it sane:
+
+- **Pods, not heroics.** Work is distributed across pods with defined roles (@sec-roles-pods), not concentrated on one or two people.
+- **Project operating manuals.** Each major project keeps a two-page operational summary so anyone can orient quickly and mentees can work independently.
+- **One lead metric per goal.** Per the IAP cadence, each strategic goal carries a single lead metric so progress is legible.
+- **Quarterly review rhythm.** We score progress against milestones each quarter (@sec-annual-review) and re-plan rather than letting work drift.
+
+## Aligning daily work to strategy
+
+Project work should ladder up to the group's SMART goals (the 12/36/60-month roadmap in the IAP). In practice:
+
+- Each pod's deliverables map to a named SMART goal (e.g., "RespRisk v1.0 forecasting workflow," "manuscript pipeline," "mentee-integrated production").
+- When prioritizing, we ask: *does this advance a SMART goal and the through-line?* If a request doesn't, it goes to the backlog or gets declined — protecting time for the work that matters most.

@@ -1,0 +1,7 @@
+---
+title: "Code of Conduct (policy copy)"
+---
+
+> This is the in-book copy of the group's Code of Conduct. The authoritative, repository-root version is `CODE_OF_CONDUCT.md`. If the two differ, the root file governs.
+
+See `CODE_OF_CONDUCT.md` at the repository root for the full text, including our pledge, standards, scope, enforcement, and reporting pathways.
