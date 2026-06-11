@@ -1,0 +1,1531 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "RIPLRT Institute Research Group Manual",
+    "section": "",
+    "text": "Welcome to the RIPLRT Institute Research Group Manual\nThis is the operating system of the RIPLRT Institute — a mentee-powered environmental immunology and respiratory health equity research group. We translate environmental exposures into equitable respiratory and immune health through exposure science, immune and biomarker discovery, computational forecasting, reproducible analytics, bilingual science communication, and inclusive mentoring.\nIf you are reading this because you recently joined us: welcome. This manual is the fastest way to understand who we are, how we work, what we expect of one another, and how we give credit. If you are a returning member, treat it as a living reference — return to it when you onboard a new teammate, start a project, plan a manuscript, or hit a question about process.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preface</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#our-central-narrative-community-to-clinic-to-cloud",
+    "href": "index.html#our-central-narrative-community-to-clinic-to-cloud",
+    "title": "RIPLRT Institute Research Group Manual",
+    "section": "0.1 Our central narrative: Community-to-Clinic-to-Cloud",
+    "text": "0.1 Our central narrative: Community-to-Clinic-to-Cloud\nEverything we do follows one arc. We measure and interpret environmental signals in communities, link them to clinical, claims, biomarker, and repository-based outcomes, and convert them into equity-aware decision tools for clinicians, agencies, students, and the communities themselves.\nOur scientific through-line is:\n\nExposure Science → Immune Bioactivity → Computational Forecasting → Equity-Focused Translation → Inclusive Workforce Development",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preface</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-read-this-manual",
+    "href": "index.html#how-to-read-this-manual",
+    "title": "RIPLRT Institute Research Group Manual",
+    "section": "0.2 How to read this manual",
+    "text": "0.2 How to read this manual\n\nNew members: Read Chapters 1–9 in your first two weeks, then complete the onboarding checklist in the /forms appendix. Sign the acknowledgment form within your first 7 days.\nProject leads: Pay special attention to Chapters 6, 10, 11, 12, and 14, and use the project pod charter template before kickoff.\nMentors and mentees: Chapters 7 and 8 are your compact. Use the IDP and one-on-one templates each semester.\nEveryone: Chapters 11–13 (data governance, reproducibility, and responsible AI) apply to all of us, all the time.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preface</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#a-note-on-tone",
+    "href": "index.html#a-note-on-tone",
+    "title": "RIPLRT Institute Research Group Manual",
+    "section": "0.3 A note on tone",
+    "text": "0.3 A note on tone\nWe are a serious research group and a humane mentoring environment. Those are not in tension. We use “we” language because the lab belongs to all of us — it is our research group, not only the PI’s. We state expectations directly because clarity is a form of respect. And we assume good faith, because that is how trust is built and how science gets done.\n\n\n\n\n\n\nTipSuggest a change\n\n\n\nThis manual improves because members improve it. See CONTRIBUTING.md for how to propose edits via GitHub issues or pull requests, or raise it in a weekly huddle. Every contributor is acknowledged in the changelog.\n\n\n\nMaintained by the RIPLRT Institute. Principal Investigator and mentor: Dr. Félix E. Rivera-Mariani, PhD, FAAAAI. Built reproducibly with Quarto. Last major revision: 2026.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preface</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/01-welcome.html",
+    "href": "chapters/01-welcome.html",
+    "title": "2  Welcome to RIPLRT Institute",
+    "section": "",
+    "text": "2.1 What RIPLRT is\nWelcome to the Respiratory and Immunology Project and Laboratory Research Team — the RIPLRT Institute. Whether you are a returning member or this is your first day, we are glad you are here.\nThis chapter orients you to what kind of place this is, what you can expect from us, and what we will ask of you in return.\nRIPLRT is a research group, a learning environment, and a scientific home. We are a mentee-powered group studying how environmental exposures shape respiratory and immune health — and how to convert that understanding into tools that protect people, especially in communities that carry the heaviest environmental burden.\nYou joined because of the science. We hope you stay because you feel valued, connected, mentored, and part of work that matters. Belonging is not a perk here; it is part of how we do good science. People who feel safe ask better questions, surface mistakes earlier, and take the creative risks that move projects forward.\nWhile you are with us, you will develop skills across several domains:",
+    "crumbs": [
+      "Identity & Belonging",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Welcome to RIPLRT Institute</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/01-welcome.html#what-riplrt-is",
+    "href": "chapters/01-welcome.html#what-riplrt-is",
+    "title": "2  Welcome to RIPLRT Institute",
+    "section": "",
+    "text": "Scientific: environmental exposure science, immunology, respiratory and cardiovascular health, biomarker interpretation, and study design.\nComputational: R and Python, reproducible analysis, version control with Git/GitHub, dashboards, and AI/ML methods used responsibly.\nProfessional: scientific writing, giving talks, building posters, presenting at conferences, and communicating science bilingually to non-specialist audiences.\nHuman: collaboration, feedback, mentoring others, and navigating team science.",
+    "crumbs": [
+      "Identity & Belonging",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Welcome to RIPLRT Institute</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/01-welcome.html#what-you-can-expect-from-us",
+    "href": "chapters/01-welcome.html#what-you-can-expect-from-us",
+    "title": "2  Welcome to RIPLRT Institute",
+    "section": "2.2 What you can expect from us",
+    "text": "2.2 What you can expect from us\n\nA clear sense of how your work connects to the group’s mission.\nA mentor and a defined development pathway, not just a task list.\nHonest, timely, and kind feedback.\nCredit for your contributions, governed by transparent authorship rules (see ?sec-authorship).\nA psychologically safe environment where you can ask “naive” questions and disagree with the PI without fear.\nSupport for your growth, including conference travel, professional development, and help with next steps after RIPLRT.",
+    "crumbs": [
+      "Identity & Belonging",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Welcome to RIPLRT Institute</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/01-welcome.html#what-we-expect-from-you",
+    "href": "chapters/01-welcome.html#what-we-expect-from-you",
+    "title": "2  Welcome to RIPLRT Institute",
+    "section": "2.3 What we expect from you",
+    "text": "2.3 What we expect from you\n\nRead this manual and sign the acknowledgment form (/forms/manual-acknowledgment.md) within your first 7 days.\nBring curiosity and reliability. Do what you say you will do, and communicate early when you can’t.\nLearn in public. Own mistakes quickly; we fix them together. Hiding a mistake is the only unrecoverable error.\nRespect people’s time — show up to meetings prepared, meet deadlines, and renegotiate responsibly when life intervenes.\nProtect integrity and privacy. Follow our data governance, IRB, and authorship rules without exception.\nHelp each other. What is done in isolation is usually done better in partnership.",
+    "crumbs": [
+      "Identity & Belonging",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Welcome to RIPLRT Institute</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/01-welcome.html#how-this-manual-came-to-be",
+    "href": "chapters/01-welcome.html#how-this-manual-came-to-be",
+    "title": "2  Welcome to RIPLRT Institute",
+    "section": "2.4 How this manual came to be",
+    "text": "2.4 How this manual came to be\nThis manual is the 2026 Edition (v2.0). It is the direct descendant of the 2018 RIPLRT Lab Manual and its 2021 revision, which were inspired by the open lab-manual movement and built reproducibly in R. We have preserved the parts that made the original strong — the welcoming tone, our values, our commitment to integrity, open science, reproducibility, and clear authorship — and modernized everything else for who we are now: a hybrid computational and translational research group at Lynn University, operating across the RIPLRT Institute and affiliated entities.\n\n\n\n\n\n\nNoteA living document\n\n\n\nThis manual is a work in progress, and that is by design. If something is unclear, outdated, or missing, that is an invitation to improve it. Talk to the PI, your mentor, or any group lead — or open a GitHub issue. See CONTRIBUTING.md.\n\n\nWelcome to RIPLRT. Let’s get to work.",
+    "crumbs": [
+      "Identity & Belonging",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Welcome to RIPLRT Institute</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/02-history-evolution.html",
+    "href": "chapters/02-history-evolution.html",
+    "title": "3  History and Evolution of RIPLRT",
+    "section": "",
+    "text": "3.1 Origins (2018–2021): the wet-lab phase\nKnowing where we came from helps you understand why we work the way we do. RIPLRT has evolved through distinct phases, and the current group is the most recent expression of a consistent through-line.\nRIPLRT began as the Respiratory and Immunology Project and Laboratory Research Team within a College of Biomedical Sciences setting. The early group was organized around wet-lab immunology: human-based immuno-physiological approaches, molecular biology, and the immune effects of airborne pollutants crossing the respiratory barrier in susceptible people — those with asthma, respiratory allergies, and other chronic respiratory conditions.\nEven in this phase, the group built infrastructure that was ahead of its time:\nWe acknowledge the past members and writing mentors who built that foundation — it is the backbone of this manual.",
+    "crumbs": [
+      "Identity & Belonging",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>History and Evolution of RIPLRT</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/02-history-evolution.html#origins-20182021-the-wet-lab-phase",
+    "href": "chapters/02-history-evolution.html#origins-20182021-the-wet-lab-phase",
+    "title": "3  History and Evolution of RIPLRT",
+    "section": "",
+    "text": "A written lab manual (first created September 2018, revised February 2021), authored collaboratively and version-controlled on GitHub.\nA reproducibility and open-science orientation using R, GitHub, OSF, FigShare, and Zenodo.\nClear vision, mission, and core values, role definitions, scientific-integrity policy, IRB/CITI compliance, and ICMJE-based authorship.\nA culture of inclusive mentoring and student development.",
+    "crumbs": [
+      "Identity & Belonging",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>History and Evolution of RIPLRT</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/02-history-evolution.html#transition-20212024-from-bench-to-hybrid",
+    "href": "chapters/02-history-evolution.html#transition-20212024-from-bench-to-hybrid",
+    "title": "3  History and Evolution of RIPLRT",
+    "section": "3.2 Transition (2021–2024): from bench to hybrid",
+    "text": "3.2 Transition (2021–2024): from bench to hybrid\nOver this period the group’s center of gravity shifted from the bench toward a hybrid computational and translational model. Several forces drove this:\n\nThe rise of large, biomarker-rich public repositories and surveillance datasets.\nMaturation of reproducible analytics and AI/ML methods.\nA strategic decision to scale impact through population-level forecasting and repository-based discovery alongside molecular work.\nA broadening geographic frame to Puerto Rico, the Caribbean basin, and the southern coastal United States.",
+    "crumbs": [
+      "Identity & Belonging",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>History and Evolution of RIPLRT</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/02-history-evolution.html#the-riplrt-institute-2026-a-senior-group-centered-program",
+    "href": "chapters/02-history-evolution.html#the-riplrt-institute-2026-a-senior-group-centered-program",
+    "title": "3  History and Evolution of RIPLRT",
+    "section": "3.3 The RIPLRT Institute (2026–): a senior, group-centered program",
+    "text": "3.3 The RIPLRT Institute (2026–): a senior, group-centered program\nToday, RIPLRT operates as the RIPLRT Institute — a senior, group-centered research program rather than a collection of individual projects. The work now spans scales from molecular immune modeling to population-level epidemiological surveillance, integrated through reproducible pipelines and equity-stratified analysis.\nThe institutional frame is flexible by design. RIPLRT activities may run through Lynn University, the RIPLRT Institute, Felix E. Rivera-Mariani, PhD LLC, and collaborating institutions and partners, depending on the project, funding, and data-use agreement. Where a specific institutional home matters for a policy (IRB, payroll, data access), the manual flags it as a placeholder for confirmation.\n\n\n\n\n\n\nNotePlaceholder: institutional affiliations\n\n\n\nExact entity names, IRB-of-record, and data-use authorities vary by project. Project pod charters (?sec-roles-pods) record the governing institution, IRB protocol, and data-use agreement for each project. Confirm these with the PI before starting work.",
+    "crumbs": [
+      "Identity & Belonging",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>History and Evolution of RIPLRT</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/02-history-evolution.html#what-has-stayed-constant",
+    "href": "chapters/02-history-evolution.html#what-has-stayed-constant",
+    "title": "3  History and Evolution of RIPLRT",
+    "section": "3.4 What has stayed constant",
+    "text": "3.4 What has stayed constant\nAcross every phase, one thing has not changed: the through-line.\n\nExposure Science → Immune Bioactivity → Computational Forecasting → Equity-Focused Translation → Inclusive Workforce Development\n\nThe methods have evolved from pipettes to pipelines, but the mission — understanding environmental drivers of respiratory and immune health and translating that understanding into equity — has been the constant since day one. This manual modernizes the how while protecting the why.",
+    "crumbs": [
+      "Identity & Belonging",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>History and Evolution of RIPLRT</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/03-scientific-identity.html",
+    "href": "chapters/03-scientific-identity.html",
+    "title": "4  Scientific Identity and Strategic Through-Line",
+    "section": "",
+    "text": "4.1 The one-sentence identity\nThis chapter is the scientific spine of the manual. It explains what we study, the logic that connects our projects, and the strategic story — Community-to-Clinic-to-Cloud — that anchors everything from grant narratives to recruitment emails.\nIf you can say this from memory, you can explain RIPLRT to a dean, a reviewer, a community partner, or a prospective student.",
+    "crumbs": [
+      "Identity & Belonging",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Scientific Identity and Strategic Through-Line</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/03-scientific-identity.html#the-one-sentence-identity",
+    "href": "chapters/03-scientific-identity.html#the-one-sentence-identity",
+    "title": "4  Scientific Identity and Strategic Through-Line",
+    "section": "",
+    "text": "RIPLRT Institute is a mentee-powered environmental immunology and respiratory health equity research group that trains students to convert exposure, clinical, biomarker, and computational data into equitable decision tools for Puerto Rico, the Caribbean basin, South Florida, and the southern coastal United States.",
+    "crumbs": [
+      "Identity & Belonging",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Scientific Identity and Strategic Through-Line</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/03-scientific-identity.html#the-strategic-through-line",
+    "href": "chapters/03-scientific-identity.html#the-strategic-through-line",
+    "title": "4  Scientific Identity and Strategic Through-Line",
+    "section": "4.2 The strategic through-line",
+    "text": "4.2 The strategic through-line\nOur portfolio is large, but it is not scattered. Every project sits somewhere on a single chain:\n\nExposure Science — We measure and interpret environmental signals: bioaerosols and fungal spores, airway microbiome/mycobiome signatures, \\(PM_{2.5}\\), \\(NO_2\\), chemical and physical pollutants, meteorology, and wearable exposure streams.\nImmune Bioactivity — We connect those exposures to immune and inflammatory biomarkers and to biological response.\nComputational Forecasting — We use AI/ML, distributed lag models, mixed-effects models, and equity-aware metrics to forecast exposure-linked respiratory risk windows.\nEquity-Focused Translation — We convert forecasts into clinician-facing dashboards, community risk briefs, public-health playbooks, and peer-reviewed science.\nInclusive Workforce Development — Across all of the above, mentees are embedded as active contributors, building an inclusive workforce in immunology, exposure science, respiratory health, computational biology, and data science.\n\nWhen you describe your project, locate it on this chain. It clarifies your aims, your collaborators, and your authorship plan.",
+    "crumbs": [
+      "Identity & Belonging",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Scientific Identity and Strategic Through-Line</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/03-scientific-identity.html#the-central-narrative-community-to-clinic-to-cloud",
+    "href": "chapters/03-scientific-identity.html#the-central-narrative-community-to-clinic-to-cloud",
+    "title": "4  Scientific Identity and Strategic Through-Line",
+    "section": "4.3 The central narrative: Community-to-Clinic-to-Cloud",
+    "text": "4.3 The central narrative: Community-to-Clinic-to-Cloud\n\nflowchart LR\n    A[Community&lt;br/&gt;Environmental signals:&lt;br/&gt;spores, pollutants, meteorology] --&gt; B[Clinic&lt;br/&gt;Clinical, claims, pharmacy,&lt;br/&gt;biomarker outcomes]\n    B --&gt; C[Cloud&lt;br/&gt;Reproducible pipelines,&lt;br/&gt;AI/ML forecasting,&lt;br/&gt;equity-aware metrics]\n    C --&gt; D[Translation&lt;br/&gt;Dashboards, risk briefs,&lt;br/&gt;playbooks, manuscripts]\n    D --&gt; A\n\n\n\n\nflowchart LR\n    A[Community&lt;br/&gt;Environmental signals:&lt;br/&gt;spores, pollutants, meteorology] --&gt; B[Clinic&lt;br/&gt;Clinical, claims, pharmacy,&lt;br/&gt;biomarker outcomes]\n    B --&gt; C[Cloud&lt;br/&gt;Reproducible pipelines,&lt;br/&gt;AI/ML forecasting,&lt;br/&gt;equity-aware metrics]\n    C --&gt; D[Translation&lt;br/&gt;Dashboards, risk briefs,&lt;br/&gt;playbooks, manuscripts]\n    D --&gt; A\n\n\n\n\n\n\n\nCommunity: We measure environmental signals where people live, work, and breathe.\nClinic: We link those signals to clinical, claims, pharmacy, biomarker, and repository-based outcomes.\nCloud: We build reproducible analytic pipelines that forecast risk and validate forecasts against real-world outcomes.\nThe loop closes when translation returns equity-aware tools to the communities and clinicians who need them.",
+    "crumbs": [
+      "Identity & Belonging",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Scientific Identity and Strategic Through-Line</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/03-scientific-identity.html#where-the-science-lives-data-and-methods",
+    "href": "chapters/03-scientific-identity.html#where-the-science-lives-data-and-methods",
+    "title": "4  Scientific Identity and Strategic Through-Line",
+    "section": "4.4 Where the science lives: data and methods",
+    "text": "4.4 Where the science lives: data and methods\nOur near-term implementation cycle emphasizes real-world and computational validation using existing surveillance, claims/pharmacy, and biomarker-rich repositories rather than new ex vivo functional assays. Core resources include:\n\nSurveillance & claims: Puerto Rico fungal-spore and respiratory-virus surveillance; incoming PR Department of Health / ASES claims and pharmacy data.\nNational repositories: BioLINCC, BioData Catalyst, All of Us, MESA, Framingham, AsthmaNet, and NHANES.\nMethods: AI/ML, distributed lag models, mixed-effects models, GWAS and polygenic risk scores, SHAP explainability, causal mediation analysis, multi-agent AI architectures, and equity-aware performance metrics — all within a reproducibility and equity-stratified analysis framework.\n\n\n\n\n\n\n\nImportantIdentity discipline\n\n\n\nWe frame new work as a forward progression, not a repetition of past work. Every proposal, talk, or project should be positioned as the next step on the through-line. This is both a scientific and a strategic habit — it keeps the program coherent and the narrative under our control.",
+    "crumbs": [
+      "Identity & Belonging",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Scientific Identity and Strategic Through-Line</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/03-scientific-identity.html#why-equity-is-structural-not-symbolic",
+    "href": "chapters/03-scientific-identity.html#why-equity-is-structural-not-symbolic",
+    "title": "4  Scientific Identity and Strategic Through-Line",
+    "section": "4.5 Why equity is structural, not symbolic",
+    "text": "4.5 Why equity is structural, not symbolic\nThe communities we study — in Puerto Rico, the Caribbean, and coastal regions — face converging climate, bioaerosol, pollution, and respiratory-health challenges and are often under-resourced and underrepresented in research. Equity is therefore built into the science itself: we stratify analyses by community, age, sex, and other relevant axes; we report equity-stratified performance; and we translate findings into bilingual materials communities can actually use. Equity is a design requirement of our pipelines, not a line in a diversity statement.",
+    "crumbs": [
+      "Identity & Belonging",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Scientific Identity and Strategic Through-Line</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/04-vision-mission-values.html",
+    "href": "chapters/04-vision-mission-values.html",
+    "title": "5  Vision, Mission, and Core Values",
+    "section": "",
+    "text": "5.1 Vision\nThis chapter states what we are working toward, how we pursue it, and the values that govern how we treat each other and the science. It is adapted directly from Dr. Rivera-Mariani’s current Individual Academic Plan (IAP) so that the manual, the strategic roadmap, grant narratives, and recruitment all tell one coherent story.\nOver the next five years, the RIPLRT Institute will advance a nationally recognized, equity-centered program in environmental immunology, exposure science, and computational respiratory and cardiovascular health.\nCommunities across Puerto Rico, the Caribbean basin, and the southern coastal United States face converging climate, bioaerosol, pollution, and respiratory-health challenges that require predictive and preventive solutions. We will identify critical short- and long-term risk windows for respiratory exacerbations and exposure-related immune and cardiopulmonary outcomes by integrating biological exposures (airway microbiome/mycobiome signatures and bioaerosols) with non-biological exposures (\\(PM_{2.5}\\), \\(NO_2\\), chemical and physical pollutants, meteorology), immune and inflammatory biomarkers, wearable exposure assessments, and advanced computational modeling.\nThis vision is propelled by mentee-integrated research, bilingual science communication, and community-responsive translation that prevent disease, strengthen climate-health resilience, and narrow respiratory health disparities in environmentally threatened and socially underserved populations.",
+    "crumbs": [
+      "Identity & Belonging",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Vision, Mission, and Core Values</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/04-vision-mission-values.html#mission",
+    "href": "chapters/04-vision-mission-values.html#mission",
+    "title": "5  Vision, Mission, and Core Values",
+    "section": "5.2 Mission",
+    "text": "5.2 Mission\nWe conduct collaborative, extramurally supported, multi-cohort, repository-based, and prospective studies that temporally align bioaerosols, airway microbiota/mycobiota, chemical and physical pollutants, wearable and environmental exposure streams, immune and inflammatory biomarkers, respiratory symptoms, lung function, clinical severity, pharmacy utilization, and care pathways.\nWe leverage Puerto Rico surveillance data, incoming claims/pharmacy data, and accessible national resources (BioLINCC, BioData Catalyst, MESA, Framingham, AsthmaNet, NHANES, All of Us) to build reproducible analytic pipelines. Using AI/ML, distributed lag models, mixed-effects models, and equity-aware metrics, we forecast exposure-linked risk windows and validate forecasts against real-world clinical outcomes.\nFindings are translated into clinician-facing dashboards, community risk briefs, public-health playbooks, peer-reviewed manuscripts, and student-centered training products. Across every phase — from question generation and data access to analysis, authorship, presentations, and dissemination — mentees are embedded as active contributors to build an inclusive workforce.",
+    "crumbs": [
+      "Identity & Belonging",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Vision, Mission, and Core Values</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/04-vision-mission-values.html#core-values",
+    "href": "chapters/04-vision-mission-values.html#core-values",
+    "title": "5  Vision, Mission, and Core Values",
+    "section": "5.3 Core Values",
+    "text": "5.3 Core Values\nOur values are not decoration. They must be visible in daily behaviors and documented practices — what we reward, how we run meetings, how we resolve conflict, and how we assign credit.\n\n5.3.1 Values preserved from our founding\n\nInclusiveness — everyone’s voice counts.\nMultidisciplinary focus — we integrate disciplines rather than defend silos.\nDiversity — we value and respect differences in perspective and opinion.\nIntegrity — we follow strict institutional, scientific, and ethical guidelines.\nProductivity — we bring our best effort toward our goals, sustainably.\nInnovation — we stay open-minded and learn from both successes and failures.\nExcellence — we target the highest quality of scientific work.\nCollaboration — what is done in isolation is usually done better in partnership.\nLeadership — we cultivate intra- and inter-motivation and inspiration.\n\n\n\n5.3.2 Values we add for the 2026 program\n\nPsychological safety — people can ask naive questions, surface mistakes, and disagree with the PI without fear (?sec-psych-safety).\nReproducibility — if it isn’t reproducible, it isn’t finished.\nTransparency — work lives in shared, version-controlled spaces; “no surprises” is the default in both science and communication.\nHealth equity — equity is a design requirement of our science, not an afterthought.\nCommunity responsiveness — the communities we study are partners, not subjects.\nBilingual science communication — our science speaks Spanish and English, to specialists and to neighbors.\nResponsible AI — we use AI to accelerate good work, never to outsource judgment or integrity (?sec-responsible-ai).\n\n\n\n\n\n\n\nTipThe vision sentence you can quote anywhere\n\n\n\n\nOur research group is dedicated to translating environmental exposures into equitable respiratory and immune health, and we make it happen by building reproducible, mentee-powered, community-responsive science.",
+    "crumbs": [
+      "Identity & Belonging",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Vision, Mission, and Core Values</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/04-vision-mission-values.html#from-values-to-behavior",
+    "href": "chapters/04-vision-mission-values.html#from-values-to-behavior",
+    "title": "5  Vision, Mission, and Core Values",
+    "section": "5.4 From values to behavior",
+    "text": "5.4 From values to behavior\nValues only matter if they change what we do. Throughout this manual you will see each value operationalized:\n\n\n\n\n\n\n\nValue\nWhere it becomes a practice\n\n\n\n\nReproducibility\n?sec-reproducible — version control, Quarto notebooks, analysis checklists\n\n\nPsychological safety\n?sec-psych-safety — meeting norms, “learning in public,” climate checks\n\n\nInclusiveness & diversity\n?sec-mentoring — inclusive mentoring, equitable recruitment\n\n\nIntegrity & transparency\n?sec-data-governance, ?sec-authorship — data rules, contributorship\n\n\nCommunity responsiveness\n?sec-research-products — risk briefs, bilingual translation\n\n\n\nWe hold ourselves to these as a group, and we expect leadership to model them — especially during the moments that test them: authorship discussions, revisions, deadlines, and conflict.",
+    "crumbs": [
+      "Identity & Belonging",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Vision, Mission, and Core Values</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/05-belonging.html",
+    "href": "chapters/05-belonging.html",
+    "title": "6  What It Means to Belong to RIPLRT",
+    "section": "",
+    "text": "6.1 Belonging is a retention strategy\nPeople join RIPLRT because of the science. They stay because they feel valued, connected, and part of something larger than any single task. This chapter is about belonging — and why we treat it as a research strategy, not a nicety.\nA research group is not only a productivity engine; it is a scientific home. Members who feel they belong stay longer, contribute more, ask better questions, and surface problems earlier. The lab should feel like our laboratory, not the PI’s laboratory with helpers attached.\nThis is a deliberate design choice. Connected teams can work fewer hours and still be more productive, because trust reduces friction: people coordinate faster, hide less, and recover from setbacks together.",
+    "crumbs": [
+      "Identity & Belonging",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>What It Means to Belong to RIPLRT</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/05-belonging.html#the-compact-what-belonging-gives-and-asks",
+    "href": "chapters/05-belonging.html#the-compact-what-belonging-gives-and-asks",
+    "title": "6  What It Means to Belong to RIPLRT",
+    "section": "6.2 The compact: what belonging gives and asks",
+    "text": "6.2 The compact: what belonging gives and asks\nBelonging here is reciprocal.\nWhat belonging gives you:\n\nMembership in a shared mission, not a transactional “do this analysis and publish” relationship.\nA name, a profile, and a voice in the group — your ideas shape projects.\nMentorship aimed at your trajectory, not only the project’s deliverables.\nVisible credit for your contributions.\nRituals, traditions, and small celebrations that mark progress and make the work human.\n\nWhat belonging asks of you:\n\nShow up — to meetings, to deadlines, to each other.\nContribute to the climate: be the teammate who makes it safe for others to learn in public.\nBring problems early; “no surprises” protects everyone.\nHelp newer members the way more senior members helped you.",
+    "crumbs": [
+      "Identity & Belonging",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>What It Means to Belong to RIPLRT</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/05-belonging.html#we-design-culture-on-purpose",
+    "href": "chapters/05-belonging.html#we-design-culture-on-purpose",
+    "title": "6  What It Means to Belong to RIPLRT",
+    "section": "6.3 We design culture on purpose",
+    "text": "6.3 We design culture on purpose\nCulture always develops — the only question is whether it develops by design or by accident. Left alone, culture tends to organize around urgency, the loudest personality, hierarchy, or stress. We choose instead to shape it around our values.\nConcretely, that means:\n\nStructure creates safety. This manual, project operating charters, clear ground rules, and explicit communication channels exist so that no one has to guess what is expected. Ambiguity is a tax on belonging; we minimize it.\nConnection doesn’t require formality. Belonging is built in coffee chats, shared digital spaces, a monthly huddle, celebrating small wins, and showing up for one another — not only in formal meetings.\nRituals reinforce identity. Traditions like a recurring “RIPLRT Wins & Roadblocks” huddle help members working on different datasets feel part of one group.",
+    "crumbs": [
+      "Identity & Belonging",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>What It Means to Belong to RIPLRT</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/05-belonging.html#belonging-across-a-hybrid-distributed-group",
+    "href": "chapters/05-belonging.html#belonging-across-a-hybrid-distributed-group",
+    "title": "6  What It Means to Belong to RIPLRT",
+    "section": "6.4 Belonging across a hybrid, distributed group",
+    "text": "6.4 Belonging across a hybrid, distributed group\nMany of us work remotely or across institutions and time zones. Belonging cannot depend on a shared physical room. We sustain it intentionally through:\n\nA single primary messaging channel for quick, human, day-to-day connection.\nCameras-on-when-able norms for huddles, balanced against bandwidth and accessibility.\nAsynchronous wins-sharing so contributions are seen even when schedules don’t overlap.\nDeliberate inclusion of remote members in decisions, authorship, and visibility.",
+    "crumbs": [
+      "Identity & Belonging",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>What It Means to Belong to RIPLRT</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/05-belonging.html#measuring-belonging",
+    "href": "chapters/05-belonging.html#measuring-belonging",
+    "title": "6  What It Means to Belong to RIPLRT",
+    "section": "6.5 Measuring belonging",
+    "text": "6.5 Measuring belonging\nWe treat belonging as something we can observe and improve, not just hope for. We run a brief anonymous quarterly pulse check (10 minutes) covering workload, role clarity, sense of belonging, mentorship quality, confidence with tasks, and barriers (?sec-annual-review). This turns belonging into data we can act on — and signals that we take the human side of the lab as seriously as the scientific side.\n\n\n\n\n\n\nNoteIf you ever feel on the outside\n\n\n\nBelonging sometimes wobbles — a new member’s first weeks, a remote member feeling unseen, a hard stretch on a project. If that’s you, say so to your mentor or the PI. Naming it is not a complaint; it’s exactly the kind of early signal this group is built to hear.",
+    "crumbs": [
+      "Identity & Belonging",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>What It Means to Belong to RIPLRT</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/06-roles-pods.html",
+    "href": "chapters/06-roles-pods.html",
+    "title": "7  Roles, Responsibilities, and Project Pod Structure",
+    "section": "",
+    "text": "7.1 General expectations for every member\n{#sec-roles-pods}\nThis chapter defines who does what. It preserves the role clarity of the original manual and adds the project pod model — the structure that lets a large, hybrid portfolio run without overloading any one person.\nRegardless of role, every RIPLRT member is expected to:",
+    "crumbs": [
+      "People & Structure",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Roles, Responsibilities, and Project Pod Structure</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/06-roles-pods.html#general-expectations-for-every-member",
+    "href": "chapters/06-roles-pods.html#general-expectations-for-every-member",
+    "title": "7  Roles, Responsibilities, and Project Pod Structure",
+    "section": "",
+    "text": "Maintain curiosity and care for the science and projects they’re involved in.\nBe efficient without rushing — plan before doing, and troubleshoot ahead of time.\nLearn from mistakes and own them quickly. Mistakes are correctable; hiding them is not.\nAsk for help — pride is fine, too much pride is costly.\nKeep up with science relevant to our mission.\nPractice time management and meet commitments, communicating early when they can’t.\nMaintain a respectful, professional atmosphere and use emotional intelligence in conflict.\nWork honestly: never plagiarize, fabricate, or falsify. A negative result is still a result. (Re-analyzing publicly available datasets is not plagiarism — it is good open science.)\nKeep availability current so work can be planned realistically.",
+    "crumbs": [
+      "People & Structure",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Roles, Responsibilities, and Project Pod Structure</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/06-roles-pods.html#standing-roles",
+    "href": "chapters/06-roles-pods.html#standing-roles",
+    "title": "7  Roles, Responsibilities, and Project Pod Structure",
+    "section": "7.2 Standing roles",
+    "text": "7.2 Standing roles\n\n7.2.1 Principal Investigator (PI)\nDr. Félix E. Rivera-Mariani sets scientific direction and models the group’s values. The PI:\n\nIs the foundation and example for the group.\nMentors members across science, learning, professional, and career dimensions.\nProvides timely feedback across all scientific aspects.\nFinds and applies for funding and identifies collaborations.\nHas members’ backs when they’ve followed the manual, and strives to be impartial.\nChairs lab meetings unless delegated.\nHolds final accountability for integrity, authorship, and data governance.\n\n\n\n7.2.2 Group Lead / Lab Coordinator\nAssists the PI in running the group: coordinating meetings and agendas, overseeing onboarding/offboarding, maintaining shared infrastructure, helping route tasks, and mentoring members. (This role generalizes the former “Lab Manager,” reframed for a hybrid group where the work is data and projects more than benches and reagents.)\n\n\n7.2.3 Research Assistants / Senior Mentees\nCarry out core analysis and writing, mentor more junior members, generate research questions, and help maintain reproducibility standards. Often serve as project leads (below).\n\n\n7.2.4 Graduate Students\nDrive projects, learn methods quickly, mentor undergraduates, generate questions, and pursue professional development they identify themselves as well as opportunities the PI surfaces.\n\n\n7.2.5 Undergraduate Interns / Trainees\nLearn skills and procedures, contribute to defined project tasks, and pursue professional development. Every trainee is mentored and mapped to a real deliverable.\n\n\n7.2.6 Mentors and Mentees\nMentoring is woven through every role (?sec-mentoring). Mentors are the first line of support for ensuring mentees understand and follow this manual.\n\n\n\n\n\n\nNoteFlexible, not punitive\n\n\n\nThis manual replaces the old wage-tier role mechanics (waged/non-waged status changes tied to task completion or precision thresholds) with professional accountability handled through documentation, feedback, and — where applicable — institutional or contractual performance processes (?sec-accountability). Compensation and employment terms are governed by the relevant institution or entity, not by this manual.",
+    "crumbs": [
+      "People & Structure",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Roles, Responsibilities, and Project Pod Structure</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/06-roles-pods.html#the-project-pod-model",
+    "href": "chapters/06-roles-pods.html#the-project-pod-model",
+    "title": "7  Roles, Responsibilities, and Project Pod Structure",
+    "section": "7.3 The project pod model",
+    "text": "7.3 The project pod model\nA portfolio this size cannot run on one-on-one PI mentoring alone. We organize work into pods: small, project-specific teams with defined roles. Pods distribute leadership, build mentee independence, and protect the PI’s strategic bandwidth — this is training leadership, not distancing from students.\nEach pod is chartered using the Project Pod Charter template (/templates/project-pod-charter.qmd) before work begins.\n\n7.3.1 Pod roles\nA typical pod assigns these roles (one person may hold more than one; junior members co-hold roles to learn them):\n\n\n\n\n\n\n\nRole\nOwns\n\n\n\n\nPI\nScientific direction, funding, final integrity/authorship accountability\n\n\nProject Lead\nDay-to-day coordination, timeline, the pod charter, weekly task structure\n\n\nData Steward\nData access, data-use agreement compliance, variable dictionary, secure storage\n\n\nAnalysis Lead\nStatistical/ML analysis plan, code, reproducibility of results\n\n\nWriting Lead\nManuscript/abstract drafting and submission coordination\n\n\nVisualization / Dashboard Lead\nFigures, dashboards, decision-support prototypes\n\n\nReproducibility Lead\nRepo structure, environment, analysis checklist, render integrity\n\n\nScience Communication Lead\nCommunity briefs, bilingual materials, social/science-comm content\n\n\nTrainee Contributors\nDefined, mentored tasks that ladder up to a named deliverable\n\n\n\n\n\n7.3.2 Tiered mentoring within pods\nPods use a senior mentee / project lead → junior mentees → PI oversight structure. The project lead supports junior members day to day; the PI provides scientific oversight and steps in on key decisions (design, authorship, submission). This tiered structure is how we scale mentoring sustainably.\n\n\n7.3.3 One rule that keeps us healthy\n\n\n\n\n\n\nImportantEvery new member maps to a real deliverable\n\n\n\nThe group’s risk is not too few people — it is overextension. Every new mentee must map to a funded or near-funded project, a specific deliverable, and a defined supervision pathway before they join a pod. Growth is intentional, aligned with mentoring bandwidth, not maximal.",
+    "crumbs": [
+      "People & Structure",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Roles, Responsibilities, and Project Pod Structure</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/06-roles-pods.html#project-operating-manuals",
+    "href": "chapters/06-roles-pods.html#project-operating-manuals",
+    "title": "7  Roles, Responsibilities, and Project Pod Structure",
+    "section": "7.4 Project operating manuals",
+    "text": "7.4 Project operating manuals\nEach major project (e.g., PR respiratory risk, MESA, AsthmaNet, Framingham/ARIC, All of Us, biomarker projects) maintains a short project operating manual — effectively the completed pod charter plus a two-page operational summary: aims, datasets, access rules, variable dictionary, deliverables, authorship plan, and weekly task structure. These reduce cognitive load and let mentees work more independently.",
+    "crumbs": [
+      "People & Structure",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Roles, Responsibilities, and Project Pod Structure</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/07-inclusive-mentoring.html",
+    "href": "chapters/07-inclusive-mentoring.html",
+    "title": "8  Inclusive Mentoring and Mentee Development",
+    "section": "",
+    "text": "8.1 What inclusive mentoring means here\n{#sec-mentoring}\nMentoring is not a side activity at RIPLRT — it is part of the mission. Inclusive workforce development is the final link in our scientific through-line, and mentee co-authorship and growth are documented evidence that we deliver on it. This chapter is our mentoring compact.\nInclusive mentoring means we mentor for the mentee’s trajectory, not only for the project’s output; we recruit and support members with attention to who has historically been excluded from STEM; and we make sure inclusion shows up in our practices, not just our branding.\nWe recruit and develop members for more than grades or technical skill. We look for and cultivate curiosity, reliability, kindness, willingness to collaborate, a growth mindset, and independent thinking. GPA alone has never built a good scientist.",
+    "crumbs": [
+      "People & Structure",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Inclusive Mentoring and Mentee Development</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/07-inclusive-mentoring.html#the-mentoring-compact",
+    "href": "chapters/07-inclusive-mentoring.html#the-mentoring-compact",
+    "title": "8  Inclusive Mentoring and Mentee Development",
+    "section": "8.2 The mentoring compact",
+    "text": "8.2 The mentoring compact\nMentors commit to:\n\nMeet regularly with mentees (see cadence below) and come prepared.\nCo-create an Individual Development Plan (IDP) and revisit it each semester.\nGive honest, kind, timely feedback — and receive it too.\nMap every mentee to a real, credited deliverable.\nBe the first line of support for helping mentees understand and follow this manual.\nAdvocate for mentees’ growth, visibility, and next steps.\nPractice cultural humility and make space for mentees to bring their whole selves.\n\nMentees commit to:\n\nTake ownership of their development and the IDP.\nCommunicate early about obstacles, confusion, or capacity.\nLearn in public — ask questions, surface mistakes, and try.\nHelp mentor those who come after them.\nFollow integrity, data-governance, and authorship rules without exception.",
+    "crumbs": [
+      "People & Structure",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Inclusive Mentoring and Mentee Development</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/07-inclusive-mentoring.html#meeting-cadence",
+    "href": "chapters/07-inclusive-mentoring.html#meeting-cadence",
+    "title": "8  Inclusive Mentoring and Mentee Development",
+    "section": "8.3 Meeting cadence",
+    "text": "8.3 Meeting cadence\n\n\n\n\n\n\n\n\nTouchpoint\nFrequency\nTool\n\n\n\n\nOne-on-one mentoring meeting\nBiweekly (min. monthly)\n/templates/one-on-one-meeting.qmd\n\n\nIDP review\nEach semester\n/templates/individual-development-plan.qmd\n\n\nPod check-in\nWeekly\n/templates/weekly-meeting-agenda.qmd\n\n\nClimate / belonging pulse\nQuarterly\n?sec-annual-review",
+    "crumbs": [
+      "People & Structure",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Inclusive Mentoring and Mentee Development</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/07-inclusive-mentoring.html#the-student-development-pathway",
+    "href": "chapters/07-inclusive-mentoring.html#the-student-development-pathway",
+    "title": "8  Inclusive Mentoring and Mentee Development",
+    "section": "8.4 The student-development pathway",
+    "text": "8.4 The student-development pathway\nMentees grow along a deliberate ladder. The goal is increasing independence and leadership, not just task volume.\n\nflowchart LR\n    A[Onboard&lt;br/&gt;learn tools, ethics,&lt;br/&gt;one defined task] --&gt; B[Contribute&lt;br/&gt;own a deliverable:&lt;br/&gt;figure, codebook,&lt;br/&gt;lit-synthesis]\n    B --&gt; C[Lead a component&lt;br/&gt;analysis, writing,&lt;br/&gt;dashboard within a pod]\n    C --&gt; D[Co-author & present&lt;br/&gt;abstract, poster,&lt;br/&gt;manuscript section]\n    D --&gt; E[Mentor & lead&lt;br/&gt;project lead, mentor&lt;br/&gt;junior members]\n\n\n\n\nflowchart LR\n    A[Onboard&lt;br/&gt;learn tools, ethics,&lt;br/&gt;one defined task] --&gt; B[Contribute&lt;br/&gt;own a deliverable:&lt;br/&gt;figure, codebook,&lt;br/&gt;lit-synthesis]\n    B --&gt; C[Lead a component&lt;br/&gt;analysis, writing,&lt;br/&gt;dashboard within a pod]\n    C --&gt; D[Co-author & present&lt;br/&gt;abstract, poster,&lt;br/&gt;manuscript section]\n    D --&gt; E[Mentor & lead&lt;br/&gt;project lead, mentor&lt;br/&gt;junior members]\n\n\n\n\n\n\n\n8.4.1 Training milestones\n\nFoundation: complete CITI/IRB training as applicable; learn the group’s tools (Git/GitHub, R or Python, the data-governance rules); read this manual.\nContribution: independently own a named deliverable (a figure, a codebook, a literature synthesis, a reproducible notebook).\nLeadership: lead a pod component; mentor a newer member; first- or co-first-author a scholarly product.",
+    "crumbs": [
+      "People & Structure",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Inclusive Mentoring and Mentee Development</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/07-inclusive-mentoring.html#mentee-co-authorship-as-mission-evidence",
+    "href": "chapters/07-inclusive-mentoring.html#mentee-co-authorship-as-mission-evidence",
+    "title": "8  Inclusive Mentoring and Mentee Development",
+    "section": "8.5 Mentee co-authorship as mission evidence",
+    "text": "8.5 Mentee co-authorship as mission evidence\nWe deliberately document trainee co-authorship across abstracts, posters, presentations, and manuscripts. This does double duty: it is genuine scientific output and it is proof of our workforce-development mission — useful in IDPs, grant mentoring plans, training-grant applications, and program reviews. Authorship is governed by the rules in ?sec-authorship; mentees are credited fairly and, where appropriate, on a student-first authorship pathway.",
+    "crumbs": [
+      "People & Structure",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Inclusive Mentoring and Mentee Development</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/07-inclusive-mentoring.html#tiered-scalable-mentoring",
+    "href": "chapters/07-inclusive-mentoring.html#tiered-scalable-mentoring",
+    "title": "8  Inclusive Mentoring and Mentee Development",
+    "section": "8.6 Tiered, scalable mentoring",
+    "text": "8.6 Tiered, scalable mentoring\nNo single person can one-on-one mentor a portfolio this large. We use the tiered pod structure (?sec-roles-pods): senior mentees mentor junior mentees under PI oversight. This both protects bandwidth and gives senior mentees real leadership training. Mentoring others is itself a development milestone.\n\n\n\n\n\n\nTipMentoring is reciprocal and developmental\n\n\n\nGood mentoring is not the senior person doing the junior person’s thinking. It is structured support that transfers capability. When in doubt, ask: “Did this interaction make my mentee more able to do this independently next time?”",
+    "crumbs": [
+      "People & Structure",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Inclusive Mentoring and Mentee Development</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/07-inclusive-mentoring.html#sponsorship-vs.-mentorship",
+    "href": "chapters/07-inclusive-mentoring.html#sponsorship-vs.-mentorship",
+    "title": "8  Inclusive Mentoring and Mentee Development",
+    "section": "8.7 Sponsorship vs. mentorship",
+    "text": "8.7 Sponsorship vs. mentorship\nMentoring helps people grow; sponsorship uses your standing to open doors for them — nominating them for awards, recommending them for opportunities, putting their name forward when they’re not in the room. RIPLRT mentors are expected to sponsor, not just mentor, as members become ready. Track sponsorship moments in the IDP so they don’t get lost.",
+    "crumbs": [
+      "People & Structure",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Inclusive Mentoring and Mentee Development</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/08-culture-psych-safety.html",
+    "href": "chapters/08-culture-psych-safety.html",
+    "title": "9  Lab Culture, Psychological Safety, and Team Science",
+    "section": "",
+    "text": "9.1 Psychological safety is the foundation\n{#sec-psych-safety}\nProductive science depends as much on human interactions, communication, and group dynamics as on technical excellence. This chapter describes the culture we are building and the specific practices that protect it.\nPsychological safety means members feel able to ask naive questions, admit they don’t know something, surface mistakes early, and disagree with the PI — without fear of looking foolish or paying a price. It is the single strongest predictor of whether a team learns and performs.\nFor a group where people are learning coding, statistics, and environmental-health methods at the same time, this is non-negotiable. We normalize “learning in public”:",
+    "crumbs": [
+      "People & Structure",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Lab Culture, Psychological Safety, and Team Science</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/08-culture-psych-safety.html#psychological-safety-is-the-foundation",
+    "href": "chapters/08-culture-psych-safety.html#psychological-safety-is-the-foundation",
+    "title": "9  Lab Culture, Psychological Safety, and Team Science",
+    "section": "",
+    "text": "Questions are contributions. The person asking the “obvious” question is usually asking what three others were thinking.\nMistakes surfaced early are cheap; mistakes hidden are expensive. We thank people for catching errors — including their own.\nDisagreement with the PI or senior members is welcome and expected. Good science needs dissent.",
+    "crumbs": [
+      "People & Structure",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Lab Culture, Psychological Safety, and Team Science</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/08-culture-psych-safety.html#leaders-set-the-norms",
+    "href": "chapters/08-culture-psych-safety.html#leaders-set-the-norms",
+    "title": "9  Lab Culture, Psychological Safety, and Team Science",
+    "section": "9.2 Leaders set the norms",
+    "text": "9.2 Leaders set the norms\nMembers emulate leadership behavior. The PI and senior members must model the culture they want — especially in the moments that test it: during authorship discussions, revisions, disagreements, and deadline pressure. If we want a team that is direct, rigorous, collaborative, and fair, leadership has to be visibly direct, rigorous, collaborative, and fair first.\nConcretely, leaders:\n\nAdmit their own mistakes and uncertainty out loud.\nSolicit input before stating their own view, so they don’t anchor the room.\nResist dominating discussion; senior scientists can crowd out everyone else without meaning to.\nGive credit generously and specifically.",
+    "crumbs": [
+      "People & Structure",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Lab Culture, Psychological Safety, and Team Science</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/08-culture-psych-safety.html#team-science-by-design",
+    "href": "chapters/08-culture-psych-safety.html#team-science-by-design",
+    "title": "9  Lab Culture, Psychological Safety, and Team Science",
+    "section": "9.3 Team science, by design",
+    "text": "9.3 Team science, by design\nWe work across disciplines, institutions, datasets, and time zones. That requires intentional team-science practice:\n\nShared narrative. The Community-to-Clinic-to-Cloud story is the operating narrative that lets people on different datasets feel part of one program.\nClear interfaces. Pod charters and the project pod model define who owns what, so collaboration doesn’t dissolve into “who’s doing this?”\nCo-mentoring and distributed capacity. We draw on collaborators’ expertise rather than pretending any one person knows everything.\nDelegation as development. We deliberately hand off lab-meeting leadership, journal-club facilitation, figure ownership, codebook stewardship, literature synthesis, and dashboard building. Delegation builds trust and motivation — and trains leaders.",
+    "crumbs": [
+      "People & Structure",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Lab Culture, Psychological Safety, and Team Science</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/08-culture-psych-safety.html#meetings-that-invite-participation",
+    "href": "chapters/08-culture-psych-safety.html#meetings-that-invite-participation",
+    "title": "9  Lab Culture, Psychological Safety, and Team Science",
+    "section": "9.4 Meetings that invite participation",
+    "text": "9.4 Meetings that invite participation\nMeetings are where culture is most visible. Ours are designed so junior members speak, question data, and critique safely.\n\nRotating roles. Facilitator, note-taker, and “first question” rotate so the same voices don’t always lead.\nStructured turns. We make space for students to present and to ask questions before senior members weigh in.\nSafe critique. We critique the work, not the person, and we praise good questions as much as good answers.\nWins & roadblocks. A recurring segment surfaces both progress and stuck points without stigma.\n\n(See ?sec-communication for channels, cadence, and agenda templates.)",
+    "crumbs": [
+      "People & Structure",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Lab Culture, Psychological Safety, and Team Science</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/08-culture-psych-safety.html#inclusion-is-part-of-the-culture-not-the-branding",
+    "href": "chapters/08-culture-psych-safety.html#inclusion-is-part-of-the-culture-not-the-branding",
+    "title": "9  Lab Culture, Psychological Safety, and Team Science",
+    "section": "9.5 Inclusion is part of the culture, not the branding",
+    "text": "9.5 Inclusion is part of the culture, not the branding\nLeaders shape cultures that recognize and eliminate discriminatory or harassing behavior. This aligns directly with our mission to broaden participation in STEM. Inclusion shows up here in concrete practices: equitable recruitment, rotating visible roles, attention to who speaks and who is credited, bilingual communication, and a low-friction path to raise concerns (?sec-accountability). We do not tolerate harassment or discrimination of any kind (see CODE_OF_CONDUCT.md).",
+    "crumbs": [
+      "People & Structure",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Lab Culture, Psychological Safety, and Team Science</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/08-culture-psych-safety.html#we-evaluate-the-lab-as-a-human-system",
+    "href": "chapters/08-culture-psych-safety.html#we-evaluate-the-lab-as-a-human-system",
+    "title": "9  Lab Culture, Psychological Safety, and Team Science",
+    "section": "9.6 We evaluate the lab as a human system",
+    "text": "9.6 We evaluate the lab as a human system\nWe already evaluate projects scientifically. We also evaluate the group as a human system. Each quarter we run a brief, anonymous lab climate check covering workload, clarity, belonging, mentorship quality, confidence, and barriers. Each year we run a fuller stop / start / continue review (?sec-annual-review). Self-awareness, feedback, and adaptation are leadership responsibilities, not optional extras.\n\n\n\n\n\n\nTipThe one-line test for our culture\n\n\n\nCan the most junior person in the room disagree with the most senior person about the data — and have it go well? If yes, the culture is working. If you’re ever unsure, that’s worth raising.",
+    "crumbs": [
+      "People & Structure",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Lab Culture, Psychological Safety, and Team Science</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/09-communication-digital-body-language.html",
+    "href": "chapters/09-communication-digital-body-language.html",
+    "title": "10  Communication, Meetings, and Digital Body Language",
+    "section": "",
+    "text": "10.1 Channels: one job per channel\n{#sec-communication}\nMost of our work — and most of our misunderstandings — happen in writing, across channels, often asynchronously. This chapter sets our communication norms so that “where is that file?” and “who owns this task?” stop being productivity leaks, and so our written tone builds trust rather than eroding it.\nWe use several streams, each with a clear purpose. If communication styles differ across the group, we revisit these after a trial period rather than forcing one channel to do everything.",
+    "crumbs": [
+      "People & Structure",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Communication, Meetings, and Digital Body Language</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/09-communication-digital-body-language.html#channels-one-job-per-channel",
+    "href": "chapters/09-communication-digital-body-language.html#channels-one-job-per-channel",
+    "title": "10  Communication, Meetings, and Digital Body Language",
+    "section": "",
+    "text": "Channel\nUse it for\nDon’t use it for\n\n\n\n\nProject management tool (e.g., ClickUp / GitHub Projects)\nTasks, owners, due dates, status\nLong discussions, file storage\n\n\nGitHub Issues\nCode, bugs, analysis questions, manual edits\nSensitive data, personnel matters\n\n\nGoogle Drive / OneDrive\nDocuments, drafts, shared materials\nCode (use GitHub), raw restricted data\n\n\nMessaging channel (single primary tool)\nQuick updates, human connection, “I’m stuck”\nDecisions of record (move those to a tracked tool)\n\n\nEmail\nExternal communication, formal records\nDay-to-day internal coordination\n\n\nVideo (Zoom / Meet)\nMeetings, working sessions, recorded discussions\nThings better handled async in writing\n\n\n\n\n\n\n\n\n\nImportantThe “single source of truth” rule\n\n\n\nEvery task, decision, and document has one home. Tasks live in the project tool; code and code-discussion live in GitHub; documents live in the shared drive. When a decision happens in chat or a meeting, record it in the tracked tool. If it isn’t written down somewhere findable, it didn’t happen.",
+    "crumbs": [
+      "People & Structure",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Communication, Meetings, and Digital Body Language</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/09-communication-digital-body-language.html#file-naming-and-document-hygiene",
+    "href": "chapters/09-communication-digital-body-language.html#file-naming-and-document-hygiene",
+    "title": "10  Communication, Meetings, and Digital Body Language",
+    "section": "10.2 File naming and document hygiene",
+    "text": "10.2 File naming and document hygiene\n\nAll shared documents live in the RIPLRT shared drive (or the project repo for code). Even a first solo draft is created in the shared space — transparency and open collaboration are foundational.\nFollow the file-naming convention for each folder. Where a folder has a README describing its naming pattern, follow it; if one is missing, ask the project lead or PI and add one.\nUse ISO dates (YYYY-MM-DD), no spaces (use _ or -), and meaningful, sortable names. Example: 2026-06-01_PR-sporecast_analysis-v3.qmd.",
+    "crumbs": [
+      "People & Structure",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Communication, Meetings, and Digital Body Language</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/09-communication-digital-body-language.html#meeting-cadence",
+    "href": "chapters/09-communication-digital-body-language.html#meeting-cadence",
+    "title": "10  Communication, Meetings, and Digital Body Language",
+    "section": "10.3 Meeting cadence",
+    "text": "10.3 Meeting cadence\n\nWeekly pod check-ins keep projects moving; use the weekly agenda template.\nA recurring group huddle (“RIPLRT Wins & Roadblocks”) builds identity across members on different datasets.\nOne-on-one mentoring meetings run biweekly (see ?sec-mentoring).\nDay, time, and frequency adapt to members’ real availability; keep your availability current so scheduling is honest.\n\nEvery meeting has an agenda in advance and notes + action items after (owner + due date), stored in the tracked tool. No agenda, no meeting; no notes, no follow-through.",
+    "crumbs": [
+      "People & Structure",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Communication, Meetings, and Digital Body Language</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/09-communication-digital-body-language.html#digital-body-language",
+    "href": "chapters/09-communication-digital-body-language.html#digital-body-language",
+    "title": "10  Communication, Meetings, and Digital Body Language",
+    "section": "10.4 Digital body language",
+    "text": "10.4 Digital body language\nTone is hard to read in text, and the absence of cues (face, voice, pauses) means people fill gaps with assumptions — usually negative ones. Digital body language is the set of signals our written communication sends. We are deliberate about it.\nPractices we use:\n\nAcknowledge receipt. A quick “got it, will reply by Thursday” prevents silence from reading as dismissal.\nMatch channel to weight. Hard or sensitive conversations move to a call. Bad news and conflict are not for chat threads.\nBe generous in interpretation, careful in expression. Assume good intent when reading; reduce ambiguity when writing.\nMind asynchronous timing. A message sent at 11 PM should not imply a reply is expected at 11 PM. Use scheduled send or a “no rush” note. Respect availability and time off.\nWatch the curtness gap. Brevity that feels efficient to the sender can read as cold to the receiver. A little warmth (a greeting, a thank-you, a sign-off) is not inefficiency; it’s maintenance of trust.\nPunctuation and response time carry meaning. A one-word reply, a long delay, or a sudden formality shift all signal something. If you notice these in others, check in rather than assume; if you’re sending them, consider what they convey.\n\n\n\n\n\n\n\nNoteRead for signal, not just content\n\n\n\nWhen a teammate’s messages change — terser, slower, more formal, suddenly cc’ing others — treat it as information. It often means stress, confusion, or a problem surfacing. The right move is a kind, direct check-in (“Hey, want to hop on a quick call about this?”), not a tit-for-tat escalation in writing.",
+    "crumbs": [
+      "People & Structure",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Communication, Meetings, and Digital Body Language</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/09-communication-digital-body-language.html#no-surprises-communication",
+    "href": "chapters/09-communication-digital-body-language.html#no-surprises-communication",
+    "title": "10  Communication, Meetings, and Digital Body Language",
+    "section": "10.5 No-surprises communication",
+    "text": "10.5 No-surprises communication\nThe single most important communication norm at RIPLRT: no surprises.\n\nIf a deadline is at risk, say so early and propose a renegotiation — don’t go silent and miss it.\nIf an analysis isn’t working, raise it before the meeting, not in front of the room cold.\nIf you’re overloaded, name it before it becomes a crisis.\n\nCommunicating a problem early is a sign of professionalism, not failure. The version of you that says “I’m going to be two days late, here’s my plan” is far more trusted than the version that misses silently and explains afterward.",
+    "crumbs": [
+      "People & Structure",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Communication, Meetings, and Digital Body Language</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/10-project-management.html",
+    "href": "chapters/10-project-management.html",
+    "title": "11  Project Management and Workflow Systems",
+    "section": "",
+    "text": "11.1 The project lifecycle\n{#sec-project-management}\nThis chapter describes how a project moves from idea to product, and the systems that keep work findable, trackable, and reproducible. The goal is low cognitive load and high mentee independence.\nflowchart LR\n    A[1. Charter&lt;br/&gt;aims, data, roles,&lt;br/&gt;authorship plan] --&gt; B[2. Set up&lt;br/&gt;repo, data access,&lt;br/&gt;variable dictionary]\n    B --&gt; C[3. Analyze&lt;br/&gt;locked analysis plan,&lt;br/&gt;reproducible notebooks]\n    C --&gt; D[4. Synthesize&lt;br/&gt;figures, dashboards,&lt;br/&gt;drafts]\n    D --&gt; E[5. Disseminate&lt;br/&gt;abstract, manuscript,&lt;br/&gt;brief]\n    E --&gt; F[6. Archive&lt;br/&gt;OSF/Zenodo, changelog,&lt;br/&gt;authorship audit]\n\n\n\n\nflowchart LR\n    A[1. Charter&lt;br/&gt;aims, data, roles,&lt;br/&gt;authorship plan] --&gt; B[2. Set up&lt;br/&gt;repo, data access,&lt;br/&gt;variable dictionary]\n    B --&gt; C[3. Analyze&lt;br/&gt;locked analysis plan,&lt;br/&gt;reproducible notebooks]\n    C --&gt; D[4. Synthesize&lt;br/&gt;figures, dashboards,&lt;br/&gt;drafts]\n    D --&gt; E[5. Disseminate&lt;br/&gt;abstract, manuscript,&lt;br/&gt;brief]\n    E --&gt; F[6. Archive&lt;br/&gt;OSF/Zenodo, changelog,&lt;br/&gt;authorship audit]",
+    "crumbs": [
+      "How We Work",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Project Management and Workflow Systems</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/10-project-management.html#the-project-lifecycle",
+    "href": "chapters/10-project-management.html#the-project-lifecycle",
+    "title": "11  Project Management and Workflow Systems",
+    "section": "",
+    "text": "Charter. Complete the Project Pod Charter (/templates/project-pod-charter.qmd): aims, datasets, access rules, roles, deliverables, authorship plan discussed at the start, and weekly task structure.\nSet up. Create the GitHub repo (use the repo checklist), establish data access and the variable dictionary, and stand up the project tool board.\nAnalyze. Lock a statistical/ML analysis plan (pre-registered or internally locked) before looking at outcomes; work in reproducible notebooks (?sec-reproducible).\nSynthesize. Produce figures, dashboards, and drafts using the planning templates.\nDisseminate. Submit abstracts, manuscripts, briefs, and dashboards (?sec-research-products).\nArchive. Deposit code/data appropriately, update the changelog, and run an authorship audit (?sec-annual-review).",
+    "crumbs": [
+      "How We Work",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Project Management and Workflow Systems</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/10-project-management.html#workflow-systems",
+    "href": "chapters/10-project-management.html#workflow-systems",
+    "title": "11  Project Management and Workflow Systems",
+    "section": "11.2 Workflow systems",
+    "text": "11.2 Workflow systems\nWe standardize on a small, deliberate toolset so members can move between projects without relearning everything.\n\n\n\n\n\n\n\n\nLayer\nTool(s)\nPurpose\n\n\n\n\nTask & project tracking\nClickUp and/or GitHub Projects\nTasks, owners, due dates, status, sprints\n\n\nCode & versioning\nGitHub (Git)\nAll code, issues, pull requests, code review\n\n\nDocuments\nGoogle Drive / OneDrive\nDrafts, shared materials, meeting notes\n\n\nAnalysis & reporting\nQuarto / R Markdown, R/RStudio, Python\nReproducible notebooks, manuscripts, dashboards\n\n\nStructured data capture\nREDCap (if applicable to the project)\nSurvey/clinical data capture\n\n\nArchiving & open science\nOSF, Zenodo, FigShare\nPreregistration, archival, DOIs\n\n\n\n\n\n\n\n\n\nNotePlaceholder: exact tool instances\n\n\n\nSpecific accounts, workspace URLs, and license details (ClickUp workspace, GitHub org, Drive structure, REDCap instance, OSF projects) are confirmed during onboarding and recorded per project in the pod charter. Tooling may evolve; the principles (one source of truth, version control, reproducibility) do not.",
+    "crumbs": [
+      "How We Work",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Project Management and Workflow Systems</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/10-project-management.html#task-hygiene",
+    "href": "chapters/10-project-management.html#task-hygiene",
+    "title": "11  Project Management and Workflow Systems",
+    "section": "11.3 Task hygiene",
+    "text": "11.3 Task hygiene\nA task is only real if it has:\n\nAn owner (one person, even if others help).\nA due date (or an explicit “no date — backlog” status).\nA definition of done (what the deliverable is).\nA link to where the work lives (repo, doc, or board).\n\nWe review the board in weekly check-ins: what shipped, what’s blocked, what’s next. Blocked tasks get surfaced early — “no surprises.”",
+    "crumbs": [
+      "How We Work",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Project Management and Workflow Systems</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/10-project-management.html#managing-the-portfolio-without-overload",
+    "href": "chapters/10-project-management.html#managing-the-portfolio-without-overload",
+    "title": "11  Project Management and Workflow Systems",
+    "section": "11.4 Managing the portfolio without overload",
+    "text": "11.4 Managing the portfolio without overload\nThe portfolio spans population-scale surveillance to molecular modeling. To keep it sane:\n\nPods, not heroics. Work is distributed across pods with defined roles (?sec-roles-pods), not concentrated on one or two people.\nProject operating manuals. Each major project keeps a two-page operational summary so anyone can orient quickly and mentees can work independently.\nOne lead metric per goal. Per the IAP cadence, each strategic goal carries a single lead metric so progress is legible.\nQuarterly review rhythm. We score progress against milestones each quarter (?sec-annual-review) and re-plan rather than letting work drift.",
+    "crumbs": [
+      "How We Work",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Project Management and Workflow Systems</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/10-project-management.html#aligning-daily-work-to-strategy",
+    "href": "chapters/10-project-management.html#aligning-daily-work-to-strategy",
+    "title": "11  Project Management and Workflow Systems",
+    "section": "11.5 Aligning daily work to strategy",
+    "text": "11.5 Aligning daily work to strategy\nProject work should ladder up to the group’s SMART goals (the 12/36/60-month roadmap in the IAP). In practice:\n\nEach pod’s deliverables map to a named SMART goal (e.g., “RespRisk v1.0 forecasting workflow,” “manuscript pipeline,” “mentee-integrated production”).\nWhen prioritizing, we ask: does this advance a SMART goal and the through-line? If a request doesn’t, it goes to the backlog or gets declined — protecting time for the work that matters most.",
+    "crumbs": [
+      "How We Work",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Project Management and Workflow Systems</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/11-data-governance.html",
+    "href": "chapters/11-data-governance.html",
+    "title": "12  Data Governance, IRB, Privacy, and Responsible Research",
+    "section": "",
+    "text": "12.1 Core principle\n{#sec-data-governance}\nWe work with sensitive human-related data: clinical records, claims and pharmacy data, biomarkers, surveillance data, and repository datasets governed by strict use agreements. Mishandling any of it can harm people and end projects. This chapter is mandatory reading for everyone, and the standalone policy in /policies/data-governance.qmd is the authoritative reference.",
+    "crumbs": [
+      "How We Work",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Data Governance, IRB, Privacy, and Responsible Research</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/11-data-governance.html#core-principle",
+    "href": "chapters/11-data-governance.html#core-principle",
+    "title": "12  Data Governance, IRB, Privacy, and Responsible Research",
+    "section": "",
+    "text": "Access is a privilege tied to training, approval, and need. We collect the minimum, protect it rigorously, and honor every agreement that lets us use it.",
+    "crumbs": [
+      "How We Work",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Data Governance, IRB, Privacy, and Responsible Research</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/11-data-governance.html#human-subjects-training-and-irb",
+    "href": "chapters/11-data-governance.html#human-subjects-training-and-irb",
+    "title": "12  Data Governance, IRB, Privacy, and Responsible Research",
+    "section": "12.2 Human-subjects training and IRB",
+    "text": "12.2 Human-subjects training and IRB\nBefore touching any human-subjects data (including tissues, raw data, or derived data), you must:\n\nComplete and maintain CITI Program training appropriate to your role — typically Biomedical Research (Basic), Responsible Conduct of Research, Data or Specimens, Conflicts of Interest, and Information Privacy for Researchers. Add bloodborne-pathogen training if any biospecimen work applies.\nBe added by name to the approved IRB protocol for your project. If you are not on the protocol, you cannot access the data or participate in the project — no exceptions.\nConfirm the IRB-of-record for your project (it varies by institution and partnership).\n\n\n\n\n\n\n\nImportantPlaceholder: IRB and training specifics\n\n\n\nThe IRB-of-record, protocol numbers, CITI institutional affiliation, and required module list must be confirmed per project with the PI. Links and exact requirements are recorded in each project’s pod charter. Do not assume; ask.",
+    "crumbs": [
+      "How We Work",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Data Governance, IRB, Privacy, and Responsible Research</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/11-data-governance.html#dataset-specific-rules",
+    "href": "chapters/11-data-governance.html#dataset-specific-rules",
+    "title": "12  Data Governance, IRB, Privacy, and Responsible Research",
+    "section": "12.3 Dataset-specific rules",
+    "text": "12.3 Dataset-specific rules\nEach dataset we use carries its own Data Use Agreement (DUA) and access rules. These are not interchangeable. Common examples:\n\n\n\n\n\n\n\nResource\nTypical governance considerations\n\n\n\n\nPR DoH / ASES claims & pharmacy\nDUA terms, de-identification, approved analysts only, secure environment\n\n\nBioLINCC\nApplication, DUA, data security plan, no re-identification, citation requirements\n\n\nBioData Catalyst / All of Us Workbench\nCloud workspace, registered/controlled tiers, no data egress, workbench-only analysis\n\n\nMESA, Framingham, AsthmaNet, NHANES\nRepository-specific use terms, acknowledgment language, redistribution limits\n\n\n\nThe Data Steward for each pod owns compliance with that project’s DUA. Before you analyze, confirm with the steward: What tier is this? Where must analysis happen? What can leave the environment? What must be cited or acknowledged?\nUse the Data-Use and Access Checklist (/templates/data-use-access-checklist.qmd) at the start of every project.",
+    "crumbs": [
+      "How We Work",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Data Governance, IRB, Privacy, and Responsible Research</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/11-data-governance.html#de-identification-and-hipaa-adjacent-thinking",
+    "href": "chapters/11-data-governance.html#de-identification-and-hipaa-adjacent-thinking",
+    "title": "12  Data Governance, IRB, Privacy, and Responsible Research",
+    "section": "12.4 De-identification and HIPAA-adjacent thinking",
+    "text": "12.4 De-identification and HIPAA-adjacent thinking\nEven when data are de-identified, we treat them with care:\n\nNever attempt re-identification of any individual, ever.\nApply de-identification standards (e.g., removing or transforming direct identifiers; respecting small-cell suppression so individuals can’t be inferred).\nReport results at aggregate levels that protect individuals; watch out for small cells in stratified (equity) analyses.\nTreat claims, pharmacy, and clinical data as HIPAA-adjacent: handle them with the caution you’d give protected health information even when a project is technically outside HIPAA’s direct scope.",
+    "crumbs": [
+      "How We Work",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Data Governance, IRB, Privacy, and Responsible Research</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/11-data-governance.html#access-control-and-secure-storage",
+    "href": "chapters/11-data-governance.html#access-control-and-secure-storage",
+    "title": "12  Data Governance, IRB, Privacy, and Responsible Research",
+    "section": "12.5 Access control and secure storage",
+    "text": "12.5 Access control and secure storage\n\nLeast privilege: people get access only to what their role requires.\nNo restricted data in general channels. Never put restricted or identifiable data in chat, email, personal drives, personal laptops, or public repos.\nAnalyze where the agreement says to. For controlled-tier repositories, analysis stays inside the approved workbench/environment; no downloading or egress unless explicitly permitted.\nSecrets stay out of code. No credentials, tokens, or keys in GitHub. Use environment variables and a .gitignore that excludes data and secrets.\nEncryption and backups follow institutional policy for any local handling that is permitted.",
+    "crumbs": [
+      "How We Work",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Data Governance, IRB, Privacy, and Responsible Research</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/11-data-governance.html#privacy-of-people-including-us",
+    "href": "chapters/11-data-governance.html#privacy-of-people-including-us",
+    "title": "12  Data Governance, IRB, Privacy, and Responsible Research",
+    "section": "12.6 Privacy of people — including us",
+    "text": "12.6 Privacy of people — including us\n\nNo photos or videos of human research participants, ever — that violates privacy and IRB rules.\nPhotos/videos of group members require consent before capture, and any public posting requires PI approval.\nRespect the privacy of community partners and participants in everything we publish or post.",
+    "crumbs": [
+      "How We Work",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Data Governance, IRB, Privacy, and Responsible Research</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/11-data-governance.html#responsible-research-conduct",
+    "href": "chapters/11-data-governance.html#responsible-research-conduct",
+    "title": "12  Data Governance, IRB, Privacy, and Responsible Research",
+    "section": "12.7 Responsible research conduct",
+    "text": "12.7 Responsible research conduct\n\nNo fabrication, falsification, or plagiarism. A negative result is still a result.\nDocument analyses so they are reproducible (?sec-reproducible); reproducibility is a privacy-and-integrity control, not just a quality one.\nDisclose conflicts of interest per institutional policy.\nFollow sponsor terms and data-sharing/publication requirements of each dataset and grant.",
+    "crumbs": [
+      "How We Work",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Data Governance, IRB, Privacy, and Responsible Research</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/11-data-governance.html#when-something-goes-wrong",
+    "href": "chapters/11-data-governance.html#when-something-goes-wrong",
+    "title": "12  Data Governance, IRB, Privacy, and Responsible Research",
+    "section": "12.8 When something goes wrong",
+    "text": "12.8 When something goes wrong\nIf you suspect a data breach, an access error, a consent problem, or a possible integrity issue:\n\nStop the activity in question.\nTell the PI and the Data Steward immediately — early reporting protects you and the people in the data.\nDocument what happened factually.\n\nThis is explicitly a no-blame, report-early expectation. The only serious mistake is hiding the problem.",
+    "crumbs": [
+      "How We Work",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Data Governance, IRB, Privacy, and Responsible Research</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/12-reproducible-open-science.html",
+    "href": "chapters/12-reproducible-open-science.html",
+    "title": "13  Reproducible Science, Open Science, and Version Control",
+    "section": "",
+    "text": "13.1 The standard\n{#sec-reproducible}\nReproducibility is one of our core values and a competitive advantage. It is also how we train independent scientists: a reproducible workflow is a teachable workflow. This chapter sets the standard.",
+    "crumbs": [
+      "How We Work",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Reproducible Science, Open Science, and Version Control</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/12-reproducible-open-science.html#the-standard",
+    "href": "chapters/12-reproducible-open-science.html#the-standard",
+    "title": "13  Reproducible Science, Open Science, and Version Control",
+    "section": "",
+    "text": "If it isn’t reproducible, it isn’t finished. Anyone in the group should be able to clone a project, restore the environment, and regenerate every figure, table, and number in a manuscript from raw inputs.",
+    "crumbs": [
+      "How We Work",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Reproducible Science, Open Science, and Version Control</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/12-reproducible-open-science.html#version-control-with-git-and-github",
+    "href": "chapters/12-reproducible-open-science.html#version-control-with-git-and-github",
+    "title": "13  Reproducible Science, Open Science, and Version Control",
+    "section": "13.2 Version control with Git and GitHub",
+    "text": "13.2 Version control with Git and GitHub\nAll code lives in Git, hosted on GitHub under the RIPLRT organization. No exceptions, no “I’ll add it later,” no analysis living only on a laptop.\nWorkflow basics:\n\nWork on branches, not directly on main.\nCommit early and often with clear messages (fix: correct lag window in DLM, not stuff).\nOpen pull requests for review; analysis code gets a second set of eyes before it shapes a result.\nUse issues to track bugs, questions, and tasks.\nNever commit data, credentials, or secrets — enforce with .gitignore.\n\nUse the GitHub Repository Checklist (/templates/github-repo-checklist.qmd) when setting up any new project.\n\n\n\n\n\n\nImportantConsult before going public\n\n\n\nBefore making any repository, dataset, or notebook public, confirm with the PI or project lead. Public release must respect DUAs, IRB terms, embargoes, and authorship plans (this rule is inherited from the original manual and still applies).",
+    "crumbs": [
+      "How We Work",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Reproducible Science, Open Science, and Version Control</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/12-reproducible-open-science.html#reproducible-analysis-with-quarto",
+    "href": "chapters/12-reproducible-open-science.html#reproducible-analysis-with-quarto",
+    "title": "13  Reproducible Science, Open Science, and Version Control",
+    "section": "13.3 Reproducible analysis with Quarto",
+    "text": "13.3 Reproducible analysis with Quarto\nWe author analysis and manuscripts in Quarto (modernizing the group’s earlier R Markdown / Bookdown practice). Quarto lets prose, code, and output live together and render to HTML, PDF, and Word.\nStandards:\n\nAnalyses are literate: code, narrative, and results in one document.\nComputational environments are captured — use renv (R) or a lockfile / requirements.txt/environment.yml (Python) so versions are pinned.\nSet a random seed for any stochastic step.\nDocuments render cleanly from scratch (use Quarto’s freeze thoughtfully, but verify a clean render before milestones).\nPaths are relative, never absolute (data/ not /Users/you/Desktop/...).\n\nRun the Reproducible Analysis Checklist (/templates/reproducible-analysis-checklist.qmd) before any submission.",
+    "crumbs": [
+      "How We Work",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Reproducible Science, Open Science, and Version Control</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/12-reproducible-open-science.html#project-repository-structure",
+    "href": "chapters/12-reproducible-open-science.html#project-repository-structure",
+    "title": "13  Reproducible Science, Open Science, and Version Control",
+    "section": "13.4 Project repository structure",
+    "text": "13.4 Project repository structure\nA consistent skeleton makes every project legible:\nproject-name/\n├── README.md            # what this is, how to run it\n├── data/                # raw/ (gitignored), interim/, processed/\n├── R/  or  src/         # functions and scripts\n├── analysis/            # numbered Quarto notebooks\n├── outputs/             # figures/, tables/, dashboards/\n├── docs/                # manuscripts, briefs\n├── renv.lock / env.yml  # pinned environment\n└── .gitignore           # excludes data, secrets, large files\n\nRaw data is read-only and never edited by hand — all cleaning is scripted, so it’s reproducible and auditable.\nNumber notebooks (01-clean.qmd, 02-model.qmd) so the pipeline order is obvious.",
+    "crumbs": [
+      "How We Work",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Reproducible Science, Open Science, and Version Control</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/12-reproducible-open-science.html#open-science",
+    "href": "chapters/12-reproducible-open-science.html#open-science",
+    "title": "13  Reproducible Science, Open Science, and Version Control",
+    "section": "13.5 Open science",
+    "text": "13.5 Open science\nWe contribute to open science deliberately, within what agreements allow:\n\nPreregister analysis plans on OSF where appropriate — especially for forecasting work, to separate confirmatory from exploratory analysis.\nArchive curated code and (permissible) data with DOIs via Zenodo or FigShare.\nShare reproducible notebooks and manuscripts open-access where possible.\nRe-analyzing public datasets is good open science, not plagiarism — it advances reproducibility.\n\n\n\n\n\n\n\nNoteOpen by default, closed by necessity\n\n\n\nOur bias is toward openness and transparency. But openness never overrides a data-use agreement, IRB term, participant privacy, or an embargo. When the two seem to conflict, governance wins and you ask the PI.",
+    "crumbs": [
+      "How We Work",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Reproducible Science, Open Science, and Version Control</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/12-reproducible-open-science.html#reproducibility-as-mentoring",
+    "href": "chapters/12-reproducible-open-science.html#reproducibility-as-mentoring",
+    "title": "13  Reproducible Science, Open Science, and Version Control",
+    "section": "13.6 Reproducibility as mentoring",
+    "text": "13.6 Reproducibility as mentoring\nBuilding a reproducible pipeline is one of the most valuable things a mentee learns here. It is also a deliverable in its own right: a clean, documented, reproducible notebook is a legitimate scholarly product and a strong portfolio piece. We credit reproducibility work like the real work it is (?sec-authorship).",
+    "crumbs": [
+      "How We Work",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Reproducible Science, Open Science, and Version Control</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/13-responsible-ai.html",
+    "href": "chapters/13-responsible-ai.html",
+    "title": "14  Responsible Use of AI in Research and Writing",
+    "section": "",
+    "text": "14.1 Core principle\n{#sec-responsible-ai}\nAI tools (large language models, coding assistants, literature-synthesis and workflow-automation tools) are part of how modern research groups work — including ours. Used well, they accelerate good work. Used carelessly, they create integrity, privacy, and quality risks. This chapter sets our guardrails. The standalone policy in /policies/responsible-ai-use.qmd is the authoritative reference, and the disclosure form lives at /templates/ai-use-disclosure.qmd.",
+    "crumbs": [
+      "How We Work",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Responsible Use of AI in Research and Writing</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/13-responsible-ai.html#core-principle",
+    "href": "chapters/13-responsible-ai.html#core-principle",
+    "title": "14  Responsible Use of AI in Research and Writing",
+    "section": "",
+    "text": "AI accelerates judgment; it never replaces it. You are fully responsible for everything you submit, regardless of which tools helped you make it.",
+    "crumbs": [
+      "How We Work",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Responsible Use of AI in Research and Writing</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/13-responsible-ai.html#where-ai-helps-encouraged-with-care",
+    "href": "chapters/13-responsible-ai.html#where-ai-helps-encouraged-with-care",
+    "title": "14  Responsible Use of AI in Research and Writing",
+    "section": "14.2 Where AI helps (encouraged, with care)",
+    "text": "14.2 Where AI helps (encouraged, with care)\n\nCoding: scaffolding functions, debugging, explaining errors, drafting tests. You read, understand, and verify every line before it enters a pipeline.\nWriting: brainstorming structure, tightening prose, drafting non-results sections, improving clarity and bilingual phrasing. You own the claims, the citations, and the voice.\nLiterature synthesis: orienting to a new area, surfacing search terms, summarizing papers you then read.\nWorkflow automation: drafting scripts, templates, and documentation.",
+    "crumbs": [
+      "How We Work",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Responsible Use of AI in Research and Writing</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/13-responsible-ai.html#where-ai-must-not-go-prohibited",
+    "href": "chapters/13-responsible-ai.html#where-ai-must-not-go-prohibited",
+    "title": "14  Responsible Use of AI in Research and Writing",
+    "section": "14.3 Where AI must not go (prohibited)",
+    "text": "14.3 Where AI must not go (prohibited)\n\n\n\n\n\n\nImportantHard limits\n\n\n\n\nNever paste restricted, identifiable, IRB-governed, claims, pharmacy, clinical, or DUA-controlled data into any external AI tool. This is a data-governance violation (?sec-data-governance). Treat AI prompt boxes as public.\nNever present AI-generated text or analysis as verified fact without checking it. LLMs fabricate citations, statistics, and results convincingly.\nNever let AI fabricate, alter, or “clean up” data or results. That is research misconduct.\nNever submit AI-written work you do not understand and cannot defend. If you can’t explain it, you can’t submit it.",
+    "crumbs": [
+      "How We Work",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Responsible Use of AI in Research and Writing</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/13-responsible-ai.html#verify-everything",
+    "href": "chapters/13-responsible-ai.html#verify-everything",
+    "title": "14  Responsible Use of AI in Research and Writing",
+    "section": "14.4 Verify everything",
+    "text": "14.4 Verify everything\nAI output is a draft to be checked, never a source of truth:\n\nCitations: confirm every reference exists, says what’s claimed, and is correctly attributed. AI invents plausible-looking citations.\nNumbers and stats: re-derive or independently verify any quantitative claim.\nCode: read it, test it, and confirm it does what you think on real cases.\nFacts and methods: cross-check against primary sources.",
+    "crumbs": [
+      "How We Work",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Responsible Use of AI in Research and Writing</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/13-responsible-ai.html#disclosure-and-transparency",
+    "href": "chapters/13-responsible-ai.html#disclosure-and-transparency",
+    "title": "14  Responsible Use of AI in Research and Writing",
+    "section": "14.5 Disclosure and transparency",
+    "text": "14.5 Disclosure and transparency\nWe are transparent about AI use, both internally and in what we publish:\n\nInternally: note material AI assistance in commit messages, notebooks, or the relevant doc so collaborators know what was AI-assisted and what was human-verified.\nFor scholarly products: follow the AI-Use Disclosure template and the disclosure requirements of the target journal, conference, or sponsor. Many venues require statements about AI use; some prohibit certain uses. Check before submitting.\nAI tools are not authors. They cannot take responsibility for the work, so they do not meet authorship criteria (?sec-authorship).",
+    "crumbs": [
+      "How We Work",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Responsible Use of AI in Research and Writing</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/13-responsible-ai.html#ai-and-student-work",
+    "href": "chapters/13-responsible-ai.html#ai-and-student-work",
+    "title": "14  Responsible Use of AI in Research and Writing",
+    "section": "14.6 AI and student work",
+    "text": "14.6 AI and student work\nFor mentees, AI is a learning accelerator and a learning hazard. Our stance:\n\nAI is allowed for learning, drafting, and debugging — as a tutor and assistant, not a substitute for developing skill.\nThe goal of training is your capability. If AI does the thinking you were supposed to learn, you’ve been shortchanged. Use it to go faster on things you already understand and to learn things you then internalize.\nMentors and mentees discuss AI use openly in IDPs and one-on-ones — what’s helping, what’s becoming a crutch.",
+    "crumbs": [
+      "How We Work",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Responsible Use of AI in Research and Writing</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/13-responsible-ai.html#why-we-hold-this-line",
+    "href": "chapters/13-responsible-ai.html#why-we-hold-this-line",
+    "title": "14  Responsible Use of AI in Research and Writing",
+    "section": "14.7 Why we hold this line",
+    "text": "14.7 Why we hold this line\nOur credibility — with reviewers, partners, communities, and sponsors — rests on integrity and reproducibility. Equity-focused work especially cannot afford fabricated results or leaked data. Responsible AI use protects the people in our data, the trust of our partners, and the development of our trainees. Speed is never worth a shortcut on any of those.\n\n\n\n\n\n\nTipThe defensibility test\n\n\n\nBefore submitting anything AI helped with, ask: Could I explain and defend every claim, line of code, and citation here to the PI or a reviewer, as if no AI were involved? If yes, proceed. If no, you’re not done.",
+    "crumbs": [
+      "How We Work",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Responsible Use of AI in Research and Writing</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/14-authorship-dissemination.html",
+    "href": "chapters/14-authorship-dissemination.html",
+    "title": "15  Authorship, Contributorship, Presentations, and Public Dissemination",
+    "section": "",
+    "text": "15.1 Principles\n{#sec-authorship}\nHow we assign credit is one of the most important — and most emotionally charged — parts of running a research group. We handle it transparently, early, and fairly. The standalone policy in /policies/authorship-contributorship.qmd is authoritative; this chapter is the working summary.",
+    "crumbs": [
+      "Scholarship & Dissemination",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Authorship, Contributorship, Presentations, and Public Dissemination</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/14-authorship-dissemination.html#principles",
+    "href": "chapters/14-authorship-dissemination.html#principles",
+    "title": "15  Authorship, Contributorship, Presentations, and Public Dissemination",
+    "section": "",
+    "text": "ICMJE governs authorship. We follow the International Committee of Medical Journal Editors criteria.\nCRediT documents contributorship. We use a CRediT-style taxonomy to record who did what.\nAuthorship is discussed at the start of every project, not negotiated at the end. Surprises about credit are exactly the kind of “surprise” our culture forbids.\nMentees are credited fairly, including on a student-first authorship pathway where appropriate.",
+    "crumbs": [
+      "Scholarship & Dissemination",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Authorship, Contributorship, Presentations, and Public Dissemination</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/14-authorship-dissemination.html#icmje-authorship-criteria",
+    "href": "chapters/14-authorship-dissemination.html#icmje-authorship-criteria",
+    "title": "15  Authorship, Contributorship, Presentations, and Public Dissemination",
+    "section": "15.2 ICMJE authorship criteria",
+    "text": "15.2 ICMJE authorship criteria\nTo be an author, a person must meet all four ICMJE criteria:\n\nSubstantial contributions to conception/design, or acquisition, analysis, or interpretation of data; and\nDrafting the work or revising it critically for important intellectual content; and\nFinal approval of the version to be published; and\nAgreement to be accountable for all aspects of the work.\n\nContributors who do not meet all four are acknowledged, not listed as authors. Meeting only one criterion (e.g., funding, or only collecting data) does not by itself confer authorship.",
+    "crumbs": [
+      "Scholarship & Dissemination",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Authorship, Contributorship, Presentations, and Public Dissemination</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/14-authorship-dissemination.html#credit-contributorship-taxonomy",
+    "href": "chapters/14-authorship-dissemination.html#credit-contributorship-taxonomy",
+    "title": "15  Authorship, Contributorship, Presentations, and Public Dissemination",
+    "section": "15.3 CRediT contributorship taxonomy",
+    "text": "15.3 CRediT contributorship taxonomy\nFor each product we record contributions using CRediT roles, which makes credit specific and visible: Conceptualization, Methodology, Software, Validation, Formal analysis, Investigation, Resources, Data curation, Writing – original draft, Writing – review & editing, Visualization, Supervision, Project administration, Funding acquisition.\nMap pod roles to CRediT contributions in the Authorship/Contributorship Agreement (/templates/authorship-contributorship-agreement.qmd) at project start, and update it as roles evolve.",
+    "crumbs": [
+      "Scholarship & Dissemination",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Authorship, Contributorship, Presentations, and Public Dissemination</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/14-authorship-dissemination.html#author-order-and-the-student-first-pathway",
+    "href": "chapters/14-authorship-dissemination.html#author-order-and-the-student-first-pathway",
+    "title": "15  Authorship, Contributorship, Presentations, and Public Dissemination",
+    "section": "15.4 Author order and the student-first pathway",
+    "text": "15.4 Author order and the student-first pathway\n\nFirst author: led the intellectual and practical work of the product — often the project’s analysis or writing lead, frequently a mentee.\nSenior/last author: the PI or supervising scientist who provided direction and accountability.\nMiddle authors: ordered by contribution, discussed openly.\nStudent-first pathway: when a mentee has done the lead work, they earn first authorship. Building mentees into first- and co-first-author positions is a documented goal of this group (it appears in the IAP SMART goals) and a deliberate feature of our workforce-development mission.\n\n\n\n\n\n\n\nNoteDisagreements about credit\n\n\n\nAuthorship disputes are handled early and directly, mediated by the PI, with reference to the documented contributorship agreement. Because we write the plan down at the start and update it as we go, most disputes are prevented rather than resolved. AI tools are never authors (?sec-responsible-ai).",
+    "crumbs": [
+      "Scholarship & Dissemination",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Authorship, Contributorship, Presentations, and Public Dissemination</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/14-authorship-dissemination.html#presentations-posters-and-conferences",
+    "href": "chapters/14-authorship-dissemination.html#presentations-posters-and-conferences",
+    "title": "15  Authorship, Contributorship, Presentations, and Public Dissemination",
+    "section": "15.5 Presentations, posters, and conferences",
+    "text": "15.5 Presentations, posters, and conferences\n\nEvery member is expected to present ongoing research at least once a year — mentees at a regional or (preferably) national conference aligned with their goals.\nPresenting authorship follows the same fairness principles; the presenter is typically the person who led the work.\nUse the Conference Abstract Planning Sheet (/templates/conference-abstract-planning.qmd) and confirm the authorship list before submission.\nWe actively pursue travel awards and scholarships so cost is not a barrier (?sec-funding).",
+    "crumbs": [
+      "Scholarship & Dissemination",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Authorship, Contributorship, Presentations, and Public Dissemination</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/14-authorship-dissemination.html#public-dissemination-and-science-communication",
+    "href": "chapters/14-authorship-dissemination.html#public-dissemination-and-science-communication",
+    "title": "15  Authorship, Contributorship, Presentations, and Public Dissemination",
+    "section": "15.6 Public dissemination and science communication",
+    "text": "15.6 Public dissemination and science communication\nOur mission requires translating science beyond journals:\n\nClinician-facing dashboards, community risk briefs, public-health playbooks, and bilingual science-communication content are first-class products (?sec-research-products), and contributors to them are credited.\nPublic-facing materials (including social media via the group’s science-communication channels) get PI review before release, must respect data governance and privacy, and represent the group and its partners responsibly.\nBilingual (Spanish/English) communication is a core value; community materials should reach the communities they’re about.",
+    "crumbs": [
+      "Scholarship & Dissemination",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Authorship, Contributorship, Presentations, and Public Dissemination</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/14-authorship-dissemination.html#strategic-non-defensive-framing",
+    "href": "chapters/14-authorship-dissemination.html#strategic-non-defensive-framing",
+    "title": "15  Authorship, Contributorship, Presentations, and Public Dissemination",
+    "section": "15.7 Strategic, non-defensive framing",
+    "text": "15.7 Strategic, non-defensive framing\nWhen we describe our own work — in talks, briefs, bios, or proposals — we lead with credentials and institutional value, not personal advancement, and we frame new work as a forward progression from prior work rather than a reprise. Self-promotion is fine; it should simply be credential-forward and self-decentered, able to survive scrutiny without sounding defensive. This protects both the science and the group’s reputation.",
+    "crumbs": [
+      "Scholarship & Dissemination",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Authorship, Contributorship, Presentations, and Public Dissemination</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/14-authorship-dissemination.html#acknowledgments-and-funding",
+    "href": "chapters/14-authorship-dissemination.html#acknowledgments-and-funding",
+    "title": "15  Authorship, Contributorship, Presentations, and Public Dissemination",
+    "section": "15.8 Acknowledgments and funding",
+    "text": "15.8 Acknowledgments and funding\n\nAcknowledge funders, data providers, and repositories using the exact language each requires (BioLINCC, All of Us, MESA, etc. each specify acknowledgment text).\nAcknowledge non-author contributors (with their permission).\nReport conflicts of interest per venue and institutional policy.",
+    "crumbs": [
+      "Scholarship & Dissemination",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Authorship, Contributorship, Presentations, and Public Dissemination</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/15-research-products.html",
+    "href": "chapters/15-research-products.html",
+    "title": "16  Research Products: Manuscripts, Abstracts, Posters, Dashboards, and Briefs",
+    "section": "",
+    "text": "16.1 Our product portfolio\n{#sec-research-products}\nSuccess at RIPLRT is broader than grants and papers. We define it to include student development, presentations, skills, reproducible tools, and reputation alongside traditional outputs. This chapter catalogs the products we make and how we make them well.",
+    "crumbs": [
+      "Scholarship & Dissemination",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Research Products: Manuscripts, Abstracts, Posters, Dashboards, and Briefs</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/15-research-products.html#our-product-portfolio",
+    "href": "chapters/15-research-products.html#our-product-portfolio",
+    "title": "16  Research Products: Manuscripts, Abstracts, Posters, Dashboards, and Briefs",
+    "section": "",
+    "text": "Product\nPrimary audience\nOwned by (typical)\nTemplate\n\n\n\n\nPeer-reviewed manuscript\nScientific community\nWriting Lead + Analysis Lead\nmanuscript-planning-sheet.qmd\n\n\nConference abstract\nScientific community\nProject Lead / mentee\nconference-abstract-planning.qmd\n\n\nPoster\nConference attendees\nMentee (often first product)\n(see abstract sheet + assets)\n\n\nReproducible notebook\nInternal + open science\nReproducibility / Analysis Lead\nreproducible-analysis-checklist.qmd\n\n\nClinician-facing dashboard\nClinicians, agencies\nVisualization/Dashboard Lead\n(pod charter)\n\n\nCommunity risk brief\nCommunities, partners\nScience Communication Lead\n(pod charter)\n\n\nPublic-health playbook\nAgencies, decision-makers\nProject Lead + SciComm Lead\n(pod charter)\n\n\nBilingual sci-comm content\nGeneral public\nScience Communication Lead\n(pod charter)",
+    "crumbs": [
+      "Scholarship & Dissemination",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Research Products: Manuscripts, Abstracts, Posters, Dashboards, and Briefs</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/15-research-products.html#manuscripts",
+    "href": "chapters/15-research-products.html#manuscripts",
+    "title": "16  Research Products: Manuscripts, Abstracts, Posters, Dashboards, and Briefs",
+    "section": "16.2 Manuscripts",
+    "text": "16.2 Manuscripts\n\nStart with the Manuscript Planning Sheet: target journal, key message, figures, authorship plan, and timeline — before drafting.\nOne Writing Lead coordinates drafting and submission; sections are delegated to build skills (figure lead, methods lead, literature-synthesis lead).\nEvery number and figure traces back to a reproducible notebook (?sec-reproducible).\nAim for the IAP cadence: a steady, thematically coherent manuscript pipeline organized around our four themes — aeroallergen/fungal early-warning science; respiratory severity and care pathways; biomarker/microbiome signatures; and equity-stratified environmental risk.",
+    "crumbs": [
+      "Scholarship & Dissemination",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Research Products: Manuscripts, Abstracts, Posters, Dashboards, and Briefs</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/15-research-products.html#abstracts-and-posters",
+    "href": "chapters/15-research-products.html#abstracts-and-posters",
+    "title": "16  Research Products: Manuscripts, Abstracts, Posters, Dashboards, and Briefs",
+    "section": "16.3 Abstracts and posters",
+    "text": "16.3 Abstracts and posters\n\nAbstracts are often a mentee’s first scholarly product — treat them as real training, not filler.\nMaintain a shared abstract calendar of society deadlines (AAAAI, AAI, ATS, SOT, ASM, ISES, ASBMB, ABRCMS, and others).\nPosters reuse manuscript figures and the through-line narrative; keep a poster template and the group’s visual identity in /assets.\nConfirm authorship before submission; rehearse presentations as a pod.",
+    "crumbs": [
+      "Scholarship & Dissemination",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Research Products: Manuscripts, Abstracts, Posters, Dashboards, and Briefs</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/15-research-products.html#dashboards-and-decision-support-tools",
+    "href": "chapters/15-research-products.html#dashboards-and-decision-support-tools",
+    "title": "16  Research Products: Manuscripts, Abstracts, Posters, Dashboards, and Briefs",
+    "section": "16.4 Dashboards and decision-support tools",
+    "text": "16.4 Dashboards and decision-support tools\nForecasting and decision tools (e.g., the RespRisk line described in the IAP) are flagship products:\n\nBuild them reproducibly, with documented thresholds, fairness/equity checks, and clear risk tiers (e.g., green/amber/red).\nCo-develop with stakeholders; validate against real-world outcomes; report calibration, decision-curve utility, and equity-stratified performance.\nVersion dashboards like code; never expose restricted data through a tool.",
+    "crumbs": [
+      "Scholarship & Dissemination",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Research Products: Manuscripts, Abstracts, Posters, Dashboards, and Briefs</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/15-research-products.html#community-briefs-and-bilingual-communication",
+    "href": "chapters/15-research-products.html#community-briefs-and-bilingual-communication",
+    "title": "16  Research Products: Manuscripts, Abstracts, Posters, Dashboards, and Briefs",
+    "section": "16.5 Community briefs and bilingual communication",
+    "text": "16.5 Community briefs and bilingual communication\nThese close the Community-to-Clinic-to-Cloud loop:\n\nCommunity risk briefs translate forecasts into plain-language, actionable summaries for the communities the data come from.\nMaterials are bilingual (Spanish/English) so they reach the people they’re about.\nBriefs get PI review and respect privacy and partner relationships.\nTrack real-world uptake (briefs issued, decisions supported, partner adoption) — impact is a product too.",
+    "crumbs": [
+      "Scholarship & Dissemination",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Research Products: Manuscripts, Abstracts, Posters, Dashboards, and Briefs</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/15-research-products.html#quality-bar-for-every-product",
+    "href": "chapters/15-research-products.html#quality-bar-for-every-product",
+    "title": "16  Research Products: Manuscripts, Abstracts, Posters, Dashboards, and Briefs",
+    "section": "16.6 Quality bar for every product",
+    "text": "16.6 Quality bar for every product\nBefore anything leaves the group:\n\nIt is reproducible (or, for non-analytic products, traceable to reproducible work).\nIt respects data governance, privacy, and DUAs.\nIts authorship/contributorship is documented and agreed.\nIt has been reviewed (peer within the pod + PI as appropriate).\nIt advances a SMART goal and the through-line — we make products on purpose, not just to be busy.\n\n\n\n\n\n\n\nTipProducts are also development\n\n\n\nMatch products to mentees’ growth. A first abstract, a first figure, a first reproducible notebook, a first first-authorship — each is both a research output and a rung on the development ladder (?sec-mentoring). Plan products with people’s growth in mind, not just the project’s needs.",
+    "crumbs": [
+      "Scholarship & Dissemination",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Research Products: Manuscripts, Abstracts, Posters, Dashboards, and Briefs</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/16-health-safety-fieldwork.html",
+    "href": "chapters/16-health-safety-fieldwork.html",
+    "title": "17  Health, Safety, Fieldwork, Biospecimens, and Remote Work",
+    "section": "",
+    "text": "17.1 General principle\nThis chapter replaces the original manual’s COVID-specific section with a broader, durable policy covering the range of settings our hybrid group works in: remote and home offices, fieldwork and community sites, any biospecimen handling, and shared facilities. It also retains a flexible public-health protocol for when one is needed.",
+    "crumbs": [
+      "Operations & Care",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Health, Safety, Fieldwork, Biospecimens, and Remote Work</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/16-health-safety-fieldwork.html#general-principle",
+    "href": "chapters/16-health-safety-fieldwork.html#general-principle",
+    "title": "17  Health, Safety, Fieldwork, Biospecimens, and Remote Work",
+    "section": "",
+    "text": "Your health and safety come first. No deadline, dataset, or deliverable is worth your wellbeing. Tell the PI or your mentor about any health or safety concern — including allergies or conditions that affect your work — so we can support you.",
+    "crumbs": [
+      "Operations & Care",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Health, Safety, Fieldwork, Biospecimens, and Remote Work</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/16-health-safety-fieldwork.html#remote-and-hybrid-work",
+    "href": "chapters/16-health-safety-fieldwork.html#remote-and-hybrid-work",
+    "title": "17  Health, Safety, Fieldwork, Biospecimens, and Remote Work",
+    "section": "17.2 Remote and hybrid work",
+    "text": "17.2 Remote and hybrid work\nMost of our work is computational and can be done remotely. To make remote work healthy and effective:\n\nErgonomics matter. Set up a workspace that protects your eyes, wrists, and back; take regular breaks.\nSustainable hours. We do not measure worth by hours online. Get the work done well; protect rest and boundaries (?sec-funding covers wellbeing and burnout prevention more fully).\nAvailability, not surveillance. Keep your availability current so work is planned realistically; we trust members to manage their time. (We do not use geo-location time-tracking; that practice from the wet-lab era is retired.)\nSecurity travels with you. Remote work follows the same data-governance rules (?sec-data-governance): no restricted data on personal devices or unsecured networks; analyze controlled data only in approved environments.\nStay connected. Remote members are deliberately included in meetings, decisions, authorship, and the social life of the group (?sec-belonging).",
+    "crumbs": [
+      "Operations & Care",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Health, Safety, Fieldwork, Biospecimens, and Remote Work</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/16-health-safety-fieldwork.html#fieldwork-and-community-sites",
+    "href": "chapters/16-health-safety-fieldwork.html#fieldwork-and-community-sites",
+    "title": "17  Health, Safety, Fieldwork, Biospecimens, and Remote Work",
+    "section": "17.3 Fieldwork and community sites",
+    "text": "17.3 Fieldwork and community sites\nWhen work happens in communities, partner clinics, or field settings:\n\nPlan and brief first. Confirm site contacts, logistics, consent procedures, and an emergency plan before going.\nRespect community partners. We are guests; follow partner site rules and cultural norms. Communities are collaborators, not subjects.\nNever photograph or record research participants (?sec-data-governance). Capture only what consent and IRB allow.\nTravel safely. Follow institutional travel and safety policies; don’t work alone in unfamiliar settings without a check-in plan.\nProtect data in transit. Field-collected data follows the same security and de-identification rules from the moment it’s captured.",
+    "crumbs": [
+      "Operations & Care",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Health, Safety, Fieldwork, Biospecimens, and Remote Work</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/16-health-safety-fieldwork.html#biospecimens-when-applicable",
+    "href": "chapters/16-health-safety-fieldwork.html#biospecimens-when-applicable",
+    "title": "17  Health, Safety, Fieldwork, Biospecimens, and Remote Work",
+    "section": "17.4 Biospecimens (when applicable)",
+    "text": "17.4 Biospecimens (when applicable)\nIf a project involves biological specimens (human blood, tissue, or environmental bioaerosol samples):\n\nComplete required bloodborne-pathogen and biosafety training and maintain relevant vaccinations (e.g., Hepatitis B) per institutional policy when handling human blood/fluids.\nFollow the biosafety level, PPE, and handling procedures for the facility and protocol.\nLabel, store, log, and chain-of-custody specimens per the protocol; never improvise.\nDispose of biological and chemical waste per institutional and regulatory rules.\nWear appropriate PPE and follow facility dress/safety codes when in a lab space.\n\n\n\n\n\n\n\nNotePlaceholder: facility-specific safety rules\n\n\n\nExact biosafety levels, PPE requirements, vaccination/clearance rules, waste procedures, and emergency contacts depend on the specific facility and institution. These must be confirmed locally before any wet-lab or biospecimen work and recorded in the project’s operating manual.",
+    "crumbs": [
+      "Operations & Care",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Health, Safety, Fieldwork, Biospecimens, and Remote Work</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/16-health-safety-fieldwork.html#public-health-and-infectious-disease-protocol-flexible",
+    "href": "chapters/16-health-safety-fieldwork.html#public-health-and-infectious-disease-protocol-flexible",
+    "title": "17  Health, Safety, Fieldwork, Biospecimens, and Remote Work",
+    "section": "17.5 Public-health and infectious-disease protocol (flexible)",
+    "text": "17.5 Public-health and infectious-disease protocol (flexible)\nRather than a single pandemic-specific section, we keep a scalable protocol that activates when public-health conditions require it (a respiratory illness surge, a new advisory, fieldwork in an outbreak area):\n\nFollow current institutional, local, state, and federal guidance — that guidance, not this manual, is authoritative and current.\nThe PI may activate measures proportionate to the situation: remote-first work, masking, distancing, capacity limits in shared spaces, testing, or pausing in-person activity.\nStay home when sick; we would always rather you rest than risk others. Sickness is never penalized.\nFor fieldwork during an active outbreak, add a site-specific risk assessment to the project operating manual.",
+    "crumbs": [
+      "Operations & Care",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Health, Safety, Fieldwork, Biospecimens, and Remote Work</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/16-health-safety-fieldwork.html#reporting-incidents",
+    "href": "chapters/16-health-safety-fieldwork.html#reporting-incidents",
+    "title": "17  Health, Safety, Fieldwork, Biospecimens, and Remote Work",
+    "section": "17.6 Reporting incidents",
+    "text": "17.6 Reporting incidents\nReport any injury, exposure, near-miss, safety concern, or health-and-safety question to the PI promptly. Reporting is expected and never penalized — early reporting keeps everyone safe.",
+    "crumbs": [
+      "Operations & Care",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Health, Safety, Fieldwork, Biospecimens, and Remote Work</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/17-conflict-feedback-accountability.html",
+    "href": "chapters/17-conflict-feedback-accountability.html",
+    "title": "18  Conflict Resolution, Feedback, and Accountability",
+    "section": "",
+    "text": "18.1 Our stance\n{#sec-accountability}\nDisagreement is normal and often productive; unaddressed conflict is corrosive. This chapter explains how we give feedback, work through conflict, and hold one another accountable — humanely and without surprises. It deliberately replaces the original manual’s punitive wage-penalty mechanics with a professional, developmental approach.",
+    "crumbs": [
+      "Operations & Care",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Conflict Resolution, Feedback, and Accountability</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/17-conflict-feedback-accountability.html#our-stance",
+    "href": "chapters/17-conflict-feedback-accountability.html#our-stance",
+    "title": "18  Conflict Resolution, Feedback, and Accountability",
+    "section": "",
+    "text": "We address problems early, directly, and kindly. We separate the person from the problem. We assume good faith. And we document, so accountability is fair and clear.",
+    "crumbs": [
+      "Operations & Care",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Conflict Resolution, Feedback, and Accountability</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/17-conflict-feedback-accountability.html#feedback-culture",
+    "href": "chapters/17-conflict-feedback-accountability.html#feedback-culture",
+    "title": "18  Conflict Resolution, Feedback, and Accountability",
+    "section": "18.2 Feedback culture",
+    "text": "18.2 Feedback culture\nFeedback is a routine, two-directional habit — not a rare, high-stakes event.\n\nFrequent and specific. Small, timely feedback beats a once-a-year verdict. “Specifically, the lag window in this model needs justification” beats “be more rigorous.”\nKind and candid. Care personally and challenge directly. Withholding honest feedback to be “nice” is neither kind nor helpful.\nTwo-way. Mentees give feedback to mentors and the PI, including in anonymous climate checks. Leaders model receiving feedback well.\nAbout the work. We critique ideas, code, and drafts — never the worth of the person.\n\nUse the Stop / Start / Continue Feedback Form (/templates/stop-start-continue.qmd) in one-on-ones and reviews.",
+    "crumbs": [
+      "Operations & Care",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Conflict Resolution, Feedback, and Accountability</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/17-conflict-feedback-accountability.html#a-structured-way-to-handle-difficult-conversations",
+    "href": "chapters/17-conflict-feedback-accountability.html#a-structured-way-to-handle-difficult-conversations",
+    "title": "18  Conflict Resolution, Feedback, and Accountability",
+    "section": "18.3 A structured way to handle difficult conversations",
+    "text": "18.3 A structured way to handle difficult conversations\nWhen a conversation is hard, it helps to separate three things people usually tangle together:\n\nWhat happened. Get curious about each person’s account before deciding who’s “right.” There are usually two reasonable stories. Ask, don’t assume.\nFeelings. Name the emotions in play (yours and theirs) instead of letting them leak into the content. Frustration unacknowledged becomes blame.\nIdentity. Notice what the conflict says to each person about themselves (“Am I competent? Am I respected?”). Many conflicts escalate because an identity feels threatened, not because the facts are far apart.\n\nNaming these explicitly — even just to yourself before the conversation — defuses most of the heat.",
+    "crumbs": [
+      "Operations & Care",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Conflict Resolution, Feedback, and Accountability</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/17-conflict-feedback-accountability.html#practical-conflict-resolution-steps",
+    "href": "chapters/17-conflict-feedback-accountability.html#practical-conflict-resolution-steps",
+    "title": "18  Conflict Resolution, Feedback, and Accountability",
+    "section": "18.4 Practical conflict-resolution steps",
+    "text": "18.4 Practical conflict-resolution steps\n\nflowchart TB\n    A[Notice friction early] --&gt; B[Direct 1:1 conversation&lt;br/&gt;curious, specific, kind]\n    B --&gt; C{Resolved?}\n    C --&gt;|Yes| D[Document agreement&lt;br/&gt;+ follow up]\n    C --&gt;|No| E[Bring in mentor / project lead&lt;br/&gt;as facilitator]\n    E --&gt; F{Resolved?}\n    F --&gt;|Yes| D\n    F --&gt;|No| G[Escalate to PI&lt;br/&gt;for mediation]\n    G --&gt; H[If needed: institutional&lt;br/&gt;processes / HR / ombuds]\n\n\n\n\nflowchart TB\n    A[Notice friction early] --&gt; B[Direct 1:1 conversation&lt;br/&gt;curious, specific, kind]\n    B --&gt; C{Resolved?}\n    C --&gt;|Yes| D[Document agreement&lt;br/&gt;+ follow up]\n    C --&gt;|No| E[Bring in mentor / project lead&lt;br/&gt;as facilitator]\n    E --&gt; F{Resolved?}\n    F --&gt;|Yes| D\n    F --&gt;|No| G[Escalate to PI&lt;br/&gt;for mediation]\n    G --&gt; H[If needed: institutional&lt;br/&gt;processes / HR / ombuds]\n\n\n\n\n\n\n\nStart direct and small. Most friction resolves in a respectful one-on-one. Lead with curiosity (“Help me understand…”) and a specific issue, not an accusation.\nUse a facilitator if a direct conversation stalls — a mentor or project lead, not to take sides but to help both people be heard.\nEscalate to the PI for mediation when needed.\nUse institutional channels (HR, ombuds, Title IX, etc.) for matters of harassment, discrimination, safety, or misconduct — these go beyond the group and must follow institutional policy. The PI helps you access them.\n\n\n\n\n\n\n\nNoteCommunication techniques that help\n\n\n\n\nObserve, then state need. Describe the observable behavior and its impact, then the request — without judgment language. (“When the analysis arrives the night before the meeting, I can’t review it in time; could we set an internal deadline two days earlier?”)\nReflect back. Briefly restate what you heard before responding, so the other person feels understood. Misunderstandings shrink when people feel heard.\nAsk, don’t tell, in tense moments. Calibrated, open questions (“How am I supposed to do that with the current timeline?”) invite problem-solving instead of triggering defensiveness.",
+    "crumbs": [
+      "Operations & Care",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Conflict Resolution, Feedback, and Accountability</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/17-conflict-feedback-accountability.html#accountability-professional-not-punitive",
+    "href": "chapters/17-conflict-feedback-accountability.html#accountability-professional-not-punitive",
+    "title": "18  Conflict Resolution, Feedback, and Accountability",
+    "section": "18.5 Accountability — professional, not punitive",
+    "text": "18.5 Accountability — professional, not punitive\nWe hold real standards. We meet them through development and documentation, not penalties.\nWhen performance or follow-through falls short:\n\nEarly, private conversation. Name the gap specifically; ask what’s getting in the way; listen. Often the cause is unclear expectations, overload, or an unsurfaced obstacle — all fixable.\nClarify expectations and support. Restate what “done” looks like, set a realistic plan, and offer help or resources.\nDocument. Keep a brief, factual record of the conversation, the plan, and the timeline. Documentation protects both parties and keeps accountability fair.\nFollow up. Check progress against the plan; recognize improvement.\nUse institutional/contractual processes only where applicable and only after the developmental steps — handled through the proper institution or entity, never invented in this manual.\n\n\n\n\n\n\n\nImportantWhat we explicitly retired\n\n\n\nThe 2021 manual tied wage status and pay reductions to task completion and precision thresholds (e.g., 50% wage reduction for a missed cleanup step; waged↔︎non-waged conversions). We have removed all punitive wage mechanics. Compensation and employment terms are governed by the relevant institution or entity. Accountability here is about clarity, support, documentation, and the “no-surprises” deadline culture (?sec-communication) — not financial penalty.",
+    "crumbs": [
+      "Operations & Care",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Conflict Resolution, Feedback, and Accountability</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/17-conflict-feedback-accountability.html#the-no-surprises-principle-applied-to-accountability",
+    "href": "chapters/17-conflict-feedback-accountability.html#the-no-surprises-principle-applied-to-accountability",
+    "title": "18  Conflict Resolution, Feedback, and Accountability",
+    "section": "18.6 The no-surprises principle, applied to accountability",
+    "text": "18.6 The no-surprises principle, applied to accountability\nAccountability and feedback should never blindside anyone. If something is off, the person hears it from a teammate or mentor early and directly — not for the first time in a review, and never as a penalty out of nowhere. Both directions: leaders surface concerns early, and members surface obstacles early. Surprises are the failure mode we design against.",
+    "crumbs": [
+      "Operations & Care",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Conflict Resolution, Feedback, and Accountability</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/18-funding-travel-development.html",
+    "href": "chapters/18-funding-travel-development.html",
+    "title": "19  Funding, Grants, Travel, and Professional Development",
+    "section": "",
+    "text": "19.1 How the group is funded\n{#sec-funding}\nThis chapter covers how the group is funded, how members engage with grants, how we support conference travel, and how we invest in each member’s growth — including protecting against burnout.\nFunding comes from the PI’s grants and the group’s portfolio of extramural, foundation, society, industry, and institutional support, pursued along the IAP trajectory (seed and trainee support now, building toward R-level and center-scale awards). In keeping with our transparency value, members can learn from our funding work:",
+    "crumbs": [
+      "Operations & Care",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Funding, Grants, Travel, and Professional Development</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/18-funding-travel-development.html#how-the-group-is-funded",
+    "href": "chapters/18-funding-travel-development.html#how-the-group-is-funded",
+    "title": "19  Funding, Grants, Travel, and Professional Development",
+    "section": "",
+    "text": "Grants are open intra-group. Members may read grant documents (funded or not) in the shared drive — both to learn how grants are written and to see the group’s vision for the years ahead.\nYou will often be asked to contribute a figure, preliminary analysis, or feedback to a grant. This is real training and a credited contribution.\nPurchases or grant charges go through the PI; never commit group funds without approval.",
+    "crumbs": [
+      "Operations & Care",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Funding, Grants, Travel, and Professional Development</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/18-funding-travel-development.html#engaging-with-grants-as-a-development-activity",
+    "href": "chapters/18-funding-travel-development.html#engaging-with-grants-as-a-development-activity",
+    "title": "19  Funding, Grants, Travel, and Professional Development",
+    "section": "19.2 Engaging with grants as a development activity",
+    "text": "19.2 Engaging with grants as a development activity\nGrant-writing is part of the development ladder. Depending on your stage, you may:\n\nBuild or refine a figure or preliminary-results panel.\nRun an analysis that becomes preliminary data.\nDraft a biosketch, specific-aims critique, or mentoring-plan section.\nHelp assemble letters, budgets, or data-management/sharing plans.\n\nMentees pursuing their own paths are encouraged to apply for fellowships and trainee awards (the group actively supports trainee-support applications, per the IAP). We help you find and write them.",
+    "crumbs": [
+      "Operations & Care",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Funding, Grants, Travel, and Professional Development</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/18-funding-travel-development.html#travel-and-conferences",
+    "href": "chapters/18-funding-travel-development.html#travel-and-conferences",
+    "title": "19  Funding, Grants, Travel, and Professional Development",
+    "section": "19.3 Travel and conferences",
+    "text": "19.3 Travel and conferences\nWe advocate conference travel to present work, network, and stay current.\n\nEvery member presents at least once a year; mentees aim for a regional or (preferably) national conference aligned with their goals.\nCost should not be a barrier. We actively pursue travel awards, scholarships, and trainee grants so members can attend. Some group funds may be available on request.\nPlan submissions against the shared abstract calendar (AAAAI, AAI, ATS, SOT, ASM, ISES, ASBMB, ABRCMS, and others).\nConfirm authorship before submitting (?sec-authorship), and rehearse as a pod.\n\n\n\n\n\n\n\nNotePlaceholder: travel funding specifics\n\n\n\nExact travel-funding sources, amounts, reimbursement procedures, and institutional travel policies vary and must be confirmed with the PI and the relevant institution for each trip. Apply early for external travel awards regardless.",
+    "crumbs": [
+      "Operations & Care",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Funding, Grants, Travel, and Professional Development</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/18-funding-travel-development.html#professional-development",
+    "href": "chapters/18-funding-travel-development.html#professional-development",
+    "title": "19  Funding, Grants, Travel, and Professional Development",
+    "section": "19.4 Professional development",
+    "text": "19.4 Professional development\nWe invest in members’ growth beyond project deliverables:\n\nIDP-driven. Development goals live in the Individual Development Plan (?sec-mentoring) and are revisited each semester.\nSkills. Coding, statistics/ML, scientific writing, presenting, and science communication are all explicitly developed, not assumed.\nSponsorship. Mentors put members forward for opportunities, awards, and roles (?sec-mentoring).\nPathways. We support transitions into graduate, professional, research, data-science, public-health, and leadership positions — a named IAP goal.",
+    "crumbs": [
+      "Operations & Care",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Funding, Grants, Travel, and Professional Development</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/18-funding-travel-development.html#wellbeing-and-sustainable-productivity",
+    "href": "chapters/18-funding-travel-development.html#wellbeing-and-sustainable-productivity",
+    "title": "19  Funding, Grants, Travel, and Professional Development",
+    "section": "19.5 Wellbeing and sustainable productivity",
+    "text": "19.5 Wellbeing and sustainable productivity\nProductivity is a core value, but so is sustainability. A burned-out scientist is neither healthy nor productive.\n\nProtect rest and boundaries. We do not glorify overwork. Connected, rested teams do better science in fewer hours.\nPlan the semester. Use a semester plan and weekly writing/analysis blocks (aligned with the IAP cadence) so work is steady rather than frantic.\nWatch for burnout — in yourself and teammates — and raise it early. Naming overload is professionalism, not weakness.\nSay no strategically. Not every opportunity advances the through-line. Declining or deferring low-alignment requests protects time for high-value work; the PI and project leads help you triage.\nUse available support. Institutional wellbeing resources, counseling, and accommodations exist; using them is encouraged, not stigmatized.\n\n\n\n\n\n\n\nTipAlign effort with priorities\n\n\n\nThe best protection against overwork is alignment: spend your energy on what advances a SMART goal and the through-line, and let the rest go to the backlog. If you’re overwhelmed, that’s a planning conversation to have early with your mentor — not a failing to hide.",
+    "crumbs": [
+      "Operations & Care",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Funding, Grants, Travel, and Professional Development</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/19-onboarding-offboarding.html",
+    "href": "chapters/19-onboarding-offboarding.html",
+    "title": "20  Onboarding, Training Milestones, and Offboarding",
+    "section": "",
+    "text": "20.1 Onboarding\nThis chapter defines how members join, grow, and leave the group well. Good onboarding makes people productive and connected quickly; good offboarding protects continuity, relationships, and reputation.\nNew members complete the New Member Onboarding Checklist (/forms/onboarding-checklist.md). At a high level, the first weeks look like this:",
+    "crumbs": [
+      "Lifecycle & Maintenance",
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Onboarding, Training Milestones, and Offboarding</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/19-onboarding-offboarding.html#onboarding",
+    "href": "chapters/19-onboarding-offboarding.html#onboarding",
+    "title": "20  Onboarding, Training Milestones, and Offboarding",
+    "section": "",
+    "text": "20.1.1 First 7 days\n\nRead this manual; sign the acknowledgment form (/forms/manual-acknowledgment.md).\nMeet your mentor and the PI; understand your project and pod.\nGet accounts and access: messaging channel, GitHub org, shared drive, project tool, and any project-specific tools — provisioned at least privilege (?sec-data-governance).\nAdd a short bio and (optional) photo for the group directory; set up your availability.\n\n\n\n20.1.2 First 30 days\n\nComplete required CITI/IRB training; be added to relevant IRB protocols before touching human-subjects data.\nComplete tool onboarding: Git/GitHub basics, R or Python setup, reproducible-notebook walkthrough, and the data-governance rules.\nTake ownership of one defined, mentored task that ladders up to a named deliverable.\nCo-create your Individual Development Plan with your mentor.\n\n\n\n20.1.3 First 90 days\n\nIndependently own a named deliverable (a figure, codebook, literature synthesis, or reproducible notebook).\nPresent once to the pod or group (a wins-and-roadblocks update counts).\nHave a first IDP check-in to calibrate goals and support.",
+    "crumbs": [
+      "Lifecycle & Maintenance",
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Onboarding, Training Milestones, and Offboarding</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/19-onboarding-offboarding.html#training-milestones",
+    "href": "chapters/19-onboarding-offboarding.html#training-milestones",
+    "title": "20  Onboarding, Training Milestones, and Offboarding",
+    "section": "20.2 Training milestones",
+    "text": "20.2 Training milestones\nMembers progress along the development ladder (?sec-mentoring):\n\n\n\n\n\n\n\nMilestone\nWhat it looks like\n\n\n\n\nFoundation\nTrained (CITI/IRB), tooled up (Git, R/Python, reproducibility), manual signed\n\n\nContribution\nIndependently owns a named deliverable; first abstract/figure/notebook\n\n\nLeadership\nLeads a pod component; mentors a newer member; first/co-first authorship\n\n\n\nMilestones are tracked in the IDP and reviewed each semester. The aim is growing independence and leadership, not just task volume.",
+    "crumbs": [
+      "Lifecycle & Maintenance",
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Onboarding, Training Milestones, and Offboarding</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/19-onboarding-offboarding.html#offboarding",
+    "href": "chapters/19-onboarding-offboarding.html#offboarding",
+    "title": "20  Onboarding, Training Milestones, and Offboarding",
+    "section": "20.3 Offboarding",
+    "text": "20.3 Offboarding\nPeople move on — graduation, new positions, end of a term, or a planned transition. We offboard deliberately so nothing is lost and relationships stay strong. Members complete the Offboarding Checklist (/forms/offboarding-checklist.md).\n\n20.3.1 Knowledge & continuity handoff\n\nTransfer ownership of repos, documents, and tasks; ensure successors have access.\nDocument the state of every active project: where things stand, what’s next, where things live.\nEnsure all code is committed and pushed, notebooks render, and data is stored per governance rules.\nUpdate the variable dictionary and project operating manual.\n\n\n\n20.3.2 Credit & products\n\nConfirm authorship/contributorship on in-progress and completed products (?sec-authorship). Leaving the group does not erase earned credit; departing members remain authors on work they did.\nAgree on how in-progress manuscripts will be completed and who leads them.\n\n\n\n20.3.3 Access & security\n\nRevoke access appropriately (accounts, repos, drives, data environments) — security hygiene, not distrust.\nReturn or properly handle any equipment or restricted materials.\n\n\n\n20.3.4 Relationship & growth\n\nFinal IDP review and a forward-looking conversation: references, recommendation letters, sponsorship, and staying in the network.\nCapture the member in the group’s alumni record; alumni remain part of the RIPLRT community and a source of mentorship for current members.\nAn exit stop/start/continue conversation: what should the group keep, start, or stop? Departing members often give the most candid, useful feedback.\n\n\n\n\n\n\n\nTipOffboarding is a relationship, not a transaction\n\n\n\nHow we say goodbye shapes our reputation and network as much as how we say hello. Alumni who left well become collaborators, references, recruiters of future members, and ambassadors for the group. Invest in the exit.",
+    "crumbs": [
+      "Lifecycle & Maintenance",
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Onboarding, Training Milestones, and Offboarding</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/20-annual-review.html",
+    "href": "chapters/20-annual-review.html",
+    "title": "21  Annual Review and Manual Maintenance",
+    "section": "",
+    "text": "21.1 Review rhythms at a glance\n{#sec-annual-review}\nA research group is a living system. This chapter describes the rhythms by which we review the group — scientifically and humanly — and keep this manual current.\nThis mirrors the IAP’s quarterly review cadence: lock milestones (Q1), freeze first analyses and draft aims (Q2), move products toward submission (Q3), and score progress and re-plan (Q4).",
+    "crumbs": [
+      "Lifecycle & Maintenance",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Annual Review and Manual Maintenance</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/20-annual-review.html#review-rhythms-at-a-glance",
+    "href": "chapters/20-annual-review.html#review-rhythms-at-a-glance",
+    "title": "21  Annual Review and Manual Maintenance",
+    "section": "",
+    "text": "Cadence\nActivity\nTool / output\n\n\n\n\nWeekly\nPod check-ins; wins & roadblocks\nWeekly agenda, action items\n\n\nQuarterly\nLab climate pulse; progress vs. SMART metrics\nAnonymous pulse; one lead metric/goal\n\n\nSemesterly\nIDP reviews\nUpdated IDPs\n\n\nAnnually\nStop/Start/Continue; portfolio review; authorship audit; strategic alignment; manual maintenance\nThis chapter’s checklists",
+    "crumbs": [
+      "Lifecycle & Maintenance",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Annual Review and Manual Maintenance</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/20-annual-review.html#quarterly-lab-climate-pulse",
+    "href": "chapters/20-annual-review.html#quarterly-lab-climate-pulse",
+    "title": "21  Annual Review and Manual Maintenance",
+    "section": "21.2 Quarterly: lab climate pulse",
+    "text": "21.2 Quarterly: lab climate pulse\nA 10-minute anonymous pulse turns belonging into data. It covers: workload, role clarity, sense of belonging, mentorship quality, confidence with tasks, and barriers. The PI and leads review results, share back what they heard, and name one or two concrete changes. Measuring climate without acting on it erodes trust faster than not measuring at all.",
+    "crumbs": [
+      "Lifecycle & Maintenance",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Annual Review and Manual Maintenance</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/20-annual-review.html#annually-the-riplrt-operating-review",
+    "href": "chapters/20-annual-review.html#annually-the-riplrt-operating-review",
+    "title": "21  Annual Review and Manual Maintenance",
+    "section": "21.3 Annually: the RIPLRT operating review",
+    "text": "21.3 Annually: the RIPLRT operating review\nOnce a year we step back and review the group as a whole.\n\n21.3.1 1. Stop / Start / Continue (lab feedback)\nEveryone contributes (use /templates/stop-start-continue.qmd): What should the group stop doing? start doing? continue doing? Synthesize themes; commit to a short, public list of changes.\n\n\n21.3.2 2. Project portfolio review\nFor each project: Is it advancing? Is it aligned with the through-line and a SMART goal? Is it appropriately staffed? Should it continue, pivot, pause, or close? This prevents drift and overextension — our main risk is too many half-supported projects, not too few people.\n\n\n21.3.3 3. Authorship audit\nReview every active and recent product against the documented contributorship agreements (?sec-authorship): Is credit accurate and fair? Are mentees getting the authorship their contributions earned? Are first-author/co-first-author trainee goals on track? Resolve any drift now, not at submission.\n\n\n21.3.4 4. Strategic alignment review\nCheck the portfolio and the group’s activities against the IAP’s 12/36/60-month goals: Are we on pace? What needs to change? Update the goals based on funding, data access, and partner feedback. Refresh the through-line narrative if the science has progressed.\n\n\n21.3.5 5. Climate and inclusion review\nReview the year’s climate pulses for trends. Is the group living its values? Is it inclusive in practice, not just branding? What will we change?",
+    "crumbs": [
+      "Lifecycle & Maintenance",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Annual Review and Manual Maintenance</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/20-annual-review.html#manual-maintenance",
+    "href": "chapters/20-annual-review.html#manual-maintenance",
+    "title": "21  Annual Review and Manual Maintenance",
+    "section": "21.4 Manual maintenance",
+    "text": "21.4 Manual maintenance\nThis manual is itself reviewed annually (and amended as needed in between).\nMaintenance process:\n\nDesignate a maintainer each year (often the Group Lead, with PI sign-off) to shepherd updates.\nCollect proposed changes throughout the year via GitHub issues/PRs (CONTRIBUTING.md) and the annual stop/start/continue.\nReview and merge approved changes; update CHANGELOG.md.\nRe-render the Quarto book and publish the new version.\nRe-acknowledge: when changes are substantive, members re-sign the acknowledgment so everyone is on the current version.\n\n\n\n\n\n\n\nNoteSections to review every year\n\n\n\n\nTooling and platforms (?sec-project-management) — tools change.\nData governance and dataset rules (?sec-data-governance) — DUAs and IRB terms change.\nResponsible AI (?sec-responsible-ai) — this field moves fast.\nInstitutional placeholders — confirm affiliations, IRB-of-record, and policies.\nVision/Mission/Values and SMART alignment (?sec-authorship and Ch. 4) — keep them synced with the current IAP.",
+    "crumbs": [
+      "Lifecycle & Maintenance",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Annual Review and Manual Maintenance</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/20-annual-review.html#closing-the-loop",
+    "href": "chapters/20-annual-review.html#closing-the-loop",
+    "title": "21  Annual Review and Manual Maintenance",
+    "section": "21.5 Closing the loop",
+    "text": "21.5 Closing the loop\nThe point of all this review is not bureaucracy — it’s adaptation. We observe how the group is doing (scientifically and humanly), we get feedback, and we change. Self-awareness, feedback, and the willingness to adjust are leadership responsibilities. A group that reviews itself honestly and acts on what it finds is a group that keeps getting better at both the science and the mentoring.",
+    "crumbs": [
+      "Lifecycle & Maintenance",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Annual Review and Manual Maintenance</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/21-appendices.html",
+    "href": "chapters/21-appendices.html",
+    "title": "22  Appendices",
+    "section": "",
+    "text": "22.1 Appendix A — Templates\nThis chapter collects reference material: pointers to the templates, policies, and forms appendices; a glossary of terms; a resource list; and acknowledgments.\nReusable, fill-in templates live in /templates. See the Templates appendix. They include:",
+    "crumbs": [
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Appendices</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/21-appendices.html#appendix-a-templates",
+    "href": "chapters/21-appendices.html#appendix-a-templates",
+    "title": "22  Appendices",
+    "section": "",
+    "text": "New Member Onboarding Checklist\nProject Pod Charter\nIndividual Development Plan (IDP)\nStudent Research Plan\nManuscript Planning Sheet\nAuthorship / Contributorship Agreement\nData-Use and Access Checklist\nGitHub Repository Checklist\nReproducible Analysis Checklist\nAI-Use Disclosure Form\nConference Abstract Planning Sheet\nWeekly Meeting Agenda\nOne-on-One Mentoring Meeting Template\nStop / Start / Continue Feedback Form\nOffboarding Checklist",
+    "crumbs": [
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Appendices</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/21-appendices.html#appendix-b-standalone-policies",
+    "href": "chapters/21-appendices.html#appendix-b-standalone-policies",
+    "title": "22  Appendices",
+    "section": "22.2 Appendix B — Standalone policies",
+    "text": "22.2 Appendix B — Standalone policies\nAuthoritative policy documents live in /policies. See the Policies appendix:\n\nAuthorship & Contributorship Policy\nData Governance Policy\nResponsible AI Use Policy\nCode of Conduct (also at repo root as CODE_OF_CONDUCT.md)",
+    "crumbs": [
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Appendices</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/21-appendices.html#appendix-c-forms",
+    "href": "chapters/21-appendices.html#appendix-c-forms",
+    "title": "22  Appendices",
+    "section": "22.3 Appendix C — Forms",
+    "text": "22.3 Appendix C — Forms\nSign-and-submit forms live in /forms. See the Forms appendix:\n\nOnboarding Checklist\nOffboarding Checklist\nManual Acknowledgment Form",
+    "crumbs": [
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Appendices</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/21-appendices.html#appendix-d-glossary",
+    "href": "chapters/21-appendices.html#appendix-d-glossary",
+    "title": "22  Appendices",
+    "section": "22.4 Appendix D — Glossary",
+    "text": "22.4 Appendix D — Glossary\n\n\n\n\n\n\n\nTerm\nMeaning\n\n\n\n\nThrough-line\nExposure Science → Immune Bioactivity → Computational Forecasting → Equity-Focused Translation → Inclusive Workforce Development\n\n\nCommunity-to-Clinic-to-Cloud\nOur central narrative: measure environmental signals in communities → link to clinical/claims/biomarker outcomes → convert to equity-aware decision tools\n\n\nPod\nA small, project-specific team with defined roles\n\n\nIDP\nIndividual Development Plan\n\n\nIAP\nIndividual Academic Plan (the PI’s strategic roadmap)\n\n\nDUA\nData Use Agreement\n\n\nICMJE\nInternational Committee of Medical Journal Editors (authorship criteria)\n\n\nCRediT\nContributor Roles Taxonomy\n\n\nCITI\nCollaborative Institutional Training Initiative (research-ethics training)\n\n\nIRB\nInstitutional Review Board\n\n\nRespRisk\nThe group’s respiratory-risk forecasting/decision-support workflow line\n\n\nEBDL\nAn interdisciplinary research entity being formalized within the institutional framework (placeholder — confirm scope/name)\n\n\nSMART goals\nSpecific, Measurable, Achievable, Relevant, Time-bound goals (12/36/60-month)",
+    "crumbs": [
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Appendices</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/21-appendices.html#appendix-e-key-resources-and-platforms",
+    "href": "chapters/21-appendices.html#appendix-e-key-resources-and-platforms",
+    "title": "22  Appendices",
+    "section": "22.5 Appendix E — Key resources and platforms",
+    "text": "22.5 Appendix E — Key resources and platforms\n\nCode & versioning: GitHub (Git), GitHub Projects\nProject management: ClickUp\nDocuments: Google Drive / OneDrive\nAnalysis & reporting: R/RStudio, Python, Quarto / R Markdown\nStructured data capture: REDCap (if applicable)\nOpen science / archiving: OSF, Zenodo, FigShare\nDatasets & repositories: PR DoH/ASES claims & pharmacy; PR fungal-spore & respiratory-virus surveillance; BioLINCC; BioData Catalyst; All of Us Workbench; MESA; Framingham; AsthmaNet; NHANES\nMethods: AI/ML, distributed lag models, mixed-effects models, GWAS, polygenic risk scores, SHAP explainability, causal mediation, multi-agent AI; equity-stratified analysis\n\n\n\n\n\n\n\nNotePlaceholder: exact URLs and instances\n\n\n\nWorkspace URLs, repository links, IRB links, and account details are confirmed during onboarding and recorded per project. Public versions of this manual should keep internal links and credentials out.",
+    "crumbs": [
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Appendices</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/21-appendices.html#appendix-f-acknowledgments",
+    "href": "chapters/21-appendices.html#appendix-f-acknowledgments",
+    "title": "22  Appendices",
+    "section": "22.6 Appendix F — Acknowledgments",
+    "text": "22.6 Appendix F — Acknowledgments\nThis 2026 manual builds on the 2018/2021 RIPLRT Lab Manual and the members, alumni, and writing mentors who created and maintained it. It was inspired by the open lab-manual movement and the broader community of research groups who share their handbooks so others can learn. We thank every RIPLRT member — past and present — who has contributed to making this group both a serious scientific program and a humane place to grow.\nMaintained reproducibly with Quarto. See CHANGELOG.md for revision history and CONTRIBUTING.md to propose changes.",
+    "crumbs": [
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Appendices</span>"
+    ]
+  },
+  {
+    "objectID": "templates/index.html",
+    "href": "templates/index.html",
+    "title": "Appendix A — Templates",
+    "section": "",
+    "text": "This appendix collects the reusable templates RIPLRT members use throughout a project’s life. Copy a template into your project space and fill it in — don’t edit the master here.\n\n\n\n\n\n\n\n\nTemplate\nUse when\nFile\n\n\n\n\nNew Member Onboarding Checklist\nSomeone joins\nnew-member-onboarding-checklist.qmd\n\n\nProject Pod Charter\nA project starts\nproject-pod-charter.qmd\n\n\nIndividual Development Plan (IDP)\nEach semester, per member\nindividual-development-plan.qmd\n\n\nStudent Research Plan\nA student scopes a project\nstudent-research-plan.qmd\n\n\nManuscript Planning Sheet\nBefore drafting a paper\nmanuscript-planning-sheet.qmd\n\n\nAuthorship/Contributorship Agreement\nProject start; updated as roles change\nauthorship-contributorship-agreement.qmd\n\n\nData-Use & Access Checklist\nBefore touching project data\ndata-use-access-checklist.qmd\n\n\nGitHub Repository Checklist\nNew repo setup\ngithub-repo-checklist.qmd\n\n\nReproducible Analysis Checklist\nBefore any submission\nreproducible-analysis-checklist.qmd\n\n\nAI-Use Disclosure Form\nAny product with material AI assistance\nai-use-disclosure.qmd\n\n\nConference Abstract Planning Sheet\nBefore an abstract deadline\nconference-abstract-planning.qmd\n\n\nWeekly Meeting Agenda\nEvery pod meeting\nweekly-meeting-agenda.qmd\n\n\nOne-on-One Mentoring Meeting\nBiweekly mentor↔︎mentee\none-on-one-meeting.qmd\n\n\nStop/Start/Continue Feedback\nReviews and retrospectives\nstop-start-continue.qmd\n\n\nOffboarding Checklist\nSomeone leaves\noffboarding-checklist.qmd",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Templates</span>"
+    ]
+  },
+  {
+    "objectID": "policies/index.html",
+    "href": "policies/index.html",
+    "title": "Appendix B — Policies",
+    "section": "",
+    "text": "These are the authoritative, standalone policy documents for the RIPLRT Institute. They expand the working summaries in the chapters. Where a policy and a chapter summary differ, the policy governs; where a policy and institutional/sponsor/legal requirements differ, those govern.\n\n\n\n\n\n\n\n\nPolicy\nSummary chapter\nFile\n\n\n\n\nAuthorship & Contributorship\nCh. 14\nauthorship-contributorship.qmd\n\n\nData Governance\nCh. 11\ndata-governance.qmd\n\n\nResponsible AI Use\nCh. 13\nresponsible-ai-use.qmd\n\n\nCode of Conduct\n(repo root)\ncode-of-conduct.qmd → see CODE_OF_CONDUCT.md",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Policies</span>"
+    ]
+  },
+  {
+    "objectID": "forms/index.html",
+    "href": "forms/index.html",
+    "title": "Appendix C — Forms",
+    "section": "",
+    "text": "These are the sign-and-submit forms for the RIPLRT Institute. Unlike the working templates in /templates, forms are meant to be completed, signed (typed name + date is fine), and returned to the PI or a designated lead, then stored in the member’s record.\n\n\n\n\n\n\n\n\nForm\nSubmit when\nFile\n\n\n\n\nManual Acknowledgment Form\nWithin first 7 days; re-acknowledge at each annual review\nmanual-acknowledgment.md\n\n\nOnboarding Checklist\nCompleted across the first 30 days\nonboarding-checklist.md\n\n\nOffboarding Checklist\nCompleted in the final 2 weeks\noffboarding-checklist.md\n\n\n\n\n\n\n\n\n\nNotePlaceholder: where forms are stored\n\n\n\nThe exact submission destination (a private Google Drive / OneDrive folder, a REDCap form, or a signed PDF in the member’s file) is confirmed during onboarding. Keep completed forms — which contain names and signatures — out of any public version of this manual or its repository.\n\n\nThese forms intentionally mirror the working checklists in /templates (the Onboarding and Offboarding templates) so members can use the template to do the work and the form to record completion.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Forms</span>"
+    ]
+  }
+]
