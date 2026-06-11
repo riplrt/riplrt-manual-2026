@@ -10,6 +10,15 @@ These are the **sign-and-submit forms** for the RIPLRT Institute. Unlike the wor
 | Onboarding Checklist | Completed across the first 30 days | `onboarding-checklist.md` |
 | Offboarding Checklist | Completed in the final 2 weeks | `offboarding-checklist.md` |
 
+**Member affiliation (complete at intake):**
+
+- Home institution: ☐ Lynn University ☐ University of Puerto Rico ☐ Other: ________ ☐ Independent
+- Level: ☐ Undergraduate ☐ Graduate ☐ Postdoc / early-career ☐ Other: ________
+- Operating umbrella: ☐ EBDL (Lynn) ☐ RIPLRT-direct
+- IRB of record: ____________________   CITI completion date: ____________
+
+*This determines your IRB path, data-access rights, and byline affiliation (@sec-entity-structure, @sec-data-governance).*
+
 ::: {.callout-note}
 ## Placeholder: where forms are stored
 The exact submission destination (a private Google Drive / OneDrive folder, a REDCap form, or a signed PDF in the member's file) is confirmed during onboarding. Keep completed forms — which contain names and signatures — **out of any public version** of this manual or its repository.
