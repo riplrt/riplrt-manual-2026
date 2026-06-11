@@ -17,7 +17,30 @@ While you are with us, you will develop skills across several domains:
 - **Scientific:** environmental exposure science, immunology, respiratory and cardiovascular health, biomarker interpretation, and study design.
 - **Computational:** R and Python, reproducible analysis, version control with Git/GitHub, dashboards, and AI/ML methods used responsibly.
 - **Professional:** scientific writing, giving talks, building posters, presenting at conferences, and communicating science bilingually to non-specialist audiences.
-- **Human:** collaboration, feedback, mentoring others, and navigating team science.
+- **Human:** career guidance, collaboration, feedback, mentoring others, and navigating team science.
+
+## Our entity structure {#sec-entity-structure}
+
+Understanding who we legally are matters because it determines whose policy, whose IRB, and whose name govern your work.
+
+- **Felix E. Rivera-Mariani, PhD, LLC** — the parent entity (FL #L21000280781; PR #467494). All RIPLRT Institute activity operates under
+  this LLC.
+- **RIPLRT Institute** — *A Respiratory and Immunology Project and Laboratory Research Team.* A scientific research-and-mentoring **DBA** of Felix  
+  E. Rivera-Mariani, PhD, LLC. The Institute is **not** a department, lab, or
+  administrative unit of Lynn University.
+- **Educational Biomarker Discovery Lab (EBDL)** — the branch through which RIPLRT research is conducted *within* Lynn University. EBDL work is  
+  governed by Lynn University policy, IRB, and sponsor terms.
+- **Lynn University** — institutional home of the EBDL and of Lynn-affiliated members.
+- **University of Puerto Rico (UPR)** — collaborating institution. UPR-affiliated mentees are mentored under the RIPLRT Institute but remain 
+  governed by UPR institutional policy and IRB, and by any applicable collaboration or data-use agreement.
+
+::: {.callout-important}
+## Which umbrella are you under?
+- **Lynn University students and trainees** (undergraduate and graduate) work under the **EBDL** umbrella and follow Lynn University policy and IRB.
+- **UPR-affiliated, other external, or independent mentees** (undergraduate, graduate, early-career scientists) are mentored **directly under the RIPLRT Institute** and remain governed by their home institution's policies.
+
+If you are unsure which applies to you, confirm with the PI before you begin project work or touch data. See @sec-data-governance and @sec-onboarding.
+:::
 
 ## What you can expect from us
 
