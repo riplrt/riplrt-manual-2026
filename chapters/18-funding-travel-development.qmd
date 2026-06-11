@@ -14,6 +14,17 @@ Funding comes from the PI's grants and the group's portfolio of extramural, foun
 - You will often be asked to **contribute a figure, preliminary analysis, or feedback** to a grant. This is real training and a credited contribution.
 - Purchases or grant charges go through the PI; never commit group funds without approval.
 
+### Which entity holds the funds
+
+Funding determines process: the **entity that holds an award** sets eligibility,
+spending rules, and reimbursement path (@sec-entity-structure).
+
+- **Lynn-administered awards and accounts** follow Lynn University procurement, travel, and reimbursement procedures; EBDL members use these for Lynn-funded work.
+- **RIPLRT / LLC funds** (foundation, society, industry, or consulting awards held by the LLC) follow LLC and sponsor terms.
+- **UPR or external members** may also have **home-institution** funding and travel paths; confirm which applies before incurring costs.
+
+Practical rule: **confirm the funding source and its umbrella before you book travel or commit a purchase.** Reimbursement runs through the entity that holds the money, and mixing them creates problems that are hard to unwind. When unsure, ask the PI or the named project lead first.
+
 ## Engaging with grants as a development activity
 
 Grant-writing is part of the development ladder. Depending on your stage, you may:
