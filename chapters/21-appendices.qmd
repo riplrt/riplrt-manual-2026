@@ -70,10 +70,10 @@ Sign-and-submit forms live in `/forms`. See the [Forms appendix](../forms/index.
 - **Project management:** ClickUp
 - **Documents:** Google Drive / OneDrive
 - **Analysis & reporting:** R/RStudio, Python, Quarto / R Markdown
-- **Structured data capture:** REDCap *(if applicable)*
+- **Structured data capture:** Qualtrics, REDCap *(if applicable)*
 - **Open science / archiving:** OSF, Zenodo, FigShare
-- **Datasets & repositories:** PR DoH/ASES claims & pharmacy; PR fungal-spore & respiratory-virus surveillance; BioLINCC; BioData Catalyst; *All of Us* Workbench; MESA; Framingham; AsthmaNet; NHANES
-- **Methods:** AI/ML, distributed lag models, mixed-effects models, GWAS, polygenic risk scores, SHAP explainability, causal mediation, multi-agent AI; equity-stratified analysis
+- **Datasets & repositories:** Departments of Health claims & pharmacy; fungal-spore aeroallergen stations; BioLINCC; BioData Catalyst; *All of Us* Workbench; MESA; Framingham; AsthmaNet; NHANES, among others
+- **Methods:** AI/ML, distributed lag models, mixed-effects models, GWAS, polygenic risk scores, SHAP explainability, causal mediation, multi-agent AI; equity-stratified analysis, among others
 
 ::: {.callout-note}
 ## Placeholder: exact URLs and instances
