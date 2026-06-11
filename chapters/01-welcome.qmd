@@ -8,7 +8,7 @@ This chapter orients you to what kind of place this is, what you can expect from
 
 ## What RIPLRT is
 
-RIPLRT is a **research group, a learning environment, and a scientific home.** We are a mentee-powered group studying how environmental exposures shape respiratory and immune health — and how to convert that understanding into tools that protect people, especially in communities that carry the heaviest environmental burden.
+The RIPLRT Institute, often referred to simply as the RIPLRT, is a **research group, a learning environment, and a scientific home.** We are a mentee-powered group studying how environmental exposures shape respiratory and immune health — and how to convert that understanding into tools that protect people, especially in communities that carry the heaviest environmental burden.
 
 You joined because of the science, and our values and principles. We hope you stay because you feel valued, connected, mentored, and part of work that matters. Belonging is not a perk here; it is part of how we do good science. People who feel safe ask better questions, surface mistakes earlier, and take the creative risks that move projects forward.
 
@@ -18,6 +18,16 @@ While you are with us, you will develop skills across several domains:
 - **Computational:** R and Python, reproducible analysis, version control with Git/GitHub, dashboards, and AI/ML methods used responsibly.
 - **Professional:** scientific writing, giving talks, building posters, presenting at conferences, and communicating science bilingually to non-specialist audiences.
 - **Human:** career guidance, collaboration, feedback, mentoring others, and navigating team science.
+- **Ethical:** research integrity, data governance, responsible AI, and strategic self-presentation.
+- **Project management:** planning, delegation, timelines, and ownership of research products.
+- **Career development:** grant-writing, networking, and building a path toward your next step after RIPLRT.
+- **Equity:** understanding and addressing health disparities, building an inclusive research culture, and translating science in ways that serve the communities most affected by environmental health risks.
+- **Grant-writing:** contributing to the grant process, from preliminary data and figures to specific aims and biosketches, and pursuing fellowships and trainee awards.
+- **Strategic communication:** framing your work and the group's work in ways that lead with credentials and institutional value, not personal advancement, and that position new work as a forward progression rather than a reprise.
+- **Strategic self-presentation:** building a professional identity that is credential-forward and self-decentered, able to survive scrutiny without sounding defensive.
+- **Strategic mindset:** approaching your work with a growth mindset, learning in public, and embracing the idea that mistakes are part of the process and hiding them is the only unrecoverable error.
+- **Strategic braing
+- **Other skills** that you identify as important to your growth and development.
 
 ## Our entity structure {#sec-entity-structure}
 
@@ -26,17 +36,16 @@ Understanding who we legally are matters because it determines whose policy, who
 - **Felix E. Rivera-Mariani, PhD, LLC** — the parent entity (FL #L21000280781; PR #467494). All RIPLRT Institute activity operates under
   this LLC.
 - **RIPLRT Institute** — *A Respiratory and Immunology Project and Laboratory Research Team.* A scientific research-and-mentoring **DBA** of Felix  
-  E. Rivera-Mariani, PhD, LLC. The Institute is **not** a department, lab, or
-  administrative unit of Lynn University.
+  E. Rivera-Mariani, PhD, LLC. The Institute is **not** a department, lab, or administrative unit of Lynn University.
 - **Educational Biomarker Discovery Lab (EBDL)** — the branch through which RIPLRT research is conducted *within* Lynn University. EBDL work is  
   governed by Lynn University policy, IRB, and sponsor terms.
 - **Lynn University** — institutional home of the EBDL and of Lynn-affiliated members.
 - **University of Puerto Rico (UPR)** — collaborating institution. UPR-affiliated mentees are mentored under the RIPLRT Institute but remain 
-  governed by UPR institutional policy and IRB, and by any applicable collaboration or data-use agreement.
+  governed by UPR institutional policy and IRB, and by any applicable collaboration or data-use agreement. Dr. Rivera-Mariani holds a secondary appointment (Associate Professor, Ad Honorem) at Department of Microbiology and Immunology of the School of Medicine of the University of Puerto Rico (UPR) Medical Sciences Campus, which serves as the IRB of record for some projects.
 
 ::: {.callout-important}
 ## Which umbrella are you under?
-- **Lynn University students and trainees** (undergraduate and graduate) work under the **EBDL** umbrella and follow Lynn University policy and IRB.
+- **Lynn University students and trainees** (undergraduate, graduate, early-career scientists) work under the **EBDL** umbrella and follow Lynn University policy and IRB.
 - **UPR-affiliated, other external, or independent mentees** (undergraduate, graduate, early-career scientists) are mentored **directly under the RIPLRT Institute** and remain governed by their home institution's policies.
 
 If you are unsure which applies to you, confirm with the PI before you begin project work or touch data. See @sec-data-governance and @sec-onboarding.
@@ -44,11 +53,11 @@ If you are unsure which applies to you, confirm with the PI before you begin pro
 
 ## What you can expect from us
 
-- A clear sense of how your work connects to the group's mission.
+- A clear sense of how your work connects to the RIPLRT's mission.
 - A mentor and a defined development pathway, not just a task list.
-- Honest, timely, and kind feedback.
+- Honest, timely, constructive, and kind feedback.
 - Credit for your contributions, governed by transparent authorship rules (see @sec-authorship).
-- A psychologically safe environment where you can ask "naive" questions and disagree with the PI without fear.
+- A psychologically safe environment where you can ask "naive" questions and disagree with the PI, and peers, without fear.
 - Support for your growth, including conference travel, professional development, and help with next steps after RIPLRT.
 
 ## What we expect from you
@@ -58,15 +67,17 @@ If you are unsure which applies to you, confirm with the PI before you begin pro
 - **Learn in public.** Own mistakes quickly; we fix them together. Hiding a mistake is the only unrecoverable error.
 - **Respect people's time** — show up to meetings prepared, meet deadlines, and renegotiate responsibly when life intervenes.
 - **Protect integrity and privacy.** Follow our data governance, IRB, and authorship rules without exception.
+- **Be a good teammate.** Communicate openly, give and receive feedback, and help each other.
+- **Be a person.** We are scientists, but we are also people with lives outside the lab. Bring your whole self, and respect others' whole selves.
 - **Help each other.** What is done in isolation is usually done better in partnership.
 
 ## How this manual came to be
 
-This manual is the **2026 Edition (v2.0)**. It is the direct descendant of the 2018 RIPLRT Lab Manual and its 2021 revision, which were inspired by the open lab-manual movement and built reproducibly in R. We have preserved the parts that made the original strong — the welcoming tone, our values, our commitment to integrity, open science, reproducibility, and clear authorship — and modernized everything else for who we are now: a hybrid computational and translational research group at Lynn University, operating across the RIPLRT Institute and affiliated entities.
+This manual is the **2026 Edition (v2.0)**. It is the direct descendant of the 2018 RIPLRT Lab Manual and its 2021 revision, which were inspired by the open lab-manual movement and built reproducibly in [R](https://www.r-project.org/) and [Quarto](https://quarto.org/). We have preserved the parts that made the original strong — the welcoming tone, our values, our commitment to integrity, open science, reproducibility, and clear authorship — and modernized everything else for who we are now: a hybrid computational and translational research and mentoring group operating across the RIPLRT Institute and affiliated entities.
 
 ::: {.callout-note}
 ## A living document
 This manual is a work in progress, and that is by design. If something is unclear, outdated, or missing, that is an invitation to improve it. Talk to the PI, your mentor, or any group lead — or open a GitHub issue. See `CONTRIBUTING.md`.
 :::
 
-Welcome to RIPLRT. Let's get to work.
+Welcome to RIPLRT. Let's get to work!
