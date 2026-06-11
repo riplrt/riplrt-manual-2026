@@ -10,3 +10,8 @@ These are the authoritative, standalone policy documents for the RIPLRT Institut
 | Data Governance | Ch. 11 | `data-governance.qmd` |
 | Responsible AI Use | Ch. 13 | `responsible-ai-use.qmd` |
 | Code of Conduct | (repo root) | `code-of-conduct.qmd` → see `CODE_OF_CONDUCT.md` |
+
+::: {.callout-note}
+## Scope and governing authority
+These policies apply to all RIPLRT Institute members. For work conducted under the **Educational Biomarker Discovery Lab at Lynn University**, Lynn University policy, IRB, and sponsor terms govern and **supersede** these policies wherever they conflict. For work conducted under the **RIPLRT Institute** outside Lynn University, the governing terms are those of **Felix E. Rivera-Mariani, PhD, LLC** and any applicable sponsor, partner, or **UPR** collaboration agreement. See @sec-entity-structure.
+:::
