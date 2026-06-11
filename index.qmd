@@ -34,11 +34,11 @@ Our scientific through-line is:
 
 ## A note on tone
 
-We are a serious research group **and** a humane mentoring environment. Those are not in tension. We use "we" language because the lab belongs to all of us — it is *our* research group, not only the PI's. We state expectations directly because clarity is a form of respect. And we assume good faith, because that is how trust is built and how science gets done.
+We are a serious research organization **and** a humane mentoring environment. Those are not in tension. We use "we" language because the lab belongs to all of us — it is *our* research group, not only the PI's. We state expectations directly because clarity is a form of respect. And we assume good faith, because that is how trust is built and how science gets done.
 
 ::: {.callout-tip}
 ## Suggest a change
-This manual improves because members improve it. See `CONTRIBUTING.md` for how to propose edits via GitHub issues or pull requests, or raise it in a weekly huddle. Every contributor is acknowledged in the changelog.
+This manual improves because members improve it. See `CONTRIBUTING.md` for how to propose edits via GitHub issues or pull requests, or raise it in a weekly (bi-weekly or unscheduled) huddle. Every contributor is acknowledged in the changelog.
 :::
 
 ---
