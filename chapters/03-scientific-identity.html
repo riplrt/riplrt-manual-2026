@@ -647,10 +647,10 @@ window.Quarto = {
 <p>Our portfolio is large, but it is not scattered. Every project sits somewhere on a single chain:</p>
 <ol type="1">
 <li><strong>Exposure Science</strong> — We measure and interpret environmental signals: bioaerosols and fungal spores, airway microbiome/mycobiome signatures, <span class="math inline">\(PM_{2.5}\)</span>, <span class="math inline">\(NO_2\)</span>, chemical and physical pollutants, meteorology, and wearable exposure streams.</li>
-<li><strong>Immune Bioactivity</strong> — We connect those exposures to immune and inflammatory biomarkers and to biological response.</li>
-<li><strong>Computational Forecasting</strong> — We use AI/ML, distributed lag models, mixed-effects models, and equity-aware metrics to forecast exposure-linked respiratory risk windows.</li>
+<li><strong>Immune and Biochemical Bioactivity</strong> — We connect those exposures to immune and inflammatory biomarkers and to biological and biochemical responses and pathways.</li>
+<li><strong>Computational Modeling</strong> — We use AI/ML, distributed lag models, mixed-effects models, and equity-aware metrics to forecast exposure-linked respiratory risk windows. We also use computational methods to discover and interpret biomarker signatures of exposure and risk, and bioinformatic methods to link those signatures to biological pathways and potential therapeutic targets.</li>
 <li><strong>Equity-Focused Translation</strong> — We convert forecasts into clinician-facing dashboards, community risk briefs, public-health playbooks, and peer-reviewed science.</li>
-<li><strong>Inclusive Workforce Development</strong> — Across all of the above, mentees are embedded as active contributors, building an inclusive workforce in immunology, exposure science, respiratory health, computational biology, and data science.</li>
+<li><strong>Inclusive Workforce Development</strong> — Across all of the above, mentees are embedded as active contributors, building an inclusive workforce in immunology, exposure science, environmental and respiratory health, computational biology, and data science.</li>
 </ol>
 <p>When you describe your project, locate it on this chain. It clarifies your aims, your collaborators, and your authorship plan.</p>
 </section>
@@ -658,19 +658,41 @@ window.Quarto = {
 <h2 data-number="4.3" class="anchored" data-anchor-id="the-central-narrative-community-to-clinic-to-cloud"><span class="header-section-number">4.3</span> The central narrative: Community-to-Clinic-to-Cloud</h2>
 <div class="cell" data-layout-align="default">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>flowchart LR</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    A[Community&lt;br/&gt;Environmental signals:&lt;br/&gt;spores, pollutants, meteorology] --&gt; B[Clinic&lt;br/&gt;Clinical, claims, pharmacy,&lt;br/&gt;biomarker outcomes]</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    B --&gt; C[Cloud&lt;br/&gt;Reproducible pipelines,&lt;br/&gt;AI/ML forecasting,&lt;br/&gt;equity-aware metrics]</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    C --&gt; D[Translation&lt;br/&gt;Dashboards, risk briefs,&lt;br/&gt;playbooks, manuscripts]</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    D --&gt; A</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    A["&lt;b&gt;1 · Exposure Science&lt;/b&gt;&lt;br/&gt;Community&lt;br/&gt;Bioaerosols and fungal spores · airway microbiome/mycobiome · PM2.5 · NO2 · chemical and physical pollutants · meteorology · wearable exposure streams"]</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    B["&lt;b&gt;2 · Immune and Biochemical Bioactivity&lt;/b&gt;&lt;br/&gt;Clinic&lt;br/&gt;Immune and inflammatory biomarkers · biological and biochemical responses and pathways · clinical, claims, pharmacy, and biomarker outcomes"]</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    C["&lt;b&gt;3 · Computational Modeling&lt;/b&gt;&lt;br/&gt;Cloud&lt;br/&gt;AI/ML · distributed-lag and mixed-effects models · equity-aware metrics · biomarker-signature discovery · bioinformatic pathway and target linkage · reproducible pipelines"]</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    D["&lt;b&gt;4 · Equity-Focused Translation&lt;/b&gt;&lt;br/&gt;Clinician dashboards · community risk briefs · public-health playbooks · peer-reviewed science"]</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    E["&lt;b&gt;5 · Inclusive Workforce Development&lt;/b&gt;&lt;br/&gt;Mentees embedded as active contributors across every stage — immunology, exposure science, environmental and respiratory health, computational biology, and data science"]</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    A --&gt; B --&gt; C --&gt; D</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    D -.-&gt;|"feeds back to community"| A</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    E -.-&gt; A</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    E -.-&gt; B</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    E -.-&gt; C</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    E -.-&gt; D</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    classDef cross stroke-dasharray:6 4,stroke-width:1.5px;</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    class E cross;</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div>
 <p></p><figure class="figure"><p></p>
 <div>
 <pre class="mermaid mermaid-js">flowchart LR
-    A[Community&lt;br/&gt;Environmental signals:&lt;br/&gt;spores, pollutants, meteorology] --&gt; B[Clinic&lt;br/&gt;Clinical, claims, pharmacy,&lt;br/&gt;biomarker outcomes]
-    B --&gt; C[Cloud&lt;br/&gt;Reproducible pipelines,&lt;br/&gt;AI/ML forecasting,&lt;br/&gt;equity-aware metrics]
-    C --&gt; D[Translation&lt;br/&gt;Dashboards, risk briefs,&lt;br/&gt;playbooks, manuscripts]
-    D --&gt; A
+    A["&lt;b&gt;1 · Exposure Science&lt;/b&gt;&lt;br/&gt;Community&lt;br/&gt;Bioaerosols and fungal spores · airway microbiome/mycobiome · PM2.5 · NO2 · chemical and physical pollutants · meteorology · wearable exposure streams"]
+    B["&lt;b&gt;2 · Immune and Biochemical Bioactivity&lt;/b&gt;&lt;br/&gt;Clinic&lt;br/&gt;Immune and inflammatory biomarkers · biological and biochemical responses and pathways · clinical, claims, pharmacy, and biomarker outcomes"]
+    C["&lt;b&gt;3 · Computational Modeling&lt;/b&gt;&lt;br/&gt;Cloud&lt;br/&gt;AI/ML · distributed-lag and mixed-effects models · equity-aware metrics · biomarker-signature discovery · bioinformatic pathway and target linkage · reproducible pipelines"]
+    D["&lt;b&gt;4 · Equity-Focused Translation&lt;/b&gt;&lt;br/&gt;Clinician dashboards · community risk briefs · public-health playbooks · peer-reviewed science"]
+    E["&lt;b&gt;5 · Inclusive Workforce Development&lt;/b&gt;&lt;br/&gt;Mentees embedded as active contributors across every stage — immunology, exposure science, environmental and respiratory health, computational biology, and data science"]
+
+    A --&gt; B --&gt; C --&gt; D
+    D -.-&gt;|"feeds back to community"| A
+    E -.-&gt; A
+    E -.-&gt; B
+    E -.-&gt; C
+    E -.-&gt; D
+
+    classDef cross stroke-dasharray:6 4,stroke-width:1.5px;
+    class E cross;
 </pre>
 </div>
 <p></p></figure><p></p>
@@ -686,11 +708,11 @@ window.Quarto = {
 </section>
 <section id="where-the-science-lives-data-and-methods" class="level2" data-number="4.4">
 <h2 data-number="4.4" class="anchored" data-anchor-id="where-the-science-lives-data-and-methods"><span class="header-section-number">4.4</span> Where the science lives: data and methods</h2>
-<p>Our near-term implementation cycle emphasizes <strong>real-world and computational validation</strong> using existing surveillance, claims/pharmacy, and biomarker-rich repositories rather than new ex vivo functional assays. Core resources include:</p>
+<p>Our near-term implementation cycle emphasizes <strong>real-world and computational validation</strong> using existing surveillance, claims/pharmacy, and biomarker-rich repositories rather than only new ex vivo functional assays. Core resources include:</p>
 <ul>
 <li><strong>Surveillance &amp; claims:</strong> Puerto Rico fungal-spore and respiratory-virus surveillance; incoming PR Department of Health / ASES claims and pharmacy data.</li>
 <li><strong>National repositories:</strong> BioLINCC, BioData Catalyst, <em>All of Us</em>, MESA, Framingham, AsthmaNet, and NHANES.</li>
-<li><strong>Methods:</strong> AI/ML, distributed lag models, mixed-effects models, GWAS and polygenic risk scores, SHAP explainability, causal mediation analysis, multi-agent AI architectures, and equity-aware performance metrics — all within a reproducibility and equity-stratified analysis framework.</li>
+<li><strong>Methods:</strong> AI/ML, distributed lag models, mixed-effects models, GWAS and polygenic risk scores, SHAP explainability, causal mediation analysis, multi-agent AI architectures, and equity-aware performance metrics (among others) — all within a reproducibility and equity-stratified analysis framework.</li>
 </ul>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -708,7 +730,7 @@ window.Quarto = {
 </section>
 <section id="why-equity-is-structural-not-symbolic" class="level2" data-number="4.5">
 <h2 data-number="4.5" class="anchored" data-anchor-id="why-equity-is-structural-not-symbolic"><span class="header-section-number">4.5</span> Why equity is structural, not symbolic</h2>
-<p>The communities we study — in Puerto Rico, the Caribbean, and coastal regions — face converging climate, bioaerosol, pollution, and respiratory-health challenges and are often under-resourced and underrepresented in research. Equity is therefore built into the science itself: we stratify analyses by community, age, sex, and other relevant axes; we report equity-stratified performance; and we translate findings into bilingual materials communities can actually use. Equity is a design requirement of our pipelines, not a line in a diversity statement.</p>
+<p>The communities we study — in Puerto Rico, the Caribbean, and coastal regions — face converging extreme weather, bioaerosol, pollution, and respiratory-health challenges and are often under-resourced and underrepresented in research. Equity is therefore built into the science itself: we stratify analyses by community, age, sex, and other relevant axes; we report equity-stratified performance; and we translate findings into bilingual materials communities can actually use. Equity is a design requirement of our pipelines, not a line in a diversity statement.</p>
 
 
 </section>
