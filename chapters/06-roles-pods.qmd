@@ -40,13 +40,28 @@ Assists the PI in running the group: coordinating meetings and agendas, overseei
 Carry out core analysis and writing, mentor more junior members, generate research questions, and help maintain reproducibility standards. Often serve as **project leads** (below).
 
 ### Graduate Students
-Drive projects, learn methods quickly, mentor undergraduates, generate questions, and pursue professional development they identify themselves as well as opportunities the PI surfaces.
+Drive projects, learn methods quickly, mentor undergraduates, generate questions, and pursue professional development they identify themselves as well as opportunities the PI surfaces. Graduate members who complete their degrees may continue with us as **Graduate Research Alumni Fellows** (below).
 
 ### Undergraduate Interns / Trainees
-Learn skills and procedures, contribute to defined project tasks, and pursue professional development. Every trainee is mentored and mapped to a real deliverable.
+Learn skills and procedures, contribute to defined project tasks, and pursue professional development. Every trainee is mentored and mapped to a real deliverable. Trainees who complete their time with us may continue as **Research Alumni Fellows** (below).
+
+### Alumni Fellows and Continuing Collaborators
+Completing your time as a trainee does not mean leaving the group. These roles keep alumni connected as continuing contributors and mentors, and they are the living evidence of our through-line's final stage — *Inclusive Workforce Development*. Fellow status is recorded in the member directory and confirmed at annual review (@sec-annual-review), so it is always clear who is an active affiliate. Because most fellows are no longer at Lynn University, or affiliated institutions, they are typically mentored and contribute **RIPLRT-direct**, governed by their current home institution (@sec-entity-structure); their authorship is decided under the same contribution standards as everyone else (Ch. 14), and any data access follows the per-project IRB and data-use terms (@sec-data-governance).
+
+#### Research Alumni Fellows
+Former undergraduate trainees (and comparable early-career alumni) who remain affiliated after completing their time with the group. They continue to contribute to manuscripts and projects they helped build, mentor current trainees, and represent the group as they move into graduate study or careers. Typically part-time or remote.
+
+#### Graduate Research Alumni Fellows
+Graduate alumni who continue collaborating after completing their degrees. They co-author, advise on methods, help train newer members, and often bridge the group to their new institutions and networks.
+
+#### Postdoctoral Collaborating Mentees and Fellows
+Postdoctoral-level collaborators who both *receive* mentorship — career growth and the path to independence — and *provide* senior expertise to projects and to junior members. They frequently serve as **project leads** and co-mentors.
 
 ### Mentors and Mentees
-Mentoring is woven through every role (@sec-mentoring). Mentors are the first line of support for ensuring mentees understand and follow this manual.
+Mentoring is woven through every role (@sec-mentoring). Mentors are the first line of support for ensuring mentees understand and follow this manual. Alumni fellows are explicitly part of this fabric: they are mentored as they continue to grow, and they mentor those coming up behind them.
+
+### Faculty Collaborators
+Peer faculty and senior scientists — at Lynn University, the University of Puerto Rico, and other partner institutions — who collaborate on the group's research as co-investigators, co-PIs, or co-mentors. They contribute scientific direction, domain expertise, data or field sites, and shared mentorship of trainees, and they co-author under the same contribution standards as everyone else (Ch. 14). Collaborators remain governed by their own institutions; where a collaboration involves shared data, human subjects, or funding, the governing IRB, data-use agreement, and entity are confirmed per project (@sec-entity-structure, @sec-data-governance). Faculty collaborators are **partners in the work, not part of the group's internal reporting line** — the role is peer-to-peer.
 
 ::: {.callout-note}
 ## Flexible, not punitive
