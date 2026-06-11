@@ -2,11 +2,11 @@
 title: "History and Evolution of RIPLRT"
 ---
 
-Knowing where we came from helps you understand why we work the way we do. RIPLRT has evolved through distinct phases, and the current group is the most recent expression of a consistent through-line.
+Knowing where we came from helps you understand why we work the way we do. The RIPLRT has evolved through distinct phases, and the current RIPLRT Institute is the most recent expression of a consistent through-line.
 
 ## Origins (2018–2021): the wet-lab phase
 
-RIPLRT began as the **Respiratory and Immunology Project and Laboratory Research Team** within a College of Biomedical Sciences setting. The early group was organized around wet-lab immunology: human-based immuno-physiological approaches, molecular biology, and the immune effects of airborne pollutants crossing the respiratory barrier in susceptible people — those with asthma, respiratory allergies, and other chronic respiratory conditions.
+RIPLRT began as the **Respiratory and Immunology Project and Laboratory Research Team** within a College of Biomedical Sciences setting. The early group was organized around wet-lab immunology: human-based immuno-physiological approaches, molecular biology, and the immune effects of airborne pollutants crossing the respiratory barrier in susceptible people — those with asthma, respiratory allergies, and other chronic respiratory conditions. The group was small, focused on a few projects, and centered around the PI's bench work. The mission was to understand how environmental exposures shape respiratory and immune health, with a focus on Puerto Rico's unique environmental and health context. An example of this work can be found [here](https://www.nature.com/articles/s41370-025-00835-6).
 
 Even in this phase, the group built infrastructure that was ahead of its time:
 
@@ -15,18 +15,20 @@ Even in this phase, the group built infrastructure that was ahead of its time:
 - Clear **vision, mission, and core values**, role definitions, scientific-integrity policy, IRB/CITI compliance, and ICMJE-based authorship.
 - A culture of **inclusive mentoring** and student development.
 
-We acknowledge the past members and writing mentors who built that foundation — it is the backbone of this manual.
+We acknowledge the past members who built that foundation — it is the backbone of this manual.
 
 ## Transition (2021–2024): from bench to hybrid
 
 Over this period the group's center of gravity shifted from the bench toward a **hybrid computational and translational model**. Several forces drove this:
 
 - The rise of large, biomarker-rich public repositories and surveillance datasets.
+- Biomarker discovery and interpretation as a key to understanding exposure-health links.
+- The need to translate insights into **population-level forecasting and decision-support tools**.
 - Maturation of reproducible analytics and AI/ML methods.
 - A strategic decision to scale impact through **population-level forecasting** and **repository-based discovery** alongside molecular work.
 - A broadening geographic frame to Puerto Rico, the Caribbean basin, and the southern coastal United States.
 
-## The RIPLRT Institute (2026–): a senior, group-centered program
+## The RIPLRT Institute (2026–): a senior, group-centered institute
 
 Today, RIPLRT operates as the **RIPLRT Institute** — a senior, group-centered research program rather than a collection of individual projects. The work now spans scales from molecular immune modeling to population-level epidemiological surveillance, integrated through reproducible pipelines and equity-stratified analysis.
 
@@ -41,6 +43,6 @@ Exact entity names, IRB-of-record, and data-use authorities vary by project. Pro
 
 Across every phase, one thing has not changed: **the through-line.**
 
-> Exposure Science → Immune Bioactivity → Computational Forecasting → Equity-Focused Translation → Inclusive Workforce Development
+> Exposure Science → Immune and Biochemical Bioactivity → Computational Forecasting → Equity-Focused Translation → Inclusive Workforce Development
 
 The methods have evolved from pipettes to pipelines, but the mission — understanding environmental drivers of respiratory and immune health and translating that understanding into equity — has been the constant since day one. This manual modernizes the *how* while protecting the *why*.
