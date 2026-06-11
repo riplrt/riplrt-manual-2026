@@ -15,10 +15,10 @@ If you can say this from memory, you can explain RIPLRT to a dean, a reviewer, a
 Our portfolio is large, but it is not scattered. Every project sits somewhere on a single chain:
 
 1. **Exposure Science** — We measure and interpret environmental signals: bioaerosols and fungal spores, airway microbiome/mycobiome signatures, $PM_{2.5}$, $NO_2$, chemical and physical pollutants, meteorology, and wearable exposure streams.
-2. **Immune Bioactivity** — We connect those exposures to immune and inflammatory biomarkers and to biological response.
-3. **Computational Forecasting** — We use AI/ML, distributed lag models, mixed-effects models, and equity-aware metrics to forecast exposure-linked respiratory risk windows.
+2. **Immune and Biochemical Bioactivity** — We connect those exposures to immune and inflammatory biomarkers and to biological and biochemical responses and pathways.
+3. **Computational Modeling** — We use AI/ML, distributed lag models, mixed-effects models, and equity-aware metrics to forecast exposure-linked respiratory risk windows. We also use computational methods to discover and interpret biomarker signatures of exposure and risk, and bioinformatic methods to link those signatures to biological pathways and potential therapeutic targets.
 4. **Equity-Focused Translation** — We convert forecasts into clinician-facing dashboards, community risk briefs, public-health playbooks, and peer-reviewed science.
-5. **Inclusive Workforce Development** — Across all of the above, mentees are embedded as active contributors, building an inclusive workforce in immunology, exposure science, respiratory health, computational biology, and data science.
+5. **Inclusive Workforce Development** — Across all of the above, mentees are embedded as active contributors, building an inclusive workforce in immunology, exposure science, environmental and respiratory health, computational biology, and data science.
 
 When you describe your project, locate it on this chain. It clarifies your aims, your collaborators, and your authorship plan.
 
@@ -26,10 +26,21 @@ When you describe your project, locate it on this chain. It clarifies your aims,
 
 ```{mermaid}
 flowchart LR
-    A[Community<br/>Environmental signals:<br/>spores, pollutants, meteorology] --> B[Clinic<br/>Clinical, claims, pharmacy,<br/>biomarker outcomes]
-    B --> C[Cloud<br/>Reproducible pipelines,<br/>AI/ML forecasting,<br/>equity-aware metrics]
-    C --> D[Translation<br/>Dashboards, risk briefs,<br/>playbooks, manuscripts]
-    D --> A
+    A["<b>1 · Exposure Science</b><br/>Community<br/>Bioaerosols and fungal spores · airway microbiome/mycobiome · PM2.5 · NO2 · chemical and physical pollutants · meteorology · wearable exposure streams"]
+    B["<b>2 · Immune and Biochemical Bioactivity</b><br/>Clinic<br/>Immune and inflammatory biomarkers · biological and biochemical responses and pathways · clinical, claims, pharmacy, and biomarker outcomes"]
+    C["<b>3 · Computational Modeling</b><br/>Cloud<br/>AI/ML · distributed-lag and mixed-effects models · equity-aware metrics · biomarker-signature discovery · bioinformatic pathway and target linkage · reproducible pipelines"]
+    D["<b>4 · Equity-Focused Translation</b><br/>Clinician dashboards · community risk briefs · public-health playbooks · peer-reviewed science"]
+    E["<b>5 · Inclusive Workforce Development</b><br/>Mentees embedded as active contributors across every stage — immunology, exposure science, environmental and respiratory health, computational biology, and data science"]
+
+    A --> B --> C --> D
+    D -.->|"feeds back to community"| A
+    E -.-> A
+    E -.-> B
+    E -.-> C
+    E -.-> D
+
+    classDef cross stroke-dasharray:6 4,stroke-width:1.5px;
+    class E cross;
 ```
 
 - **Community:** We measure environmental signals where people live, work, and breathe.
@@ -39,11 +50,11 @@ flowchart LR
 
 ## Where the science lives: data and methods
 
-Our near-term implementation cycle emphasizes **real-world and computational validation** using existing surveillance, claims/pharmacy, and biomarker-rich repositories rather than new ex vivo functional assays. Core resources include:
+Our near-term implementation cycle emphasizes **real-world and computational validation** using existing surveillance, claims/pharmacy, and biomarker-rich repositories rather than only new ex vivo functional assays. Core resources include:
 
 - **Surveillance & claims:** Puerto Rico fungal-spore and respiratory-virus surveillance; incoming PR Department of Health / ASES claims and pharmacy data.
 - **National repositories:** BioLINCC, BioData Catalyst, *All of Us*, MESA, Framingham, AsthmaNet, and NHANES.
-- **Methods:** AI/ML, distributed lag models, mixed-effects models, GWAS and polygenic risk scores, SHAP explainability, causal mediation analysis, multi-agent AI architectures, and equity-aware performance metrics — all within a reproducibility and equity-stratified analysis framework.
+- **Methods:** AI/ML, distributed lag models, mixed-effects models, GWAS and polygenic risk scores, SHAP explainability, causal mediation analysis, multi-agent AI architectures, and equity-aware performance metrics (among others) — all within a reproducibility and equity-stratified analysis framework.
 
 ::: {.callout-important}
 ## Identity discipline
@@ -52,4 +63,4 @@ We frame new work as a **forward progression**, not a repetition of past work. E
 
 ## Why equity is structural, not symbolic
 
-The communities we study — in Puerto Rico, the Caribbean, and coastal regions — face converging climate, bioaerosol, pollution, and respiratory-health challenges and are often under-resourced and underrepresented in research. Equity is therefore built into the science itself: we stratify analyses by community, age, sex, and other relevant axes; we report equity-stratified performance; and we translate findings into bilingual materials communities can actually use. Equity is a design requirement of our pipelines, not a line in a diversity statement.
+The communities we study — in Puerto Rico, the Caribbean, and coastal regions — face converging extreme weather, bioaerosol, pollution, and respiratory-health challenges and are often under-resourced and underrepresented in research. Equity is therefore built into the science itself: we stratify analyses by community, age, sex, and other relevant axes; we report equity-stratified performance; and we translate findings into bilingual materials communities can actually use. Equity is a design requirement of our pipelines, not a line in a diversity statement.
