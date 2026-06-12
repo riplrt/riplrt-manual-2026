@@ -30,6 +30,7 @@ Naming these explicitly — even just to yourself before the conversation — de
 ## Practical conflict-resolution steps
 
 ```{mermaid}
+%%| echo: false
 flowchart TB
     A[Notice friction early] --> B[Direct 1:1 conversation<br/>curious, specific, kind]
     B --> C{Resolved?}
