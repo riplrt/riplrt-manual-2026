@@ -19,14 +19,14 @@ Among other products not yet listed here.
 
 ### Ownership of research products {#sec-ip-ownership}
 
-Datasets, code, dashboards, models, and other products carry **ownership and intellectual-property (IP) implications that follow the umbrella under which they were created and the resources used** (@sec-entity-structure). Get this right *before* a product with potential value is built.
+Datasets, code, dashboards, models, and other products carry ownership and intellectual-property (IP) implications that follow the umbrella under which they were created and the resources used (@sec-entity-structure). Get this right *before* a product with potential value is built.
 
 General principles (confirm specifics before relying on them):
 
-- **Products created within Lynn University** — by Lynn-employed personnel, or using Lynn resources, time, or funding — are subject to **Lynn University's IP policy**, which may assign ownership or co-ownership to the University. Do not assume a Lynn-built product belongs to RIPLRT or the LLC.
-- **Products created under the RIPLRT Institute / LLC** outside Lynn employment and resources — including tools developed by **FERM Technologies** — are owned by **Felix E. Rivera-Mariani, PhD, LLC**, subject to any sponsor terms.
+- **Products created within Lynn University** — by Lynn-employed personnel, or using Lynn resources, time, or funding — are subject to Lynn University's IP policy, which may assign ownership or co-ownership to the University. Do not assume a Lynn-built product belongs to RIPLRT or the LLC.
+- **Products created under the RIPLRT Institute / LLC** outside Lynn employment and resources — including tools developed by FERM Technologies** — are owned by Felix E. Rivera-Mariani, PhD, LLC subject to any sponsor terms.
 - **UPR or external contributions** are subject to that institution's IP policy.
-- **Cross-umbrella products** (e.g., a Lynn student contributing to an LLC/FERM tool) require a **written ownership understanding agreed in advance** with all relevant institutions.
+- **Cross-umbrella products** (e.g., a Lynn student contributing to an LLC/FERM tool) require a written ownership understanding agreed in advance with all relevant institutions.
 
 ::: {.callout-warning}
 ## Before building anything with commercial or licensable value
@@ -43,8 +43,8 @@ Do not label a product as LLC/FERM-owned, or pursue licensing or commercializati
 
 ## Abstracts and posters
 
-- Abstracts are often a **mentee's first scholarly product** — treat them as real training, not filler.
-- Maintain a shared **abstract calendar** of society deadlines (AAAAI, AAI, ATS, SOT, ASM, ISES, ASBMB, ABRCMS, and others).
+- Abstracts are often a mentee's first scholarly product — treat them as real training, not filler.
+- Maintain a shared abstract calendar of society deadlines (AAAAI, AAI, ATS, SOT, ASM, ISES, ASBMB, ABRCMS, and others).
 - Posters reuse manuscript figures and the through-line narrative; keep a poster template and the group's visual identity in [assets](/assets).
 - Confirm authorship before submission; rehearse presentations as a pod.
 
@@ -53,7 +53,7 @@ Do not label a product as LLC/FERM-owned, or pursue licensing or commercializati
 Forecasting and decision tools (e.g., the RespRisk line described in the IAP) are flagship products:
 
 - Build them reproducibly, with documented thresholds, fairness/equity checks, and clear risk tiers (e.g., green/amber/red).
-- Co-develop with stakeholders; validate against real-world outcomes; report calibration, decision-curve utility, and **equity-stratified performance**.
+- Co-develop with stakeholders; validate against real-world outcomes; report calibration, decision-curve utility, and equity-stratified performance.
 - Version dashboards like code; never expose restricted data through a tool.
 
 ## Community briefs and bilingual communication
@@ -61,7 +61,7 @@ Forecasting and decision tools (e.g., the RespRisk line described in the IAP) ar
 These close the Community-to-Clinic-to-Cloud loop:
 
 - **Community risk briefs** translate forecasts into plain-language, actionable summaries for the communities the data come from.
-- Materials are **bilingual (Spanish/English)** so they reach the people they're about.
+- Materials are bilingual (Spanish/English) so they reach the people they're about.
 - Briefs get PI review and respect privacy and partner relationships.
 - Track real-world uptake (briefs issued, decisions supported, partner adoption) — impact is a product too.
 
@@ -69,11 +69,11 @@ These close the Community-to-Clinic-to-Cloud loop:
 
 Before anything leaves the group:
 
-- It is **reproducible** (or, for non-analytic products, traceable to reproducible work).
-- It **respects data governance, privacy, and DUAs.**
-- Its **authorship/contributorship is documented and agreed.**
-- It has been **reviewed** (peer within the pod + PI as appropriate).
-- It **advances a SMART goal and the through-line** — we make products on purpose, not just to be busy.
+- It is reproducible (or, for non-analytic products, traceable to reproducible work).
+- It respects data governance, privacy, and DUAs.
+- Its authorship/contributorship is documented and agreed.
+- It has been reviewed (peer within the pod + PI as appropriate).
+- It advances a SMART goal and the through-line — we make products on purpose, not just to be busy.
 
 ::: {.callout-tip}
 ## Products are also development
