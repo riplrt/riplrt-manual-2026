@@ -37,7 +37,7 @@ We standardize on a small, deliberate toolset so members can move between projec
 
 ::: {.callout-note}
 ## Placeholder: exact tool instances
-Specific accounts, workspace URLs, and license details (ClickUp workspace, GitHub org, Drive structure, REDCap instance, OSF projects) are confirmed during onboarding and recorded per project in the pod charter. Tooling may evolve; the *principles* (one source of truth, version control, reproducibility) do not.
+Specific accounts, workspace URLs, and license details (ClickUp workspace, GitHub org, Drive structure, Qualtrics or REDCap instance, OSF projects) are confirmed during onboarding and recorded per project in the pod charter. Tooling may evolve; the *principles* (one source of truth, version control, reproducibility) do not.
 :::
 
 ## Task hygiene
