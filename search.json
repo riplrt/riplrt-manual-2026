@@ -1533,7 +1533,7 @@
     "href": "templates/index.html",
     "title": "Appendix A — Templates",
     "section": "",
-    "text": "This appendix collects the reusable templates RIPLRT members use throughout a project’s life. Copy a template into your project space and fill it in — don’t edit the master here.\n\n\n\nTemplate\nUse when\nFile\n\n\n\n\nNew Member Onboarding Checklist\nSomeone joins\nNew Member Onboarding Checklist\n\n\nProject Pod Charter\nA project starts\nProject Pod Charter\n\n\nIndividual Development Plan (IDP)\nEach semester, per member\nIndividual Development Plan (IDP)\n\n\nStudent Research Plan\nA student scopes a project\nStudent Research Plan\n\n\nManuscript Planning Sheet\nBefore drafting a paper\nManuscript Planning Sheet\n\n\nAuthorship/Contributorship Agreement\nProject start; updated as roles change\nAuthorship/Contributorship Agreement\n\n\nData-Use & Access Checklist\nBefore touching project data\nData-Use & Access Checklist\n\n\nGitHub Repository Checklist\nNew repo setup\nGitHub Repository Checklist\n\n\nReproducible Analysis Checklist\nBefore any submission\nReproducible Analysis Checklist\n\n\nAI-Use Disclosure Form\nAny product with material AI assistance\nAI-Use Disclosure Form\n\n\nConference Abstract Planning Sheet\nBefore an abstract deadline\nConference Abstract Planning Sheet\n\n\nWeekly Meeting Agenda\nEvery pod meeting\nWeekly Meeting Agenda\n\n\nOne-on-One Mentoring Meeting\nBiweekly mentor↔︎mentee\nOne-on-One Mentoring Meeting\n\n\nStop/Start/Continue Feedback\nReviews and retrospectives\nStop/Start/Continue Feedback\n\n\nOffboarding Checklist\nSomeone leaves\nOffboarding Checklist",
+    "text": "The reusable templates RIPLRT members use throughout a project’s life are provided as downloadable PDFs. Download the one you need, print it or fill it on screen, and keep your copy in your project space — there’s no master to edit here.\n\n\n\nTemplate\nUse when\nDownload\n\n\n\n\nNew Member Onboarding Checklist\nSomeone joins\nPDF\n\n\nProject Pod Charter\nA project starts\nPDF\n\n\nIndividual Development Plan (IDP)\nEach semester, per member\nPDF\n\n\nStudent Research Plan\nA student scopes a project\nPDF\n\n\nManuscript Planning Sheet\nBefore drafting a paper\nPDF\n\n\nAuthorship / Contributorship Agreement\nProject start; updated as roles change\nPDF\n\n\nData-Use & Access Checklist\nBefore touching project data\nPDF\n\n\nGitHub Repository Checklist\nNew repo setup\nPDF\n\n\nReproducible Analysis Checklist\nBefore any submission\nPDF\n\n\nAI-Use Disclosure Form\nAny product with material AI assistance\nPDF\n\n\nConference Abstract Planning Sheet\nBefore an abstract deadline\nPDF\n\n\nWeekly Meeting Agenda\nEvery pod meeting\nPDF\n\n\nOne-on-One Mentoring Meeting\nBiweekly mentor↔︎mentee\nPDF\n\n\nStop / Start / Continue Feedback\nReviews and retrospectives\nPDF\n\n\nOffboarding Checklist\nSomeone leaves\nPDF\n\n\n\n\n\n\n\n\n\nTipEditing a template\n\n\n\nThe PDFs are generated from source files kept in the repository (/templates/*.qmd). To change a template, edit its source and regenerate the PDF, then commit both — see CONTRIBUTING.md. This keeps every member working from the same current version.",
     "crumbs": [
       "Appendices",
       "<span class='chapter-number'>A</span>  <span class='chapter-title'>Templates</span>"
@@ -1551,14 +1551,289 @@
     ]
   },
   {
-    "objectID": "forms/index.html",
-    "href": "forms/index.html",
-    "title": "Appendix C — Forms",
+    "objectID": "policies/authorship-contributorship.html",
+    "href": "policies/authorship-contributorship.html",
+    "title": "Appendix C — Authorship & Contributorship Policy",
     "section": "",
-    "text": "These are the sign-and-submit forms for the RIPLRT Institute. Unlike the working templates in /templates, forms are meant to be completed, signed (typed name + date is fine), and returned to the PI or a designated lead, then stored in the member’s record.\n\n\n\nForm\nSubmit when\nFile\n\n\n\n\nManual Acknowledgment Form\nWithin first 7 days; re-acknowledge at each annual review\nManual Acknowledgment Form\n\n\nOnboarding Checklist\nCompleted across the first 30 days\nOnboarding Checklist\n\n\nOffboarding Checklist\nCompleted in the final 2 weeks\nOffboarding Checklist\n\n\n\nMember affiliation (complete at intake):\n\nHome institution: ☐ Lynn University ☐ University of Puerto Rico ☐ Other: ________ ☐ Independent\nLevel: ☐ Undergraduate ☐ Graduate ☐ Postdoc / early-career ☐ Other: ________\nOperating umbrella: ☐ EBDL (Lynn) ☐ RIPLRT-direct\nIRB of record: ____________________ CITI completion date: ____________\n\nThis determines your IRB path, data-access rights, and byline affiliation (Section 2.2, Chapter 12).\n\n\n\n\n\n\nNotePlaceholder: where forms are stored\n\n\n\nThe exact submission destination (a private Google Drive / OneDrive folder, a REDCap form, or a signed PDF in the member’s file) is confirmed during onboarding. Keep completed forms — which contain names and signatures — out of any public version of this manual or its repository.\n\n\nThese forms intentionally mirror the working checklists in /templates (the Onboarding and Offboarding templates) so members can use the template to do the work and the form to record completion.",
+    "text": "C.1 1. Purpose\nStatus: Authoritative · Owner: PI · Review: Annually (authorship audit)\nTo assign credit for RIPLRT scholarly products fairly, transparently, and consistently, and to prevent disputes by deciding authorship early and documenting it.",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Forms</span>"
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Authorship & Contributorship Policy</span>"
+    ]
+  },
+  {
+    "objectID": "policies/authorship-contributorship.html#scope",
+    "href": "policies/authorship-contributorship.html#scope",
+    "title": "Appendix C — Authorship & Contributorship Policy",
+    "section": "C.2 2. Scope",
+    "text": "C.2 2. Scope\nAll scholarly products: manuscripts, abstracts, posters, presentations, reproducible notebooks, dashboards, briefs, and public-facing materials.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Authorship & Contributorship Policy</span>"
+    ]
+  },
+  {
+    "objectID": "policies/authorship-contributorship.html#authorship-standard-icmje",
+    "href": "policies/authorship-contributorship.html#authorship-standard-icmje",
+    "title": "Appendix C — Authorship & Contributorship Policy",
+    "section": "C.3 3. Authorship standard (ICMJE)",
+    "text": "C.3 3. Authorship standard (ICMJE)\nA person qualifies as an author only by meeting all four ICMJE criteria: 1. Substantial contributions to conception/design or acquisition/analysis/interpretation of data; 2. Drafting or critically revising for important intellectual content; 3. Final approval of the version to be published; 4. Agreement to be accountable for all aspects of the work.\nContributors not meeting all four are acknowledged, with their permission. Funding, supervision alone, or data collection alone do not, by themselves, confer authorship.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Authorship & Contributorship Policy</span>"
+    ]
+  },
+  {
+    "objectID": "policies/authorship-contributorship.html#contributorship-credit",
+    "href": "policies/authorship-contributorship.html#contributorship-credit",
+    "title": "Appendix C — Authorship & Contributorship Policy",
+    "section": "C.4 4. Contributorship (CRediT)",
+    "text": "C.4 4. Contributorship (CRediT)\nEvery product records contributions using the CRediT taxonomy. The Authorship/Contributorship Agreement template captures this at project start and is updated as roles change.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Authorship & Contributorship Policy</span>"
+    ]
+  },
+  {
+    "objectID": "policies/authorship-contributorship.html#author-order",
+    "href": "policies/authorship-contributorship.html#author-order",
+    "title": "Appendix C — Authorship & Contributorship Policy",
+    "section": "C.5 5. Author order",
+    "text": "C.5 5. Author order\n\nFirst author: led the intellectual/practical work.\nSenior (last) author: provided direction and holds accountability (typically the PI).\nMiddle authors: ordered by contribution, discussed openly.\nStudent-first pathway: when a mentee led the work, they receive first authorship. Developing mentees into first/co-first authors is an explicit group goal.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Authorship & Contributorship Policy</span>"
+    ]
+  },
+  {
+    "objectID": "policies/authorship-contributorship.html#process",
+    "href": "policies/authorship-contributorship.html#process",
+    "title": "Appendix C — Authorship & Contributorship Policy",
+    "section": "C.6 6. Process",
+    "text": "C.6 6. Process\n\nAuthorship is discussed and documented at project start (pod charter + agreement).\nThe plan is revisited at major milestones and at the annual authorship audit.\nChanges require discussion with affected contributors and PI sign-off.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Authorship & Contributorship Policy</span>"
+    ]
+  },
+  {
+    "objectID": "policies/authorship-contributorship.html#ai-tools",
+    "href": "policies/authorship-contributorship.html#ai-tools",
+    "title": "Appendix C — Authorship & Contributorship Policy",
+    "section": "C.7 7. AI tools",
+    "text": "C.7 7. AI tools\nAI tools are never authors — they cannot accept accountability. Material AI assistance is disclosed per the Responsible AI Use Policy and venue requirements.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Authorship & Contributorship Policy</span>"
+    ]
+  },
+  {
+    "objectID": "policies/authorship-contributorship.html#disputes",
+    "href": "policies/authorship-contributorship.html#disputes",
+    "title": "Appendix C — Authorship & Contributorship Policy",
+    "section": "C.8 8. Disputes",
+    "text": "C.8 8. Disputes\nRaised early and directly; mediated by the PI against the documented agreement. Because plans are written at the start, most disputes are prevented.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Authorship & Contributorship Policy</span>"
+    ]
+  },
+  {
+    "objectID": "policies/authorship-contributorship.html#acknowledgments-attributions",
+    "href": "policies/authorship-contributorship.html#acknowledgments-attributions",
+    "title": "Appendix C — Authorship & Contributorship Policy",
+    "section": "C.9 9. Acknowledgments & attributions",
+    "text": "C.9 9. Acknowledgments & attributions\nFunders, data providers, and repositories are acknowledged using the exact required language of each source. Conflicts of interest are disclosed per venue and institution.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Authorship & Contributorship Policy</span>"
+    ]
+  },
+  {
+    "objectID": "policies/data-governance.html",
+    "href": "policies/data-governance.html",
+    "title": "Appendix D — Data Governance Policy",
+    "section": "",
+    "text": "D.1 1. Principle\nStatus: Authoritative · Owner: PI + Data Stewards · Review: Annually (and whenever a DUA/IRB changes)\nAccess is a privilege tied to training, approval, and need. We collect the minimum, protect it rigorously, and honor every agreement that permits our use.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>D</span>  <span class='chapter-title'>Data Governance Policy</span>"
+    ]
+  },
+  {
+    "objectID": "policies/data-governance.html#authorization-required-before-any-data-access",
+    "href": "policies/data-governance.html#authorization-required-before-any-data-access",
+    "title": "Appendix D — Data Governance Policy",
+    "section": "D.2 2. Authorization (required before any data access)",
+    "text": "D.2 2. Authorization (required before any data access)\n\nCurrent CITI training appropriate to role.\nNamed on the approved IRB protocol for the project (human-subjects data).\nIRB-of-record confirmed per project (placeholder — varies by institution/partnership).\nRelevant Data Use Agreement (DUA) reviewed and understood.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>D</span>  <span class='chapter-title'>Data Governance Policy</span>"
+    ]
+  },
+  {
+    "objectID": "policies/data-governance.html#dataset-specific-rules",
+    "href": "policies/data-governance.html#dataset-specific-rules",
+    "title": "Appendix D — Data Governance Policy",
+    "section": "D.3 3. Dataset-specific rules",
+    "text": "D.3 3. Dataset-specific rules\nEach dataset (PR DoH/ASES claims & pharmacy; BioLINCC; BioData Catalyst; All of Us; MESA; Framingham; AsthmaNet; NHANES; surveillance data) carries its own DUA, access tier, analysis-environment requirement, and citation/acknowledgment text. The Data Steward owns compliance and completes the Data-Use & Access Checklist with each analyst.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>D</span>  <span class='chapter-title'>Data Governance Policy</span>"
+    ]
+  },
+  {
+    "objectID": "policies/data-governance.html#de-identification-hipaa-adjacent-handling",
+    "href": "policies/data-governance.html#de-identification-hipaa-adjacent-handling",
+    "title": "Appendix D — Data Governance Policy",
+    "section": "D.4 4. De-identification & HIPAA-adjacent handling",
+    "text": "D.4 4. De-identification & HIPAA-adjacent handling\n\nNever attempt re-identification of any individual.\nApply de-identification standards; respect small-cell suppression, especially in equity-stratified analyses.\nTreat claims/pharmacy/clinical data with PHI-level caution even when technically outside HIPAA.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>D</span>  <span class='chapter-title'>Data Governance Policy</span>"
+    ]
+  },
+  {
+    "objectID": "policies/data-governance.html#access-control-secure-storage",
+    "href": "policies/data-governance.html#access-control-secure-storage",
+    "title": "Appendix D — Data Governance Policy",
+    "section": "D.5 5. Access control & secure storage",
+    "text": "D.5 5. Access control & secure storage\n\nLeast privilege access.\nNo restricted/identifiable data in chat, email, personal devices/drives, or public repos.\nControlled-tier analysis stays inside the approved environment; no egress unless explicitly permitted.\nNo secrets in code (env vars + .gitignore).\nEncryption/backups per institutional policy.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>D</span>  <span class='chapter-title'>Data Governance Policy</span>"
+    ]
+  },
+  {
+    "objectID": "policies/data-governance.html#privacy-of-people",
+    "href": "policies/data-governance.html#privacy-of-people",
+    "title": "Appendix D — Data Governance Policy",
+    "section": "D.6 6. Privacy of people",
+    "text": "D.6 6. Privacy of people\n\nNo photos/videos of research participants — ever.\nGroup-member imagery requires consent before capture; public posting requires PI approval.\nProtect community-partner and participant privacy in all outputs.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>D</span>  <span class='chapter-title'>Data Governance Policy</span>"
+    ]
+  },
+  {
+    "objectID": "policies/data-governance.html#responsible-conduct",
+    "href": "policies/data-governance.html#responsible-conduct",
+    "title": "Appendix D — Data Governance Policy",
+    "section": "D.7 7. Responsible conduct",
+    "text": "D.7 7. Responsible conduct\n\nNo fabrication, falsification, or plagiarism.\nReproducible documentation of analyses.\nCOI disclosure per institutional policy.\nCompliance with sponsor and dataset publication/sharing terms.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>D</span>  <span class='chapter-title'>Data Governance Policy</span>"
+    ]
+  },
+  {
+    "objectID": "policies/data-governance.html#incident-response",
+    "href": "policies/data-governance.html#incident-response",
+    "title": "Appendix D — Data Governance Policy",
+    "section": "D.8 8. Incident response",
+    "text": "D.8 8. Incident response\nOn any suspected breach, access error, consent problem, or integrity concern: stop, notify the PI and Data Steward immediately, and document factually. Report-early, no-blame. Hiding a problem is the only unrecoverable error.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>D</span>  <span class='chapter-title'>Data Governance Policy</span>"
+    ]
+  },
+  {
+    "objectID": "policies/responsible-ai-use.html",
+    "href": "policies/responsible-ai-use.html",
+    "title": "Appendix E — Responsible AI Use Policy",
+    "section": "",
+    "text": "E.1 1. Principle\nStatus: Authoritative · Owner: PI · Review: Annually (fast-moving area)\nAI accelerates judgment; it never replaces it. Members are fully responsible for everything they submit, regardless of which tools assisted.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>E</span>  <span class='chapter-title'>Responsible AI Use Policy</span>"
+    ]
+  },
+  {
+    "objectID": "policies/responsible-ai-use.html#permitted-uses-with-care",
+    "href": "policies/responsible-ai-use.html#permitted-uses-with-care",
+    "title": "Appendix E — Responsible AI Use Policy",
+    "section": "E.2 2. Permitted uses (with care)",
+    "text": "E.2 2. Permitted uses (with care)\nCoding assistance; writing structure/clarity/bilingual phrasing; literature orientation and summarization of papers you then read; workflow automation and documentation.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>E</span>  <span class='chapter-title'>Responsible AI Use Policy</span>"
+    ]
+  },
+  {
+    "objectID": "policies/responsible-ai-use.html#prohibited-uses",
+    "href": "policies/responsible-ai-use.html#prohibited-uses",
+    "title": "Appendix E — Responsible AI Use Policy",
+    "section": "E.3 3. Prohibited uses",
+    "text": "E.3 3. Prohibited uses\n\nEntering restricted, identifiable, IRB-governed, claims/pharmacy/clinical, or DUA-controlled data into any external AI tool. (Treat prompt boxes as public.)\nPresenting unverified AI output as fact.\nLetting AI fabricate, alter, or “clean” data or results (research misconduct).\nSubmitting AI-assisted work you cannot understand or defend.\nListing AI tools as authors.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>E</span>  <span class='chapter-title'>Responsible AI Use Policy</span>"
+    ]
+  },
+  {
+    "objectID": "policies/responsible-ai-use.html#verification-mandatory",
+    "href": "policies/responsible-ai-use.html#verification-mandatory",
+    "title": "Appendix E — Responsible AI Use Policy",
+    "section": "E.4 4. Verification (mandatory)",
+    "text": "E.4 4. Verification (mandatory)\nIndependently verify all AI-touched citations (exist + support the claim), numbers/stats, code (read + test), and facts/methods (primary sources).",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>E</span>  <span class='chapter-title'>Responsible AI Use Policy</span>"
+    ]
+  },
+  {
+    "objectID": "policies/responsible-ai-use.html#disclosure",
+    "href": "policies/responsible-ai-use.html#disclosure",
+    "title": "Appendix E — Responsible AI Use Policy",
+    "section": "E.5 5. Disclosure",
+    "text": "E.5 5. Disclosure\n\nInternally: note material AI assistance in commits/notebooks/docs.\nFor products: complete the AI-Use Disclosure form and apply the target venue’s required AI-disclosure language and any prohibitions.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>E</span>  <span class='chapter-title'>Responsible AI Use Policy</span>"
+    ]
+  },
+  {
+    "objectID": "policies/responsible-ai-use.html#ai-and-trainees",
+    "href": "policies/responsible-ai-use.html#ai-and-trainees",
+    "title": "Appendix E — Responsible AI Use Policy",
+    "section": "E.6 6. AI and trainees",
+    "text": "E.6 6. AI and trainees\nAI is a tutor/assistant, not a substitute for skill-building. Mentors and mentees discuss AI use openly in IDPs/one-on-ones to ensure it accelerates — rather than replaces — learning.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>E</span>  <span class='chapter-title'>Responsible AI Use Policy</span>"
+    ]
+  },
+  {
+    "objectID": "policies/responsible-ai-use.html#the-defensibility-test",
+    "href": "policies/responsible-ai-use.html#the-defensibility-test",
+    "title": "Appendix E — Responsible AI Use Policy",
+    "section": "E.7 7. The defensibility test",
+    "text": "E.7 7. The defensibility test\nBefore submitting anything AI helped with: Could I explain and defend every claim, line of code, and citation as if no AI were involved? If not, the work is not finished.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>E</span>  <span class='chapter-title'>Responsible AI Use Policy</span>"
+    ]
+  },
+  {
+    "objectID": "policies/code-of-conduct.html",
+    "href": "policies/code-of-conduct.html",
+    "title": "Appendix F — Code of Conduct (policy copy)",
+    "section": "",
+    "text": "This is the in-book copy of the group’s Code of Conduct. The authoritative, repository-root version is CODE_OF_CONDUCT.md. If the two differ, the root file governs.\n\nSee CODE_OF_CONDUCT.md at the repository root for the full text, including our pledge, standards, scope, enforcement, and reporting pathways.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>F</span>  <span class='chapter-title'>Code of Conduct (policy copy)</span>"
+    ]
+  },
+  {
+    "objectID": "forms/index.html",
+    "href": "forms/index.html",
+    "title": "Appendix G — Forms",
+    "section": "",
+    "text": "These are the sign-and-submit forms for the RIPLRT Institute, provided as downloadable PDFs. Download the form, complete it (typed name + date is fine), and return it to the PI or a designated lead, who stores it in your member record.\n\n\n\nForm\nSubmit when\nDownload\n\n\n\n\nManual Acknowledgment Form\nWithin first 7 days; re-acknowledge at each annual review\nPDF\n\n\nOnboarding Checklist\nCompleted across the first 30 days\nPDF\n\n\nOffboarding Checklist\nCompleted in the final 2 weeks\nPDF\n\n\n\n\n\n\n\n\n\nNotePlaceholder: where forms are stored\n\n\n\nThe exact submission destination (a private Google Drive / OneDrive folder, a REDCap form, or a signed PDF in the member’s file) is confirmed during onboarding. Completed forms contain names and signatures — keep them out of any public version of this manual or its repository.\n\n\nThe Onboarding and Offboarding forms mirror the working checklists in the Templates appendix, so you can use the template to do the work and the form to record completion.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>G</span>  <span class='chapter-title'>Forms</span>"
     ]
   }
 ]
