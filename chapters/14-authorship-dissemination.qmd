@@ -11,15 +11,15 @@ How we assign credit is one of the most important — and most emotionally charg
 
 ### Institutional affiliations on bylines and disclosures
 
-Your **byline affiliation reflects your home institution, not the Institute's parent entity** (@sec-entity-structure):
+Your byline affiliation reflects your home institution, not the Institute's parent entity (@sec-entity-structure):
 
-- **Lynn-affiliated members** — list **Lynn University** (and the **Educational Biomarker Discovery Lab** where a lab affiliation is appropriate).
-- **UPR-affiliated members** — list the **University of Puerto Rico** unit youbelong to.
-- **The PI** lists his Lynn University appointment and, where appropriate, the **RIPLRT Institute** / Felix E. Rivera-Mariani, PhD, LLC.
+- **Lynn-affiliated members** — list Lynn University (and the Educational Biomarker Discovery Lab where a lab affiliation is appropriate).
+- **UPR-affiliated members** — list the University of Puerto Rico unit you belong to.
+- **The PI** lists his Lynn University appointment and, where appropriate, the RIPLRT Institute / Felix E. Rivera-Mariani, PhD, LLC.
 - **Independent or external members** without a current institution — coordinate affiliation with the PI; "RIPLRT Institute" may serve as the  
   research-group affiliation.
 
-Do **not** list "Lynn University" for a member who is not Lynn-affiliated, and do not imply that the RIPLRT Institute is a Lynn University unit. Acknowledgments and funding disclosures name the **entity that actually held the award or provided the resource** — Lynn-administered grant, LLC/RIPLRT, sponsor, or UPR — not a default.
+**Do not** list "Lynn University" for a member who is not Lynn-affiliated, and do not imply that the RIPLRT Institute is a Lynn University unit. Acknowledgments and funding disclosures name the entity that actually held the award or provided the resource — Lynn-administered grant, LLC/RIPLRT, sponsor, or UPR — not a default.
 
 ## ICMJE authorship criteria
 
@@ -30,13 +30,13 @@ To be an **author**, a person must meet **all four** ICMJE criteria:
 3. Final approval of the version to be published; **and**
 4. Agreement to be accountable for all aspects of the work.
 
-Contributors who do not meet all four are **acknowledged**, not listed as authors. Meeting only one criterion (e.g., funding, or only collecting data) does not by itself confer authorship.
+Contributors who do not meet **all four are acknowledged**, not listed as authors. Meeting only one criterion (e.g., funding, or only collecting data) does not by itself confer authorship.
 
 ## CRediT contributorship taxonomy
 
 For each product we record contributions using CRediT roles, which makes credit specific and visible: *Conceptualization, Methodology, Software, Validation, Formal analysis, Investigation, Resources, Data curation, Writing – original draft, Writing – review & editing, Visualization, Supervision, Project administration, Funding acquisition.*
 
-Map pod roles to CRediT contributions in the **Authorship/Contributorship Agreement** (`/templates/authorship-contributorship-agreement.qmd`) at project start, and update it as roles evolve.
+Map pod roles to CRediT contributions in the [**Authorship/Contributorship Agreement**](/templates/authorship-contributorship-agreement.qmd) at project start, and update it as roles evolve.
 
 ## Author order and the student-first pathway
 
@@ -54,7 +54,7 @@ Authorship disputes are handled early and directly, mediated by the PI, with ref
 
 - Every member is expected to **present ongoing research at least once a year** — mentees at a regional or (preferably) national conference aligned with their goals.
 - Presenting authorship follows the same fairness principles; the presenter is typically the person who led the work.
-- Use the **Conference Abstract Planning Sheet** (`/templates/conference-abstract-planning.qmd`) and confirm the authorship list *before* submission.
+- Use the [**Conference Abstract Planning Sheet**](/templates/conference-abstract-planning.qmd) and confirm the authorship list *before* submission.
 - We actively pursue travel awards and scholarships so cost is not a barrier (@sec-funding).
 
 ## Public dissemination and science communication
@@ -67,7 +67,7 @@ Our mission requires translating science beyond journals:
 
 ## Strategic, non-defensive framing
 
-When we describe our own work — in talks, briefs, bios, or proposals — we lead with **credentials and institutional value, not personal advancement**, and we frame new work as a forward progression from prior work rather than a reprise. Self-promotion is fine; it should simply be **credential-forward and self-decentered**, able to survive scrutiny without sounding defensive. This protects both the science and the group's reputation.
+When we describe our own work — in talks, briefs, bios, or proposals — we lead with credentials and institutional value, not personal advancement, and we frame new work as a forward progression from prior work rather than a reprise. Self-promotion is fine; it should simply be credential-forward and self-decentered, able to survive scrutiny without sounding defensive. This protects both the science and the group's reputation.
 
 ## Acknowledgments and funding
 
