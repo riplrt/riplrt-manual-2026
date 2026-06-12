@@ -68,7 +68,7 @@ This manual replaces the old wage-tier role mechanics (waged/non-waged status ch
 
 A portfolio this size cannot run on one-on-one PI mentoring alone. We organize work into **pods**: small, project-specific teams with defined roles. Pods distribute leadership, build mentee independence, and protect the PI's strategic bandwidth — this is *training leadership,* not distancing from students.
 
-Each pod is chartered using the **Project Pod Charter** template (`/templates/project-pod-charter.qmd`) before work begins.
+Each pod is chartered using the [**Project Pod Charter** template](/templates/project-pod-charter.qmd) before work begins.
 
 ### Pod roles
 

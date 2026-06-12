@@ -6,9 +6,9 @@ These are the **sign-and-submit forms** for the RIPLRT Institute. Unlike the wor
 
 | Form | Submit when | File |
 |---|---|---|
-| Manual Acknowledgment Form | Within first 7 days; re-acknowledge at each annual review | `manual-acknowledgment.md` |
-| Onboarding Checklist | Completed across the first 30 days | `onboarding-checklist.md` |
-| Offboarding Checklist | Completed in the final 2 weeks | `offboarding-checklist.md` |
+| Manual Acknowledgment Form | Within first 7 days; re-acknowledge at each annual review | [**Manual Acknowledgment Form**](/forms/manual-acknowledgment.md) |
+| Onboarding Checklist | Completed across the first 30 days | [**Onboarding Checklist**](/forms/onboarding-checklist.md) |
+| Offboarding Checklist | Completed in the final 2 weeks | [**Offboarding Checklist**](/forms/offboarding-checklist.md) |
 
 **Member affiliation (complete at intake):**
 
