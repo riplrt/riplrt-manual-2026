@@ -2,7 +2,7 @@
 title: "Preface"
 ---
 
-# Welcome to the RIPLRT Institute Research Group Manual {.unnumbered}
+# Welcome to the RIPLRT Institute's Research Group Manual {.unnumbered}
 
 This is the operating system of the **RIPLRT Institute** — a mentee-powered environmental health, immunology, and respiratory health equity research group. We translate environmental exposures into equitable respiratory and immune health through exposure science, biochemical, microbiology, and immune biomarker discovery, computational approaches, reproducible analytics, bilingual science communication, and inclusive mentoring.
 
