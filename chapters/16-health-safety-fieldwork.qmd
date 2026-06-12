@@ -32,8 +32,8 @@ When work happens in communities, partner clinics, or field settings:
 
 If a project involves biological specimens (human blood, tissue, or environmental bioaerosol samples):
 
-- Complete required **bloodborne-pathogen and biosafety training** and maintain relevant **vaccinations** (e.g., Hepatitis B) per institutional policy when handling human blood/fluids.
-- Follow the **biosafety level, PPE, and handling procedures** for the facility and protocol.
+- Complete required bloodborne-pathogen and biosafety training and maintain relevant vaccinations (e.g., Hepatitis B) per institutional policy when handling human blood/fluids.
+- Follow the biosafety level, PPE, and handling procedures for the facility and protocol.
 - Label, store, log, and chain-of-custody specimens per the protocol; never improvise.
 - Dispose of biological and chemical waste per institutional and regulatory rules.
 - Wear appropriate PPE and follow facility dress/safety codes when in a lab space.
@@ -47,7 +47,7 @@ Exact biosafety levels, PPE requirements, vaccination/clearance rules, waste pro
 
 Rather than a single pandemic-specific section, we keep a **scalable protocol** that activates when public-health conditions require it (a respiratory illness surge, a new advisory, fieldwork in an outbreak area):
 
-- Follow current **institutional, local, state, and federal guidance** — that guidance, not this manual, is authoritative and current.
+- Follow current institutional, local, state, and federal guidance — that guidance, not this manual, is authoritative and current.
 - The PI may activate measures proportionate to the situation: remote-first work, masking, distancing, capacity limits in shared spaces, testing, or pausing in-person activity.
 - **Stay home when sick**; we would always rather you rest than risk others. Sickness is never penalized.
 - For fieldwork during an active outbreak, add a site-specific risk assessment to the project operating manual.
