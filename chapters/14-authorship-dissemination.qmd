@@ -36,7 +36,7 @@ Contributors who do not meet **all four are acknowledged**, not listed as author
 
 For each product we record contributions using CRediT roles, which makes credit specific and visible: *Conceptualization, Methodology, Software, Validation, Formal analysis, Investigation, Resources, Data curation, Writing – original draft, Writing – review & editing, Visualization, Supervision, Project administration, Funding acquisition.*
 
-Map pod roles to CRediT contributions in the [**Authorship/Contributorship Agreement**](/templates/authorship-contributorship-agreement.qmd) at project start, and update it as roles evolve.
+Map pod roles to CRediT contributions in the [**Authorship/Contributorship Agreement**](/templates/authorship-contributorship-agreement.pdf) at project start, and update it as roles evolve.
 
 ## Author order and the student-first pathway
 
@@ -54,7 +54,7 @@ Authorship disputes are handled early and directly, mediated by the PI, with ref
 
 - Every member is expected to **present ongoing research at least once a year** — mentees at a regional or (preferably) national conference aligned with their goals.
 - Presenting authorship follows the same fairness principles; the presenter is typically the person who led the work.
-- Use the [**Conference Abstract Planning Sheet**](/templates/conference-abstract-planning.qmd) and confirm the authorship list *before* submission.
+- Use the [**Conference Abstract Planning Sheet**](/templates/conference-abstract-planning.pdf) and confirm the authorship list *before* submission.
 - We actively pursue travel awards and scholarships so cost is not a barrier (@sec-funding).
 
 ## Public dissemination and science communication

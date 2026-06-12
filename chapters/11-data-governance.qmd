@@ -32,7 +32,7 @@ Each dataset we use carries its own **Data Use Agreement (DUA)** and access rule
 
 The **Data Steward** for each pod owns compliance with that project's DUA. Before you analyze, confirm with the steward: *What tier is this? Where must analysis happen? What can leave the environment? What must be cited or acknowledged?*
 
-Use the [**Data-Use and Access Checklist**](/templates/data-use-access-checklist.qmd) at the start of every project.
+Use the [**Data-Use and Access Checklist**](/templates/data-use-access-checklist.pdf) at the start of every project.
 
 ## De-identification and HIPAA-adjacent thinking
 
@@ -71,7 +71,7 @@ Before you request or touch any dataset, know which umbrella you are working und
 | Your umbrella | IRB of record | Training & agreements |
 |---|---|---|
 | **EBDL / Lynn University** | Lynn University IRB | Lynn CITI, Lynn IRB listing, Lynn-approved DUAs |
-| **UPR-affiliated** | UPR IRB (or reliance, as applicable) | UPR CITI/IRB listing; collaboration/DUA terms <!-- VERIFY --> |
+| **UPR-affiliated** | UPR IRB (or reliance, as applicable) | UPR CITI/IRB listing; collaboration/DUA terms |
 | **RIPLRT / LLC (non-Lynn, non-UPR)** | Protocol named in the project charter | Sponsor terms + LLC data-use rules |
 
 When a project spans institutions (e.g., a Lynn member analyzing UPR-sourceddata), the **most restrictive** applicable terms govern, and the data-use agreement controls. When in doubt, ask the PI before access is provisioned.
