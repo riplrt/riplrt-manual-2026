@@ -24,41 +24,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -657,22 +622,6 @@ window.Quarto = {
 <section id="the-central-narrative-community-to-clinic-to-cloud" class="level2" data-number="4.3">
 <h2 data-number="4.3" class="anchored" data-anchor-id="the-central-narrative-community-to-clinic-to-cloud"><span class="header-section-number">4.3</span> The central narrative: Community-to-Clinic-to-Cloud</h2>
 <div class="cell" data-layout-align="default">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>flowchart LR</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    A["&lt;b&gt;1 · Exposure Science&lt;/b&gt;&lt;br/&gt;Community&lt;br/&gt;Bioaerosols and fungal spores · airway microbiome/mycobiome · PM2.5 · NO2 · chemical and physical pollutants · meteorology · wearable exposure streams"]</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    B["&lt;b&gt;2 · Immune and Biochemical Bioactivity&lt;/b&gt;&lt;br/&gt;Clinic&lt;br/&gt;Immune and inflammatory biomarkers · biological and biochemical responses and pathways · clinical, claims, pharmacy, and biomarker outcomes"]</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    C["&lt;b&gt;3 · Computational Modeling&lt;/b&gt;&lt;br/&gt;Cloud&lt;br/&gt;AI/ML · distributed-lag and mixed-effects models · equity-aware metrics · biomarker-signature discovery · bioinformatic pathway and target linkage · reproducible pipelines"]</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    D["&lt;b&gt;4 · Equity-Focused Translation&lt;/b&gt;&lt;br/&gt;Clinician dashboards · community risk briefs · public-health playbooks · peer-reviewed science"]</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    E["&lt;b&gt;5 · Inclusive Workforce Development&lt;/b&gt;&lt;br/&gt;Mentees embedded as active contributors across every stage — immunology, exposure science, environmental and respiratory health, computational biology, and data science"]</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    A --&gt; B --&gt; C --&gt; D</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    D -.-&gt;|"feeds back to community"| A</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    E -.-&gt; A</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    E -.-&gt; B</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    E -.-&gt; C</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    E -.-&gt; D</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    classDef cross stroke-dasharray:6 4,stroke-width:1.5px;</span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    class E cross;</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div>
 <p></p><figure class="figure"><p></p>
