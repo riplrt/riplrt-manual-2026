@@ -12,6 +12,38 @@ Inclusive mentoring means we mentor for **the mentee's trajectory**, not only fo
 
 We recruit and develop members for more than grades or technical skill. We look for and cultivate **curiosity, reliability, kindness, willingness to collaborate, a growth mindset, and independent thinking.** GPA alone has never built a good scientist.
 
+## The Mentoring Skills Model
+
+We treat mentoring as a **set of learnable skills**, not a personality trait — some shared by everyone in a mentoring relationship, some specific to each side of it. We adapt this from the **Mentoring Skills Model** (Linda Phillips-Jones, PhD), which sorts the skills into three regions.
+
+```{mermaid}
+%%| label: fig-mentoring-skills
+%%| fig-cap: "The Mentoring Skills Model — shared core skills practiced by both sides, plus mentee- and mentor-specific skills (adapted from the Mentoring Skills Model, Linda Phillips-Jones, PhD)."
+flowchart LR
+    MENTEE["<b>Mentee-Specific Skills</b><br/>Acquiring mentors<br/>Learning quickly<br/>Showing initiative<br/>Following through<br/>Managing the relationship"]
+    SHARED["<b>Shared Core Skills</b><br/>Listening actively<br/>Building trust<br/>Encouraging<br/>Identifying goals and current reality"]
+    MENTOR["<b>Mentor-Specific Skills</b><br/>Instructing / developing capabilities<br/>Inspiring<br/>Providing corrective feedback<br/>Managing risks<br/>Opening doors"]
+
+    MENTEE --- SHARED --- MENTOR
+
+    classDef core stroke-width:2px;
+    class SHARED core;
+```
+Source: https://my.lerner.udel.edu/wp-content/uploads/Skills_for_Sucessful_Mentoring.pdf
+
+As @fig-mentoring-skills shows, the three regions map directly onto how our group works:
+
+- **Shared core skills** — *listening actively, building trust, encouraging,* and *identifying goals and current reality* — are the foundation we expect from **everyone, in every direction**: PI to trainee, peer to peer, alumni fellow to current student, and collaborator to collaborator.
+- **Mentee-specific skills** — *acquiring mentors, learning quickly, showing initiative, following through,* and *managing the relationship* — are what we actively coach trainees to build. They map onto the development ladder later in this chapter and onto your IDP.
+- **Mentor-specific skills** — *instructing and developing capabilities, inspiring, providing corrective feedback, managing risks,* and *opening doors* — are what mentors grow into. In our group these are **not the PI's job alone**: senior mentees, Graduate Research Alumni Fellows, Postdoctoral Collaborating Mentees and Fellows, and Faculty Collaborators all carry mentor-specific responsibilities (@sec-roles-pods).
+
+::: {.callout-tip}
+## Use the model in your IDP
+At each IDP check-in, name **one shared-core skill, one role-specific skill,** and one concrete way you will practice each this term. Mentors do the same for their mentor-specific skills. Mentoring is a practice we improve on purpose — not something we assume we already have.
+:::
+
+Because the group is built around **Inclusive Workforce Development**, most members sit on **both sides of this model at once**: a graduate student is a mentee to the PI and a mentor to an undergraduate; a postdoctoral fellow both receives and provides mentorship. The model is a shared language for getting better at both roles — not a hierarchy.
+
 ## The mentoring compact
 
 **Mentors commit to:**
