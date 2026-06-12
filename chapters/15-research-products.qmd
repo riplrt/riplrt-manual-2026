@@ -6,10 +6,10 @@ Success at RIPLRT is broader than grants and papers. We define it to include **s
 
 | Product | Primary audience | Owned by (typical) | Template |
 |---|---|---|---|
-| Peer-reviewed manuscript | Scientific community | Writing Lead + Analysis Lead | [Manuscript Planning Sheet](/manuscript-planning-sheet.qmd) |
-| Conference abstract | Scientific community | Project Lead / mentee | [Conference Abstract Planning](/conference-abstract-planning.qmd) |
+| Peer-reviewed manuscript | Scientific community | Writing Lead + Analysis Lead | [Manuscript Planning Sheet](/templatesmanuscript-planning-sheet.qmd) |
+| Conference abstract | Scientific community | Project Lead / mentee | [Conference Abstract Planning](/templates/conference-abstract-planning.qmd) |
 | Poster | Conference attendees | Mentee (often first product) | (see abstract sheet + assets) |
-| Reproducible notebook | Internal + open science | Reproducibility / Analysis Lead | [Reproducible Analysis Checklist](/reproducible-analysis-checklist.qmd) |
+| Reproducible notebook | Internal + open science | Reproducibility / Analysis Lead | [Reproducible Analysis Checklist](/templates/reproducible-analysis-checklist.qmd) |
 | Clinician-facing dashboard | Clinicians, agencies | Visualization/Dashboard Lead | (pod charter) |
 | Community risk brief | Communities, partners | Science Communication Lead | (pod charter) |
 | Public-health playbook | Agencies, decision-makers | Project Lead + SciComm Lead | (pod charter) |
