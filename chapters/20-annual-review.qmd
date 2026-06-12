@@ -43,8 +43,8 @@ This manual is itself reviewed annually (and amended as needed in between).
 **Maintenance process:**
 
 1. **Designate a maintainer** each year (often the Group Lead, with PI sign-off) to shepherd updates.
-2. **Collect proposed changes** throughout the year via GitHub issues/PRs (`CONTRIBUTING.md`) and the annual stop/start/continue.
-3. **Review and merge** approved changes; update `CHANGELOG.md`.
+2. **Collect proposed changes** throughout the year via GitHub issues/PRs ([CONTRIBUTING](CONTRIBUTING.md)) and the annual stop/start/continue.
+3. **Review and merge** approved changes; update [CHANGELOG](CHANGELOG.md).
 4. **Re-render** the Quarto book and publish the new version.
 5. **Re-acknowledge:** when changes are substantive, members re-sign the acknowledgment so everyone is on the current version.
 
