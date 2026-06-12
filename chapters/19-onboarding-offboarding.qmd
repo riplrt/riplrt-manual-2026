@@ -1,6 +1,4 @@
----
-title: "Onboarding, Training Milestones, and Offboarding"
----
+# Onboarding, Training Milestones, and Offboarding {#sec-onboarding}
 
 This chapter defines how members join, grow, and leave the group well. Good onboarding makes people productive and connected quickly; good offboarding protects continuity, relationships, and reputation.
 
@@ -9,7 +7,7 @@ This chapter defines how members join, grow, and leave the group well. Good onbo
 New members complete the **New Member Onboarding Checklist** (`/forms/onboarding-checklist.md`). At a high level, the first weeks look like this:
 
 ### First 7 days
-- Read this manual; **sign the acknowledgment form** (`/forms/manual-acknowledgment.md`).
+- Read this manual; **sign the [acknowledgment form](/forms/manual-acknowledgment.md).
 - Meet your **mentor** and the PI; understand your project and pod.
 - Get accounts and access: messaging channel, GitHub org, shared drive, project tool, and any project-specific tools — provisioned at **least privilege** (@sec-data-governance).
 - Add a short bio and (optional) photo for the group directory; set up your availability.

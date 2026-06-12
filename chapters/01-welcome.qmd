@@ -26,8 +26,8 @@ While you are with us, you will develop skills across several domains:
 - **Strategic communication:** framing your work and the group's work in ways that lead with credentials and institutional value, not personal advancement, and that position new work as a forward progression rather than a reprise.
 - **Strategic self-presentation:** building a professional identity that is credential-forward and self-decentered, able to survive scrutiny without sounding defensive.
 - **Strategic mindset:** approaching your work with a growth mindset, learning in public, and embracing the idea that mistakes are part of the process and hiding them is the only unrecoverable error.
-- **Strategic braing
-- **Other skills** that you identify as important to your growth and development.
+- **Leadership:** leading projects, leading meetings, mentoring others, and leading with empathy and clarity.
+- **Other skills** that we identify as important to your growth and development.
 
 ## Our entity structure {#sec-entity-structure}
 
@@ -46,7 +46,7 @@ Understanding who we legally are matters because it determines whose policy, who
 ::: {.callout-important}
 ## Which umbrella are you under?
 - **Lynn University students and trainees** (undergraduate, graduate, early-career scientists) work under the **EBDL** umbrella and follow Lynn University policy and IRB.
-- **UPR-affiliated, other external, or independent mentees** (undergraduate, graduate, early-career scientists) are mentored **directly under the RIPLRT Institute** and remain governed by their home institution's policies.
+- **UPR-affiliated, other external, or independent mentees** (undergraduate, graduate, early-career scientists) are mentored directly under the RIPLRT Institute and remain governed by their home institution's policies.
 
 If you are unsure which applies to you, confirm with the PI before you begin project work or touch data. See @sec-data-governance and @sec-onboarding.
 :::
@@ -62,7 +62,7 @@ If you are unsure which applies to you, confirm with the PI before you begin pro
 
 ## What we expect from you
 
-- **Read this manual** and sign the acknowledgment form (`/forms/manual-acknowledgment.md`) within your first 7 days.
+- **Read this manual** and sign the [acknowledgment form](/forms/manual-acknowledgment.md) within your first 7 days.
 - **Bring curiosity and reliability.** Do what you say you will do, and communicate early when you can't.
 - **Learn in public.** Own mistakes quickly; we fix them together. Hiding a mistake is the only unrecoverable error.
 - **Respect people's time** — show up to meetings prepared, meet deadlines, and renegotiate responsibly when life intervenes.
