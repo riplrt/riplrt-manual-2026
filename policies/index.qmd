@@ -9,7 +9,7 @@ These are the authoritative, standalone policy documents for the RIPLRT Institut
 | Authorship & Contributorship | Ch. 14 | [**Authorship & Contributorship Policy**](/policies/authorship-contributorship.qmd) |
 | Data Governance | Ch. 11 | [**Data Governance Policy**](/policies/data-governance.qmd) |
 | Responsible AI Use | Ch. 13 | [**Responsible AI Use Policy**](/policies/responsible-ai-use.qmd) |
-| Code of Conduct | (repo root) | [**Code of Conduct**](/policies/code-of-conduct.qmd) → see `CODE_OF_CONDUCT.md` |
+| Code of Conduct | (repo root) | [**Code of Conduct**](/policies/code-of-conduct.qmd) → see [**CODE_OF_CONDUCT.md**](/policies/CODE_OF_CONDUCT.md) |
 
 ::: {.callout-note}
 ## Scope and governing authority
