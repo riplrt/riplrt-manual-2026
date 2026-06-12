@@ -30,7 +30,7 @@ flowchart LR
     classDef core stroke-width:2px;
     class SHARED core;
 ```
-Source: https://my.lerner.udel.edu/wp-content/uploads/Skills_for_Sucessful_Mentoring.pdf
+Source: [https://my.lerner.udel.edu/wp-content/uploads/Skills_for_Sucessful_Mentoring.pdf](https://my.lerner.udel.edu/wp-content/uploads/Skills_for_Sucessful_Mentoring.pdf)
 
 As @fig-mentoring-skills shows, the three regions map directly onto how our group works:
 
