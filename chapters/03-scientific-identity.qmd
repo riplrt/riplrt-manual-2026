@@ -25,6 +25,7 @@ When you describe your project, locate it on this chain. It clarifies your aims,
 ## The central narrative: Community-to-Clinic-to-Cloud
 
 ```{mermaid}
+%%| echo: false
 flowchart LR
     A["<b>1 · Exposure Science</b><br/>Community<br/>Bioaerosols and fungal spores · airway microbiome/mycobiome · PM2.5 · NO2 · chemical and physical pollutants · meteorology · wearable exposure streams"]
     B["<b>2 · Immune and Biochemical Bioactivity</b><br/>Clinic<br/>Immune and inflammatory biomarkers · biological and biochemical responses and pathways · clinical, claims, pharmacy, and biomarker outcomes"]

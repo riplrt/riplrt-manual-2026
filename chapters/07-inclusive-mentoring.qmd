@@ -18,6 +18,7 @@ We treat mentoring as a **set of learnable skills**, not a personality trait —
 
 ```{mermaid}
 %%| label: fig-mentoring-skills
+%%| echo: false
 %%| fig-cap: "The Mentoring Skills Model — shared core skills practiced by both sides, plus mentee- and mentor-specific skills (adapted from the Mentoring Skills Model, Linda Phillips-Jones, PhD)."
 flowchart LR
     MENTEE["<b>Mentee-Specific Skills</b><br/>Acquiring mentors<br/>Learning quickly<br/>Showing initiative<br/>Following through<br/>Managing the relationship"]
