@@ -1,8 +1,4 @@
----
-title: "Inclusive Mentoring and Mentee Development"
----
-
-{#sec-mentoring}
+# Inclusive Mentoring and Mentee Development {#sec-mentoring}
 
 Mentoring is not a side activity at RIPLRT — it is part of the mission. **Inclusive workforce development** is the final link in our scientific through-line, and mentee co-authorship and growth are documented evidence that we deliver on it. This chapter is our mentoring compact.
 

@@ -1,8 +1,4 @@
----
-title: "Lab Culture, Psychological Safety, and Team Science"
----
-
-{#sec-psych-safety}
+# Lab Culture, Psychological Safety, and Team Science {#sec-psych-safety}
 
 Productive science depends as much on human interactions, communication, and group dynamics as on technical excellence. This chapter describes the culture we are building and the specific practices that protect it.
 

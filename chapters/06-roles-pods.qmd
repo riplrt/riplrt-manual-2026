@@ -1,8 +1,4 @@
----
-title: "Roles, Responsibilities, and Project Pod Structure"
----
-
-{#sec-roles-pods}
+# Roles, Responsibilities, and Project Pod Structure {#sec-roles-pods}
 
 This chapter defines who does what. It preserves the role clarity of the original manual and adds the **project pod model** — the structure that lets a large, hybrid portfolio run without overloading any one person.
 
