@@ -18,7 +18,7 @@ All code lives in **Git**, hosted on **GitHub** under the RIPLRT organization. N
 - Use **issues** to track bugs, questions, and tasks.
 - Never commit data, credentials, or secrets — enforce with `.gitignore`.
 
-Use the [**GitHub Repository Checklist**](/templates/github-repo-checklist.pdf) when setting up any new project.
+Use the [**GitHub Repository Checklist**](/templates/pdf/github-repo-checklist.pdf) when setting up any new project.
 
 ::: {.callout-important}
 ## Consult before going public
@@ -37,7 +37,7 @@ We author analysis and manuscripts in **Quarto** (modernizing the group's earlie
 - Documents **render cleanly from scratch** (use Quarto's `freeze` thoughtfully, but verify a clean render before milestones).
 - Paths are **relative**, never absolute (`data/` not `/Users/you/Desktop/...`).
 
-Run the [**Reproducible Analysis Checklist**](/templates/reproducible-analysis-checklist.pdf) before any submission.
+Run the [**Reproducible Analysis Checklist**](/templates/pdf/reproducible-analysis-checklist.pdf) before any submission.
 
 ## Project repository structure
 

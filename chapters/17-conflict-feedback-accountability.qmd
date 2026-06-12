@@ -15,7 +15,7 @@ Feedback is a routine, two-directional habit — not a rare, high-stakes event.
 - **Two-way.** Mentees give feedback to mentors and the PI, including in anonymous climate checks. Leaders model receiving feedback well.
 - **About the work.** We critique ideas, code, and drafts — never the worth of the person.
 
-Use the **Stop / Start / [Continue Feedback Form](templates/stop-start-continue.pdf)** in one-on-ones and reviews.
+Use the **Stop / Start / [Continue Feedback Form](templates/pdf/stop-start-continue.pdf)** in one-on-ones and reviews.
 
 ## A structured way to handle difficult conversations
 

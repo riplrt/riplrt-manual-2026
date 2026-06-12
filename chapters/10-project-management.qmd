@@ -14,7 +14,7 @@ flowchart LR
     E --> F[6. Archive<br/>OSF/Zenodo, changelog,<br/>authorship audit]
 ```
 
-1. **Charter.** Complete the [Project Pod Charter](/templates/project-pod-charter.pdf): aims, datasets, access rules, roles, deliverables, **authorship plan discussed at the start**, and weekly task structure.
+1. **Charter.** Complete the [Project Pod Charter](/templates/pdf/project-pod-charter.pdf): aims, datasets, access rules, roles, deliverables, **authorship plan discussed at the start**, and weekly task structure.
 2. **Set up.** Create the GitHub repo (use the repo checklist), establish data access and the variable dictionary, and stand up the project tool board.
 3. **Analyze.** Lock a statistical/ML analysis plan (pre-registered or internally locked) *before* looking at outcomes; work in reproducible notebooks (@sec-reproducible).
 4. **Synthesize.** Produce figures, dashboards, and drafts using the planning templates.
