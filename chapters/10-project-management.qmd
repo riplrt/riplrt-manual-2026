@@ -14,7 +14,7 @@ flowchart LR
     E --> F[6. Archive<br/>OSF/Zenodo, changelog,<br/>authorship audit]
 ```
 
-1. **Charter.** Complete the Project Pod Charter (`/templates/project-pod-charter.qmd`): aims, datasets, access rules, roles, deliverables, **authorship plan discussed at the start**, and weekly task structure.
+1. **Charter.** Complete the [Project Pod Charter](/templates/project-pod-charter.qmd): aims, datasets, access rules, roles, deliverables, **authorship plan discussed at the start**, and weekly task structure.
 2. **Set up.** Create the GitHub repo (use the repo checklist), establish data access and the variable dictionary, and stand up the project tool board.
 3. **Analyze.** Lock a statistical/ML analysis plan (pre-registered or internally locked) *before* looking at outcomes; work in reproducible notebooks (@sec-reproducible).
 4. **Synthesize.** Produce figures, dashboards, and drafts using the planning templates.
@@ -31,7 +31,8 @@ We standardize on a small, deliberate toolset so members can move between projec
 | Code & versioning | **GitHub** (Git) | All code, issues, pull requests, code review |
 | Documents | **Google Drive / OneDrive** | Drafts, shared materials, meeting notes |
 | Analysis & reporting | **Quarto / R Markdown**, **R/RStudio**, **Python** | Reproducible notebooks, manuscripts, dashboards |
-| Structured data capture | **REDCap** *(if applicable to the project)* | Survey/clinical data capture |
+| Lab notebook & samples | **eLabNext** *(for wet-lab / experimental work)* | Experiment records, protocols/SOPs, biospecimen and reagent inventory |
+| Structured data capture | **Qualtrics** or **REDCap** *(if applicable to the project)* | Survey/clinical data capture |
 | Archiving & open science | **OSF, Zenodo, FigShare** | Preregistration, archival, DOIs |
 
 ::: {.callout-note}
