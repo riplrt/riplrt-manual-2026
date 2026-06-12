@@ -6,7 +6,7 @@ This chapter is the scientific spine of the manual. It explains what we study, t
 
 ## The one-sentence identity
 
-> **RIPLRT Institute is a mentee-powered environmental immunology and respiratory health equity research group that trains students to convert exposure, clinical, biomarker, and computational data into equitable decision tools for Puerto Rico, the Caribbean basin, South Florida, and the southern coastal United States.**
+> **RIPLRT Institute is a mentee-powered environmental immunology and respiratory health equity research group that trains students and early-career scientists to convert exposure, clinical, biomarker, and computational data into equitable decision tools for Puerto Rico, the Caribbean basin, South Florida, and the southern coastal United States.**
 
 If you can say this from memory, you can explain RIPLRT to a dean, a reviewer, a community partner, or a prospective student.
 
