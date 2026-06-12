@@ -14,7 +14,7 @@ If you are joining **through Lynn University**, your work is carried out under t
 
 ::: {.callout-note}
 ## What this manual is — and isn't
-This is a **culture document, onboarding guide, project-management playbook, mentoring compact, reproducibility guide, authorship policy, and operating system** in one. It is not a legal contract. For work conducted through the **Educational Biomarker Discovery Lab at Lynn University**, this manual does not override Lynn University policy, IRB protocols, sponsor terms, or applicable law: where institutional policy and this manual disagree, **institutional policy governs**. For work conducted under the RIPLRT Institute outside of Lynn University, the governing terms are those of **Felix E. Rivera-Mariani, PhD, LLC** and any applicable sponsor or partner agreements. Where this manual is silent, ask.
+This is a **culture document, onboarding guide, project-management playbook, mentoring compact, reproducibility guide, authorship policy, and operating system** in one. It is not a legal contract. For work conducted through the Educational Biomarker Discovery Lab at Lynn University, this manual does not override Lynn University policy, IRB protocols, sponsor terms, or applicable law: where institutional policy and this manual disagree, institutional policy governs. For work conducted under the RIPLRT Institute outside of Lynn University, the governing terms are those of **Felix E. Rivera-Mariani, PhD, LLC** and any applicable sponsor or partner agreements. Where this manual is silent, ask.
 :::
 
 ## Our central narrative: Community-to-Clinic-to-Cloud
