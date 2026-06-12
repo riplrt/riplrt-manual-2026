@@ -7,6 +7,7 @@ All notable changes to the RIPLRT Institute Research Group Manual are recorded h
 ### Changed
 - **Templates and forms** are now delivered as **downloadable PDFs**, generated from their source files and linked from the Templates and Forms appendix pages. **Policies** remain rendered web pages (searchable, always current).
 - Added an explicit `render:` list in `_quarto.yml` so template/form *source* files are no longer published as raw pages (fixes raw `.qmd` downloads), and registered the policy pages in the appendix navigation.
+- Updated in-chapter references so every template/form mention links to its **published PDF** (`/templates/pdf/…`, `/forms/pdf/…`) instead of the now-unpublished source file; normalized a few relative paths to root-relative and fixed a broken `/templates…` link in the research-products portfolio table.
 - Continuous integration builds the **HTML** site only; PDF and DOCX of the full book remain available via local `quarto render`.
 
 ## [2.0.0] — 2026 major revision

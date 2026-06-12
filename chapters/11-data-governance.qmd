@@ -32,7 +32,7 @@ Each dataset we use carries its own **Data Use Agreement (DUA)** and access rule
 
 The **Data Steward** for each pod owns compliance with that project's DUA. Before you analyze, confirm with the steward: *What tier is this? Where must analysis happen? What can leave the environment? What must be cited or acknowledged?*
 
-Use the [**Data-Use and Access Checklist**](/templates/data-use-access-checklist.qmd) at the start of every project.
+Use the [**Data-Use and Access Checklist**](/templates/pdf/data-use-access-checklist.pdf) at the start of every project.
 
 ## De-identification and HIPAA-adjacent thinking
 

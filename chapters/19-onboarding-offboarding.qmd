@@ -4,10 +4,10 @@ This chapter defines how members join, grow, and leave the group well. Good onbo
 
 ## Onboarding
 
-New members complete the [**New Member Onboarding Checklist**](/forms/onboarding-checklist.md). At a high level, the first weeks look like this:
+New members complete the [**New Member Onboarding Checklist**](/forms/pdf/onboarding-checklist.pdf). At a high level, the first weeks look like this:
 
 ### First 7 days
-- Read this manual; sign the [acknowledgment form](/forms/manual-acknowledgment.md).
+- Read this manual; sign the [acknowledgment form](/forms/pdf/manual-acknowledgment.pdf).
 - Meet your mentor and the PI; understand your project and pod.
 - Get accounts and access: messaging channel, GitHub org, shared drive, project tool, and any project-specific tools — provisioned at least privilege (@sec-data-governance).
 - Add a short bio and (optional) photo for the group directory; set up your availability.
@@ -46,7 +46,7 @@ Milestones are tracked in the IDP and reviewed each semester. The aim is growing
 
 ## Offboarding
 
-People move on — graduation, new positions, end of a term, or a planned transition. We offboard deliberately so nothing is lost and relationships stay strong. Members complete the **Offboarding Checklist** (`/forms/offboarding-checklist.md`).
+People move on — graduation, new positions, end of a term, or a planned transition. We offboard deliberately so nothing is lost and relationships stay strong. Members complete the [**Offboarding Checklist**](/forms/pdf/offboarding-checklist.pdf).
 
 ### Knowledge & continuity handoff
 - **Transfer ownership** of repos, documents, and tasks; ensure successors have access.

@@ -22,7 +22,7 @@ A **10-minute anonymous pulse** turns belonging into data. It covers: workload, 
 Once a year we step back and review the group as a whole.
 
 ### 1. Stop / Start / Continue (lab feedback)
-Everyone contributes (use [Stop / Start / Continue Feedback Form](templates/stop-start-continue.qmd)): What should the group **stop** doing? **start** doing? **continue** doing? Synthesize themes; commit to a short, public list of changes.
+Everyone contributes (use [Stop / Start / Continue Feedback Form](/templates/pdf/stop-start-continue.pdf)): What should the group **stop** doing? **start** doing? **continue** doing? Synthesize themes; commit to a short, public list of changes.
 
 ### 2. Project portfolio review
 For each project: Is it advancing? Is it aligned with the through-line and a SMART goal? Is it appropriately staffed? Should it continue, pivot, pause, or close? This prevents drift and overextension — our main risk is too many half-supported projects, not too few people.

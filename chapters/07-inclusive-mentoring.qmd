@@ -65,9 +65,9 @@ Because the group is built around **Inclusive Workforce Development**, most memb
 
 | Touchpoint | Frequency | Tool |
 |---|---|---|
-| One-on-one mentoring meeting | Biweekly (min. monthly) | [**One-on-One Meeting Template**](/templates/one-on-one-meeting.qmd) |
-| IDP review | Each semester | [**Individual Development Plan Template**](/templates/individual-development-plan.qmd) |
-| Pod check-in | Weekly | [**Weekly Meeting Agenda Template**](/templates/weekly-meeting-agenda.qmd) |
+| One-on-one mentoring meeting | Biweekly (min. monthly) | [**One-on-One Meeting Template**](/templates/pdf/one-on-one-meeting.pdf) |
+| IDP review | Each semester | [**Individual Development Plan Template**](/templates/pdf/individual-development-plan.pdf) |
+| Pod check-in | Weekly | [**Weekly Meeting Agenda Template**](/templates/pdf/weekly-meeting-agenda.pdf) |
 | Climate / belonging pulse | Quarterly | @sec-annual-review |
 
 ## The student-development pathway
