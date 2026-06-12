@@ -46,7 +46,7 @@ Rules of the road:
 
 - All shared documents live in the RIPLRT shared drive (or the project repo for code). Even a first solo draft is created in the shared space — transparency and open collaboration are foundational.
 - Follow the **file-naming convention** for each folder. Where a folder has a `README` describing its naming pattern, follow it; if one is missing, ask the project lead or PI and add one.
-- Use ISO dates (`YYYY-MM-DD`), no spaces (use `_` or `-`), and meaningful, sortable names. Example: `2026-06-01_PR-sporecast_analysis-v3.qmd`.
+- Use ISO dates (`YYYY-MM-DD`), no spaces (use `_` or `-`), and meaningful, sortable names. Example: `2026-06-01_PR-sporecast_analysis-v3.pdf`.
 
 ## Meeting cadence
 

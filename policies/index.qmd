@@ -2,16 +2,13 @@
 title: "Policies"
 ---
 
-These are the authoritative, standalone policy documents for the RIPLRT Institute. They expand the working summaries in the chapters. Where a policy and a chapter summary differ, **the policy governs**; where a policy and institutional/sponsor/legal requirements differ, **those govern**.
+These are the authoritative, standalone policy documents for the RIPLRT Institute, provided as **rendered web pages** (not downloads), so they're searchable and always show the current version. They expand the working summaries in the chapters. Where a policy and a chapter summary differ, **the policy governs**; where a policy and institutional/sponsor/legal requirements differ, **those govern**.
 
-| Policy | Summary chapter | File |
+| Policy | Summary chapter | Read |
 |---|---|---|
-| Authorship & Contributorship | Ch. 14 | [**Authorship & Contributorship Policy**](/policies/authorship-contributorship.qmd) |
-| Data Governance | Ch. 11 | [**Data Governance Policy**](/policies/data-governance.qmd) |
-| Responsible AI Use | Ch. 13 | [**Responsible AI Use Policy**](/policies/responsible-ai-use.qmd) |
-| Code of Conduct | (repo root) | [**Code of Conduct**](/policies/code-of-conduct.qmd) → see [**CODE_OF_CONDUCT.md**](/policies/CODE_OF_CONDUCT.md) |
+| Authorship & Contributorship | Ch. 14 | [Open »](authorship-contributorship.qmd) |
+| Data Governance | Ch. 11 | [Open »](data-governance.qmd) |
+| Responsible AI Use | Ch. 13 | [Open »](responsible-ai-use.qmd) |
+| Code of Conduct | (also repo root) | [Open »](code-of-conduct.qmd) |
 
-::: {.callout-note}
-## Scope and governing authority
-These policies apply to all RIPLRT Institute members. For work conducted under the **Educational Biomarker Discovery Lab at Lynn University**, Lynn University policy, IRB, and sponsor terms govern and **supersede** these policies wherever they conflict. For work conducted under the **RIPLRT Institute** outside Lynn University, the governing terms are those of **Felix E. Rivera-Mariani, PhD, LLC** and any applicable sponsor, partner, or **UPR** collaboration agreement. See @sec-entity-structure.
-:::
+The Code of Conduct page mirrors the authoritative `CODE_OF_CONDUCT.md` at the repository root; if the two ever differ, the root file governs.

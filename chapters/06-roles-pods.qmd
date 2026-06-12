@@ -68,9 +68,10 @@ This manual replaces the old wage-tier role mechanics (waged/non-waged status ch
 
 A portfolio this size cannot run on one-on-one PI mentoring alone. We organize work into **pods**: small, project-specific teams with defined roles. Pods distribute leadership, build mentee independence, and protect the PI's strategic bandwidth — this is *training leadership,* not distancing from students.
 
-Each pod is chartered using the [**Project Pod Charter** template](/templates/pdf/project-pod-charter.pdf) before work begins.
+Each pod is chartered using the [**Project Pod Charter**](/templates/pdf/project-pod-charter.pdf) template before work begins.
 
 ### Pod roles
+Each pod has a **project lead** who coordinates the work and serves as the first line of mentorship for more junior members. The project lead is often a senior mentee or postdoctoral fellow, but it can be anyone with the bandwidth and skills to coordinate the work and mentor others. The PI provides scientific oversight and steps in on key decisions (design, authorship, submission) but does not manage day-to-day tasks.
 
 A typical pod assigns these roles (one person may hold more than one; junior members co-hold roles to learn them):
 
