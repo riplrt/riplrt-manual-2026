@@ -6,7 +6,7 @@ This chapter collects reference material: pointers to the templates, policies, a
 
 ## Appendix A — Templates
 
-Reusable, fill-in templates live in `/templates`. See the [Templates appendix](../templates/index.qmd). They include:
+Reusable, fill-in templates live in [templates](/templates). See the [Templates appendix](../templates/index.qmd). They include:
 
 - New Member Onboarding Checklist
 - Project Pod Charter

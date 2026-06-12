@@ -6,10 +6,10 @@ Success at RIPLRT is broader than grants and papers. We define it to include **s
 
 | Product | Primary audience | Owned by (typical) | Template |
 |---|---|---|---|
-| Peer-reviewed manuscript | Scientific community | Writing Lead + Analysis Lead | `manuscript-planning-sheet.qmd` |
-| Conference abstract | Scientific community | Project Lead / mentee | `conference-abstract-planning.qmd` |
+| Peer-reviewed manuscript | Scientific community | Writing Lead + Analysis Lead | [Manuscript Planning Sheet](manuscript-planning-sheet.qmd) |
+| Conference abstract | Scientific community | Project Lead / mentee | [Conference Abstract Planning](conference-abstract-planning.qmd) |
 | Poster | Conference attendees | Mentee (often first product) | (see abstract sheet + assets) |
-| Reproducible notebook | Internal + open science | Reproducibility / Analysis Lead | `reproducible-analysis-checklist.qmd` |
+| Reproducible notebook | Internal + open science | Reproducibility / Analysis Lead | [Reproducible Analysis Checklist](reproducible-analysis-checklist.qmd) |
 | Clinician-facing dashboard | Clinicians, agencies | Visualization/Dashboard Lead | (pod charter) |
 | Community risk brief | Communities, partners | Science Communication Lead | (pod charter) |
 | Public-health playbook | Agencies, decision-makers | Project Lead + SciComm Lead | (pod charter) |
@@ -45,7 +45,7 @@ Do not label a product as LLC/FERM-owned, or pursue licensing or commercializati
 
 - Abstracts are often a **mentee's first scholarly product** — treat them as real training, not filler.
 - Maintain a shared **abstract calendar** of society deadlines (AAAAI, AAI, ATS, SOT, ASM, ISES, ASBMB, ABRCMS, and others).
-- Posters reuse manuscript figures and the through-line narrative; keep a poster template and the group's visual identity in `/assets`.
+- Posters reuse manuscript figures and the through-line narrative; keep a poster template and the group's visual identity in [assets](/assets).
 - Confirm authorship before submission; rehearse presentations as a pod.
 
 ## Dashboards and decision-support tools
