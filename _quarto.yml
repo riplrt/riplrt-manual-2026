@@ -88,5 +88,5 @@ format:
 
 execute:
   freeze: auto
-  echo: true
+  echo: false
   warning: false
