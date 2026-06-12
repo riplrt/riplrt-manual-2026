@@ -1,0 +1,32 @@
+---
+title: "Offboarding Checklist"
+---
+
+> Working checklist for a member's transition out of RIPLRT. The signable version lives at `/forms/offboarding-checklist.md`. See Ch. 19.
+
+**Member:** _______________  **Role:** _______________  **Last day:** _______________  **Mentor:** _______________
+
+## Knowledge & continuity handoff
+- [ ] Repos, docs, and tasks transferred to successor(s)
+- [ ] Each active project documented: status, next steps, locations
+- [ ] All code committed/pushed; notebooks render; data stored per governance
+- [ ] Variable dictionary + project operating manual updated
+- [ ] Successor has needed access
+
+## Credit & products
+- [ ] Authorship/contributorship confirmed on in-progress + completed products
+- [ ] Plan agreed for completing in-progress manuscripts (and who leads)
+- [ ] Departing member's earned credit preserved
+
+## Access & security
+- [ ] Access revoked appropriately (accounts, repos, drives, data environments)
+- [ ] Equipment / restricted materials returned or handled
+- [ ] No restricted data retained on personal devices
+
+## Relationship & growth
+- [ ] Final IDP review
+- [ ] References / recommendation letters / sponsorship discussed
+- [ ] Added to alumni record; staying-in-touch plan
+- [ ] Exit stop/start/continue conversation captured
+
+**Sign-off:** Member ______  Mentor/PI ______  Date ______

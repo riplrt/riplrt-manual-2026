@@ -1,0 +1,34 @@
+---
+title: "AI-Use Disclosure Form"
+---
+
+> Complete for any scholarly product with material AI assistance. See Ch. 13 / Responsible AI Policy. Then apply the target venue's required disclosure language.
+
+**Product:** _______________  **Member:** _______________  **Date:** _______________
+
+## Tools used
+| Tool | Version (if known) | Purpose |
+|---|---|---|
+|  |  |  |
+
+## Where AI was used
+- [ ] Coding assistance (scaffolding/debugging)
+- [ ] Writing (structure/clarity/language)
+- [ ] Literature orientation / summarization
+- [ ] Workflow automation
+- [ ] Other: _______________
+
+## Mandatory attestations
+- [ ] **No** restricted/identifiable/DUA-controlled/IRB data was entered into any external AI tool
+- [ ] All AI-assisted **code** was read, understood, and tested by me
+- [ ] All **citations** were independently verified to exist and to support the claim
+- [ ] All **numbers/stats** were independently verified
+- [ ] No data or results were fabricated, altered, or "cleaned" by AI
+- [ ] I can explain and defend every claim as if no AI were involved
+- [ ] AI tools are **not** listed as authors
+
+## Venue disclosure
+- Target venue's AI policy reviewed? ☐  Required statement drafted? ☐
+- Disclosure text to include: _______________
+
+**Member sign-off:** ______  **Date:** ______

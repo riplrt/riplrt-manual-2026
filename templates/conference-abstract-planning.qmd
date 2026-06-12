@@ -1,0 +1,30 @@
+---
+title: "Conference Abstract Planning Sheet"
+---
+
+> Often a mentee's first scholarly product. Confirm authorship BEFORE submission.
+
+**Conference:** _______________  **Abstract deadline:** _______________  **Presenter:** _______________
+
+## 1. Fit
+- Why this venue (audience, alignment with goals):
+- Format: ☐ Poster ☐ Talk ☐ Either
+
+## 2. Content (respect the character/word limit!)
+- Background (1–2 sentences):
+- Methods (1–2 sentences):
+- Results / expected results (with numbers if available):
+- Conclusion & significance:
+- Character/word limit: ___  Current count: ___
+
+## 3. Authorship (confirmed before submission)
+- Author list & order:
+- Affiliations:
+
+## 4. Logistics
+- Travel award to apply for:
+- Submission account/portal:
+- Rehearsal date with pod:
+
+## 5. Reproducibility
+- Results trace to notebook/repo: _______________
