@@ -14,6 +14,7 @@ We use several streams, each with a clear purpose. If communication styles diffe
 | **Messaging channel** (single primary tool) | Quick updates, human connection, "I'm stuck" | Decisions of record (move those to a tracked tool) |
 | **Email** | External communication, formal records | Day-to-day internal coordination |
 | **Video (Zoom / Meet)** | Meetings, working sessions, recorded discussions | Things better handled async in writing |
+| **eLabNext** (electronic lab notebook) | Experiment and assay records, protocols/SOPs, sample and reagent inventory — the authoritative bench/lab record of what was done | Code and pipelines (use GitHub), task tracking (use the PM tool), document drafting (use Drive), or discussion |
 
 ::: {.callout-important}
 ## The "single source of truth" rule
