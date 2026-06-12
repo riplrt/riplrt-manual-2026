@@ -1,6 +1,6 @@
 # Responsible Use of AI in Research and Writing {#sec-responsible-ai}
 
-AI tools (large language models, coding assistants, literature-synthesis and workflow-automation tools) are part of how modern research groups work — including ours. Used well, they accelerate good work. Used carelessly, they create integrity, privacy, and quality risks. This chapter sets our guardrails. The standalone policy in `/policies/responsible-ai-use.qmd` is the authoritative reference, and the disclosure form lives at `/templates/ai-use-disclosure.qmd`.
+AI tools (large language models, coding assistants, literature-synthesis and workflow-automation tools) are part of how modern research groups work — including ours. Used well, they accelerate good work. Used carelessly, they create integrity, privacy, and quality risks. This chapter sets our guardrails. The standalone policy in [responsible-ai-use](/policies/responsible-ai-use.qmd) is the authoritative reference, and the disclosure form lives at [AI-Use Disclosure Form](/templates/pdf/ai-use-disclosure.pdf).
 
 ## Core principle
 
