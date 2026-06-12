@@ -2,26 +2,17 @@
 title: "Forms"
 ---
 
-These are the **sign-and-submit forms** for the RIPLRT Institute. Unlike the working templates in `/templates`, forms are meant to be completed, signed (typed name + date is fine), and returned to the PI or a designated lead, then stored in the member's record.
+These are the **sign-and-submit forms** for the RIPLRT Institute, provided as **downloadable PDFs**. Download the form, complete it (typed name + date is fine), and return it to the PI or a designated lead, who stores it in your member record.
 
-| Form | Submit when | File |
+| Form | Submit when | Download |
 |---|---|---|
-| Manual Acknowledgment Form | Within first 7 days; re-acknowledge at each annual review | [**Manual Acknowledgment Form**](/forms/manual-acknowledgment.md) |
-| Onboarding Checklist | Completed across the first 30 days | [**Onboarding Checklist**](/forms/onboarding-checklist.md) |
-| Offboarding Checklist | Completed in the final 2 weeks | [**Offboarding Checklist**](/forms/offboarding-checklist.md) |
-
-**Member affiliation (complete at intake):**
-
-- Home institution: ☐ Lynn University ☐ University of Puerto Rico ☐ Other: ________ ☐ Independent
-- Level: ☐ Undergraduate ☐ Graduate ☐ Postdoc / early-career ☐ Other: ________
-- Operating umbrella: ☐ EBDL (Lynn) ☐ RIPLRT-direct
-- IRB of record: ____________________   CITI completion date: ____________
-
-*This determines your IRB path, data-access rights, and byline affiliation (@sec-entity-structure, @sec-data-governance).*
+| Manual Acknowledgment Form | Within first 7 days; re-acknowledge at each annual review | [PDF](pdf/manual-acknowledgment.pdf) |
+| Onboarding Checklist | Completed across the first 30 days | [PDF](pdf/onboarding-checklist.pdf) |
+| Offboarding Checklist | Completed in the final 2 weeks | [PDF](pdf/offboarding-checklist.pdf) |
 
 ::: {.callout-note}
 ## Placeholder: where forms are stored
-The exact submission destination (a private Google Drive / OneDrive folder, a REDCap form, or a signed PDF in the member's file) is confirmed during onboarding. Keep completed forms — which contain names and signatures — **out of any public version** of this manual or its repository.
+The exact submission destination (a private Google Drive / OneDrive folder, a REDCap form, or a signed PDF in the member's file) is confirmed during onboarding. Completed forms contain names and signatures — keep them **out of any public version** of this manual or its repository.
 :::
 
-These forms intentionally mirror the working checklists in `/templates` (the Onboarding and Offboarding templates) so members can use the template to *do the work* and the form to *record completion*.
+The Onboarding and Offboarding forms mirror the working checklists in the [Templates appendix](../templates/index.qmd), so you can use the template to *do the work* and the form to *record completion*.

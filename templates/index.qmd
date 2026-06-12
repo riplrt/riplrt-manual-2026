@@ -2,22 +2,27 @@
 title: "Templates"
 ---
 
-This appendix collects the reusable templates RIPLRT members use throughout a project's life. Copy a template into your project space and fill it in — don't edit the master here.
+The reusable templates RIPLRT members use throughout a project's life are provided as **downloadable PDFs**. Download the one you need, print it or fill it on screen, and keep your copy in your project space — there's no master to edit here.
 
-| Template | Use when | File |
+| Template | Use when | Download |
 |---|---|---|
-| New Member Onboarding Checklist | Someone joins | [**New Member Onboarding Checklist**](/templates/new-member-onboarding-checklist.qmd) |
-| Project Pod Charter | A project starts | [**Project Pod Charter**](/templates/project-pod-charter.qmd) |
-| Individual Development Plan (IDP) | Each semester, per member | [**Individual Development Plan (IDP)**](/templates/individual-development-plan.qmd) |
-| Student Research Plan | A student scopes a project | [**Student Research Plan**](/templates/student-research-plan.qmd) |
-| Manuscript Planning Sheet | Before drafting a paper | [**Manuscript Planning Sheet**](/templates/manuscript-planning-sheet.qmd) |
-| Authorship/Contributorship Agreement | Project start; updated as roles change | [**Authorship/Contributorship Agreement**](/templates/authorship-contributorship-agreement.qmd) |
-| Data-Use & Access Checklist | Before touching project data | [**Data-Use & Access Checklist**](/templates/data-use-access-checklist.qmd) |
-| GitHub Repository Checklist | New repo setup | [**GitHub Repository Checklist**](/templates/github-repo-checklist.qmd) |
-| Reproducible Analysis Checklist | Before any submission | [**Reproducible Analysis Checklist**](/templates/reproducible-analysis-checklist.qmd) |
-| AI-Use Disclosure Form | Any product with material AI assistance | [**AI-Use Disclosure Form**](/templates/ai-use-disclosure.qmd) |
-| Conference Abstract Planning Sheet | Before an abstract deadline | [**Conference Abstract Planning Sheet**](/templates/conference-abstract-planning.qmd) |
-| Weekly Meeting Agenda | Every pod meeting | [**Weekly Meeting Agenda**](/templates/weekly-meeting-agenda.qmd) |
-| One-on-One Mentoring Meeting | Biweekly mentor↔mentee | [**One-on-One Mentoring Meeting**](/templates/one-on-one-meeting.qmd) |
-| Stop/Start/Continue Feedback | Reviews and retrospectives | [**Stop/Start/Continue Feedback**](/templates/stop-start-continue.qmd) |
-| Offboarding Checklist | Someone leaves | [**Offboarding Checklist**](/templates/offboarding-checklist.qmd) |
+| New Member Onboarding Checklist | Someone joins | [PDF](pdf/new-member-onboarding-checklist.pdf) |
+| Project Pod Charter | A project starts | [PDF](pdf/project-pod-charter.pdf) |
+| Individual Development Plan (IDP) | Each semester, per member | [PDF](pdf/individual-development-plan.pdf) |
+| Student Research Plan | A student scopes a project | [PDF](pdf/student-research-plan.pdf) |
+| Manuscript Planning Sheet | Before drafting a paper | [PDF](pdf/manuscript-planning-sheet.pdf) |
+| Authorship / Contributorship Agreement | Project start; updated as roles change | [PDF](pdf/authorship-contributorship-agreement.pdf) |
+| Data-Use & Access Checklist | Before touching project data | [PDF](pdf/data-use-access-checklist.pdf) |
+| GitHub Repository Checklist | New repo setup | [PDF](pdf/github-repo-checklist.pdf) |
+| Reproducible Analysis Checklist | Before any submission | [PDF](pdf/reproducible-analysis-checklist.pdf) |
+| AI-Use Disclosure Form | Any product with material AI assistance | [PDF](pdf/ai-use-disclosure.pdf) |
+| Conference Abstract Planning Sheet | Before an abstract deadline | [PDF](pdf/conference-abstract-planning.pdf) |
+| Weekly Meeting Agenda | Every pod meeting | [PDF](pdf/weekly-meeting-agenda.pdf) |
+| One-on-One Mentoring Meeting | Biweekly mentor↔mentee | [PDF](pdf/one-on-one-meeting.pdf) |
+| Stop / Start / Continue Feedback | Reviews and retrospectives | [PDF](pdf/stop-start-continue.pdf) |
+| Offboarding Checklist | Someone leaves | [PDF](pdf/offboarding-checklist.pdf) |
+
+::: {.callout-tip}
+## Editing a template
+The PDFs are generated from source files kept in the repository (`/templates/*.qmd`). To change a template, edit its source and regenerate the PDF, then commit both — see `CONTRIBUTING.md`. This keeps every member working from the same current version.
+:::

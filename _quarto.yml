@@ -1,6 +1,15 @@
 project:
   type: book
   output-dir: _book
+  render:
+    - index.qmd
+    - chapters/*.qmd
+    - templates/index.qmd
+    - policies/*.qmd
+    - forms/index.qmd
+  resources:
+    - templates/pdf/
+    - forms/pdf/
 
 book:
   title: "RIPLRT Institute Research Group Manual"
@@ -58,6 +67,10 @@ book:
   appendices:
     - templates/index.qmd
     - policies/index.qmd
+    - policies/authorship-contributorship.qmd
+    - policies/data-governance.qmd
+    - policies/responsible-ai-use.qmd
+    - policies/code-of-conduct.qmd
     - forms/index.qmd
 
 bibliography: references.bib

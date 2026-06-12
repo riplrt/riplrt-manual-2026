@@ -2,6 +2,13 @@
 
 All notable changes to the RIPLRT Institute Research Group Manual are recorded here. This manual is a living document; we log substantive changes so members can see how our shared operating system evolves. Format is loosely based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.0.1] — 2026 (post-launch)
+
+### Changed
+- **Templates and forms** are now delivered as **downloadable PDFs**, generated from their source files and linked from the Templates and Forms appendix pages. **Policies** remain rendered web pages (searchable, always current).
+- Added an explicit `render:` list in `_quarto.yml` so template/form *source* files are no longer published as raw pages (fixes raw `.qmd` downloads), and registered the policy pages in the appendix navigation.
+- Continuous integration builds the **HTML** site only; PDF and DOCX of the full book remain available via local `quarto render`.
+
 ## [2.0.0] — 2026 major revision
 
 The **2026 major revision** transforms the 2018/2021 RIPLRT *Lab* Manual into the 2026 RIPLRT Institute *Research Group* Manual — a complete operating system for a hybrid computational and translational research group. Rebuilt from R/Bookdown into [Quarto](https://quarto.org).
