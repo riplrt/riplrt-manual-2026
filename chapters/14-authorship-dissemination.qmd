@@ -1,8 +1,4 @@
----
-title: "Authorship, Contributorship, Presentations, and Public Dissemination"
----
-
-{#sec-authorship}
+# Authorship, Contributorship, Presentations, and Public Dissemination {#sec-authorship}
 
 How we assign credit is one of the most important — and most emotionally charged — parts of running a research group. We handle it transparently, early, and fairly. The standalone policy in `/policies/authorship-contributorship.qmd` is authoritative; this chapter is the working summary.
 

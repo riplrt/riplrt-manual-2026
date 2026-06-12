@@ -1,8 +1,4 @@
----
-title: "Conflict Resolution, Feedback, and Accountability"
----
-
-{#sec-accountability}
+# Conflict Resolution, Feedback, and Accountability {#sec-accountability}
 
 Disagreement is normal and often productive; unaddressed conflict is corrosive. This chapter explains how we give feedback, work through conflict, and hold one another accountable — humanely and without surprises. It deliberately replaces the original manual's punitive wage-penalty mechanics with a professional, developmental approach.
 

@@ -1,8 +1,4 @@
----
-title: "Reproducible Science, Open Science, and Version Control"
----
-
-{#sec-reproducible}
+# Reproducible Science, Open Science, and Version Control {#sec-reproducible}
 
 Reproducibility is one of our core values and a competitive advantage. It is also how we train independent scientists: a reproducible workflow is a teachable workflow. This chapter sets the standard.
 

@@ -1,8 +1,4 @@
----
-title: "Funding, Grants, Travel, and Professional Development"
----
-
-{#sec-funding}
+# Funding, Grants, Travel, and Professional Development {#sec-funding}
 
 This chapter covers how the group is funded, how members engage with grants, how we support conference travel, and how we invest in each member's growth — including protecting against burnout.
 

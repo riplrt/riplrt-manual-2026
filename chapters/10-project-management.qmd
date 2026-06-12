@@ -1,8 +1,4 @@
----
-title: "Project Management and Workflow Systems"
----
-
-{#sec-project-management}
+# Project Management and Workflow Systems {#sec-project-management}
 
 This chapter describes how a project moves from idea to product, and the systems that keep work findable, trackable, and reproducible. The goal is low cognitive load and high mentee independence.
 

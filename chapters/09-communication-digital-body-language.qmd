@@ -1,8 +1,4 @@
----
-title: "Communication, Meetings, and Digital Body Language"
----
-
-{#sec-communication}
+# Communication, Meetings, and Digital Body Language {#sec-communication}
 
 Most of our work — and most of our misunderstandings — happen in writing, across channels, often asynchronously. This chapter sets our communication norms so that "where is that file?" and "who owns this task?" stop being productivity leaks, and so our written tone builds trust rather than eroding it.
 

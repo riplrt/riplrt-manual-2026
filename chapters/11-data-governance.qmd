@@ -1,8 +1,4 @@
----
-title: "Data Governance, IRB, Privacy, and Responsible Research"
----
-
-{#sec-data-governance}
+# Data Governance, IRB, Privacy, and Responsible Research {#sec-data-governance}
 
 We work with sensitive human-related data: clinical records, claims and pharmacy data, biomarkers, surveillance data, and repository datasets governed by strict use agreements. Mishandling any of it can harm people and end projects. This chapter is mandatory reading for **everyone**, and the standalone policy in `/policies/data-governance.qmd` is the authoritative reference.
 

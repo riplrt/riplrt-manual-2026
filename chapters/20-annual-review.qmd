@@ -1,8 +1,4 @@
----
-title: "Annual Review and Manual Maintenance"
----
-
-{#sec-annual-review}
+# Annual Review and Manual Maintenance {#sec-annual-review}
 
 A research group is a living system. This chapter describes the rhythms by which we review the group — scientifically and humanly — and keep this manual current.
 
