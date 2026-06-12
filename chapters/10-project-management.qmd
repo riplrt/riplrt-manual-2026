@@ -5,6 +5,7 @@ This chapter describes how a project moves from idea to product, and the systems
 ## The project lifecycle
 
 ```{mermaid}
+%%| echo: false
 flowchart LR
     A[1. Charter<br/>aims, data, roles,<br/>authorship plan] --> B[2. Set up<br/>repo, data access,<br/>variable dictionary]
     B --> C[3. Analyze<br/>locked analysis plan,<br/>reproducible notebooks]
