@@ -12,25 +12,25 @@ Funding comes from the PI's grants and the group's portfolio of extramural, foun
 
 ### Which entity holds the funds
 
-Funding determines process: the **entity that holds an award** sets eligibility,
+Funding determines process: the entity that holds an award sets eligibility,
 spending rules, and reimbursement path (@sec-entity-structure).
 
 - **Lynn-administered awards and accounts** follow Lynn University procurement, travel, and reimbursement procedures; EBDL members use these for Lynn-funded work.
 - **RIPLRT / LLC funds** (foundation, society, industry, or consulting awards held by the LLC) follow LLC and sponsor terms.
-- **UPR or external members** may also have **home-institution** funding and travel paths; confirm which applies before incurring costs.
+- **UPR or external members** may also have home-institution funding and travel paths; confirm which applies before incurring costs.
 
-Practical rule: **confirm the funding source and its umbrella before you book travel or commit a purchase.** Reimbursement runs through the entity that holds the money, and mixing them creates problems that are hard to unwind. When unsure, ask the PI or the named project lead first.
+**Practical rule**: confirm the funding source and its umbrella before you book travel or commit a purchase. Reimbursement runs through the entity that holds the money, and mixing them creates problems that are hard to unwind. When unsure, ask the PI or the named project lead first.
 
 ## Engaging with grants as a development activity
 
 Grant-writing is part of the development ladder. Depending on your stage, you may:
 
-- Build or refine a **figure or preliminary-results panel**.
-- Run an **analysis** that becomes preliminary data.
-- Draft a **biosketch, specific-aims critique, or mentoring-plan** section.
-- Help assemble **letters, budgets, or data-management/sharing plans.**
+- Build or refine a figure or preliminary-results panel.
+- Run an analysis that becomes preliminary data.
+- Draft a biosketch, specific-aims critique, or mentoring-plan section.
+- Help assemble letters, budgets, or data-management/sharing plans.
 
-Mentees pursuing their own paths are encouraged to apply for **fellowships and trainee awards** (the group actively supports trainee-support applications, per the IAP). We help you find and write them.
+Mentees pursuing their own paths are encouraged to apply for fellowships and trainee awards (the group actively supports trainee-support applications, per the IAP). We help you find and write them.
 
 ## Travel and conferences
 
@@ -38,7 +38,7 @@ We advocate conference travel to present work, network, and stay current.
 
 - **Every member presents at least once a year**; mentees aim for a regional or (preferably) national conference aligned with their goals.
 - **Cost should not be a barrier.** We actively pursue travel awards, scholarships, and trainee grants so members can attend. Some group funds may be available on request.
-- Plan submissions against the shared **abstract calendar** (AAAAI, AAI, ATS, SOT, ASM, ISES, ASBMB, ABRCMS, and others).
+- Plan submissions against the shared abstract calendar (AAAAI, AAI, ATS, SOT, ASM, ISES, ASBMB, ABRCMS, and others).
 - Confirm authorship before submitting (@sec-authorship), and rehearse as a pod.
 
 ::: {.callout-note}
