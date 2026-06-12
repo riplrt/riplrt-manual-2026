@@ -30,9 +30,9 @@ RIPLRT.
 
 | Context | Name to use | Handle |
 |---|---|---|
-| Institute-level research, mentoring, recruitment | **RIPLRT Institute** | @riplrt / riplrt.com |
+| Institute-level research, mentoring, recruitment | **RIPLRT Institute** | \@riplrt / riplrt.com |
 | Work conducted within Lynn University | **Educational Biomarker Discovery Lab**, with the member's Lynn affiliation | per Lynn comms norms |
-| Bilingual science-communication content | **Vistazo A La Ciencia** (a *separate* LLC, not RIPLRT) | @vistazoalaciencia |
+| Bilingual science-communication content | **Vistazo A La Ciencia** (a *separate* LLC, not RIPLRT) | \@vistazoalaciencia |
 | Personal commentary by the PI | personal capacity, not the Institute | @friveramariani |
 
 Rules of the road:
