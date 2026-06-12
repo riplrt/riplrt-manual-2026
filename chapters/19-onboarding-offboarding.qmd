@@ -4,12 +4,12 @@ This chapter defines how members join, grow, and leave the group well. Good onbo
 
 ## Onboarding
 
-New members complete the **New Member Onboarding Checklist** (`/forms/onboarding-checklist.md`). At a high level, the first weeks look like this:
+New members complete the [**New Member Onboarding Checklist**](/forms/onboarding-checklist.md). At a high level, the first weeks look like this:
 
 ### First 7 days
-- Read this manual; **sign the [acknowledgment form](/forms/manual-acknowledgment.md).
-- Meet your **mentor** and the PI; understand your project and pod.
-- Get accounts and access: messaging channel, GitHub org, shared drive, project tool, and any project-specific tools — provisioned at **least privilege** (@sec-data-governance).
+- Read this manual; sign the [acknowledgment form](/forms/manual-acknowledgment.md).
+- Meet your mentor and the PI; understand your project and pod.
+- Get accounts and access: messaging channel, GitHub org, shared drive, project tool, and any project-specific tools — provisioned at least privilege (@sec-data-governance).
 - Add a short bio and (optional) photo for the group directory; set up your availability.
 
 ### Step 0 — Confirm your umbrella
@@ -19,7 +19,7 @@ Before the first-7-days checklist, your mentor confirms and records which umbrel
 - **Lynn University (EBDL):** Lynn CITI/IRB, Lynn accounts and resources, Lynn policy.
 - **UPR or other external / independent:** your home institution's CITI/IRB and policies; RIPLRT-direct mentoring and any collaboration/DUA terms.
 
-This is captured on the **onboarding checklist and the manual-acknowledgment form** (`/forms`) so your record is unambiguous from day one. Offboarding confirms that data, accounts, and products are returned or transferred to the **correct entity** for the umbrella you worked under.
+This is captured on the **onboarding checklist and the manual-acknowledgment form** ([forms](/forms)) so your record is unambiguous from day one. Offboarding confirms that data, accounts, and products are returned or transferred to the **correct entity** for the umbrella you worked under.
 
 ### First 30 days
 - Complete required **CITI/IRB training**; be added to relevant IRB protocols before touching human-subjects data.
@@ -28,9 +28,9 @@ This is captured on the **onboarding checklist and the manual-acknowledgment for
 - Co-create your **Individual Development Plan** with your mentor.
 
 ### First 90 days
-- Independently own a **named deliverable** (a figure, codebook, literature synthesis, or reproducible notebook).
+- Independently own a named deliverable (a figure, codebook, literature synthesis, or reproducible notebook).
 - Present once to the pod or group (a wins-and-roadblocks update counts).
-- Have a first **IDP check-in** to calibrate goals and support.
+- Have a first IDP check-in to calibrate goals and support.
 
 ## Training milestones
 
