@@ -77,7 +77,7 @@ This manual is the **2026 Edition (v2.0)**. It is the direct descendant of the 2
 
 ::: {.callout-note}
 ## A living document
-This manual is a work in progress, and that is by design. If something is unclear, outdated, or missing, that is an invitation to improve it. Talk to the PI, your mentor, or any group lead — or open a GitHub issue. See `CONTRIBUTING.md`.
+This manual is a work in progress, and that is by design. If something is unclear, outdated, or missing, that is an invitation to improve it. Talk to the PI, your mentor, or any group lead — or open a GitHub issue. See [**CONTRIBUTING.md**](/CONTRIBUTING.md).
 :::
 
 Welcome to RIPLRT. Let's get to work!
