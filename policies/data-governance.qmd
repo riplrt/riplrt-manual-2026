@@ -8,24 +8,24 @@ title: "Data Governance Policy"
 Access is a privilege tied to training, approval, and need. We collect the minimum, protect it rigorously, and honor every agreement that permits our use.
 
 ## 2. Authorization (required before any data access)
-- Current **CITI** training appropriate to role.
-- Named on the **approved IRB protocol** for the project (human-subjects data).
-- **IRB-of-record** confirmed per project *(placeholder — varies by institution/partnership)*.
-- Relevant **Data Use Agreement (DUA)** reviewed and understood.
+- Current CITI training appropriate to role.
+- Named on the approved IRB protocol for the project (human-subjects data).
+- IRB-of-record confirmed per project *(placeholder — varies by institution/partnership)*.
+- Relevant Data Use Agreement (DUA) reviewed and understood.
 
 ## 3. Dataset-specific rules
-Each dataset (PR DoH/ASES claims & pharmacy; BioLINCC; BioData Catalyst; *All of Us*; MESA; Framingham; AsthmaNet; NHANES; surveillance data) carries its own DUA, access tier, analysis-environment requirement, and citation/acknowledgment text. The **Data Steward** owns compliance and completes the Data-Use & Access Checklist with each analyst.
+Each dataset (PR DoH/ASES claims & pharmacy; BioLINCC; BioData Catalyst; *All of Us*; MESA; Framingham; AsthmaNet; NHANES; surveillance data) carries its own DUA, access tier, analysis-environment requirement, and citation/acknowledgment text. The Data Steward owns compliance and completes the Data-Use & Access Checklist with each analyst.
 
 ## 4. De-identification & HIPAA-adjacent handling
-- Never attempt **re-identification** of any individual.
-- Apply de-identification standards; respect **small-cell suppression**, especially in equity-stratified analyses.
+- Never attempt re-identification of any individual.
+- Apply de-identification standards; respect small-cell suppression, especially in equity-stratified analyses.
 - Treat claims/pharmacy/clinical data with PHI-level caution even when technically outside HIPAA.
 
 ## 5. Access control & secure storage
-- **Least privilege** access.
+- Least privilege access.
 - No restricted/identifiable data in chat, email, personal devices/drives, or public repos.
-- Controlled-tier analysis stays **inside the approved environment**; no egress unless explicitly permitted.
-- **No secrets in code** (env vars + `.gitignore`).
+- Controlled-tier analysis stays inside the approved environment; no egress unless explicitly permitted.
+- No secrets in code (env vars + `.gitignore`).
 - Encryption/backups per institutional policy.
 
 ## 6. Privacy of people
