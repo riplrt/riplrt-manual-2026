@@ -13,7 +13,7 @@ Coding assistance; writing structure/clarity/bilingual phrasing; literature orie
 ## 3. Prohibited uses
 - Entering **restricted, identifiable, IRB-governed, claims/pharmacy/clinical, or DUA-controlled data** into any external AI tool. (Treat prompt boxes as public.)
 - Presenting unverified AI output as fact.
-- Letting AI **fabricate, alter, or "clean" data or results** (research misconduct).
+- Letting AI fabricate, alter, or "clean" data or results (research misconduct).
 - Submitting AI-assisted work you cannot understand or defend.
 - Listing AI tools as **authors**.
 
@@ -22,7 +22,7 @@ Independently verify all AI-touched **citations** (exist + support the claim), *
 
 ## 5. Disclosure
 - Internally: note material AI assistance in commits/notebooks/docs.
-- For products: complete the AI-Use Disclosure form and apply the **target venue's** required AI-disclosure language and any prohibitions.
+- For products: complete the AI-Use Disclosure form and apply the target venue's required AI-disclosure language and any prohibitions.
 
 ## 6. AI and trainees
 AI is a tutor/assistant, not a substitute for skill-building. Mentors and mentees discuss AI use openly in IDPs/one-on-ones to ensure it accelerates — rather than replaces — learning.
