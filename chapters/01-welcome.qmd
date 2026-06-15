@@ -2,19 +2,19 @@
 title: "Welcome to RIPLRT Institute"
 ---
 
-Welcome to the **Respiratory and Immunology Project and Laboratory Research Team — the RIPLRT Institute.** Whether you are a returning member or this is your first day, we are glad you are here.
+Welcome to the **The RIPLRT Institute, a Respiratory and Immunology Project and Laboratory Research Team.** Whether you are a returning member or this is your first day, we are glad you are here.
 
-This chapter orients you to what kind of place this is, what you can expect from us, and what we will ask of you in return.
+This chapter orients you to what kind of place we are, what you can expect from us, and what we will ask of you in return.
 
 ## What RIPLRT is
 
-The RIPLRT Institute, often referred to simply as the RIPLRT, is a **research group, a learning environment, and a scientific home.** We are a mentee-powered group studying how environmental exposures shape respiratory and immune health — and how to convert that understanding into tools that protect people, especially in communities that carry the heaviest environmental burden.
+The RIPLRT Institute, often referred to simply as the RIPLRT, is a **research group, a learning environment, and a scientific home.** We are a mentee-powered group at the interphase of environmental health and biomarker discovery to improve society's respiratory and immune health — and how to convert that understanding into tools that protect people, especially in communities that carry the heaviest environmental burden.
 
 You joined because of the science, and our values and principles. We hope you stay because you feel valued, connected, mentored, and part of work that matters. Belonging is not a perk here; it is part of how we do good science. People who feel safe ask better questions, surface mistakes earlier, and take the creative risks that move projects forward.
 
 While you are with us, you will develop skills across several domains:
 
-- **Scientific:** environmental exposure science, immunology, respiratory and cardiovascular health, biomarker interpretation, and study design.
+- **Scientific:** environmental exposure science, immunology, respiratory and cardiovascular health, biomarker discovery and interpretation, and study design.
 - **Computational:** R and Python, reproducible analysis, version control with Git/GitHub, dashboards, and AI/ML methods used responsibly.
 - **Professional:** scientific writing, giving talks, building posters, presenting at conferences, and communicating science bilingually to non-specialist audiences.
 - **Human:** career guidance, collaboration, feedback, mentoring others, and navigating team science.
