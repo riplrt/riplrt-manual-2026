@@ -6,11 +6,11 @@ This chapter states what we are working toward, how we pursue it, and the values
 
 ## Vision
 
-Over the next five years, the RIPLRT Institute will advance a **nationally recognized, equity-centered program in environmental immunology, exposure science, and computational respiratory and cardiovascular health.**
+Over the next five years, the RIPLRT Institute will continue to advance a **nationally recognized, equity-centered program in environmental immunology, exposure science, and computational respiratory, immunological, and cardiovascular health.**
 
-Communities across Puerto Rico, the Caribbean basin, and the southern coastal United States face converging extreme weather, bioaerosol, pollution, and respiratory-health challenges that require predictive and preventive solutions. We will identify critical short- and long-term risk windows for respiratory exacerbations and exposure-related immune and cardiopulmonary outcomes by integrating biological exposures (airway microbiome/mycobiome signatures and bioaerosols) with non-biological exposures ($PM_{2.5}$, $NO_2$, chemical and physical pollutants, meteorology), immune and inflammatory biomarkers, wearable exposure assessments, and advanced computational modeling.
+Communities across Puerto Rico, the Caribbean basin, the southern coastal United States, and tropical regions face converging extreme weather, bioaerosol, pollution, and respiratory-health challenges that require predictive and preventive solutions. We will identify critical short- and long-term risk windows for respiratory exacerbations and exposure-related immune and cardiopulmonary outcomes by integrating biological exposures (airway microbiome/mycobiome signatures and bioaerosols) with non-biological exposures ($PM_{2.5}$, $NO_2$, chemical and physical pollutants, meteorology), immune and inflammatory biomarkers, wearable exposure assessments, and advanced computational modeling.
 
-This vision is propelled by **mentee-integrated research, bilingual science communication, and community-responsive translation** that prevent disease, strengthen climate-health resilience, and narrow respiratory health disparities in environmentally threatened and socially underserved populations.
+This vision is propelled by **mentee-integrated research, bilingual science communication, and community-responsive translation** that prevent disease, strengthen climate-health resilience, and narrow respiratory, immunological, and cardiovascular health disparities in environmentally threatened and socially underserved populations.
 
 ## Mission
 
@@ -18,7 +18,7 @@ We conduct **collaborative, extramurally supported, multi-cohort, repository-bas
 
 We leverage surveillance data, incoming healthcare data, and accessible national resources (e.g., BioLINCC, BioData Catalyst, ImmProt, NHANES, *All of Us*) to build reproducible analytic pipelines. Using computational approaches and AI/ML, we forecast exposure-linked risk windows and validate forecasts against real-world clinical outcomes.
 
-Findings are translated into **clinician-facing dashboards, community risk briefs, public-health playbooks, peer-reviewed manuscripts, and student-centered training products.** Across every phase — from question generation and data access to analysis, authorship, presentations, and dissemination — **mentees are embedded as active contributors** to build an inclusive workforce.
+Findings are translated into **clinician-facing dashboards, community risk briefs, public-health policy, peer-reviewed manuscripts, and student-centered training products, among other outputs.** Across every phase — from question generation and data access to analysis, authorship, presentations, and dissemination — **mentees are embedded as active contributors** to build an inclusive workforce.
 
 ## Core Values
 
@@ -48,7 +48,7 @@ Our values are not decoration. They must be **visible in daily behaviors and doc
 
 ::: {.callout-tip}
 ## The vision sentence you can quote anywhere
-> *Our research group is dedicated to translating environmental exposures into equitable respiratory and immune health, and we make it happen by building reproducible, mentee-powered, community-responsive science.*
+> *Our research group is dedicated to translating environmental exposures into equitable respiratory, immunological, and cardiovascular health, and we make it happen by building reproducible, mentee-powered, community-responsive science.*
 :::
 
 ## From values to behavior
