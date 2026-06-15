@@ -86,6 +86,7 @@ format:
     toc-depth: 3
     number-sections: true
     code-link: true
+    link-external-newwindow: true
   pdf:
     documentclass: scrreprt
     toc: true

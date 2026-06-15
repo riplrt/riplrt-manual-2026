@@ -16,9 +16,10 @@ Our portfolio is large, but it is not scattered. Every project sits somewhere on
 
 1. **Exposure Science** — We measure and interpret environmental signals: bioaerosols and fungal spores, airway microbiome/mycobiome signatures, $PM_{2.5}$, $NO_2$, chemical and physical pollutants, meteorology, and wearable exposure streams.
 2. **Immune and Biochemical Bioactivity** — We connect those exposures to immune and inflammatory biomarkers and to biological and biochemical responses and pathways.
-3. **Computational Modeling** — We use AI/ML, distributed lag models, mixed-effects models, and equity-aware metrics to forecast exposure-linked respiratory risk windows. We also use computational methods to discover and interpret biomarker signatures of exposure and risk, and bioinformatic methods to link those signatures to biological pathways and potential therapeutic targets.
-4. **Equity-Focused Translation** — We convert forecasts into clinician-facing dashboards, community risk briefs, public-health playbooks, and peer-reviewed science.
-5. **Inclusive Workforce Development** — Across all of the above, mentees are embedded as active contributors, building an inclusive workforce in immunology, exposure science, environmental and respiratory health, computational biology, and data science.
+3. **Biomarker Discovery and Interpretation** — We identify and interpret biomarkers as a key to understanding exposure-health links. We also link exposures and biomarkers to clinical, claims, pharmacy, and repository-based outcomes.
+4. **Computational Modeling** — We use AI/ML, distributed lag models, mixed-effects models, and equity-aware metrics to forecast exposure-linked respiratory risk windows. We also use computational methods to discover and interpret biomarker signatures of exposure and risk, and bioinformatic methods to link those signatures to biological pathways and potential therapeutic targets.
+5. **Equity-Focused Translation** — We convert forecasts into clinician-facing dashboards, community risk briefs, public-health playbooks, and peer-reviewed science.
+6. **Inclusive Workforce Development** — Across all of the above, mentees are embedded as active contributors, building an inclusive workforce in immunology, exposure science, environmental and respiratory health, computational biology, and data science.
 
 When you describe your project, locate it on this chain. It clarifies your aims, your collaborators, and your authorship plan.
 
@@ -29,16 +30,18 @@ When you describe your project, locate it on this chain. It clarifies your aims,
 flowchart LR
     A["<b>1 · Exposure Science</b><br/>Community<br/>Bioaerosols and fungal spores · airway microbiome/mycobiome · PM2.5 · NO2 · chemical and physical pollutants · meteorology · wearable exposure streams"]
     B["<b>2 · Immune and Biochemical Bioactivity</b><br/>Clinic<br/>Immune and inflammatory biomarkers · biological and biochemical responses and pathways · clinical, claims, pharmacy, and biomarker outcomes"]
-    C["<b>3 · Computational Modeling</b><br/>Cloud<br/>AI/ML · distributed-lag and mixed-effects models · equity-aware metrics · biomarker-signature discovery · bioinformatic pathway and target linkage · reproducible pipelines"]
-    D["<b>4 · Equity-Focused Translation</b><br/>Clinician dashboards · community risk briefs · public-health playbooks · peer-reviewed science"]
-    E["<b>5 · Inclusive Workforce Development</b><br/>Mentees embedded as active contributors across every stage — immunology, exposure science, environmental and respiratory health, computational biology, and data science"]
+    C["<b>3 · Biomarker Discovery and Interpretation</b><br/>Clinic<br/>Biomarker identification and interpretation · linking exposures and biomarkers to clinical, claims, pharmacy, and repository-based outcomes"]
+    D["<b>4 · Computational Modeling</b><br/>Cloud<br/>AI/ML · distributed-lag and mixed-effects models · equity-aware metrics · biomarker-signature discovery · bioinformatic pathway and target linkage · reproducible pipelines"]
+    E["<b>5 · Equity-Focused Translation</b><br/>Clinician dashboards · community risk briefs · public-health playbooks · peer-reviewed science"]
+    F["<b>6 · Inclusive Workforce Development</b><br/>Mentees embedded as active contributors across every stage — immunology, exposure science, environmental and respiratory health, computational biology, and data science"]
 
-    A --> B --> C --> D
-    D -.->|"feeds back to community"| A
-    E -.-> A
-    E -.-> B
-    E -.-> C
-    E -.-> D
+    A --> B --> C --> D --> E
+    E -.->|"feeds back to community"| A
+    F -.-> A
+    F -.-> B
+    F -.-> C
+    F -.-> D
+    F -.-> E
 
     classDef cross stroke-dasharray:6 4,stroke-width:1.5px;
     class E cross;
