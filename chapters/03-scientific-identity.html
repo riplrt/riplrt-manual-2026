@@ -637,6 +637,7 @@ window.Quarto = {
 <ol type="1">
 <li><strong>Exposure Science</strong> — We measure and interpret environmental signals: bioaerosols and fungal spores, airway microbiome/mycobiome signatures, <span class="math inline">\(PM_{2.5}\)</span>, <span class="math inline">\(NO_2\)</span>, chemical and physical pollutants, meteorology, and wearable exposure streams.</li>
 <li><strong>Immune and Biochemical Bioactivity</strong> — We connect those exposures to immune and inflammatory biomarkers and to biological and biochemical responses and pathways.</li>
+<li><strong>Biomarker Discovery and Interpretation</strong> — We identify and interpret biomarkers as a key to understanding exposure-health links. We also link exposures and biomarkers to clinical, claims, pharmacy, and repository-based outcomes.</li>
 <li><strong>Computational Modeling</strong> — We use AI/ML, distributed lag models, mixed-effects models, and equity-aware metrics to forecast exposure-linked respiratory risk windows. We also use computational methods to discover and interpret biomarker signatures of exposure and risk, and bioinformatic methods to link those signatures to biological pathways and potential therapeutic targets.</li>
 <li><strong>Equity-Focused Translation</strong> — We convert forecasts into clinician-facing dashboards, community risk briefs, public-health playbooks, and peer-reviewed science.</li>
 <li><strong>Inclusive Workforce Development</strong> — Across all of the above, mentees are embedded as active contributors, building an inclusive workforce in immunology, exposure science, environmental and respiratory health, computational biology, and data science.</li>
@@ -653,16 +654,18 @@ window.Quarto = {
 <pre class="mermaid mermaid-js">flowchart LR
     A["&lt;b&gt;1 · Exposure Science&lt;/b&gt;&lt;br/&gt;Community&lt;br/&gt;Bioaerosols and fungal spores · airway microbiome/mycobiome · PM2.5 · NO2 · chemical and physical pollutants · meteorology · wearable exposure streams"]
     B["&lt;b&gt;2 · Immune and Biochemical Bioactivity&lt;/b&gt;&lt;br/&gt;Clinic&lt;br/&gt;Immune and inflammatory biomarkers · biological and biochemical responses and pathways · clinical, claims, pharmacy, and biomarker outcomes"]
-    C["&lt;b&gt;3 · Computational Modeling&lt;/b&gt;&lt;br/&gt;Cloud&lt;br/&gt;AI/ML · distributed-lag and mixed-effects models · equity-aware metrics · biomarker-signature discovery · bioinformatic pathway and target linkage · reproducible pipelines"]
-    D["&lt;b&gt;4 · Equity-Focused Translation&lt;/b&gt;&lt;br/&gt;Clinician dashboards · community risk briefs · public-health playbooks · peer-reviewed science"]
-    E["&lt;b&gt;5 · Inclusive Workforce Development&lt;/b&gt;&lt;br/&gt;Mentees embedded as active contributors across every stage — immunology, exposure science, environmental and respiratory health, computational biology, and data science"]
+    C["&lt;b&gt;3 · Biomarker Discovery and Interpretation&lt;/b&gt;&lt;br/&gt;Clinic&lt;br/&gt;Biomarker identification and interpretation · linking exposures and biomarkers to clinical, claims, pharmacy, and repository-based outcomes"]
+    D["&lt;b&gt;4 · Computational Modeling&lt;/b&gt;&lt;br/&gt;Cloud&lt;br/&gt;AI/ML · distributed-lag and mixed-effects models · equity-aware metrics · biomarker-signature discovery · bioinformatic pathway and target linkage · reproducible pipelines"]
+    E["&lt;b&gt;5 · Equity-Focused Translation&lt;/b&gt;&lt;br/&gt;Clinician dashboards · community risk briefs · public-health playbooks · peer-reviewed science"]
+    F["&lt;b&gt;6 · Inclusive Workforce Development&lt;/b&gt;&lt;br/&gt;Mentees embedded as active contributors across every stage — immunology, exposure science, environmental and respiratory health, computational biology, and data science"]
 
-    A --&gt; B --&gt; C --&gt; D
-    D -.-&gt;|"feeds back to community"| A
-    E -.-&gt; A
-    E -.-&gt; B
-    E -.-&gt; C
-    E -.-&gt; D
+    A --&gt; B --&gt; C --&gt; D --&gt; E
+    E -.-&gt;|"feeds back to community"| A
+    F -.-&gt; A
+    F -.-&gt; B
+    F -.-&gt; C
+    F -.-&gt; D
+    F -.-&gt; E
 
     classDef cross stroke-dasharray:6 4,stroke-width:1.5px;
     class E cross;
@@ -809,6 +812,11 @@ window.Quarto = {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
