@@ -70,7 +70,7 @@ If you are unsure which applies to you, confirm with the PI before you begin pro
 
 ## How this manual came to be
 
-This manual is the **2026 Edition (v2.0)**. It is the direct descendant of the 2018 RIPLRT Lab Manual and its 2021 revision, which were inspired by the open lab-manual movement and built reproducibly in [R](https://www.r-project.org/) and [Quarto](https://quarto.org/). We have preserved the parts that made the original strong — the welcoming tone, our values, our commitment to integrity, open science, reproducibility, and clear authorship — and modernized everything else for who we are now: a hybrid computational and translational research and mentoring group operating across the RIPLRT Institute and affiliated entities.
+This manual is the **2026 Edition (v2.0)**. It is the direct descendant of the 2018 RIPLRT Lab Manual and its 2021 revision, which were inspired by the open lab-manual movement and built reproducibly in [R](https://www.r-project.org/){target="_blank" rel="noopener"} and [Quarto](https://quarto.org/){target="_blank" rel="noopener"}. We have preserved the parts that made the original strong — the welcoming tone, our values, our commitment to integrity, open science, reproducibility, and clear authorship — and modernized everything else for who we are now: a hybrid computational and translational research and mentoring group operating across the RIPLRT Institute and affiliated entities.
 
 ::: {.callout-note}
 ## A living document
