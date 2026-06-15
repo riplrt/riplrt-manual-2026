@@ -35,13 +35,10 @@ Understanding who we legally are matters because it determines whose policy, who
 
 - **Felix E. Rivera-Mariani, PhD, LLC** — the parent entity (FL #L21000280781; PR #467494). All RIPLRT Institute activity operates under
   this LLC.
-- **RIPLRT Institute** — *A Respiratory and Immunology Project and Laboratory Research Team.* A scientific research-and-mentoring **DBA** of Felix  
-  E. Rivera-Mariani, PhD, LLC. The Institute is **not** a department, lab, or administrative unit of Lynn University.
-- **Educational Biomarker Discovery Lab (EBDL)** — the branch through which RIPLRT research is conducted *within* Lynn University. EBDL work is  
-  governed by Lynn University policy, IRB, and sponsor terms.
+- **RIPLRT Institute** — *A Respiratory and Immunology Project and Laboratory Research Team.* A scientific research-and-mentoring **DBA** of Felix E. Rivera-Mariani, PhD, LLC. The Institute is **not** a department, lab, or administrative unit of Lynn University.
+- **Educational Biomarker Discovery Lab (EBDL)** — the branch through which RIPLRT research is conducted *within* Lynn University. EBDL work is governed by Lynn University policy, IRB, and sponsor terms.
 - **Lynn University** — institutional home of the EBDL and of Lynn-affiliated members.
-- **University of Puerto Rico (UPR)** — collaborating institution. UPR-affiliated mentees are mentored under the RIPLRT Institute but remain 
-  governed by UPR institutional policy and IRB, and by any applicable collaboration or data-use agreement. Dr. Rivera-Mariani holds a secondary appointment (Associate Professor, Ad Honorem) at Department of Microbiology and Immunology of the School of Medicine of the University of Puerto Rico (UPR) Medical Sciences Campus, which serves as the IRB of record for some projects.
+- **University of Puerto Rico (UPR)** — collaborating institution. UPR-affiliated mentees are mentored under the RIPLRT Institute but remain governed by UPR institutional policy and IRB, and by any applicable collaboration or data-use agreement. Dr. Rivera-Mariani holds a secondary appointment (Associate Professor, Ad Honorem) at Department of Microbiology and Immunology of the School of Medicine of the University of Puerto Rico (UPR) Medical Sciences Campus, which serves as the IRB of record for some projects.
 
 ::: {.callout-important}
 ## Which umbrella are you under?
@@ -54,8 +51,8 @@ If you are unsure which applies to you, confirm with the PI before you begin pro
 ## What you can expect from us
 
 - A clear sense of how your work connects to the RIPLRT's mission.
-- A mentor and a defined development pathway, not just a task list.
-- Honest, timely, constructive, and kind feedback.
+- A mentored and defined development pathway, not just a task list.
+- Honest, timely, and constructive feedback.
 - Credit for your contributions, governed by transparent authorship rules (see @sec-authorship).
 - A psychologically safe environment where you can ask "naive" questions and disagree with the PI, and peers, without fear.
 - Support for your growth, including conference travel, professional development, and help with next steps after RIPLRT.
@@ -68,7 +65,7 @@ If you are unsure which applies to you, confirm with the PI before you begin pro
 - **Respect people's time** — show up to meetings prepared, meet deadlines, and renegotiate responsibly when life intervenes.
 - **Protect integrity and privacy.** Follow our data governance, IRB, and authorship rules without exception.
 - **Be a good teammate.** Communicate openly, give and receive feedback, and help each other.
-- **Be a person.** We are scientists, but we are also people with lives outside the lab. Bring your whole self, and respect others' whole selves.
+- **Be a person.** We are scientists, but we are also people with lives outside the lab. Bring your whole self, and respect others' whole selves. Each of us is a person first, scientist second.
 - **Help each other.** What is done in isolation is usually done better in partnership.
 
 ## How this manual came to be
