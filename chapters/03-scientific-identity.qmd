@@ -54,7 +54,7 @@ flowchart LR
 
 ## Where the science lives: data and methods
 
-Our near-term implementation cycle emphasizes **real-world and computational validation** using existing surveillance, healthcare data, and biomarker-rich repositories rather than only new ex vivo functional assays. Core resources include:
+Our near-term implementation cycle emphasizes **real-world and computational validation** using existing surveillance, healthcare data, and biomarker-rich repositories rather than only new ex vivo functional assays. Core resources include, but are not limited to:
 
 - **Surveillance & claims:** Puerto Rico fungal-spore and respiratory-virus surveillance; incoming PR Department of Health / ASES claims and pharmacy data.
 - **National repositories:** BioLINCC, BioData Catalyst, *All of Us*, MESA, Framingham, AsthmaNet, and NHANES.
@@ -67,4 +67,4 @@ We frame new work as a **forward progression**, not a repetition of past work. E
 
 ## Why equity is structural, not symbolic
 
-The communities we study — in Puerto Rico, the Caribbean, and coastal regions — face converging extreme weather, bioaerosol, pollution, and respiratory-health challenges and are often under-resourced and underrepresented in research. Equity is therefore built into the science itself: we stratify analyses by community, age, sex, and other relevant axes; we report equity-stratified performance; and we translate findings into bilingual materials communities can actually use. Equity is a design requirement of our pipelines, not a line in a diversity statement.
+The communities we study — in Puerto Rico, the Caribbean, coastal and tropical regions — face converging extreme weather, bioaerosol, pollution, and respiratory-health challenges and are often under-resourced and underrepresented in research. Equity is therefore built into the science itself: we stratify analyses by community, age, sex, and other relevant axes; we report equity-stratified performance; and we translate findings into bilingual materials communities can actually use. Equity is a design requirement of our pipelines, not a line in a diversity statement.
