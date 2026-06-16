@@ -26,7 +26,7 @@ Dr. Félix E. Rivera-Mariani sets scientific direction and models the group's va
 - Provides timely feedback across all scientific aspects.
 - Finds and applies for funding and identifies collaborations.
 - Has members' backs when they've followed the manual, and strives to be impartial.
-- Chairs lab meetings unless delegated.
+- Chairs meetings unless delegated.
 - Holds final accountability for integrity, authorship, and data governance.
 
 ### Group Lead / Lab Coordinator
@@ -38,20 +38,20 @@ Carry out core analysis and writing, mentor more junior members, generate resear
 ### Graduate Students
 Drive projects, learn methods quickly, mentor undergraduates, generate questions, and pursue professional development they identify themselves as well as opportunities the PI surfaces. Graduate members who complete their degrees may continue with us as **Graduate Research Alumni Fellows** (below).
 
-### Undergraduate Interns / Trainees
+### Undergraduate Students / Interns / Trainees
 Learn skills and procedures, contribute to defined project tasks, and pursue professional development. Every trainee is mentored and mapped to a real deliverable. Trainees who complete their time with us may continue as **Research Alumni Fellows** (below).
 
 ### Alumni Fellows and Continuing Collaborators
-Completing your time as a trainee does not mean leaving the group. These roles keep alumni connected as continuing contributors and mentors, and they are the living evidence of our through-line's final stage — *Inclusive Workforce Development*. Fellow status is recorded in the member directory and confirmed at annual review (@sec-annual-review), so it is always clear who is an active affiliate. Because most fellows are no longer at Lynn University, or affiliated institutions, they are typically mentored and contribute **RIPLRT-direct**, governed by their current home institution (@sec-entity-structure); their authorship is decided under the same contribution standards as everyone else (Ch. 14), and any data access follows the per-project IRB and data-use terms (@sec-data-governance).
+Completing your time as a trainee does not mean leaving the group. These roles keep alumni connected as continuing contributors and mentors, and they are the living evidence of our through-line's final stage — *Inclusive Workforce Development*. Fellow status is recorded in the member directory and confirmed at annual review (@sec-annual-review), so it is always clear who is an active affiliate. Because most fellows are no longer at Lynn University, or affiliated institutions, they are typically mentored and contribute directly to RIPLRT, governed by their current home institution (@sec-entity-structure); their authorship is decided under the same contribution standards as everyone else (Ch. 14), and any data access follows the per-project IRB and data-use terms (@sec-data-governance).
 
 #### Research Alumni Fellows
 Former undergraduate trainees (and comparable early-career alumni) who remain affiliated after completing their time with the group. They continue to contribute to manuscripts and projects they helped build, mentor current trainees, and represent the group as they move into graduate study or careers. Typically part-time or remote.
 
 #### Graduate Research Alumni Fellows
-Graduate alumni who continue collaborating after completing their degrees. They co-author, advise on methods, help train newer members, and often bridge the group to their new institutions and networks.
+Graduate alumni who continue collaborating after completing their M.S. degrees. They co-author, advise on methods, help train newer members, and often bridge the group to their new institutions and networks.
 
 #### Postdoctoral Collaborating Mentees and Fellows
-Postdoctoral-level collaborators who both *receive* mentorship — career growth and the path to independence — and *provide* senior expertise to projects and to junior members. They frequently serve as **project leads** and co-mentors.
+Postdoctoral-level collaborators, recently earning their PhD degrees, *receive* mentorship — career growth and the path to independence — and *provide* senior expertise to projects and to junior members. They frequently serve as **project leads** and co-mentors.
 
 ### Mentors and Mentees
 Mentoring is woven through every role (@sec-mentoring). Mentors are the first line of support for ensuring mentees understand and follow this manual. Alumni fellows are explicitly part of this fabric: they are mentored as they continue to grow, and they mentor those coming up behind them.
