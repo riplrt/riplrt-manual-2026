@@ -95,7 +95,7 @@ Pods use a **senior mentee / project lead → junior mentees → PI oversight** 
 
 ::: {.callout-important}
 ## Every new member maps to a real deliverable
-The group's risk is not too few people — it is overextension. **Every new mentee must map to a funded or near-funded project, a specific deliverable, and a defined supervision pathway** before they join a pod. Growth is intentional, aligned with mentoring bandwidth, not maximal.
+The group's risk is not too few people — it is overextension. **Every new mentee must map to a project, a specific deliverable, and a defined supervision pathway** before they join a pod. Growth is intentional, aligned with mentoring bandwidth, not maximal.
 :::
 
 ## Project operating manuals
