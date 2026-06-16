@@ -32,14 +32,12 @@ RIPLRT.
 |---|---|---|
 | Institute-level research, mentoring, recruitment | **RIPLRT Institute** | \@riplrt / riplrt.com |
 | Work conducted within Lynn University | **Educational Biomarker Discovery Lab**, with the member's Lynn affiliation | per Lynn comms norms |
-| Bilingual science-communication content | **Vistazo A La Ciencia** (a *separate* LLC, not RIPLRT) | \@vistazoalaciencia |
 | Personal commentary by the PI | personal capacity, not the Institute | @friveramariani |
 
 Rules of the road:
 
 - **Never state or imply that the RIPLRT Institute is a Lynn University unit.** It is a DBA of Felix E. Rivera-Mariani, PhD, LLC.
-- Use the **EBDL** name only for Lynn-housed work, and follow Lynn University branding and approval norms whenever Lynn is named.
-- Keep **Vistazo A La Ciencia** distinct — it is a different entity with its own mission, not a RIPLRT channel.
+- Use the **EBDL** name only for Lynn-housed work.
 - When in doubt about a public post, logo, or co-branding, clear it with the PI before publishing.
 
 ## File naming and document hygiene
