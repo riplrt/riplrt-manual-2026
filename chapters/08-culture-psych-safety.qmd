@@ -8,7 +8,7 @@ Psychological safety means members feel able to **ask naive questions, admit the
 
 For a group where people are learning coding, statistics, and environmental-health methods at the same time, this is non-negotiable. We normalize **"learning in public":**
 
-- Questions are contributions. The person asking the "obvious" question is usually asking what three others were thinking.
+- Questions are contributions: the person asking the "obvious" question is usually asking what three others were thinking.
 - Mistakes surfaced early are cheap; mistakes hidden are expensive. We thank people for catching errors — including their own.
 - Disagreement with the PI or senior members is welcome and expected. Good science needs dissent.
 
