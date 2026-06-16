@@ -10,7 +10,7 @@ We recruit and develop members for more than grades or technical skill. We look 
 
 ## The Mentoring Skills Model
 
-We treat mentoring as a **set of learnable skills**, not a personality trait — some shared by everyone in a mentoring relationship, some specific to each side of it. We adapt this from the **Mentoring Skills Model** (Linda Phillips-Jones, PhD), which sorts the skills into three regions.
+We treat mentoring as a **set of learnable skills**, not a personality trait — some shared by everyone in a mentoring relationship, some specific to each side of it. We adapt this from the **Mentoring Skills Model** (authored by Linda Phillips-Jones, PhD), which sorts the skills into three regions.
 
 ```{mermaid}
 %%| label: fig-mentoring-skills
@@ -32,14 +32,14 @@ As @fig-mentoring-skills shows, the three regions map directly onto how our grou
 
 - **Shared core skills** — *listening actively, building trust, encouraging,* and *identifying goals and current reality* — are the foundation we expect from **everyone, in every direction**: PI to trainee, peer to peer, alumni fellow to current student, and collaborator to collaborator.
 - **Mentee-specific skills** — *acquiring mentors, learning quickly, showing initiative, following through,* and *managing the relationship* — are what we actively coach trainees to build. They map onto the development ladder later in this chapter and onto your IDP.
-- **Mentor-specific skills** — *instructing and developing capabilities, inspiring, providing corrective feedback, managing risks,* and *opening doors* — are what mentors grow into. In our group these are **not the PI's job alone**: senior mentees, Graduate Research Alumni Fellows, Postdoctoral Collaborating Mentees and Fellows, and Faculty Collaborators all carry mentor-specific responsibilities (@sec-roles-pods).
+- **Mentor-specific skills** — *instructing and developing capabilities, inspiring, providing corrective feedback, managing risks,* and *opening doors* — are what mentors grow into. In our group, these are **not the PI's job alone**: senior mentees, Graduate Research Alumni Fellows, Postdoctoral Collaborating Mentees and Fellows, and Faculty Collaborators all carry mentor-specific responsibilities (@sec-roles-pods).
 
 ::: {.callout-tip}
 ## Use the model in your IDP
 At each IDP check-in, name **one shared-core skill, one role-specific skill,** and one concrete way you will practice each this term. Mentors do the same for their mentor-specific skills. Mentoring is a practice we improve on purpose — not something we assume we already have.
 :::
 
-Because the group is built around **Inclusive Workforce Development**, most members sit on **both sides of this model at once**: a graduate student is a mentee to the PI and a mentor to an undergraduate; a postdoctoral fellow both receives and provides mentorship. The model is a shared language for getting better at both roles — not a hierarchy.
+Because the group is built around **Inclusive Workforce Development**, most members sit on **both sides of this model at once**: a graduate student is a mentee to the PI, or faculty collaborators, and a mentor to an undergraduate; a postdoctoral fellow both receives and provides mentorship. The model is a shared language for getting better at both roles — not a hierarchy.
 
 ## The mentoring compact
 
@@ -84,7 +84,7 @@ flowchart LR
 
 ### Training milestones
 
-- **Foundation:** complete CITI/IRB training as applicable; learn the group's tools (Git/GitHub, R or Python, the data-governance rules); read this manual.
+- **Foundation:** complete CITI/IRB training as applicable; learn the group's tools (Git/GitHub, R or Python, the data-governance rules, among others); read this manual.
 - **Contribution:** independently own a named deliverable (a figure, a codebook, a literature synthesis, a reproducible notebook).
 - **Leadership:** lead a pod component; mentor a newer member; first- or co-first-author a scholarly product.
 
