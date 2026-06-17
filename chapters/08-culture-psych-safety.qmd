@@ -45,7 +45,7 @@ Meetings are where culture is most visible. Ours are designed so junior members 
 
 ## Inclusion is part of the culture, not the branding
 
-Leaders shape cultures that **recognize and eliminate discriminatory or harassing behavior.** This aligns directly with our mission to broaden participation in STEM. Inclusion shows up here in concrete practices: equitable recruitment, rotating visible roles, attention to who speaks and who is credited, bilingual communication, and a low-friction path to raise concerns (@sec-accountability). We do not tolerate harassment or discrimination of any kind (see [**Code of Conduct**](/policies/CODE_OF_CONDUCT.md)).
+Leaders shape cultures that **recognize and eliminate discriminatory or harassing behavior.** This aligns directly with our mission to broaden participation in STEM. Inclusion shows up here in concrete practices: equitable recruitment, rotating visible roles, attention to who speaks and who is credited, bilingual communication, and a low-friction path to raise concerns (@sec-accountability). We do not tolerate harassment or discrimination of any kind (see [**Code of Conduct**](/policies/CODE_OF_CONDUCT.md){target="_blank" rel="noopener"}).
 
 ## We evaluate the lab as a human system
 

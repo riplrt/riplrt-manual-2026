@@ -26,7 +26,7 @@ flowchart LR
     classDef core stroke-width:2px;
     class SHARED core;
 ```
-Source: [https://my.lerner.udel.edu/wp-content/uploads/Skills_for_Sucessful_Mentoring.pdf](https://my.lerner.udel.edu/wp-content/uploads/Skills_for_Sucessful_Mentoring.pdf)
+Source: [https://my.lerner.udel.edu/wp-content/uploads/Skills_for_Sucessful_Mentoring.pdf](https://my.lerner.udel.edu/wp-content/uploads/Skills_for_Sucessful_Mentoring.pdf){target="_blank" rel="noopener"}
 
 As @fig-mentoring-skills shows, the three regions map directly onto how our group works:
 
@@ -65,9 +65,9 @@ Because the group is built around **Inclusive Workforce Development**, most memb
 
 | Touchpoint | Frequency | Tool |
 |---|---|---|
-| One-on-one mentoring meeting | Biweekly (min. monthly) | [**One-on-One Meeting Template**](/templates/pdf/one-on-one-meeting.pdf) |
-| IDP review | Each semester | [**Individual Development Plan Template**](/templates/pdf/individual-development-plan.pdf) |
-| Pod check-in | Weekly | [**Weekly Meeting Agenda Template**](/templates/pdf/weekly-meeting-agenda.pdf) |
+| One-on-one mentoring meeting | Biweekly (min. monthly) | [**One-on-One Meeting Template**](/templates/pdf/one-on-one-meeting.pdf){target="_blank" rel="noopener"} |
+| IDP review | Each semester | [**Individual Development Plan Template**](/templates/pdf/individual-development-plan.pdf){target="_blank" rel="noopener"} |
+| Pod check-in | Weekly | [**Weekly Meeting Agenda Template**](/templates/pdf/weekly-meeting-agenda.pdf){target="_blank" rel="noopener"} |
 | Climate / belonging pulse | Quarterly | @sec-annual-review |
 
 ## The student-development pathway

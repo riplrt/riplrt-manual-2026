@@ -59,7 +59,7 @@ If you are unsure which applies to you, confirm with the PI before you begin pro
 
 ## What we expect from you
 
-- **Read this manual** and sign the [acknowledgment form](/forms/pdf/manual-acknowledgment.pdf) within your first 7 days.
+- **Read this manual** and sign the [acknowledgment form](/forms/pdf/manual-acknowledgment.pdf){target="_blank" rel="noopener"} within your first 7 days.
 - **Bring curiosity and reliability.** Do what you say you will do, and communicate early when you can't.
 - **Learn in public.** Own mistakes quickly; we fix them together. Hiding a mistake is the only unrecoverable error.
 - **Respect people's time** — show up to meetings prepared, meet deadlines, and renegotiate responsibly when life intervenes.
