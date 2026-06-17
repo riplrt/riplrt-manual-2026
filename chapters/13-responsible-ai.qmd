@@ -1,6 +1,6 @@
 # Responsible Use of AI in Research and Writing {#sec-responsible-ai}
 
-AI tools (large language models, coding assistants, literature-synthesis and workflow-automation tools) are part of how modern research groups work — including ours. Used well, they accelerate good work. Used carelessly, they create integrity, privacy, and quality risks. This chapter sets our guardrails. The standalone policy in [responsible-ai-use](/policies/responsible-ai-use.qmd) is the authoritative reference, and the disclosure form lives at [AI-Use Disclosure Form](/templates/pdf/ai-use-disclosure.pdf).
+AI tools (large language models, coding assistants, literature-synthesis and workflow-automation tools) are part of how modern research groups work — including ours. Used well, they accelerate good work. Used carelessly, they create integrity, privacy, and quality risks. This chapter sets our guardrails. The standalone policy in [responsible-ai-use](/policies/responsible-ai-use.qmd){target="_blank" rel="noopener"} is the authoritative reference, and the disclosure form lives at [AI-Use Disclosure Form](/templates/pdf/ai-use-disclosure.pdf){target="_blank" rel="noopener"}.
 
 ## Core principle
 
@@ -20,7 +20,7 @@ your umbrella (@sec-entity-structure) and the data-governance rules
 (@sec-data-governance):
 
 - **EBDL / Lynn members** use AI tools approved under **Lynn University** policy and may process Lynn-governed or IRB-listed data only in environments Lynn permits.
-- **RIPLRT / LLC infrastructure** — including tools built by **FERM Technologies** (the LLC's technology DBA) — is governed by LLC and sponsor terms, not by default Lynn approvals. <!-- VERIFY: which FERM/LLC tools are cleared for Lynn-governed data -->
+- **RIPLRT / LLC infrastructure** — including tools built by **FERM Technologies** (the LLC's technology DBA) — is governed by LLC and sponsor terms, not by default Lynn or other institutions' approvals. <!-- VERIFY: which FERM/LLC tools are cleared for Lynn-governed data -->
 - **UPR or external members** follow their home institution's AI and data rules.
 
 Do **not** move data, prompts, or model outputs across umbrellas without explicit authorization — putting Lynn-governed or UPR-governed data into an LLC tool (or vice versa) is a data-governance event, not a convenience. Disclose AI assistance per this chapter regardless of which umbrella's tools you used.
