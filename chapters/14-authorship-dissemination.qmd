@@ -4,8 +4,8 @@ How we assign credit is one of the most important — and most emotionally charg
 
 ## Principles
 
-- **ICMJE governs authorship.** We follow the International Committee of Medical Journal Editors criteria.
-- **CRediT documents contributorship.** We use a CRediT-style taxonomy to record who did what.
+- **ICMJE governs authorship.** We follow the International Committee of Medical Journal Editors criteria. Click [here](https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html){target="_blank" rel="noopener"} for details.
+- **CRediT documents contributorship.** We use a CRediT-style taxonomy to record who did what. Click [here](https://casrai.org/credit/){target="_blank" rel="noopener"} for details.
 - **Authorship is discussed at the start of every project**, not negotiated at the end. Surprises about credit are exactly the kind of "surprise" our culture forbids.
 - **Mentees are credited fairly**, including on a student-first authorship pathway where appropriate.
 
