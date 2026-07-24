@@ -4,6 +4,9 @@ All notable changes to the RIPLRT Institute Research Group Manual are recorded h
 
 ## [2.0.1] — 2026 (post-launch)
 
+### Added
+- Zenodo DOI badge in `README.md` and a **How to cite this manual** section in the Preface (`index.qmd`), with version and concept DOIs.
+
 ### Fixed
 - Code of Conduct link in Ch. 8 now points to `/policies/code-of-conduct.qmd`.
 - Onboarding checklist link in Ch. 19 now points to the New Member template PDF (not the signable form).

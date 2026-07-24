@@ -36,6 +36,16 @@ Our scientific through-line is:
 
 We are a serious research organization **and** a humane mentoring environment. Those are not in tension. We use "we" language because the lab belongs to all of us — it is *our* research group, not only the PI's. We state expectations directly because clarity is a form of respect. And we assume good faith, because that is how trust is built and how science gets done.
 
+## How to cite this manual
+
+If you quote, adapt, or build on this manual, please cite it. A recommended citation for the current edition is:
+
+> RIPLRT Institute. (2026). *RIPLRT Institute Research Group Manual: A Guide for Environmental Immunology, Respiratory Health Equity, Computational Discovery, and Inclusive Mentoring* (2026 Edition). Zenodo. <https://doi.org/10.5281/zenodo.21538576>
+
+- **Version DOI** (this release): [https://doi.org/10.5281/zenodo.21538576](https://doi.org/10.5281/zenodo.21538576){target="_blank" rel="noopener"} — use this when you need to cite a specific archived version.
+- **Concept DOI** (always the latest): [https://doi.org/10.5281/zenodo.21538575](https://doi.org/10.5281/zenodo.21538575){target="_blank" rel="noopener"} — use this when you want the link to resolve to the most recent release.
+- Source repository: [https://github.com/riplrt/riplrt-manual-2026](https://github.com/riplrt/riplrt-manual-2026){target="_blank" rel="noopener"}
+
 ::: {.callout-tip}
 ## Suggest a change
 This manual improves because members improve it. See `CONTRIBUTING.md` for how to propose edits via GitHub issues or pull requests, or raise it in a weekly (bi-weekly or unscheduled) huddle. Every contributor is acknowledged in the changelog.
@@ -43,4 +53,4 @@ This manual improves because members improve it. See `CONTRIBUTING.md` for how t
 
 ---
 
-*Maintained by the RIPLRT Institute, a research and mentoring entity under Felix E. Rivera-Mariani PhD LLC. Principal Investigator and mentor: Dr. Félix E. Rivera-Mariani, PhD, FAAAAI. Built reproducibly with [Quarto](https://quarto.org). Last major revision: 2026.*
+*Maintained by the RIPLRT Institute, a research and mentoring entity under Felix E. Rivera-Mariani PhD LLC. Principal Investigator and mentor: Dr. Félix E. Rivera-Mariani, PhD, FAAAAI. Built reproducibly with [Quarto](https://quarto.org). Last major revision: 2026. DOI: [10.5281/zenodo.21538575](https://doi.org/10.5281/zenodo.21538575){target="_blank" rel="noopener"}.*

@@ -1,5 +1,7 @@
 # RIPLRT Institute Research Group Manual
 
+[![DOI](https://zenodo.org/badge/1266565971.svg)](https://doi.org/10.5281/zenodo.21538575)
+
 **A Guide for Environmental Immunology, Respiratory Health Equity, Computational Discovery, and Inclusive Mentoring**
 
 *2026 Edition (v2.0)* — the operating system of the **RIPLRT Institute**, a mentee-powered environmental immunology and respiratory health equity research group. Principal Investigator and mentor: **Dr. Félix E. Rivera-Mariani, PhD, FAAAAI**.
