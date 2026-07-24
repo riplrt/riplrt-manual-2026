@@ -60,7 +60,6 @@ Sign-and-submit forms live in `/forms`. See the [Forms appendix](../forms/index.
 | **Lynn University** | Institutional home of the EBDL and of Lynn-affiliated members |
 | **RespRisk** | The group's respiratory-risk forecasting/decision-support workflow line |
 | **RIPLRT Institute** | The research group as a whole, including all members and projects, operating under the LLC. |
-| **EBDL** | An interdisciplinary research entity being formalized within the institutional framework *(placeholder — confirm scope/name)* |
 | **SMART goals** | Specific, Measurable, Achievable, Relevant, Time-bound goals (12/36/60-month) |
 | **University of Puerto Rico (UPR)** | Collaborating institution; home institution of UPR-affiliated mentees, who remain governed by UPR policy and IRB. |
 

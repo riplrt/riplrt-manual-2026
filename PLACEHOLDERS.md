@@ -14,7 +14,6 @@ One-page confirmation sweep. **Nothing ships externally until every gating row i
 | ☐ | **Institutional affiliations / framing** | `chapters/02`, `chapters/20` | Confirm how Lynn / RIPLRT Institute / LLC / partners are named per context | PI | **Yes** |
 | ☐ | **License compatibility** | `LICENSE.md` | Confirm CC BY 4.0 (text) + MIT (code) clear Lynn IP policy and sponsor/dataset terms | PI + Lynn IP office | **Yes** |
 | ☐ | **Facility-specific safety rules** | `chapters/16` | Point to Lynn's safety / fieldwork / biospecimen procedures | PI / safety lead | **Yes** |
-| ☐ | **EBDL entity name & scope** | `chapters/21` (glossary) | Confirm or replace placeholder name and scope | PI | Internal |
 | ☐ | **Workspace / repo / IRB URLs** | `chapters/21`, `chapters/10` | Record exact tool instances (ClickUp, GitHub Projects, Drive/OneDrive) | PI / data steward | Internal |
 | ☐ | **Communication channels** | `forms/onboarding-checklist.md` | Confirm exact messaging/email/calendar tools | PI | Internal |
 | ☐ | **Where completed forms are stored** | `forms/index.qmd` | Define storage destination (private Drive/OneDrive, REDCap, signed PDF) | PI / data steward | **Yes** |

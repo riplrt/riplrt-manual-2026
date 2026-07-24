@@ -4,6 +4,14 @@ All notable changes to the RIPLRT Institute Research Group Manual are recorded h
 
 ## [2.0.1] — 2026 (post-launch)
 
+### Fixed
+- Code of Conduct link in Ch. 8 now points to `/policies/code-of-conduct.qmd`.
+- Onboarding checklist link in Ch. 19 now points to the New Member template PDF (not the signable form).
+- Root-relative links restored in Ch. 20 for the stop/start/continue PDF, `CONTRIBUTING.md`, and `CHANGELOG.md`.
+- Annual-review vision/mission checklist item now cross-references `@sec-vision` (Ch. 4).
+- Removed duplicate/conflicting EBDL glossary row in Appendix D.
+- Research-products poster guidance now links to the GitHub `assets/` folder instead of a non-existent `/assets` page.
+
 ### Changed
 - **Templates and forms** are now delivered as **downloadable PDFs**, generated from their source files and linked from the Templates and Forms appendix pages. **Policies** remain rendered web pages (searchable, always current).
 - Added an explicit `render:` list in `_quarto.yml` so template/form *source* files are no longer published as raw pages (fixes raw `.qmd` downloads), and registered the policy pages in the appendix navigation.

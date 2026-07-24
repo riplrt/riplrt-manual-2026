@@ -1,6 +1,4 @@
----
-title: "Vision, Mission, and Core Values"
----
+# Vision, Mission, and Core Values {#sec-vision}
 
 This chapter states what we are working toward, how we pursue it, and the values that govern how we treat each other and the science. It is adapted directly from Dr. Rivera-Mariani's current Individual Academic Plan (IAP) so that the manual, the strategic roadmap, grant narratives, and recruitment all tell one coherent story.
 

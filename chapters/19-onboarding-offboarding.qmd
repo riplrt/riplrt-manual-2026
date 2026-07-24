@@ -4,7 +4,7 @@ This chapter defines how members join, grow, and leave the group well. Good onbo
 
 ## Onboarding
 
-New members complete the [**New Member Onboarding Checklist**](/forms/pdf/onboarding-checklist.pdf). At a high level, the first weeks look like this:
+New members complete the [**New Member Onboarding Checklist**](/templates/pdf/new-member-onboarding-checklist.pdf). At a high level, the first weeks look like this:
 
 ### First 7 days
 - Read this manual; sign the [acknowledgment form](/forms/pdf/manual-acknowledgment.pdf).

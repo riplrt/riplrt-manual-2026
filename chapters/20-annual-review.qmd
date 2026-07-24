@@ -22,7 +22,7 @@ A **10-minute anonymous pulse** turns belonging into data. It covers: workload, 
 Once a year we step back and review the group as a whole.
 
 ### 1. Stop / Start / Continue (lab feedback)
-Everyone contributes (use [Stop / Start / Continue Feedback Form](templates/pdf/stop-start-continue.pdf)): What should the group **stop** doing? **start** doing? **continue** doing? Synthesize themes; commit to a short, public list of changes.
+Everyone contributes (use [Stop / Start / Continue Feedback Form](/templates/pdf/stop-start-continue.pdf)): What should the group **stop** doing? **start** doing? **continue** doing? Synthesize themes; commit to a short, public list of changes.
 
 ### 2. Project portfolio review
 For each project: Is it advancing? Is it aligned with the through-line and a SMART goal? Is it appropriately staffed? Should it continue, pivot, pause, or close? This prevents drift and overextension — our main risk is too many half-supported projects, not too few people.
@@ -43,8 +43,8 @@ This manual is itself reviewed annually (and amended as needed in between).
 **Maintenance process:**
 
 1. **Designate a maintainer** each year (often the Group Lead, with PI sign-off) to shepherd updates.
-2. **Collect proposed changes** throughout the year via GitHub issues/PRs ([CONTRIBUTING](CONTRIBUTING.md)) and the annual stop/start/continue.
-3. **Review and merge** approved changes; update [CHANGELOG](CHANGELOG.md).
+2. **Collect proposed changes** throughout the year via GitHub issues/PRs ([CONTRIBUTING](/CONTRIBUTING.md)) and the annual stop/start/continue.
+3. **Review and merge** approved changes; update [CHANGELOG](/CHANGELOG.md).
 4. **Re-render** the Quarto book and publish the new version.
 5. **Re-acknowledge:** when changes are substantive, members re-sign the acknowledgment so everyone is on the current version.
 
@@ -54,7 +54,7 @@ This manual is itself reviewed annually (and amended as needed in between).
 - **Data governance and dataset rules** (@sec-data-governance) — DUAs and IRB terms change.
 - **Responsible AI** (@sec-responsible-ai) — this field moves fast.
 - **Institutional placeholders** — confirm affiliations, IRB-of-record, and policies.
-- **Vision/Mission/Values and SMART alignment** (@sec-authorship and Ch. 4) — keep them synced with the current IAP.
+- **Vision/Mission/Values and SMART alignment** (@sec-vision) — keep them synced with the current IAP.
 :::
 
 ## Closing the loop
