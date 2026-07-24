@@ -45,7 +45,7 @@ Do not label a product as LLC/FERM-owned, or pursue licensing or commercializati
 
 - Abstracts are often a mentee's first scholarly product — treat them as real training, not filler.
 - Maintain a shared abstract calendar of society deadlines (AAAAI, AAI, ATS, SOT, ASM, ISES, ASBMB, ABRCMS, and others).
-- Posters reuse manuscript figures and the through-line narrative; keep a poster template and the group's visual identity in [assets](/assets).
+- Posters reuse manuscript figures and the through-line narrative; keep a poster template and the group's visual identity in the repository [`assets/`](https://github.com/riplrt/riplrt-manual-2026/tree/main/assets){target="_blank" rel="noopener"} folder.
 - Confirm authorship before submission; rehearse presentations as a pod.
 
 ## Dashboards and decision-support tools
