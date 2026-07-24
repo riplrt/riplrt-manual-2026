@@ -34,7 +34,17 @@
     "href": "index.html#a-note-on-tone",
     "title": "RIPLRT Institute Research Group Manual",
     "section": "0.3 A note on tone",
-    "text": "0.3 A note on tone\nWe are a serious research organization and a humane mentoring environment. Those are not in tension. We use “we” language because the lab belongs to all of us — it is our research group, not only the PI’s. We state expectations directly because clarity is a form of respect. And we assume good faith, because that is how trust is built and how science gets done.\n\n\n\n\n\n\nTipSuggest a change\n\n\n\nThis manual improves because members improve it. See CONTRIBUTING.md for how to propose edits via GitHub issues or pull requests, or raise it in a weekly (bi-weekly or unscheduled) huddle. Every contributor is acknowledged in the changelog.\n\n\n\nMaintained by the RIPLRT Institute, a research and mentoring entity under Felix E. Rivera-Mariani PhD LLC. Principal Investigator and mentor: Dr. Félix E. Rivera-Mariani, PhD, FAAAAI. Built reproducibly with Quarto. Last major revision: 2026.",
+    "text": "0.3 A note on tone\nWe are a serious research organization and a humane mentoring environment. Those are not in tension. We use “we” language because the lab belongs to all of us — it is our research group, not only the PI’s. We state expectations directly because clarity is a form of respect. And we assume good faith, because that is how trust is built and how science gets done.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preface</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-cite-this-manual",
+    "href": "index.html#how-to-cite-this-manual",
+    "title": "RIPLRT Institute Research Group Manual",
+    "section": "0.4 How to cite this manual",
+    "text": "0.4 How to cite this manual\nIf you quote, adapt, or build on this manual, please cite it. A recommended citation for the current edition is:\n\nRIPLRT Institute. (2026). RIPLRT Institute Research Group Manual: A Guide for Environmental Immunology, Respiratory Health Equity, Computational Discovery, and Inclusive Mentoring (2026 Edition). Zenodo. https://doi.org/10.5281/zenodo.21538576\n\n\nVersion DOI (this release): https://doi.org/10.5281/zenodo.21538576 — use this when you need to cite a specific archived version.\nConcept DOI (always the latest): https://doi.org/10.5281/zenodo.21538575 — use this when you want the link to resolve to the most recent release.\nSource repository: https://github.com/riplrt/riplrt-manual-2026\n\n\n\n\n\n\n\nTipSuggest a change\n\n\n\nThis manual improves because members improve it. See CONTRIBUTING.md for how to propose edits via GitHub issues or pull requests, or raise it in a weekly (bi-weekly or unscheduled) huddle. Every contributor is acknowledged in the changelog.\n\n\n\nMaintained by the RIPLRT Institute, a research and mentoring entity under Felix E. Rivera-Mariani PhD LLC. Principal Investigator and mentor: Dr. Félix E. Rivera-Mariani, PhD, FAAAAI. Built reproducibly with Quarto. Last major revision: 2026. DOI: 10.5281/zenodo.21538575.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preface</span>"
     ]
