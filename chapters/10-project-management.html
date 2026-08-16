@@ -50,9 +50,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-343830dee7e81009abd9657442190b55.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-febdc0bd1cf710de19db6afa0751cb89.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-343830dee7e81009abd9657442190b55.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-3d497cff885f6278d37568d0ef0763f8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-1186ef8162c3c73f68abd6432a9e86e2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-3d497cff885f6278d37568d0ef0763f8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -568,9 +568,10 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#the-project-lifecycle" id="toc-the-project-lifecycle" class="nav-link active" data-scroll-target="#the-project-lifecycle"><span class="header-section-number">11.1</span> The project lifecycle</a></li>
   <li><a href="#workflow-systems" id="toc-workflow-systems" class="nav-link" data-scroll-target="#workflow-systems"><span class="header-section-number">11.2</span> Workflow systems</a></li>
-  <li><a href="#task-hygiene" id="toc-task-hygiene" class="nav-link" data-scroll-target="#task-hygiene"><span class="header-section-number">11.3</span> Task hygiene</a></li>
-  <li><a href="#managing-the-portfolio-without-overload" id="toc-managing-the-portfolio-without-overload" class="nav-link" data-scroll-target="#managing-the-portfolio-without-overload"><span class="header-section-number">11.4</span> Managing the portfolio without overload</a></li>
-  <li><a href="#aligning-daily-work-to-strategy" id="toc-aligning-daily-work-to-strategy" class="nav-link" data-scroll-target="#aligning-daily-work-to-strategy"><span class="header-section-number">11.5</span> Aligning daily work to strategy</a></li>
+  <li><a href="#sec-riplrt-bench" id="toc-sec-riplrt-bench" class="nav-link" data-scroll-target="#sec-riplrt-bench"><span class="header-section-number">11.3</span> RIPLRT Bench</a></li>
+  <li><a href="#task-hygiene" id="toc-task-hygiene" class="nav-link" data-scroll-target="#task-hygiene"><span class="header-section-number">11.4</span> Task hygiene</a></li>
+  <li><a href="#managing-the-portfolio-without-overload" id="toc-managing-the-portfolio-without-overload" class="nav-link" data-scroll-target="#managing-the-portfolio-without-overload"><span class="header-section-number">11.5</span> Managing the portfolio without overload</a></li>
+  <li><a href="#aligning-daily-work-to-strategy" id="toc-aligning-daily-work-to-strategy" class="nav-link" data-scroll-target="#aligning-daily-work-to-strategy"><span class="header-section-number">11.6</span> Aligning daily work to strategy</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/riplrt/riplrt-manual-2026/edit/main/chapters/10-project-management.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/riplrt/riplrt-manual-2026/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -630,11 +631,6 @@ ul.task-list li input[type="checkbox"] {
 <h2 data-number="11.2" class="anchored" data-anchor-id="workflow-systems"><span class="header-section-number">11.2</span> Workflow systems</h2>
 <p>We standardize on a small, deliberate toolset so members can move between projects without relearning everything.</p>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
-</colgroup>
 <thead>
 <tr class="header">
 <th>Layer</th>
@@ -644,29 +640,39 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
+<td>Operational hub</td>
+<td><strong><a href="https://bench.riplrt.com">RIPLRT Bench</a></strong></td>
+<td>Institute workbench / operational dashboard for day-to-day lab workflow (<a href="#sec-riplrt-bench" class="quarto-xref"><span>Section 11.3</span></a>)</td>
+</tr>
+<tr class="even">
 <td>Task &amp; project tracking</td>
 <td><strong>ClickUp</strong> and/or <strong>GitHub Projects</strong></td>
 <td>Tasks, owners, due dates, status, sprints</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Code &amp; versioning</td>
 <td><strong>GitHub</strong> (Git)</td>
 <td>All code, issues, pull requests, code review</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Documents</td>
 <td><strong>Google Drive / OneDrive</strong></td>
 <td>Drafts, shared materials, meeting notes</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Analysis &amp; reporting</td>
 <td><strong>Quarto / R Markdown</strong>, <strong>R/RStudio</strong>, <strong>Python</strong></td>
 <td>Reproducible notebooks, manuscripts, dashboards</td>
 </tr>
+<tr class="even">
+<td>Sample inventory</td>
+<td><strong><a href="https://www.aliquary.com">Aliquary</a></strong></td>
+<td>System of record for samples, freezer/box maps, barcode lookup, aliquots, freeze–thaw (<a href="16-health-safety-fieldwork.html#sec-aliquary" class="quarto-xref"><span>Section 17.5</span></a>)</td>
+</tr>
 <tr class="odd">
-<td>Lab notebook &amp; samples</td>
-<td><strong>eLabNext</strong> <em>(for wet-lab / experimental work)</em></td>
-<td>Experiment records, protocols/SOPs, biospecimen and reagent inventory</td>
+<td>Lab notebook (experimental)</td>
+<td><strong>eLabNext</strong> <em>(when wet-lab / assay work applies)</em></td>
+<td>Experiment records, protocols/SOPs — <em>not</em> sample inventory (that is Aliquary)</td>
 </tr>
 <tr class="even">
 <td>Structured data capture</td>
@@ -690,12 +696,30 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Specific accounts, workspace URLs, and license details (ClickUp workspace, GitHub org, Drive structure, Qualtrics or REDCap instance, OSF projects) are confirmed during onboarding and recorded per project in the pod charter. Tooling may evolve; the <em>principles</em> (one source of truth, version control, reproducibility) do not.</p>
+<p>Specific accounts, workspace URLs, and license details (ClickUp workspace, GitHub org, Drive structure, Qualtrics or REDCap instance, OSF projects, Aliquary tenant, RIPLRT Bench access tiers) are confirmed during onboarding and recorded per project in the pod charter. Tooling may evolve; the <em>principles</em> (one source of truth, version control, reproducibility) do not.</p>
 </div>
 </div>
 </section>
-<section id="task-hygiene" class="level2" data-number="11.3">
-<h2 data-number="11.3" class="anchored" data-anchor-id="task-hygiene"><span class="header-section-number">11.3</span> Task hygiene</h2>
+<section id="sec-riplrt-bench" class="level2" data-number="11.3">
+<h2 data-number="11.3" class="anchored" data-anchor-id="sec-riplrt-bench"><span class="header-section-number">11.3</span> RIPLRT Bench</h2>
+<p><strong><a href="https://bench.riplrt.com">RIPLRT Bench</a></strong> is the Institute’s own <strong>operational dashboard / workbench</strong> — the hub where day-to-day lab workflow is meant to live alongside our project, code, and document tools. It is built and operated for RIPLRT; it is not a third-party project tracker and it does not replace GitHub, ClickUp, or Aliquary. Think of Bench as the front door to operational status; use the specialized tools for code, tasks, documents, and sample inventory.</p>
+<p>Account access is provisioned at onboarding and revoked at offboarding (<a href="19-onboarding-offboarding.html" class="quarto-xref"><span>Chapter 20</span></a>).</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Placeholder: RIPLRT Bench features and access tiers
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Exact Bench capabilities, screens, modules, and access tiers (who sees what) are <strong>not yet confirmed in this manual</strong>. Until they are written here, treat Bench as the operational hub at <a href="https://bench.riplrt.com">https://bench.riplrt.com</a>, follow your mentor’s walkthrough at onboarding, and record project-specific Bench use in the pod charter. PI to confirm and replace this callout.</p>
+</div>
+</div>
+</section>
+<section id="task-hygiene" class="level2" data-number="11.4">
+<h2 data-number="11.4" class="anchored" data-anchor-id="task-hygiene"><span class="header-section-number">11.4</span> Task hygiene</h2>
 <p>A task is only real if it has:</p>
 <ul>
 <li><strong>An owner</strong> (one person, even if others help).</li>
@@ -705,8 +729,8 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p>We review the board in weekly check-ins: what shipped, what’s blocked, what’s next. Blocked tasks get surfaced early — “no surprises.”</p>
 </section>
-<section id="managing-the-portfolio-without-overload" class="level2" data-number="11.4">
-<h2 data-number="11.4" class="anchored" data-anchor-id="managing-the-portfolio-without-overload"><span class="header-section-number">11.4</span> Managing the portfolio without overload</h2>
+<section id="managing-the-portfolio-without-overload" class="level2" data-number="11.5">
+<h2 data-number="11.5" class="anchored" data-anchor-id="managing-the-portfolio-without-overload"><span class="header-section-number">11.5</span> Managing the portfolio without overload</h2>
 <p>The portfolio spans population-scale surveillance to molecular modeling. To keep it sane:</p>
 <ul>
 <li><strong>Pods, not heroics.</strong> Work is distributed across pods with defined roles (<a href="06-roles-pods.html" class="quarto-xref"><span>Chapter 7</span></a>), not concentrated on one or two people.</li>
@@ -715,8 +739,8 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Quarterly review rhythm.</strong> We score progress against milestones each quarter (<a href="20-annual-review.html" class="quarto-xref"><span>Chapter 21</span></a>) and re-plan rather than letting work drift.</li>
 </ul>
 </section>
-<section id="aligning-daily-work-to-strategy" class="level2" data-number="11.5">
-<h2 data-number="11.5" class="anchored" data-anchor-id="aligning-daily-work-to-strategy"><span class="header-section-number">11.5</span> Aligning daily work to strategy</h2>
+<section id="aligning-daily-work-to-strategy" class="level2" data-number="11.6">
+<h2 data-number="11.6" class="anchored" data-anchor-id="aligning-daily-work-to-strategy"><span class="header-section-number">11.6</span> Aligning daily work to strategy</h2>
 <p>Project work should ladder up to the group’s SMART goals (the 12/36/60-month roadmap in the IAP). In practice:</p>
 <ul>
 <li>Each pod’s deliverables map to a named SMART goal (e.g., “RespRisk v1.0 forecasting workflow,” “manuscript pipeline,” “mentee-integrated production”).</li>

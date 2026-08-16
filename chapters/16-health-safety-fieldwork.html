@@ -50,9 +50,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-343830dee7e81009abd9657442190b55.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-febdc0bd1cf710de19db6afa0751cb89.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-343830dee7e81009abd9657442190b55.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-3d497cff885f6278d37568d0ef0763f8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-1186ef8162c3c73f68abd6432a9e86e2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-3d497cff885f6278d37568d0ef0763f8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -567,8 +567,12 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#remote-and-hybrid-work" id="toc-remote-and-hybrid-work" class="nav-link" data-scroll-target="#remote-and-hybrid-work"><span class="header-section-number">17.2</span> Remote and hybrid work</a></li>
   <li><a href="#fieldwork-and-community-sites" id="toc-fieldwork-and-community-sites" class="nav-link" data-scroll-target="#fieldwork-and-community-sites"><span class="header-section-number">17.3</span> Fieldwork and community sites</a></li>
   <li><a href="#biospecimens-when-applicable" id="toc-biospecimens-when-applicable" class="nav-link" data-scroll-target="#biospecimens-when-applicable"><span class="header-section-number">17.4</span> Biospecimens (when applicable)</a></li>
-  <li><a href="#public-health-and-infectious-disease-protocol-flexible" id="toc-public-health-and-infectious-disease-protocol-flexible" class="nav-link" data-scroll-target="#public-health-and-infectious-disease-protocol-flexible"><span class="header-section-number">17.5</span> Public-health and infectious-disease protocol (flexible)</a></li>
-  <li><a href="#reporting-incidents" id="toc-reporting-incidents" class="nav-link" data-scroll-target="#reporting-incidents"><span class="header-section-number">17.6</span> Reporting incidents</a></li>
+  <li><a href="#sec-aliquary" id="toc-sec-aliquary" class="nav-link" data-scroll-target="#sec-aliquary"><span class="header-section-number">17.5</span> Sample inventory with Aliquary</a>
+  <ul class="collapse">
+  <li><a href="#workflow-register-locate-track-export" id="toc-workflow-register-locate-track-export" class="nav-link" data-scroll-target="#workflow-register-locate-track-export"><span class="header-section-number">17.5.1</span> Workflow: register → locate → track → export</a></li>
+  </ul></li>
+  <li><a href="#public-health-and-infectious-disease-protocol-flexible" id="toc-public-health-and-infectious-disease-protocol-flexible" class="nav-link" data-scroll-target="#public-health-and-infectious-disease-protocol-flexible"><span class="header-section-number">17.6</span> Public-health and infectious-disease protocol (flexible)</a></li>
+  <li><a href="#reporting-incidents" id="toc-reporting-incidents" class="nav-link" data-scroll-target="#reporting-incidents"><span class="header-section-number">17.7</span> Reporting incidents</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/riplrt/riplrt-manual-2026/edit/main/chapters/16-health-safety-fieldwork.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/riplrt/riplrt-manual-2026/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -630,7 +634,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Complete required bloodborne-pathogen and biosafety training and maintain relevant vaccinations (e.g., Hepatitis B) per institutional policy when handling human blood/fluids.</li>
 <li>Follow the biosafety level, PPE, and handling procedures for the facility and protocol.</li>
-<li>Label, store, log, and chain-of-custody specimens per the protocol; never improvise.</li>
+<li>Label, store, log, and chain-of-custody specimens per the protocol; never improvise. Inventory and location of record live in <strong>Aliquary</strong> (<a href="#sec-aliquary" class="quarto-xref"><span>Section 17.5</span></a>).</li>
 <li>Dispose of biological and chemical waste per institutional and regulatory rules.</li>
 <li>Wear appropriate PPE and follow facility dress/safety codes when in a lab space.</li>
 </ul>
@@ -648,8 +652,42 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </section>
-<section id="public-health-and-infectious-disease-protocol-flexible" class="level2" data-number="17.5">
-<h2 data-number="17.5" class="anchored" data-anchor-id="public-health-and-infectious-disease-protocol-flexible"><span class="header-section-number">17.5</span> Public-health and infectious-disease protocol (flexible)</h2>
+<section id="sec-aliquary" class="level2" data-number="17.5">
+<h2 data-number="17.5" class="anchored" data-anchor-id="sec-aliquary"><span class="header-section-number">17.5</span> Sample inventory with Aliquary</h2>
+<p>When a project holds physical samples — human biospecimens, environmental bioaerosols, or other aliquoted materials — <strong><a href="https://www.aliquary.com">Aliquary</a></strong> is our <strong>sample-inventory system of record</strong>. Spreadsheets and ad-hoc freezer lists are not an inventory.</p>
+<p>Aliquary is how we:</p>
+<ul>
+<li><strong>Register</strong> samples (with the metadata the project requires).</li>
+<li><strong>Map</strong> freezers, racks, and boxes so every vial has a known home.</li>
+<li><strong>Look up</strong> anything by barcode when someone needs it at the bench.</li>
+<li><strong>Track</strong> aliquots and freeze–thaw cycles so usage history is auditable.</li>
+</ul>
+<section id="workflow-register-locate-track-export" class="level3" data-number="17.5.1">
+<h3 data-number="17.5.1" class="anchored" data-anchor-id="workflow-register-locate-track-export"><span class="header-section-number">17.5.1</span> Workflow: register → locate → track → export</h3>
+<ol type="1">
+<li><strong>Register.</strong> Create the sample record in Aliquary when the material enters inventory — before it goes into a box.</li>
+<li><strong>Locate.</strong> Assign (and keep current) freezer / rack / box / position; use barcode lookup to find it again.</li>
+<li><strong>Track.</strong> Record aliquoting and freeze–thaw events as they happen; do not backfill from memory.</li>
+<li><strong>Export.</strong> When a project archives, migrates, or ends, export the inventory so we retain a complete record with <strong>no lock-in</strong>.</li>
+</ol>
+<p>Governance for what may be stored in Aliquary (de-identified only, tenant isolation, audit trail, export) is in <a href="11-data-governance.html#sec-aliquary-governance" class="quarto-xref"><span>Section 12.6</span></a>. Account access is provisioned at onboarding and revoked at offboarding (<a href="19-onboarding-offboarding.html" class="quarto-xref"><span>Chapter 20</span></a>).</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Transparency: Aliquary and FERMLLC
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Aliquary</strong> is a product of <strong>Felix E. Rivera-Mariani, PhD, LLC</strong> (FERMLLC) — the same parent LLC under which the RIPLRT Institute operates. It is a <strong>sibling in-house product</strong>, not a third-party vendor and not the RIPLRT Institute itself. We use it because it fits our inventory needs and our governance rules; the relationship is stated here so members and partners can see that plainly.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="public-health-and-infectious-disease-protocol-flexible" class="level2" data-number="17.6">
+<h2 data-number="17.6" class="anchored" data-anchor-id="public-health-and-infectious-disease-protocol-flexible"><span class="header-section-number">17.6</span> Public-health and infectious-disease protocol (flexible)</h2>
 <p>Rather than a single pandemic-specific section, we keep a <strong>scalable protocol</strong> that activates when public-health conditions require it (a respiratory illness surge, a new advisory, fieldwork in an outbreak area):</p>
 <ul>
 <li>Follow current institutional, local, state, and federal guidance — that guidance, not this manual, is authoritative and current.</li>
@@ -658,8 +696,8 @@ ul.task-list li input[type="checkbox"] {
 <li>For fieldwork during an active outbreak, add a site-specific risk assessment to the project operating manual.</li>
 </ul>
 </section>
-<section id="reporting-incidents" class="level2" data-number="17.6">
-<h2 data-number="17.6" class="anchored" data-anchor-id="reporting-incidents"><span class="header-section-number">17.6</span> Reporting incidents</h2>
+<section id="reporting-incidents" class="level2" data-number="17.7">
+<h2 data-number="17.7" class="anchored" data-anchor-id="reporting-incidents"><span class="header-section-number">17.7</span> Reporting incidents</h2>
 <p>Report any injury, exposure, near-miss, safety concern, or health-and-safety question to the PI promptly. Reporting is expected and never penalized — early reporting keeps everyone safe.</p>
 
 
