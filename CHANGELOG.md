@@ -2,6 +2,15 @@
 
 All notable changes to the RIPLRT Institute Research Group Manual are recorded here. This manual is a living document; we log substantive changes so members can see how our shared operating system evolves. Format is loosely based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.0.2] — 2026-08-16
+
+### Added
+- **Aliquary** integrated as the sample-inventory system of record: Ch. 16 workflow (register → locate → track → export), Ch. 11 governance profile (de-identified only, tenant isolation, audit trail, export/no lock-in) with FERMLLC transparency note, plus cross-refs in Ch. 9, 12, 19, 21 and onboarding / offboarding / data-use templates.
+- **RIPLRT Bench** introduced as the Institute operational hub / workbench (Ch. 10), with placeholder callouts for exact features and access tiers; provisioning/deprovisioning in Ch. 19 and templates; glossary and Lab Platforms table in Ch. 21.
+
+### Changed
+- Clarified **eLabNext** as the experimental lab notebook (protocols/assays); sample inventory now points to Aliquary in Ch. 9–10 and Appendix E.
+
 ## [2.0.1] — 2026 (post-launch)
 
 ### Added

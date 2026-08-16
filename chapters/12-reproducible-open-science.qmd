@@ -57,6 +57,7 @@ project-name/
 
 - **Raw data is read-only** and never edited by hand — all cleaning is scripted, so it's reproducible and auditable.
 - Number notebooks (`01-clean.qmd`, `02-model.qmd`) so the pipeline order is obvious.
+- When a project uses physical samples, keep **sample provenance and location** in **Aliquary** (@sec-aliquary) so inventory history can be traced alongside the analysis pipeline.
 
 ## Open science
 

@@ -9,7 +9,7 @@ New members complete the [**New Member Onboarding Checklist**](/templates/pdf/ne
 ### First 7 days
 - Read this manual; sign the [acknowledgment form](/forms/pdf/manual-acknowledgment.pdf).
 - Meet your mentor and the PI; understand your project and pod.
-- Get accounts and access: messaging channel, GitHub org, shared drive, project tool, and any project-specific tools — provisioned at least privilege (@sec-data-governance).
+- Get accounts and access: messaging channel, GitHub org, shared drive, project tool, **[RIPLRT Bench](https://bench.riplrt.com)** (@sec-riplrt-bench), **[Aliquary](https://www.aliquary.com)** when your role involves samples (@sec-aliquary), and any other project-specific tools — provisioned at least privilege (@sec-data-governance).
 - Add a short bio and (optional) photo for the group directory; set up your availability.
 
 ### Step 0 — Confirm your umbrella
@@ -59,8 +59,9 @@ People move on — graduation, new positions, end of a term, or a planned transi
 - Agree on how in-progress manuscripts will be completed and who leads them.
 
 ### Access & security
-- **Revoke access** appropriately (accounts, repos, drives, data environments) — security hygiene, not distrust.
+- **Revoke access** appropriately (accounts, repos, drives, data environments, **RIPLRT Bench**, **Aliquary**, and any other lab platforms) — security hygiene, not distrust.
 - Return or properly handle any equipment or restricted materials.
+- Confirm sample-inventory ownership and open freeze–thaw / aliquot records in Aliquary are handed to a successor before access is removed (@sec-aliquary).
 
 ### Relationship & growth
 - Final IDP review and a **forward-looking conversation**: references, recommendation letters, sponsorship, and staying in the network.

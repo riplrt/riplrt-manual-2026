@@ -46,6 +46,7 @@ Sign-and-submit forms live in `/forms`. See the [Forms appendix](../forms/index.
 | Term | Meaning |
 |---|---|
 | **Through-line** | Exposure Science → Immune Bioactivity → Computational Forecasting → Equity-Focused Translation → Inclusive Workforce Development |
+| **Aliquary** | FERMLLC sample-inventory platform (sibling in-house product): registration, freezer/box maps, barcode lookup, aliquot and freeze–thaw tracking — our inventory system of record ([aliquary.com](https://www.aliquary.com); @sec-aliquary) |
 | **Community-to-Clinic-to-Cloud** | Our central narrative: measure environmental signals in communities → link to clinical/claims/biomarker outcomes → convert to equity-aware decision tools |
 | **Pod** | A small, project-specific team with defined roles |
 | **IDP** | Individual Development Plan |
@@ -56,19 +57,30 @@ Sign-and-submit forms live in `/forms`. See the [Forms appendix](../forms/index.
 | **CITI** | Collaborative Institutional Training Initiative (research-ethics training) |
 | **Educational Biomarker Discovery Lab (EBDL)** | The branch through which RIPLRT research is conducted within Lynn University |
 | **IRB** | Institutional Review Board |
-| **Felix E. Rivera-Mariani, PhD, LLC** | The parent legal entity (FL #L21000280781; PR #467494) under which the RIPLRT Institute operates |
+| **Felix E. Rivera-Mariani, PhD, LLC** | The parent legal entity (FL #L21000280781; PR #467494) under which the RIPLRT Institute operates; also the builder of Aliquary |
 | **Lynn University** | Institutional home of the EBDL and of Lynn-affiliated members |
 | **RespRisk** | The group's respiratory-risk forecasting/decision-support workflow line |
+| **RIPLRT Bench** | The Institute's operational dashboard / workbench for day-to-day lab workflow ([bench.riplrt.com](https://bench.riplrt.com); @sec-riplrt-bench) |
 | **RIPLRT Institute** | The research group as a whole, including all members and projects, operating under the LLC. |
 | **SMART goals** | Specific, Measurable, Achievable, Relevant, Time-bound goals (12/36/60-month) |
 | **University of Puerto Rico (UPR)** | Collaborating institution; home institution of UPR-affiliated mentees, who remain governed by UPR policy and IRB. |
 
 ## Appendix E — Key resources and platforms
 
+### Lab platforms
+
+| Platform | Role | URL | Data scope |
+|---|---|---|---|
+| **Aliquary** | Sample-inventory system of record (register, locate, track, export) | [https://www.aliquary.com](https://www.aliquary.com) | De-identified sample/inventory metadata only; tenant-isolated; full export (@sec-aliquary-governance) |
+| **RIPLRT Bench** | Operational hub / workbench for day-to-day lab workflow | [https://bench.riplrt.com](https://bench.riplrt.com) | Operational status and workflow *(exact modules and access tiers — placeholder; see @sec-riplrt-bench)* |
+
+### Other tools and resources
+
 - **Code & versioning:** GitHub (Git), GitHub Projects
 - **Project management:** ClickUp
 - **Documents:** Google Drive / OneDrive
 - **Analysis & reporting:** R/RStudio, Python, Quarto / R Markdown
+- **Lab notebook (experimental):** eLabNext *(when wet-lab / assay work applies; sample inventory is Aliquary)*
 - **Structured data capture:** Qualtrics, REDCap *(if applicable)*
 - **Open science / archiving:** OSF, Zenodo, FigShare
 - **Datasets & repositories:** Departments of Health claims & pharmacy; fungal-spore aeroallergen stations; BioLINCC; BioData Catalyst; *All of Us* Workbench; MESA; Framingham; AsthmaNet; NHANES, among others
@@ -76,7 +88,7 @@ Sign-and-submit forms live in `/forms`. See the [Forms appendix](../forms/index.
 
 ::: {.callout-note}
 ## Placeholder: exact URLs and instances
-Workspace URLs, repository links, IRB links, and account details are confirmed during onboarding and recorded per project. Public versions of this manual should keep internal links and credentials out.
+Workspace URLs, repository links, IRB links, account details, Aliquary tenant IDs, and RIPLRT Bench access tiers are confirmed during onboarding and recorded per project. Public versions of this manual should keep internal links and credentials out.
 :::
 
 ## Appendix F — Acknowledgments
