@@ -51,6 +51,22 @@ Even when data are de-identified, we treat them with care:
 - **Secrets stay out of code.** No credentials, tokens, or keys in GitHub. Use environment variables and a `.gitignore` that excludes data and secrets.
 - **Encryption and backups** follow institutional policy for any local handling that is permitted.
 
+## Sample-inventory governance: Aliquary {#sec-aliquary-governance}
+
+We track physical samples in **[Aliquary](https://www.aliquary.com)** (the operational workflow is in @sec-aliquary). Because it holds sample metadata, it sits inside our governance perimeter, and its profile is built to match the rules above:
+
+- **De-identified data only.** Aliquary stores sample records and link keys — **never direct identifiers or PHI.** Everything entered is subject to the same de-identification and no-re-identification rules as any other data in this chapter.
+- **Tenant isolation.** Each tenant's data is isolated from every other tenant's, so our inventory is never commingled with anyone else's.
+- **Complete audit trail.** Every registration, move, aliquot, and freeze–thaw is logged with who and when — an integrity and accountability control, not just a convenience.
+- **Full export, no lock-in.** We can export the entire inventory and its audit trail at any time, so honoring a DUA that requires return or handling of derived materials, or a clean project handoff, is straightforward.
+
+Aliquary fits our access model the same way every other system does: **least privilege**, steward-owned per pod, and no restricted or identifying content. Where a dataset's DUA governs its derived materials or specimens, those terms extend to the corresponding Aliquary records.
+
+::: {.callout-note}
+## Transparency: who makes Aliquary
+Aliquary is an **in-house product of Felix E. Rivera-Mariani, PhD, LLC** (FERMLLC) — the same LLC under which the RIPLRT Institute operates (@sec-entity-structure). It is a *sibling* in-house product, **not a third-party vendor and not RIPLRT itself.** We state this plainly so the relationship — and the fact that our sample data stays within our own governance and entity structure — is transparent to every member and collaborator.
+:::
+
 ## Privacy of people — including us
 
 - **No photos or videos of human research participants**, ever — that violates privacy and IRB rules.

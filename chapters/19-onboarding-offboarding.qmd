@@ -10,6 +10,7 @@ New members complete the [**New Member Onboarding Checklist**](/forms/pdf/onboar
 - Read this manual; sign the [acknowledgment form](/forms/pdf/manual-acknowledgment.pdf).
 - Meet your mentor and the PI; understand your project and pod.
 - Get accounts and access: messaging channel, GitHub org, shared drive, project tool, and any project-specific tools — provisioned at least privilege (@sec-data-governance).
+- Provision **lab-platform accounts** as the role requires: **RIPLRT Bench** ([bench.riplrt.com](https://bench.riplrt.com); @sec-riplrt-bench) and, for projects that handle physical samples, **Aliquary** ([aliquary.com](https://www.aliquary.com); @sec-aliquary) — both at least privilege.
 - Add a short bio and (optional) photo for the group directory; set up your availability.
 
 ### Step 0 — Confirm your umbrella
@@ -60,6 +61,7 @@ People move on — graduation, new positions, end of a term, or a planned transi
 
 ### Access & security
 - **Revoke access** appropriately (accounts, repos, drives, data environments) — security hygiene, not distrust.
+- **Deprovision lab-platform accounts:** revoke **RIPLRT Bench** (@sec-riplrt-bench) and **Aliquary** (@sec-aliquary) access. For Aliquary, first confirm sample records and custody are transferred to the continuing steward and export any inventory needed for handoff (@sec-aliquary-governance).
 - Return or properly handle any equipment or restricted materials.
 
 ### Relationship & growth

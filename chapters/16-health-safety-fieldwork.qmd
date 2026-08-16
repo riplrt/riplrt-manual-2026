@@ -34,13 +34,31 @@ If a project involves biological specimens (human blood, tissue, or environmenta
 
 - Complete required bloodborne-pathogen and biosafety training and maintain relevant vaccinations (e.g., Hepatitis B) per institutional policy when handling human blood/fluids.
 - Follow the biosafety level, PPE, and handling procedures for the facility and protocol.
-- Label, store, log, and chain-of-custody specimens per the protocol; never improvise.
+- Label, store, log, and chain-of-custody specimens per the protocol; never improvise — register and track every specimen and aliquot in Aliquary (@sec-aliquary).
 - Dispose of biological and chemical waste per institutional and regulatory rules.
 - Wear appropriate PPE and follow facility dress/safety codes when in a lab space.
 
 ::: {.callout-note}
 ## Placeholder: facility-specific safety rules
 Exact biosafety levels, PPE requirements, vaccination/clearance rules, waste procedures, and emergency contacts depend on the specific facility and institution. These **must be confirmed locally** before any wet-lab or biospecimen work and recorded in the project's operating manual.
+:::
+
+## Sample inventory: Aliquary {#sec-aliquary}
+
+When a project involves physical samples — biospecimens, aliquots, or environmental bioaerosol collections — **[Aliquary](https://www.aliquary.com) is our sample-inventory system of record.** Every sample we hold is registered there. A location, freezer map, or barcode that lives only in someone's notebook or a loose spreadsheet does not count as tracked.
+
+Aliquary is a lightweight, secure sample-inventory platform for research labs. One note on what it is to us, stated plainly for transparency: Aliquary is an **in-house product built under Felix E. Rivera-Mariani, PhD, LLC** (FERMLLC) — the same LLC the RIPLRT Institute operates under (@sec-entity-structure). It is a *sibling* in-house product, **not a third-party vendor and not RIPLRT itself.** Its governance profile — de-identified data only, tenant isolation, audit trail, and full export with no lock-in — is detailed in @sec-aliquary-governance.
+
+**The workflow: register → locate → track → export.**
+
+1. **Register.** When a sample is created or received, register it in Aliquary with its metadata — project, sample type, collection date, and de-identified subject/link key. Never enter direct identifiers or PHI (@sec-data-governance).
+2. **Locate.** Map each sample to a physical position — freezer, rack, box, and cell — so anyone with access can find it, and barcode the sample (or box) so a scan resolves straight to the record instead of a hand-searched list.
+3. **Track.** Log aliquots as they are drawn, and record every **freeze–thaw cycle**, so sample quality and provenance stay visible across a specimen's life. The audit trail captures who did what and when.
+4. **Export.** Because there is no lock-in, you can export the full inventory with its audit trail at any time — for a project handoff, an archive, or a governance review.
+
+::: {.callout-note}
+## Placeholder: Aliquary workspace and freezer-map setup
+The specific Aliquary workspace/tenant for each project, the freezer/box map layout, the barcode label stock, and who holds steward versus read-only access are confirmed during onboarding and recorded in the project's pod charter. Confirm these locally before registering the first sample.
 :::
 
 ## Public-health and infectious-disease protocol (flexible)

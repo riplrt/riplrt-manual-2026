@@ -45,6 +45,7 @@ Sign-and-submit forms live in `/forms`. See the [Forms appendix](../forms/index.
 
 | Term | Meaning |
 |---|---|
+| **Aliquary** | Secure, lightweight sample-inventory platform — sample registration, freezer/box maps, barcode lookup, and aliquot & freeze–thaw tracking (@sec-aliquary). An in-house product of Felix E. Rivera-Mariani, PhD, LLC (a *sibling* to RIPLRT, not a third-party vendor). <https://www.aliquary.com> |
 | **Through-line** | Exposure Science → Immune Bioactivity → Computational Forecasting → Equity-Focused Translation → Inclusive Workforce Development |
 | **Community-to-Clinic-to-Cloud** | Our central narrative: measure environmental signals in communities → link to clinical/claims/biomarker outcomes → convert to equity-aware decision tools |
 | **Pod** | A small, project-specific team with defined roles |
@@ -60,6 +61,7 @@ Sign-and-submit forms live in `/forms`. See the [Forms appendix](../forms/index.
 | **Lynn University** | Institutional home of the EBDL and of Lynn-affiliated members |
 | **RespRisk** | The group's respiratory-risk forecasting/decision-support workflow line |
 | **RIPLRT Institute** | The research group as a whole, including all members and projects, operating under the LLC. |
+| **RIPLRT Bench** | The Institute's own operational dashboard / workbench for lab workflow (@sec-riplrt-bench); features and access tiers being confirmed. <https://bench.riplrt.com> |
 | **EBDL** | An interdisciplinary research entity being formalized within the institutional framework *(placeholder — confirm scope/name)* |
 | **SMART goals** | Specific, Measurable, Achievable, Relevant, Time-bound goals (12/36/60-month) |
 | **University of Puerto Rico (UPR)** | Collaborating institution; home institution of UPR-affiliated mentees, who remain governed by UPR policy and IRB. |
@@ -74,6 +76,13 @@ Sign-and-submit forms live in `/forms`. See the [Forms appendix](../forms/index.
 - **Open science / archiving:** OSF, Zenodo, FigShare
 - **Datasets & repositories:** Departments of Health claims & pharmacy; fungal-spore aeroallergen stations; BioLINCC; BioData Catalyst; *All of Us* Workbench; MESA; Framingham; AsthmaNet; NHANES, among others
 - **Methods:** AI/ML, distributed lag models, mixed-effects models, GWAS, polygenic risk scores, SHAP explainability, causal mediation, multi-agent AI; equity-stratified analysis, among others
+
+**Lab platforms (in-house).** The Institute runs two of its own platforms alongside the general-purpose tools above:
+
+| Platform | Role | URL | Data scope |
+|---|---|---|---|
+| **Aliquary** | Sample-inventory system of record — registration, freezer/box maps, barcode, aliquot & freeze–thaw tracking (@sec-aliquary). A FERMLLC in-house product, sibling to RIPLRT. | <https://www.aliquary.com> | De-identified sample metadata and link keys only; no PHI / direct identifiers |
+| **RIPLRT Bench** | The Institute's operational dashboard / workbench for lab workflow (@sec-riplrt-bench). | <https://bench.riplrt.com> | *Placeholder — data scope and access tiers to be confirmed* |
 
 ::: {.callout-note}
 ## Placeholder: exact URLs and instances

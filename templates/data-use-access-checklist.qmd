@@ -25,6 +25,7 @@ title: "Data-Use & Access Checklist"
 - [ ] No restricted data in chat/email/personal devices/public repos
 - [ ] Secrets/credentials kept out of code (.gitignore verified)
 - [ ] Re-identification will never be attempted
+- [ ] Physical samples (if any) registered/tracked in Aliquary; only de-identified metadata and link keys entered — no direct identifiers/PHI (Ch. 11)
 
 ## Sign-off
 Member ______  Data Steward ______  Date ______

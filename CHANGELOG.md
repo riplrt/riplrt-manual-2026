@@ -2,6 +2,16 @@
 
 All notable changes to the RIPLRT Institute Research Group Manual are recorded here. This manual is a living document; we log substantive changes so members can see how our shared operating system evolves. Format is loosely based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.1.0] — 2026-08-16
+
+### Added
+- **Aliquary sample-inventory platform** integrated as the sample-inventory system of record:
+  - Ch. 16 (Health & Safety): new `Sample inventory: Aliquary` subsection (@sec-aliquary) with the register → locate → track → export workflow, freezer/box maps, barcode lookup, and aliquot + freeze–thaw tracking; the biospecimens section now points to it.
+  - Ch. 11 (Data Governance): new `Sample-inventory governance: Aliquary` subsection (@sec-aliquary-governance) covering de-identified-only data, tenant isolation, audit trail, and full export/no lock-in, with a transparency note that Aliquary is an in-house Felix E. Rivera-Mariani, PhD, LLC (FERMLLC) product — a sibling to RIPLRT, not a third-party vendor.
+- **RIPLRT Bench operational dashboard** introduced in Ch. 10 (Project Management): new `RIPLRT Bench: the operational hub` subsection (@sec-riplrt-bench) describing it at a high level, with a placeholder callout for exact features and access tiers.
+- Cross-references: Ch. 19 (onboarding provisioning + offboarding deprovisioning for both tools), Ch. 12 (sample provenance/traceability line linking to Aliquary), Ch. 9 (Aliquary and RIPLRT Bench rows in the channels table), Ch. 21 (glossary entries for both tools and an in-house "Lab platforms" table with role, URL, and data scope).
+- Template updates: `new-member-onboarding-checklist`, `offboarding-checklist`, and `data-use-access-checklist` now include the relevant account-setup, access, and revocation steps. *(Their generated PDFs need regeneration to match — see the manual's PDF pipeline.)*
+
 ## [2.0.1] — 2026 (post-launch)
 
 ### Changed

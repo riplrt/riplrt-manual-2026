@@ -20,6 +20,8 @@ title: "Offboarding Checklist"
 
 ## Access & security
 - [ ] Access revoked appropriately (accounts, repos, drives, data environments)
+- [ ] RIPLRT Bench access revoked
+- [ ] Aliquary access revoked; sample records/custody transferred to steward; needed inventory exported
 - [ ] Equipment / restricted materials returned or handled
 - [ ] No restricted data retained on personal devices
 

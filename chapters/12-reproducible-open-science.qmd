@@ -57,6 +57,7 @@ project-name/
 
 - **Raw data is read-only** and never edited by hand — all cleaning is scripted, so it's reproducible and auditable.
 - Number notebooks (`01-clean.qmd`, `02-model.qmd`) so the pipeline order is obvious.
+- For projects with physical samples, **provenance is part of reproducibility**: every specimen and aliquot is traceable through Aliquary, our sample-inventory system of record (@sec-aliquary), so a result can be traced back to the exact material it came from.
 
 ## Open science
 

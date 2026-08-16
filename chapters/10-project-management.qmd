@@ -40,6 +40,17 @@ We standardize on a small, deliberate toolset so members can move between projec
 Specific accounts, workspace URLs, and license details (ClickUp workspace, GitHub org, Drive structure, Qualtrics or REDCap instance, OSF projects) are confirmed during onboarding and recorded per project in the pod charter. Tooling may evolve; the *principles* (one source of truth, version control, reproducibility) do not.
 :::
 
+## RIPLRT Bench: the operational hub {#sec-riplrt-bench}
+
+Alongside the general-purpose tools above, the Institute runs its own operational dashboard, **RIPLRT Bench** ([bench.riplrt.com](https://bench.riplrt.com)) — a workbench that brings our day-to-day lab workflow into one place. Think of it as the Institute-specific layer that ties the general tools together for how *we* work, not a replacement for GitHub, the project tool, or the shared drive.
+
+At a high level, Bench is where operational lab workflow lives. Its exact screens, features, and access tiers are still being documented, so treat the specifics as unconfirmed until the placeholder below is filled in.
+
+::: {.callout-note}
+## Placeholder: RIPLRT Bench features and access tiers
+The specific capabilities, screens, integrations, and **access tiers** of RIPLRT Bench are to be confirmed by the PI. Once confirmed, document here: what Bench is used for (and what it is *not*), which roles get which level of access, how accounts are provisioned and revoked (@sec-onboarding), and how Bench relates to the systems in the workflow table above. The only confirmed detail today is the sign-in URL, [bench.riplrt.com](https://bench.riplrt.com).
+:::
+
 ## Task hygiene
 
 A task is only real if it has:
