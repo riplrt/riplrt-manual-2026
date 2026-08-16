@@ -34,13 +34,38 @@ If a project involves biological specimens (human blood, tissue, or environmenta
 
 - Complete required bloodborne-pathogen and biosafety training and maintain relevant vaccinations (e.g., Hepatitis B) per institutional policy when handling human blood/fluids.
 - Follow the biosafety level, PPE, and handling procedures for the facility and protocol.
-- Label, store, log, and chain-of-custody specimens per the protocol; never improvise.
+- Label, store, log, and chain-of-custody specimens per the protocol; never improvise. Inventory and location of record live in **Aliquary** (@sec-aliquary).
 - Dispose of biological and chemical waste per institutional and regulatory rules.
 - Wear appropriate PPE and follow facility dress/safety codes when in a lab space.
 
 ::: {.callout-note}
 ## Placeholder: facility-specific safety rules
 Exact biosafety levels, PPE requirements, vaccination/clearance rules, waste procedures, and emergency contacts depend on the specific facility and institution. These **must be confirmed locally** before any wet-lab or biospecimen work and recorded in the project's operating manual.
+:::
+
+## Sample inventory with Aliquary {#sec-aliquary}
+
+When a project holds physical samples — human biospecimens, environmental bioaerosols, or other aliquoted materials — **[Aliquary](https://www.aliquary.com)** is our **sample-inventory system of record**. Spreadsheets and ad-hoc freezer lists are not an inventory.
+
+Aliquary is how we:
+
+- **Register** samples (with the metadata the project requires).
+- **Map** freezers, racks, and boxes so every vial has a known home.
+- **Look up** anything by barcode when someone needs it at the bench.
+- **Track** aliquots and freeze–thaw cycles so usage history is auditable.
+
+### Workflow: register → locate → track → export
+
+1. **Register.** Create the sample record in Aliquary when the material enters inventory — before it goes into a box.
+2. **Locate.** Assign (and keep current) freezer / rack / box / position; use barcode lookup to find it again.
+3. **Track.** Record aliquoting and freeze–thaw events as they happen; do not backfill from memory.
+4. **Export.** When a project archives, migrates, or ends, export the inventory so we retain a complete record with **no lock-in**.
+
+Governance for what may be stored in Aliquary (de-identified only, tenant isolation, audit trail, export) is in @sec-aliquary-governance. Account access is provisioned at onboarding and revoked at offboarding (@sec-onboarding).
+
+::: {.callout-note}
+## Transparency: Aliquary and FERMLLC
+**Aliquary** is a product of **Felix E. Rivera-Mariani, PhD, LLC** (FERMLLC) — the same parent LLC under which the RIPLRT Institute operates. It is a **sibling in-house product**, not a third-party vendor and not the RIPLRT Institute itself. We use it because it fits our inventory needs and our governance rules; the relationship is stated here so members and partners can see that plainly.
 :::
 
 ## Public-health and infectious-disease protocol (flexible)

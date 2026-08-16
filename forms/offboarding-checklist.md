@@ -29,7 +29,8 @@ This is the **signable record** version of offboarding. The working version is t
 ## Access and data
 
 - [ ] Access to restricted datasets removed; **DUA obligations reviewed** (some continue after departure)
-- [ ] Removed from platforms as appropriate (project management, code, document storage) *after* transfer is verified
+- [ ] Removed from platforms as appropriate (project management, code, document storage, **RIPLRT Bench**, **Aliquary**) *after* transfer is verified
+- [ ] Aliquary inventory handoff completed (successor owns open sample records) — if applicable
 - [ ] Any institution- or sponsor-required exit steps completed — *placeholder: confirm institutional process*
 - [ ] Confirmed no protected/identifiable data remains on personal devices
 

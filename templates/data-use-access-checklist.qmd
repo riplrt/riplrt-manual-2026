@@ -26,5 +26,11 @@ title: "Data-Use & Access Checklist"
 - [ ] Secrets/credentials kept out of code (.gitignore verified)
 - [ ] Re-identification will never be attempted
 
+## Lab platforms (if this project uses them)
+- [ ] RIPLRT Bench access needed? ☐ No ☐ Yes — role/tier: _______________ *(placeholder — confirm tiers)*
+- [ ] Aliquary access needed? ☐ No ☐ Yes — inventory role: _______________
+- [ ] If Aliquary: confirmed **de-identified sample metadata only** (no PHI / direct identifiers)
+- [ ] If Aliquary: Data Steward / mentor briefed on freezer map + export expectations
+
 ## Sign-off
 Member ______  Data Steward ______  Date ______

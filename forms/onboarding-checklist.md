@@ -17,6 +17,8 @@ This is the **signable record** version of onboarding. The working version membe
 - [ ] Read the manual; signed the **Manual Acknowledgment Form** (`manual-acknowledgment.md`)
 - [ ] Added to communication channels (messaging, email/calendar) — *placeholder: confirm exact tools*
 - [ ] Added to project management workspace (e.g., ClickUp / GitHub Projects)
+- [ ] Added to **RIPLRT Bench** (https://bench.riplrt.com) — operational hub
+- [ ] Added to **Aliquary** (https://www.aliquary.com) if role involves samples
 - [ ] Added to document storage (Google Drive / OneDrive) with correct folder permissions
 - [ ] Received the scientific-identity overview (Community-to-Clinic-to-Cloud, the through-line)
 - [ ] Confirmed preferred name, pronouns, and communication preferences recorded

@@ -27,17 +27,30 @@ We standardize on a small, deliberate toolset so members can move between projec
 
 | Layer | Tool(s) | Purpose |
 |---|---|---|
+| Operational hub | **[RIPLRT Bench](https://bench.riplrt.com)** | Institute workbench / operational dashboard for day-to-day lab workflow (@sec-riplrt-bench) |
 | Task & project tracking | **ClickUp** and/or **GitHub Projects** | Tasks, owners, due dates, status, sprints |
 | Code & versioning | **GitHub** (Git) | All code, issues, pull requests, code review |
 | Documents | **Google Drive / OneDrive** | Drafts, shared materials, meeting notes |
 | Analysis & reporting | **Quarto / R Markdown**, **R/RStudio**, **Python** | Reproducible notebooks, manuscripts, dashboards |
-| Lab notebook & samples | **eLabNext** *(for wet-lab / experimental work)* | Experiment records, protocols/SOPs, biospecimen and reagent inventory |
+| Sample inventory | **[Aliquary](https://www.aliquary.com)** | System of record for samples, freezer/box maps, barcode lookup, aliquots, freeze–thaw (@sec-aliquary) |
+| Lab notebook (experimental) | **eLabNext** *(when wet-lab / assay work applies)* | Experiment records, protocols/SOPs — *not* sample inventory (that is Aliquary) |
 | Structured data capture | **Qualtrics** or **REDCap** *(if applicable to the project)* | Survey/clinical data capture |
 | Archiving & open science | **OSF, Zenodo, FigShare** | Preregistration, archival, DOIs |
 
 ::: {.callout-note}
 ## Placeholder: exact tool instances
-Specific accounts, workspace URLs, and license details (ClickUp workspace, GitHub org, Drive structure, Qualtrics or REDCap instance, OSF projects) are confirmed during onboarding and recorded per project in the pod charter. Tooling may evolve; the *principles* (one source of truth, version control, reproducibility) do not.
+Specific accounts, workspace URLs, and license details (ClickUp workspace, GitHub org, Drive structure, Qualtrics or REDCap instance, OSF projects, Aliquary tenant, RIPLRT Bench access tiers) are confirmed during onboarding and recorded per project in the pod charter. Tooling may evolve; the *principles* (one source of truth, version control, reproducibility) do not.
+:::
+
+## RIPLRT Bench {#sec-riplrt-bench}
+
+**[RIPLRT Bench](https://bench.riplrt.com)** is the Institute's own **operational dashboard / workbench** — the hub where day-to-day lab workflow is meant to live alongside our project, code, and document tools. It is built and operated for RIPLRT; it is not a third-party project tracker and it does not replace GitHub, ClickUp, or Aliquary. Think of Bench as the front door to operational status; use the specialized tools for code, tasks, documents, and sample inventory.
+
+Account access is provisioned at onboarding and revoked at offboarding (@sec-onboarding).
+
+::: {.callout-note}
+## Placeholder: RIPLRT Bench features and access tiers
+Exact Bench capabilities, screens, modules, and access tiers (who sees what) are **not yet confirmed in this manual**. Until they are written here, treat Bench as the operational hub at [https://bench.riplrt.com](https://bench.riplrt.com), follow your mentor's walkthrough at onboarding, and record project-specific Bench use in the pod charter. PI to confirm and replace this callout.
 :::
 
 ## Task hygiene

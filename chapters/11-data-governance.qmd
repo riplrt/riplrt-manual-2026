@@ -51,6 +51,22 @@ Even when data are de-identified, we treat them with care:
 - **Secrets stay out of code.** No credentials, tokens, or keys in GitHub. Use environment variables and a `.gitignore` that excludes data and secrets.
 - **Encryption and backups** follow institutional policy for any local handling that is permitted.
 
+## Aliquary governance {#sec-aliquary-governance}
+
+**[Aliquary](https://www.aliquary.com)** is our sample-inventory system of record (@sec-aliquary). Its data-governance profile must fit the same access and DUA discipline we apply everywhere else:
+
+- **De-identified data only.** Do not enter names, MRNs, direct identifiers, or anything that could re-identify a person. Sample records use study IDs and inventory metadata — never PHI.
+- **Tenant isolation.** Each lab's inventory is isolated from others; do not share credentials or copy another tenant's data.
+- **Complete audit trail.** Registration, moves, aliquots, and freeze–thaw events are logged; treat the trail as part of the scientific record.
+- **Full export, no lock-in.** Inventories can be exported when a project archives, migrates, or ends. We do not trap sample records in a closed system.
+
+Access to Aliquary follows **least privilege** and need-to-know, the same as any other controlled tool: provisioned when a member's role requires sample work, recorded on the [Data-Use and Access Checklist](/templates/pdf/data-use-access-checklist.pdf) when inventory access is part of a project, and revoked at offboarding (@sec-onboarding). Aliquary does **not** replace IRB listing, CITI training, or dataset DUAs — it is inventory infrastructure sitting *under* those authorizations.
+
+::: {.callout-note}
+## Transparency: Aliquary and FERMLLC
+**Aliquary** is a product of **Felix E. Rivera-Mariani, PhD, LLC** (FERMLLC) — the same parent LLC under which the RIPLRT Institute operates. It is a **sibling in-house product**, not a third-party vendor and not the RIPLRT Institute itself. We state that relationship here so members, partners, and reviewers can see the affiliation plainly.
+:::
+
 ## Privacy of people — including us
 
 - **No photos or videos of human research participants**, ever — that violates privacy and IRB rules.

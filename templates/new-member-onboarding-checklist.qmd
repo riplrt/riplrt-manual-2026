@@ -17,6 +17,8 @@ title: "New Member Onboarding Checklist"
   - [ ] GitHub organization
   - [ ] Shared drive (Google Drive/OneDrive)
   - [ ] Project tool (ClickUp / GitHub Projects)
+  - [ ] RIPLRT Bench (https://bench.riplrt.com) — operational hub
+  - [ ] Aliquary (https://www.aliquary.com) — if role involves samples
   - [ ] Project-specific tools (list): _______________
 - [ ] Add short bio + (optional) photo to group directory
 - [ ] Set/share availability
