@@ -87,6 +87,8 @@ format:
     number-sections: true
     code-link: true
     link-external-newwindow: true
+    include-in-header:
+      - assets/amplitude.html
   pdf:
     documentclass: scrreprt
     toc: true
