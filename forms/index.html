@@ -79,6 +79,21 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<!-- Amplitude analytics — RIPLRT manual. Client-side, analytics only, no session replay. -->
+<script src="https://cdn.amplitude.com/script/0a0666b1165a40976372e7d291652545.js"></script>
+<script>
+  window.amplitude.init('0a0666b1165a40976372e7d291652545', {
+    fetchRemoteConfig: true,
+    autocapture: {
+      pageViews: true,
+      sessions: true,
+      fileDownloads: true,
+      attribution: true,
+      formInteractions: false,
+      elementInteractions: false
+    }
+  });
+</script>
 
 
 <link rel="stylesheet" href="../assets/styles.css">

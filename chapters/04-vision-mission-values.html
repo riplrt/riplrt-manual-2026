@@ -80,6 +80,21 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<!-- Amplitude analytics — RIPLRT manual. Client-side, analytics only, no session replay. -->
+<script src="https://cdn.amplitude.com/script/0a0666b1165a40976372e7d291652545.js"></script>
+<script>
+  window.amplitude.init('0a0666b1165a40976372e7d291652545', {
+    fetchRemoteConfig: true,
+    autocapture: {
+      pageViews: true,
+      sessions: true,
+      fileDownloads: true,
+      attribution: true,
+      formInteractions: false,
+      elementInteractions: false
+    }
+  });
+</script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
