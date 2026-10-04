@@ -1,0 +1,62 @@
+% RIPLRT brand for the whole-manual PDF (LuaLaTeX via TinyTeX). Colours/fonts mirror riplrt.com.
+\usepackage{xcolor}
+\definecolor{riplrtnavy}{HTML}{0F2748}
+\definecolor{riplrtblue}{HTML}{2A5C9C}
+\definecolor{riplrtcyan}{HTML}{51AEE5}
+\definecolor{riplrtmuted}{HTML}{64748B}
+\definecolor{riplrtline}{HTML}{E2E8F0}
+
+% Body/sans face: Inter (variable font; weights picked with the wght axis, italics are a synthetic slant
+% because Google's Inter build has no slnt axis). Set here rather than via `mainfont:` because Pandoc
+% mangles the nested braces of fontspec options when they come from YAML metadata.
+\setmainfont{Inter-Variable.ttf}[
+  Path=assets/fonts/ttf/, BoldFont=Inter-Variable.ttf, ItalicFont=Inter-Variable.ttf, BoldItalicFont=Inter-Variable.ttf,
+  UprightFeatures={RawFeature={axis={wght=400}}},
+  BoldFeatures={RawFeature={axis={wght=700}}},
+  ItalicFeatures={FakeSlant=0.18},
+  BoldItalicFeatures={RawFeature={axis={wght=700}},FakeSlant=0.18}]
+\setsansfont{Inter-Variable.ttf}[
+  Path=assets/fonts/ttf/, BoldFont=Inter-Variable.ttf,
+  UprightFeatures={RawFeature={axis={wght=400}}},
+  BoldFeatures={RawFeature={axis={wght=700}}}]
+
+% Display face for chapter/section titles (variable font: weight picked with the wght axis).
+\newfontfamily\displayfont{InstrumentSans-Variable.ttf}[
+  Path=assets/fonts/ttf/, BoldFont=InstrumentSans-Variable.ttf,
+  UprightFeatures={RawFeature={axis={wght=650}}},
+  BoldFeatures={RawFeature={axis={wght=700}}}]
+
+\addtokomafont{disposition}{\color{riplrtnavy}}
+\setkomafont{title}{\displayfont\color{white}}
+\setkomafont{chapter}{\displayfont\fontsize{26}{31}\selectfont}
+\setkomafont{chapterprefix}{\normalfont\large\color{riplrtmuted}}
+\setkomafont{section}{\displayfont\Large}
+\setkomafont{subsection}{\bfseries\large}
+\setkomafont{subsubsection}{\bfseries\normalsize}
+\setkomafont{caption}{\small\color{riplrtmuted}}
+\setkomafont{captionlabel}{\small\bfseries\color{riplrtnavy}}
+\setkomafont{descriptionlabel}{\bfseries\color{riplrtnavy}}
+\KOMAoptions{chapterprefix=true}
+\RedeclareSectionCommand[beforeskip=0pt,afterskip=1.4\baselineskip,innerskip=.4\baselineskip]{chapter}
+\renewcommand*{\chapterformat}{%
+  {\usekomafont{chapterprefix}\chapapp\nobreakspace\thechapter}\\[.35\baselineskip]
+  {\color{riplrtcyan}\rule{3em}{2pt}}}
+\renewcommand*{\chapterlinesformat}[3]{\@hangfrom{#2}{#3}}
+
+% Running header (chapter/section mark + page) and footer with the edition.
+\usepackage[automark,headsepline=.4pt]{scrlayer-scrpage}
+\setkomafont{headsepline}{\color{riplrtline}}
+\setkomafont{pageheadfoot}{\small\color{riplrtmuted}}
+\setkomafont{pagenumber}{\small\color{riplrtnavy}\bfseries}
+\clearpairofpagestyles
+\ihead{\headmark}
+\ohead{\pagemark}
+\ifoot*{\footnotesize RIPLRT Institute Research Group Manual \textperiodcentered{} 2026 Edition (v2.0) \textperiodcentered{} manual.riplrt.com}
+\pagestyle{scrheadings}
+
+% Block quotes as a tinted band, matching the web "through-line" banner.
+\usepackage[skins,breakable]{tcolorbox}
+\renewenvironment{quote}
+  {\begin{tcolorbox}[colback=riplrtnavy!4,colframe=riplrtcyan,boxrule=0pt,leftrule=3pt,arc=2pt,
+     left=8pt,right=8pt,top=6pt,bottom=6pt,before skip=8pt,after skip=10pt]\color{riplrtnavy}}
+  {\end{tcolorbox}}

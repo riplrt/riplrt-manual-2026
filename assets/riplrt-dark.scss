@@ -1,0 +1,47 @@
+/*-- scss:defaults --*/
+// Dark variant: same brand, navy-tinted surfaces (layered after riplrt.scss on Darkly).
+$body-bg: #0b1626 !default;
+$body-color: #c9d4e2 !default;
+$headings-color: #f3f6fa !default;
+$link-color: #7cc4f0 !default;
+$link-hover-color: #a9dcff !default;
+$primary: #51aee5 !default;
+$border-color: #22324a !default;
+$code-color: #a9dcff !default;
+$code-bg: #122037 !default;
+$navbar-bg: #0f2748 !default;
+$navbar-fg: #f3f6fa !default;
+$navbar-hl: #7cc4f0 !default;
+$sidebar-bg: #0b1626 !default;
+$sidebar-fg: #c9d4e2 !default;
+$sidebar-hl: #7cc4f0 !default;
+$toc-color: #7cc4f0 !default;
+$toc-active-border: #51aee5 !default;
+$toc-inactive-border: #22324a !default;
+$footer-bg: #0f2748 !default;
+$footer-fg: #9fb0c6 !default;
+$card-bg: #122037 !default;
+$input-bg: #122037 !default;
+$table-striped-bg: rgba(255, 255, 255, .03) !default;
+$callout-color-note: #51aee5 !default;
+
+/*-- scss:rules --*/
+:root {
+  --riplrt-navy: #f3f6fa;
+  --riplrt-blue: #7cc4f0;
+  --riplrt-cyan: #51aee5;
+  --riplrt-cyan-100: #122037;
+  --riplrt-line: #22324a;
+  --riplrt-muted: #9fb0c6;
+  --riplrt-bg-soft: #0f1d33;
+  --riplrt-nav-shadow: 0 1px 0 #22324a;
+}
+.navbar .navbar-brand { color: #f3f6fa; }
+.sidebar-navigation .sidebar-item-section > .sidebar-item-container .sidebar-item-text,
+.sidebar-navigation .sidebar-item-section > .sidebar-item-container .sidebar-link { color: #9fb0c6; }
+.quarto-title-block .quarto-title .title { color: #f3f6fa; }
+thead th { border-bottom-color: #51aee5 !important; color: #f3f6fa; }
+.table-striped > tbody > tr:nth-of-type(odd) > * { --bs-table-accent-bg: rgba(255, 255, 255, .03); }
+blockquote { color: #e6eef8; }
+.nav-footer .footer-brand { color: #f3f6fa; }
+.callout-note.callout-style-default > .callout-header { background: #122037; }

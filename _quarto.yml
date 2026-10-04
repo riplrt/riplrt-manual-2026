@@ -10,6 +10,8 @@ project:
   resources:
     - templates/pdf/
     - forms/pdf/
+    - assets/brand/
+    - assets/fonts/
 
 book:
   title: "RIPLRT Institute Research Group Manual"
@@ -22,6 +24,25 @@ book:
     immunology and respiratory health equity research group translating environmental
     exposures into equitable respiratory and immune health.
   site-url: https://manual.riplrt.com
+  favicon: assets/brand/favicon.png
+  image: https://manual.riplrt.com/assets/brand/og-image.jpg
+  open-graph:
+    site-name: "RIPLRT Institute Research Group Manual"
+    locale: en_US
+  twitter-card:
+    card-style: summary_large_image
+  navbar:
+    logo: assets/brand/riplrt-mark.png
+    logo-alt: "RIPLRT Institute"
+    title: "RIPLRT Institute Manual"
+    pinned: true
+    right:
+      - text: "riplrt.com"
+        href: https://riplrt.com
+  sidebar:
+    style: docked
+    collapse-level: 2
+    title: false
   repo-url: https://github.com/riplrt/riplrt-manual-2026
   repo-branch: main
   repo-actions: [edit, issue]
@@ -29,8 +50,9 @@ book:
   downloads: [pdf, docx]
   search: true
   page-footer:
-    left: "RIPLRT Institute Research Group Manual — 2026 Edition"
-    right: "Built with [Quarto](https://quarto.org)"
+    left: "© 2026 RIPLRT Institute · Felix E. Rivera-Mariani PhD LLC"
+    center: "2026 Edition (v2.0) · [DOI 10.5281/zenodo.21538575](https://doi.org/10.5281/zenodo.21538575) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
+    right: "[riplrt.com](https://riplrt.com) · Built with [Quarto](https://quarto.org)"
   chapters:
     - index.qmd
     - part: "Identity & Belonging"
@@ -78,31 +100,47 @@ book:
 bibliography: references.bib
 csl: https://www.zotero.org/styles/apa
 
+lang: en
+
 format:
   html:
     theme:
-      light: cosmo
-      dark: darkly
-    css: assets/styles.css
+      light: [cosmo, assets/riplrt.scss]
+      dark: [darkly, assets/riplrt.scss, assets/riplrt-dark.scss]
+    css: assets/fonts/fonts.css
     toc: true
     toc-depth: 3
     number-sections: true
     code-link: true
     link-external-newwindow: true
     include-in-header:
+      - assets/head.html
       - assets/amplitude.html
   pdf:
     documentclass: scrreprt
     toc: true
+    toc-depth: 2
     number-sections: true
+    date-format: "MMMM YYYY"
     geometry:
       - top=30mm
       - left=25mm
       - right=25mm
       - bottom=30mm
+    colorlinks: true
+    linkcolor: riplrtblue
+    urlcolor: riplrtblue
+    citecolor: riplrtblue
+    include-in-header:
+      - assets/pdf/header.tex
+    template-partials:
+      - assets/pdf/before-body.tex
   docx:
     toc: true
+    toc-depth: 2
     number-sections: true
+    date-format: "MMMM YYYY"
+    reference-doc: assets/reference.docx
 
 execute:
   freeze: auto
