@@ -1,0 +1,13 @@
+---
+title: "Page not found"
+description: "The page you asked for isn't in the RIPLRT Institute Research Group Manual."
+toc: false
+---
+
+::: {.manual-404}
+**404.** That page isn't in the manual. It may have moved when the manual relocated to manual.riplrt.com, or the address has a typo.
+
+[Manual home](/) · [Chapter 1 — Welcome](/chapters/01-welcome.html) · [Templates](/templates/) · [Forms](/forms/) · [riplrt.com](https://riplrt.com)
+
+Looking for a specific topic? Use the search in the top bar.
+:::

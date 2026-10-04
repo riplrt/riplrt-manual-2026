@@ -41,7 +41,7 @@ book:
         href: https://riplrt.com
   sidebar:
     style: docked
-    collapse-level: 2
+    collapse-level: 1
     title: false
   repo-url: https://github.com/riplrt/riplrt-manual-2026
   repo-branch: main
@@ -108,6 +108,7 @@ format:
       light: [cosmo, assets/riplrt.scss]
       dark: [darkly, assets/riplrt.scss, assets/riplrt-dark.scss]
     css: assets/fonts/fonts.css
+    back-to-top-navigation: true
     toc: true
     toc-depth: 3
     number-sections: true

@@ -1,5 +1,41 @@
 # Preface {.unnumbered}
 
+::: {.content-visible when-format="html"}
+```{=html}
+<section class="manual-hero" aria-label="Quick start">
+  <div class="manual-hero-badges">
+    <span class="badge-pill">2026 Edition · v2.0</span>
+    <a class="badge-pill" href="https://doi.org/10.5281/zenodo.21538575">DOI 10.5281/zenodo.21538575</a>
+    <a class="badge-pill" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
+    <span class="badge-pill">Updated June 2026</span>
+  </div>
+  <div class="manual-hero-actions">
+    <a class="btn btn-primary" href="RIPLRT-Institute-Research-Group-Manual.pdf"><i class="bi bi-file-earmark-pdf"></i>Download PDF</a>
+    <a class="btn btn-outline-primary" href="RIPLRT-Institute-Research-Group-Manual.docx"><i class="bi bi-file-earmark-word"></i>Download DOCX</a>
+    <a class="btn btn-link" href="https://riplrt.com">riplrt.com <i class="bi bi-box-arrow-up-right"></i></a>
+  </div>
+  <div class="manual-hero-cards">
+    <a class="manual-card" href="chapters/01-welcome.html">
+      <span class="manual-card-kicker">New member</span>
+      <span class="manual-card-title">Read Chapters 1–9 in your first two weeks</span>
+      <span class="manual-card-text">Who we are, how we work and what we expect of one another. Then complete the onboarding checklist and sign the acknowledgment form within 7 days.</span>
+    </a>
+    <a class="manual-card" href="chapters/10-project-management.html">
+      <span class="manual-card-kicker">Project lead</span>
+      <span class="manual-card-title">Chapters 6, 10, 11, 12 and 14</span>
+      <span class="manual-card-text">Pods, project management, data governance, reproducibility and authorship — and the Project Pod Charter before kickoff.</span>
+    </a>
+    <a class="manual-card" href="chapters/07-inclusive-mentoring.html">
+      <span class="manual-card-kicker">Mentor &amp; mentee</span>
+      <span class="manual-card-title">Chapters 7 and 8 are your compact</span>
+      <span class="manual-card-text">Inclusive mentoring and lab culture, with the IDP and one-on-one templates each semester.</span>
+    </a>
+  </div>
+  <p class="manual-hero-templates">Templates: <a href="templates/pdf/new-member-onboarding-checklist.pdf">Onboarding checklist</a> · <a href="templates/pdf/project-pod-charter.pdf">Project Pod Charter</a> · <a href="templates/pdf/individual-development-plan.pdf">Individual Development Plan</a> · <a href="templates/pdf/one-on-one-meeting.pdf">One-on-one meeting</a> · <a href="forms/index.html">Forms</a></p>
+</section>
+```
+:::
+
 ## Welcome to the RIPLRT Institute's Research Group Manual {.unnumbered}
 
 This is the operating system of the **RIPLRT Institute** — a mentee-powered environmental health, immunology, and respiratory health equity research group. We translate environmental exposures into equitable respiratory and immune health through exposure science, biochemical, microbiology, and immune biomarker discovery, computational approaches, reproducible analytics, bilingual science communication, and inclusive mentoring.
