@@ -36,7 +36,7 @@ riplrt-manual-2026/
 ## Prerequisites
 
 - [Quarto](https://quarto.org/docs/get-started/) (current version recommended)
-- For PDF output: a LaTeX distribution. The simplest path is:
+- *Only to regenerate the template/form PDFs* (`scripts/render-templates.sh`): a LaTeX distribution. The simplest path is:
   ```bash
   quarto install tinytex
   ```
@@ -47,13 +47,7 @@ riplrt-manual-2026/
 From the repository root:
 
 ```bash
-# Render all formats configured in _quarto.yml (HTML, PDF, DOCX)
 quarto render
-
-# Or render a single format
-quarto render --to html
-quarto render --to pdf
-quarto render --to docx
 ```
 
 Output is written to `_book/`. Open `_book/index.html` to preview the website.
@@ -74,8 +68,8 @@ The HTML manual is deployed on [Vercel](https://vercel.com) at <https://manual.r
 
 - Every pull request gets a Preview deployment URL (posted on the PR).
 - Merging to `main` deploys production automatically.
-- The build runs `scripts/vercel-build.sh`, which installs the pinned Quarto and TinyTeX versions (`QUARTO_VERSION`, `TINYTEX_VERSION` in that script) and runs `quarto render` for every format in `_quarto.yml` into `_book/` (see `vercel.json`). To upgrade either tool, bump the version in the script and let the Preview deployment verify the render.
-- The whole manual is also published as a single PDF and DOCX (linked from the download icon in the sidebar toolbar): <https://manual.riplrt.com/RIPLRT-Institute-Research-Group-Manual.pdf> and <https://manual.riplrt.com/RIPLRT-Institute-Research-Group-Manual.docx>.
+- The build runs `scripts/vercel-build.sh`, which installs the pinned Quarto and Chrome Headless Shell versions (`QUARTO_VERSION`, `CHROME_VERSION` in that script) and runs `quarto render` into `_book/` (see `vercel.json`). To upgrade either tool, bump the version in the script and let the Preview deployment verify the render.
+- The manual is published online only; the individual templates and forms remain downloadable as PDFs from their appendix pages.
 
 ## Live preview while editing
 

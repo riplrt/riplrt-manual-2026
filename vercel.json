@@ -50,7 +50,7 @@
       ]
     },
     {
-      "source": "/(.*)\\.(pdf|docx)",
+      "source": "/(.*)\\.pdf",
       "headers": [
         {
           "key": "Cache-Control",

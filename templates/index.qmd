@@ -4,7 +4,6 @@ title: "Templates"
 
 The reusable templates RIPLRT members use throughout a project's life are provided as **downloadable PDFs**. Download the one you need, print it or fill it on screen, and keep your copy in your project space — there's no master to edit here.
 
-::: {.content-visible when-format="html"}
 <p class="manual-dl-updated">PDFs regenerated {{< var templates.updated >}} · 2026 Edition (v2.0)</p>
 
 ```{=html}
@@ -131,27 +130,6 @@ The reusable templates RIPLRT members use throughout a project's life are provid
   </div>
 </div>
 ```
-:::
-
-::: {.content-visible unless-format="html"}
-| Template | Use when | Download |
-|---|---|---|
-| New Member Onboarding Checklist | Someone joins | [PDF](pdf/new-member-onboarding-checklist.pdf) |
-| Project Pod Charter | A project starts | [PDF](pdf/project-pod-charter.pdf) |
-| Individual Development Plan (IDP) | Each semester, per member | [PDF](pdf/individual-development-plan.pdf) |
-| Student Research Plan | A student scopes a project | [PDF](pdf/student-research-plan.pdf) |
-| Manuscript Planning Sheet | Before drafting a paper | [PDF](pdf/manuscript-planning-sheet.pdf) |
-| Authorship / Contributorship Agreement | Project start; updated as roles change | [PDF](pdf/authorship-contributorship-agreement.pdf) |
-| Data-Use & Access Checklist | Before touching project data | [PDF](pdf/data-use-access-checklist.pdf) |
-| GitHub Repository Checklist | New repo setup | [PDF](pdf/github-repo-checklist.pdf) |
-| Reproducible Analysis Checklist | Before any submission | [PDF](pdf/reproducible-analysis-checklist.pdf) |
-| AI-Use Disclosure Form | Any product with material AI assistance | [PDF](pdf/ai-use-disclosure.pdf) |
-| Conference Abstract Planning Sheet | Before an abstract deadline | [PDF](pdf/conference-abstract-planning.pdf) |
-| Weekly Meeting Agenda | Every pod meeting | [PDF](pdf/weekly-meeting-agenda.pdf) |
-| One-on-One Mentoring Meeting | Biweekly mentor↔mentee | [PDF](pdf/one-on-one-meeting.pdf) |
-| Stop / Start / Continue Feedback | Reviews and retrospectives | [PDF](pdf/stop-start-continue.pdf) |
-| Offboarding Checklist | Someone leaves | [PDF](pdf/offboarding-checklist.pdf) |
-:::
 
 ::: {.callout-tip}
 ## Editing a template

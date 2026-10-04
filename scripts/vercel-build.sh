@@ -1,14 +1,11 @@
 #!/usr/bin/env bash
-# Vercel build: install pinned Quarto, TinyTeX and Chrome Headless Shell into the build container,
-# then render the book in every format configured in _quarto.yml (HTML site, whole-manual PDF and
-# DOCX) to _book/. Chrome is needed to rasterise the Mermaid diagrams for the PDF/DOCX outputs.
+# Vercel build: install pinned Quarto and Chrome Headless Shell into the build container, then render
+# the HTML site to _book/. Chrome is needed to render the Mermaid diagrams to static SVG at build time.
 set -euo pipefail
 
 QUARTO_VERSION="${QUARTO_VERSION:-1.10.18}"
-TINYTEX_VERSION="${TINYTEX_VERSION:-v2026.10}"
 CHROME_VERSION="${CHROME_VERSION:-154.0.8037.92}"
 QUARTO_DIR="$PWD/.quarto-cli"
-TINYTEX_DIR="$PWD/.tinytex"
 CHROME_DIR="$PWD/.chrome-headless-shell"
 
 if [ ! -x "$QUARTO_DIR/bin/quarto" ]; then
@@ -17,14 +14,8 @@ if [ ! -x "$QUARTO_DIR/bin/quarto" ]; then
     | tar -xz -C "$QUARTO_DIR" --strip-components=1
 fi
 
-if [ ! -x "$TINYTEX_DIR/bin/x86_64-linux/lualatex" ]; then
-  mkdir -p "$TINYTEX_DIR"
-  curl -fsSL "https://github.com/rstudio/tinytex-releases/releases/download/${TINYTEX_VERSION}/TinyTeX-${TINYTEX_VERSION}.tar.gz" \
-    | tar -xz -C "$TINYTEX_DIR" --strip-components=1
-fi
-export PATH="$TINYTEX_DIR/bin/x86_64-linux:$PATH"
-# The Vercel build environment sets LANG to a locale the image does not ship, which makes luatex abort
-# ("Unable to read locale data"); C.UTF-8 is built into glibc and always available.
+# The Vercel build environment sets LANG to a locale the image does not ship; C.UTF-8 is built into
+# glibc and always available.
 export LANG=C.UTF-8 LC_ALL=C.UTF-8
 
 # Vercel's build image is Amazon Linux 2023; Chrome's shared-library dependencies that it lacks are
@@ -46,6 +37,5 @@ fi
 export QUARTO_CHROMIUM="$CHROME_DIR/chrome-headless-shell"
 
 "$QUARTO_DIR/bin/quarto" --version
-lualatex --version | head -1
 "$QUARTO_CHROMIUM" --version
 "$QUARTO_DIR/bin/quarto" render

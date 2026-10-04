@@ -1,6 +1,5 @@
 # Preface {.unnumbered}
 
-::: {.content-visible when-format="html"}
 ```{=html}
 <section class="manual-hero" aria-label="Quick start">
   <div class="manual-hero-badges">
@@ -10,8 +9,6 @@
     <span class="badge-pill">Updated June 2026</span>
   </div>
   <div class="manual-hero-actions">
-    <a class="btn btn-primary" href="RIPLRT-Institute-Research-Group-Manual.pdf"><i class="bi bi-file-earmark-pdf"></i>Download PDF</a>
-    <a class="btn btn-outline-primary" href="RIPLRT-Institute-Research-Group-Manual.docx"><i class="bi bi-file-earmark-word"></i>Download DOCX</a>
     <a class="btn btn-link" href="https://riplrt.com">riplrt.com <i class="bi bi-box-arrow-up-right"></i></a>
   </div>
   <div class="manual-hero-cards">
@@ -34,7 +31,6 @@
   <p class="manual-hero-templates">Templates: <a href="templates/pdf/new-member-onboarding-checklist.pdf">Onboarding checklist</a> · <a href="templates/pdf/project-pod-charter.pdf">Project Pod Charter</a> · <a href="templates/pdf/individual-development-plan.pdf">Individual Development Plan</a> · <a href="templates/pdf/one-on-one-meeting.pdf">One-on-one meeting</a> · <a href="forms/index.html">Forms</a></p>
 </section>
 ```
-:::
 
 ## Welcome to the RIPLRT Institute's Research Group Manual {.unnumbered}
 
