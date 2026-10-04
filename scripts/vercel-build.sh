@@ -23,6 +23,9 @@ if [ ! -x "$TINYTEX_DIR/bin/x86_64-linux/lualatex" ]; then
     | tar -xz -C "$TINYTEX_DIR" --strip-components=1
 fi
 export PATH="$TINYTEX_DIR/bin/x86_64-linux:$PATH"
+# The Vercel build environment sets LANG to a locale the image does not ship, which makes luatex abort
+# ("Unable to read locale data"); C.UTF-8 is built into glibc and always available.
+export LANG=C.UTF-8 LC_ALL=C.UTF-8
 
 # Vercel's build image is Amazon Linux 2023; Chrome's shared-library dependencies that it lacks are
 # installed with dnf. Skipped on machines where dnf is unavailable or we are not root.
