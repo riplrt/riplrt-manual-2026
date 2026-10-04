@@ -7,3 +7,4 @@
 **/*.quarto_ipynb
 /.tinytex/
 /.chrome-headless-shell/
+*_files/

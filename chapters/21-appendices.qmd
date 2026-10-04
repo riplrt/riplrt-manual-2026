@@ -1,6 +1,4 @@
----
-title: "Appendices"
----
+# Appendices {.unnumbered}
 
 This chapter collects reference material: pointers to the templates, policies, and forms appendices; a glossary of terms; a resource list; and acknowledgments.
 

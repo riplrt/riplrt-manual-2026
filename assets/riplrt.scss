@@ -1,0 +1,139 @@
+/*-- scss:defaults --*/
+// RIPLRT brand theme — mirrors riplrt.com (app/globals.css): navy/blue/cyan palette, Inter body,
+// Instrument Sans display. Layered on Cosmo (light); riplrt-dark.scss re-tints it on Darkly.
+
+$riplrt-navy:     #0f2748 !default;
+$riplrt-navy-700: #1b3a6b !default;
+$riplrt-blue:     #2a5c9c !default;
+$riplrt-blue-600: #346dbe !default;
+$riplrt-cyan:     #51aee5 !default;
+$riplrt-cyan-100: #e6f3fb !default;
+$riplrt-ink:      #16202c !default;
+$riplrt-body:     #3c4a5a !default;
+$riplrt-muted:    #64748b !default;
+$riplrt-line:     #e2e8f0 !default;
+$riplrt-bg-soft:  #f6f9fc !default;
+
+$font-family-sans-serif: "Inter", system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$headings-font-family:   "Instrument Sans", "Inter", system-ui, sans-serif !default;
+$font-family-monospace:  ui-monospace, SFMono-Regular, Menlo, Consolas, monospace !default;
+$font-size-root: 17px !default;
+$line-height-base: 1.65 !default;
+$headings-font-weight: 650 !default;
+$headings-line-height: 1.15 !default;
+
+$primary:    $riplrt-blue !default;
+$secondary:  $riplrt-muted !default;
+$body-color: $riplrt-body !default;
+$headings-color: $riplrt-ink !default;
+$link-color: $riplrt-blue !default;
+$link-hover-color: $riplrt-navy-700 !default;
+$border-color: $riplrt-line !default;
+$code-color: $riplrt-navy-700 !default;
+$code-bg: $riplrt-bg-soft !default;
+$border-radius: .5rem !default;
+
+$navbar-bg: #fff !default;
+$navbar-fg: $riplrt-navy !default;
+$navbar-hl: $riplrt-blue !default;
+$sidebar-fg: $riplrt-body !default;
+$sidebar-hl: $riplrt-blue !default;
+$toc-color: $riplrt-blue !default;
+$toc-active-border: $riplrt-blue !default;
+$toc-inactive-border: $riplrt-line !default;
+$footer-bg: $riplrt-bg-soft !default;
+$footer-fg: $riplrt-muted !default;
+$callout-color-note: $riplrt-blue !default;
+$callout-color-tip: #2e8b57 !default;
+
+/*-- scss:rules --*/
+:root {
+  --riplrt-navy: #{$riplrt-navy};
+  --riplrt-blue: #{$riplrt-blue};
+  --riplrt-cyan: #{$riplrt-cyan};
+  --riplrt-cyan-100: #{$riplrt-cyan-100};
+  --riplrt-line: #{$riplrt-line};
+  --riplrt-muted: #{$riplrt-muted};
+  --riplrt-bg-soft: #{$riplrt-bg-soft};
+  --riplrt-nav-shadow: 0 1px 0 #{$riplrt-line};
+}
+
+body { -webkit-font-smoothing: antialiased; font-feature-settings: "kern", "cv11"; }
+
+h1, h2, h3, h4, .h1, .h2, .h3 { letter-spacing: -.015em; text-wrap: balance; }
+h1, .h1 { letter-spacing: -.03em; font-weight: 650; }
+h3, h4, h5 { font-family: $font-family-sans-serif; font-weight: 700; }
+#quarto-content h2 { border-bottom: 1px solid var(--riplrt-line); padding-bottom: .35rem; margin-top: 2.6rem; }
+.header-section-number { color: var(--riplrt-muted); font-weight: 500; margin-right: .35em; }
+
+p a, li a, td a { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: .15em; }
+.sidebar a, .toc-actions a, nav a, .nav-page a, .quarto-title-block a { text-decoration: none; }
+:focus-visible { outline: 3px solid var(--riplrt-cyan); outline-offset: 2px; border-radius: 6px; }
+
+// Navbar: white bar with hairline, wordmark like riplrt.com
+.navbar {
+  box-shadow: var(--riplrt-nav-shadow);
+  padding-top: .55rem; padding-bottom: .55rem;
+  .navbar-brand-container { align-items: center; }
+  .navbar-brand { font-family: $headings-font-family; font-weight: 700; letter-spacing: -.02em; color: var(--riplrt-navy); }
+  .navbar-logo { max-height: 34px; margin-right: .6rem; }
+  .nav-link { font-weight: 550; }
+  .quarto-navbar-tools .quarto-navigation-tool { opacity: .85; }
+}
+
+// Sidebar
+.sidebar-navigation {
+  .sidebar-item-container { padding: .1rem 0; }
+  .sidebar-item-text { line-height: 1.3; }
+  .sidebar-item .sidebar-link.active, .sidebar-item .sidebar-link.active .chapter-number { color: var(--riplrt-blue); font-weight: 650; }
+  .sidebar-item-section > .sidebar-item-container .sidebar-item-text,
+  .sidebar-item-section > .sidebar-item-container .sidebar-link { color: var(--riplrt-navy); font-weight: 700; font-size: .82rem; letter-spacing: .06em; text-transform: uppercase; }
+  .chapter-number { color: var(--riplrt-muted); font-weight: 500; }
+}
+.sidebar-item-container .active-parent > .sidebar-item-text { color: var(--riplrt-navy); }
+#quarto-sidebar .sidebar-search .aa-Form, .sidebar .aa-Form { border-color: var(--riplrt-line); border-radius: .6rem; }
+.sidebar nav[role=doc-toc] > h2 { font-size: .78rem; letter-spacing: .08em; text-transform: uppercase; color: var(--riplrt-muted); font-family: $font-family-sans-serif; }
+
+// Title block
+.quarto-title-block .quarto-title .title { font-size: 2.6rem; font-weight: 650; line-height: 1.08; color: var(--riplrt-navy); }
+.quarto-title-block .subtitle { color: var(--riplrt-muted); font-size: 1.15rem; font-weight: 450; margin-top: .4rem; }
+.quarto-title-meta-heading { letter-spacing: .08em; }
+.quarto-title-banner { background: var(--riplrt-navy); }
+
+// Callouts
+.callout { border-radius: .6rem; border-left-width: 4px; box-shadow: none; }
+.callout-note.callout-style-default > .callout-header { background: var(--riplrt-cyan-100); }
+
+// Tables
+table, .table { font-size: .95rem; }
+thead th { border-bottom: 2px solid var(--riplrt-blue) !important; color: var(--riplrt-ink); font-weight: 700; }
+.table > :not(caption) > * > * { padding: .55rem .7rem; }
+.table-striped > tbody > tr:nth-of-type(odd) > * { --bs-table-accent-bg: rgba(42, 92, 156, .04); }
+
+// Blockquote "through-line" banners
+blockquote { border-left: 4px solid var(--riplrt-cyan); background: var(--riplrt-bg-soft); padding: .9rem 1.2rem; border-radius: 0 .6rem .6rem 0; color: var(--riplrt-navy); }
+blockquote p:last-child { margin-bottom: 0; }
+
+// Figures, code
+.figure-caption, figcaption { color: var(--riplrt-muted); font-size: .9rem; }
+code:not(.sourceCode) { padding: .1em .35em; border-radius: .3em; }
+.cell-output-display img, figure img { border-radius: .4rem; }
+
+// Checklists in templates/forms
+ul li input[type="checkbox"] { margin-right: .4rem; }
+
+// Pagination + footer
+.nav-page .nav-page-text { font-weight: 600; }
+.nav-footer { border-top: 1px solid var(--riplrt-line); background: var(--riplrt-bg-soft); font-size: .88rem; }
+.nav-footer .nav-footer-center, .nav-footer .nav-footer-left, .nav-footer .nav-footer-right { color: var(--riplrt-muted); }
+.nav-footer a { color: var(--riplrt-blue); }
+.nav-footer .footer-brand { display: inline-flex; align-items: center; gap: .5rem; font-weight: 700; color: var(--riplrt-navy); }
+.nav-footer .footer-brand img { height: 26px; width: auto; }
+
+// Mobile
+@media (max-width: 991.98px) {
+  .quarto-title-block .quarto-title .title { font-size: 2rem; }
+  .navbar .navbar-brand { font-size: 1rem; }
+  .navbar .navbar-logo { max-height: 30px; }
+  .table-responsive-auto { overflow-x: auto; }
+}
