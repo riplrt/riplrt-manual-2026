@@ -19,6 +19,7 @@ title: "Manuscript Planning Sheet"
 - Which of our four themes it belongs to:
 
 ## 4. Figures & tables (the visual backbone)
+
 | # | What it shows | Owner | Source notebook |
 |---|---|---|---|
 | 1 |  |  |  |
@@ -31,9 +32,10 @@ title: "Manuscript Planning Sheet"
 - Repo: ___  Analysis locked? ___  Reproducible Analysis Checklist done? ☐
 
 ## 7. Acknowledgments / data attributions (exact required text)
--
+- _______________
 
 ## 8. Timeline
+
 | Stage | Owner | Due |
 |---|---|---|
 | Outline |  |  |

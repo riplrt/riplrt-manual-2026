@@ -1,0 +1,67 @@
+% RIPLRT brand for the single-sheet templates and forms (scrartcl, rendered by scripts/render-templates.sh).
+% Shares colours and fonts with header.tex, which styles the whole-manual PDF.
+\usepackage{xcolor}
+\definecolor{riplrtnavy}{HTML}{0F2748}
+\definecolor{riplrtblue}{HTML}{2A5C9C}
+\definecolor{riplrtcyan}{HTML}{51AEE5}
+\definecolor{riplrtmuted}{HTML}{64748B}
+\definecolor{riplrtline}{HTML}{E2E8F0}
+
+\setmainfont{Inter-Variable.ttf}[
+  Path=assets/fonts/ttf/, BoldFont=Inter-Variable.ttf, ItalicFont=Inter-Variable.ttf, BoldItalicFont=Inter-Variable.ttf,
+  Ligatures=TeX,
+  UprightFeatures={RawFeature={axis={wght=400}}},
+  BoldFeatures={RawFeature={axis={wght=700}}},
+  ItalicFeatures={FakeSlant=0.18},
+  BoldItalicFeatures={RawFeature={axis={wght=700}},FakeSlant=0.18}]
+\setsansfont{Inter-Variable.ttf}[
+  Path=assets/fonts/ttf/, BoldFont=Inter-Variable.ttf, Ligatures=TeX,
+  UprightFeatures={RawFeature={axis={wght=400}}},
+  BoldFeatures={RawFeature={axis={wght=700}}}]
+\newfontfamily\displayfont{InstrumentSans-Variable.ttf}[
+  Path=assets/fonts/ttf/, BoldFont=InstrumentSans-Variable.ttf, Ligatures=TeX,
+  UprightFeatures={RawFeature={axis={wght=650}}},
+  BoldFeatures={RawFeature={axis={wght=700}}}]
+
+\addtokomafont{disposition}{\color{riplrtnavy}}
+\setkomafont{section}{\displayfont\large}
+\setkomafont{subsection}{\bfseries\normalsize}
+\setkomafont{descriptionlabel}{\bfseries\color{riplrtnavy}}
+\RedeclareSectionCommand[beforeskip=1.1\baselineskip,afterskip=.35\baselineskip]{section}
+\RedeclareSectionCommand[beforeskip=.9\baselineskip,afterskip=.25\baselineskip]{subsection}
+
+% Brand header in place of \maketitle: kicker, title, mark, cyan rule.
+\usepackage{graphicx}
+\makeatletter
+\renewcommand{\maketitle}{%
+  \noindent\begin{minipage}[c]{0.8\textwidth}\raggedright
+    {\footnotesize\bfseries\color{riplrtblue}RIPLRT INSTITUTE\quad\textperiodcentered\quad RESEARCH GROUP MANUAL\par}
+    \vspace{3pt}{\displayfont\fontsize{20}{24}\selectfont\color{riplrtnavy}\@title\par}
+  \end{minipage}\hfill
+  \begin{minipage}[c]{0.16\textwidth}\raggedleft\includegraphics[width=11mm]{assets/brand/riplrt-mark.png}\end{minipage}\par
+  \vspace{5pt}{\color{riplrtcyan}\rule{\textwidth}{1.5pt}}\par\vspace{8pt}}
+\makeatother
+
+% Footer: edition and "Page x of y".
+\usepackage{lastpage}
+\usepackage[headsepline=0pt]{scrlayer-scrpage}
+\setkomafont{pageheadfoot}{\footnotesize\color{riplrtmuted}}
+\clearpairofpagestyles
+\ifoot*{RIPLRT Institute Research Group Manual \textperiodcentered{} 2026 Edition (v2.0) \textperiodcentered{} manual.riplrt.com}
+\ofoot*{Page \thepage\ of \pageref{LastPage}}
+\pagestyle{scrheadings}
+
+% Inter has no ballot box; use the math square (same glyph Pandoc uses for task lists).
+\usepackage{newunicodechar}
+\newunicodechar{☐}{\ensuremath{\square}}
+
+% Fill-in tables: room to write, light rules.
+\usepackage{colortbl}
+\renewcommand{\arraystretch}{1.6}
+\arrayrulecolor{riplrtline}
+
+% Lead-in block quote as a tinted band, as on the web.
+\usepackage[skins,breakable]{tcolorbox}
+\renewenvironment{quote}
+  {\begin{tcolorbox}[colback=riplrtnavy!4,colframe=riplrtcyan,boxrule=0pt,leftrule=3pt,arc=2pt,left=8pt,right=8pt,top=6pt,bottom=6pt,breakable]\small}
+  {\end{tcolorbox}}

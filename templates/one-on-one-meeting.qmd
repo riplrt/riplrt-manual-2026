@@ -7,7 +7,7 @@ title: "One-on-One Mentoring Meeting"
 **Mentee:** _______________  **Mentor:** _______________  **Date:** _______________
 
 ## Check-in (how are you, really?)
--
+- _______________
 
 ## Progress since last time
 - Wins:
@@ -23,6 +23,7 @@ title: "One-on-One Mentoring Meeting"
 - Feedback for mentor / group:
 
 ## Action items
+
 | Action | Owner | Due |
 |---|---|---|
 |  |  |  |

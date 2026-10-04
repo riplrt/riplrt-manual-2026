@@ -43,6 +43,7 @@ To keep the manual coherent:
 - **Cross-references:** use Quarto cross-refs (e.g., `@sec-mentoring`) rather than hard-coded chapter numbers where possible, so renumbering doesn't break links.
 - **Citations:** add sources to `references.bib` and cite with `[@key]`.
 - **New files:** register new chapters/appendices in `_quarto.yml`; add new templates/policies/forms to the relevant `index.qmd` table.
+- **Templates and forms:** after editing a source in `templates/` or `forms/`, run `./scripts/render-templates.sh` and commit the regenerated PDF with it (see README).
 
 ## What *not* to commit
 
