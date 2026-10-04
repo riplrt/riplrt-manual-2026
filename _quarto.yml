@@ -26,6 +26,7 @@ book:
   repo-branch: main
   repo-actions: [edit, issue]
   sharing: [twitter, linkedin]
+  downloads: [pdf, docx]
   search: true
   page-footer:
     left: "RIPLRT Institute Research Group Manual — 2026 Edition"
