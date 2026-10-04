@@ -26,7 +26,7 @@ book:
     exposures into equitable respiratory and immune health.
   site-url: https://manual.riplrt.com
   favicon: assets/brand/favicon.png
-  image: https://manual.riplrt.com/assets/brand/og-image.jpg
+  image: https://manual.riplrt.com/assets/brand/og-manual.jpg
   open-graph:
     site-name: "RIPLRT Institute Research Group Manual"
     locale: en_US
