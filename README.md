@@ -58,6 +58,16 @@ quarto render --to docx
 
 Output is written to `_book/`. Open `_book/index.html` to preview the website.
 
+The downloadable templates and forms (`templates/pdf/`, `forms/pdf/`) are **not** produced by `quarto render`; they are committed PDFs regenerated from `templates/*.qmd` and `forms/*.md` with the RIPLRT brand sheet (`assets/pdf/template-header.tex`):
+
+```bash
+# Regenerate every template/form PDF (or pass specific source files)
+./scripts/render-templates.sh
+./scripts/render-templates.sh templates/project-pod-charter.qmd
+```
+
+Commit the regenerated PDFs with the source change. The script also records the regeneration date (`templates/_updated.yml`), shown on the Templates and Forms pages.
+
 ## Deployment
 
 The HTML manual is deployed on [Vercel](https://vercel.com) at <https://manual.riplrt.com>.

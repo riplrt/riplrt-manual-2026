@@ -13,6 +13,7 @@ title: "Project Pod Charter"
 - Which SMART goal it advances:
 
 ## 2. Datasets & governance
+
 | Dataset | Tier/access | Where analysis must happen | DUA/IRB ref | Data Steward |
 |---|---|---|---|---|
 |  |  |  |  |  |
@@ -21,6 +22,7 @@ title: "Project Pod Charter"
 - Variable dictionary location: _______________
 
 ## 3. Pod roles
+
 | Role | Person | Backup / co-holder (trainee) |
 |---|---|---|
 | PI |  |  |
@@ -34,6 +36,7 @@ title: "Project Pod Charter"
 | Trainee Contributors |  |  |
 
 ## 4. Deliverables & timeline
+
 | Deliverable | Owner | Target date |
 |---|---|---|
 |  |  |  |
@@ -50,4 +53,4 @@ title: "Project Pod Charter"
 - Repo URL:
 
 ## 7. Risks & dependencies
--
+- _______________

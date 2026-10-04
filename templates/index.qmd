@@ -4,6 +4,136 @@ title: "Templates"
 
 The reusable templates RIPLRT members use throughout a project's life are provided as **downloadable PDFs**. Download the one you need, print it or fill it on screen, and keep your copy in your project space — there's no master to edit here.
 
+::: {.content-visible when-format="html"}
+<p class="manual-dl-updated">PDFs regenerated {{< var templates.updated >}} · 2026 Edition (v2.0)</p>
+
+```{=html}
+<div class="manual-dl-grid">
+  <div class="manual-dl-card">
+    <span class="manual-card-title">New Member Onboarding Checklist</span>
+    <span class="manual-card-text"><strong>Use when:</strong> Someone joins</span>
+    <div class="manual-dl-foot">
+      <span class="manual-dl-meta">PDF · 1 page</span>
+      <a class="btn btn-outline-primary btn-sm" href="pdf/new-member-onboarding-checklist.pdf" download><i class="bi bi-file-earmark-pdf"></i>Download</a>
+    </div>
+  </div>
+  <div class="manual-dl-card">
+    <span class="manual-card-title">Project Pod Charter</span>
+    <span class="manual-card-text"><strong>Use when:</strong> A project starts</span>
+    <div class="manual-dl-foot">
+      <span class="manual-dl-meta">PDF · 2 pages</span>
+      <a class="btn btn-outline-primary btn-sm" href="pdf/project-pod-charter.pdf" download><i class="bi bi-file-earmark-pdf"></i>Download</a>
+    </div>
+  </div>
+  <div class="manual-dl-card">
+    <span class="manual-card-title">Individual Development Plan (IDP)</span>
+    <span class="manual-card-text"><strong>Use when:</strong> Each semester, per member</span>
+    <div class="manual-dl-foot">
+      <span class="manual-dl-meta">PDF · 1 page</span>
+      <a class="btn btn-outline-primary btn-sm" href="pdf/individual-development-plan.pdf" download><i class="bi bi-file-earmark-pdf"></i>Download</a>
+    </div>
+  </div>
+  <div class="manual-dl-card">
+    <span class="manual-card-title">Student Research Plan</span>
+    <span class="manual-card-text"><strong>Use when:</strong> A student scopes a project</span>
+    <div class="manual-dl-foot">
+      <span class="manual-dl-meta">PDF · 1 page</span>
+      <a class="btn btn-outline-primary btn-sm" href="pdf/student-research-plan.pdf" download><i class="bi bi-file-earmark-pdf"></i>Download</a>
+    </div>
+  </div>
+  <div class="manual-dl-card">
+    <span class="manual-card-title">Manuscript Planning Sheet</span>
+    <span class="manual-card-text"><strong>Use when:</strong> Before drafting a paper</span>
+    <div class="manual-dl-foot">
+      <span class="manual-dl-meta">PDF · 2 pages</span>
+      <a class="btn btn-outline-primary btn-sm" href="pdf/manuscript-planning-sheet.pdf" download><i class="bi bi-file-earmark-pdf"></i>Download</a>
+    </div>
+  </div>
+  <div class="manual-dl-card">
+    <span class="manual-card-title">Authorship / Contributorship Agreement</span>
+    <span class="manual-card-text"><strong>Use when:</strong> Project start; updated as roles change</span>
+    <div class="manual-dl-foot">
+      <span class="manual-dl-meta">PDF · 1 page</span>
+      <a class="btn btn-outline-primary btn-sm" href="pdf/authorship-contributorship-agreement.pdf" download><i class="bi bi-file-earmark-pdf"></i>Download</a>
+    </div>
+  </div>
+  <div class="manual-dl-card">
+    <span class="manual-card-title">Data-Use & Access Checklist</span>
+    <span class="manual-card-text"><strong>Use when:</strong> Before touching project data</span>
+    <div class="manual-dl-foot">
+      <span class="manual-dl-meta">PDF · 1 page</span>
+      <a class="btn btn-outline-primary btn-sm" href="pdf/data-use-access-checklist.pdf" download><i class="bi bi-file-earmark-pdf"></i>Download</a>
+    </div>
+  </div>
+  <div class="manual-dl-card">
+    <span class="manual-card-title">GitHub Repository Checklist</span>
+    <span class="manual-card-text"><strong>Use when:</strong> New repo setup</span>
+    <div class="manual-dl-foot">
+      <span class="manual-dl-meta">PDF · 1 page</span>
+      <a class="btn btn-outline-primary btn-sm" href="pdf/github-repo-checklist.pdf" download><i class="bi bi-file-earmark-pdf"></i>Download</a>
+    </div>
+  </div>
+  <div class="manual-dl-card">
+    <span class="manual-card-title">Reproducible Analysis Checklist</span>
+    <span class="manual-card-text"><strong>Use when:</strong> Before any submission</span>
+    <div class="manual-dl-foot">
+      <span class="manual-dl-meta">PDF · 1 page</span>
+      <a class="btn btn-outline-primary btn-sm" href="pdf/reproducible-analysis-checklist.pdf" download><i class="bi bi-file-earmark-pdf"></i>Download</a>
+    </div>
+  </div>
+  <div class="manual-dl-card">
+    <span class="manual-card-title">AI-Use Disclosure Form</span>
+    <span class="manual-card-text"><strong>Use when:</strong> Any product with material AI assistance</span>
+    <div class="manual-dl-foot">
+      <span class="manual-dl-meta">PDF · 1 page</span>
+      <a class="btn btn-outline-primary btn-sm" href="pdf/ai-use-disclosure.pdf" download><i class="bi bi-file-earmark-pdf"></i>Download</a>
+    </div>
+  </div>
+  <div class="manual-dl-card">
+    <span class="manual-card-title">Conference Abstract Planning Sheet</span>
+    <span class="manual-card-text"><strong>Use when:</strong> Before an abstract deadline</span>
+    <div class="manual-dl-foot">
+      <span class="manual-dl-meta">PDF · 1 page</span>
+      <a class="btn btn-outline-primary btn-sm" href="pdf/conference-abstract-planning.pdf" download><i class="bi bi-file-earmark-pdf"></i>Download</a>
+    </div>
+  </div>
+  <div class="manual-dl-card">
+    <span class="manual-card-title">Weekly Meeting Agenda</span>
+    <span class="manual-card-text"><strong>Use when:</strong> Every pod meeting</span>
+    <div class="manual-dl-foot">
+      <span class="manual-dl-meta">PDF · 1 page</span>
+      <a class="btn btn-outline-primary btn-sm" href="pdf/weekly-meeting-agenda.pdf" download><i class="bi bi-file-earmark-pdf"></i>Download</a>
+    </div>
+  </div>
+  <div class="manual-dl-card">
+    <span class="manual-card-title">One-on-One Mentoring Meeting</span>
+    <span class="manual-card-text"><strong>Use when:</strong> Biweekly mentor↔mentee</span>
+    <div class="manual-dl-foot">
+      <span class="manual-dl-meta">PDF · 1 page</span>
+      <a class="btn btn-outline-primary btn-sm" href="pdf/one-on-one-meeting.pdf" download><i class="bi bi-file-earmark-pdf"></i>Download</a>
+    </div>
+  </div>
+  <div class="manual-dl-card">
+    <span class="manual-card-title">Stop / Start / Continue Feedback</span>
+    <span class="manual-card-text"><strong>Use when:</strong> Reviews and retrospectives</span>
+    <div class="manual-dl-foot">
+      <span class="manual-dl-meta">PDF · 1 page</span>
+      <a class="btn btn-outline-primary btn-sm" href="pdf/stop-start-continue.pdf" download><i class="bi bi-file-earmark-pdf"></i>Download</a>
+    </div>
+  </div>
+  <div class="manual-dl-card">
+    <span class="manual-card-title">Offboarding Checklist</span>
+    <span class="manual-card-text"><strong>Use when:</strong> Someone leaves</span>
+    <div class="manual-dl-foot">
+      <span class="manual-dl-meta">PDF · 1 page</span>
+      <a class="btn btn-outline-primary btn-sm" href="pdf/offboarding-checklist.pdf" download><i class="bi bi-file-earmark-pdf"></i>Download</a>
+    </div>
+  </div>
+</div>
+```
+:::
+
+::: {.content-visible unless-format="html"}
 | Template | Use when | Download |
 |---|---|---|
 | New Member Onboarding Checklist | Someone joins | [PDF](pdf/new-member-onboarding-checklist.pdf) |
@@ -21,6 +151,7 @@ The reusable templates RIPLRT members use throughout a project's life are provid
 | One-on-One Mentoring Meeting | Biweekly mentor↔mentee | [PDF](pdf/one-on-one-meeting.pdf) |
 | Stop / Start / Continue Feedback | Reviews and retrospectives | [PDF](pdf/stop-start-continue.pdf) |
 | Offboarding Checklist | Someone leaves | [PDF](pdf/offboarding-checklist.pdf) |
+:::
 
 ::: {.callout-tip}
 ## Editing a template

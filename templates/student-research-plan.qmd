@@ -12,7 +12,7 @@ title: "Student Research Plan"
 - Where it sits on the through-line:
 
 ## 2. Background (3–5 key references)
--
+- _______________
 
 ## 3. Data & methods
 - Dataset(s) and access status:
@@ -23,12 +23,13 @@ title: "Student Research Plan"
 - (abstract, poster, notebook, manuscript section)
 
 ## 5. Milestones
+
 | Milestone | Target date |
 |---|---|
 |  |  |
 
 ## 6. Skills I'll learn
--
+- _______________
 
 ## 7. Risks / unknowns
--
+- _______________

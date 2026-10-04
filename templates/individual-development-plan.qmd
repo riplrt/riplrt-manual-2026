@@ -12,6 +12,7 @@ title: "Individual Development Plan (IDP)"
 - Skills I'm developing (scientific / computational / professional / human):
 
 ## Goals this term (SMART)
+
 | Goal | Why it matters to me | Measure | Due |
 |---|---|---|---|
 |  |  |  |  |
@@ -31,6 +32,7 @@ title: "Individual Development Plan (IDP)"
 - Sustainable load? Boundaries to protect:
 
 ## Review log
+
 | Date | Notes | Adjustments |
 |---|---|---|
 |  |  |  |

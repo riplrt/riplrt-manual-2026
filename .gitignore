@@ -8,3 +8,4 @@
 /.tinytex/
 /.chrome-headless-shell/
 *_files/
+/_variables.yml

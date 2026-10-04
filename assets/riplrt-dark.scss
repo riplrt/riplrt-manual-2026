@@ -47,3 +47,13 @@ thead th { border-bottom-color: #51aee5 !important; color: #f3f6fa; }
 blockquote { color: #e6eef8; }
 .nav-footer .footer-brand { color: #f3f6fa; }
 .callout-note.callout-style-default > .callout-header { background: #122037; }
+.cell-output-display svg[id^="mermaid-figure"] .node rect,
+.cell-output-display svg[id^="mermaid-figure"] .node polygon,
+.cell-output-display svg[id^="mermaid-figure"] .node circle,
+.cell-output-display svg[id^="mermaid-figure"] .node path { fill: #1b3a6b !important; stroke: #51aee5 !important; }
+.cell-output-display svg[id^="mermaid-figure"] .nodeLabel,
+.cell-output-display svg[id^="mermaid-figure"] .cluster-label span,
+.cell-output-display svg[id^="mermaid-figure"] .label { color: #f3f6fa !important; }
+.cell-output-display svg[id^="mermaid-figure"] .edgePath .path,
+.cell-output-display svg[id^="mermaid-figure"] .flowchart-link { stroke: #51aee5 !important; }
+.cell-output-display svg[id^="mermaid-figure"] .marker { fill: #51aee5 !important; stroke: #51aee5 !important; }

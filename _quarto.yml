@@ -1,6 +1,7 @@
 project:
   type: book
   output-dir: _book
+  pre-render: scripts/pre-render.sh
   render:
     - index.qmd
     - chapters/*.qmd
@@ -43,16 +44,13 @@ book:
     style: docked
     collapse-level: 1
     title: false
-  repo-url: https://github.com/riplrt/riplrt-manual-2026
-  repo-branch: main
-  repo-actions: [edit, issue]
   sharing: [twitter, linkedin]
   downloads: [pdf, docx]
   search: true
   page-footer:
     left: "© 2026 RIPLRT Institute · Felix E. Rivera-Mariani PhD LLC"
     center: "2026 Edition (v2.0) · [DOI 10.5281/zenodo.21538575](https://doi.org/10.5281/zenodo.21538575) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
-    right: "[riplrt.com](https://riplrt.com) · Built with [Quarto](https://quarto.org)"
+    right: "Updated {{< var build.date >}} · [riplrt.com](https://riplrt.com)"
   chapters:
     - index.qmd
     - part: "Identity & Belonging"
@@ -108,6 +106,8 @@ format:
       light: [cosmo, assets/riplrt.scss]
       dark: [darkly, assets/riplrt.scss, assets/riplrt-dark.scss]
     css: assets/fonts/fonts.css
+    mermaid-format: svg
+    filters: [assets/html/mermaid-svg.lua]
     back-to-top-navigation: true
     toc: true
     toc-depth: 3

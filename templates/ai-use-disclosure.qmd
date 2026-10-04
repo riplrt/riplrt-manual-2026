@@ -7,6 +7,7 @@ title: "AI-Use Disclosure Form"
 **Product:** _______________  **Member:** _______________  **Date:** _______________
 
 ## Tools used
+
 | Tool | Version (if known) | Purpose |
 |---|---|---|
 |  |  |  |
