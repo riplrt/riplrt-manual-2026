@@ -21,6 +21,7 @@ book:
     The operating system of the RIPLRT Institute: a mentee-powered environmental
     immunology and respiratory health equity research group translating environmental
     exposures into equitable respiratory and immune health.
+  site-url: https://manual.riplrt.com
   repo-url: https://github.com/riplrt/riplrt-manual-2026
   repo-branch: main
   repo-actions: [edit, issue]

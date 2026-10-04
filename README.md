@@ -58,6 +58,14 @@ quarto render --to docx
 
 Output is written to `_book/`. Open `_book/index.html` to preview the website.
 
+## Deployment
+
+The HTML manual is deployed on [Vercel](https://vercel.com) at <https://manual.riplrt.com>.
+
+- Every pull request gets a Preview deployment URL (posted on the PR).
+- Merging to `main` deploys production automatically.
+- The build runs `scripts/vercel-build.sh`, which installs the pinned Quarto version (`QUARTO_VERSION` in that script) and renders `quarto render --to html` into `_book/` (see `vercel.json`). To upgrade Quarto, bump the version in the script and let the Preview deployment verify the render.
+
 ## Live preview while editing
 
 ```bash
