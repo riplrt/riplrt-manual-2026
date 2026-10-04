@@ -56,6 +56,8 @@ $callout-color-tip: #2e8b57 !default;
   --riplrt-muted: #{$riplrt-muted};
   --riplrt-bg-soft: #{$riplrt-bg-soft};
   --riplrt-nav-shadow: 0 1px 0 #{$riplrt-line};
+  --riplrt-hero-end: #ffffff;
+  --riplrt-card-bg: #ffffff;
 }
 
 body { -webkit-font-smoothing: antialiased; font-feature-settings: "kern", "cv11"; }
@@ -130,10 +132,50 @@ ul li input[type="checkbox"] { margin-right: .4rem; }
 .nav-footer .footer-brand { display: inline-flex; align-items: center; gap: .5rem; font-weight: 700; color: var(--riplrt-navy); }
 .nav-footer .footer-brand img { height: 26px; width: auto; }
 
+// Landing hero on the Preface (index.qmd, HTML only)
+.manual-hero { margin: .25rem 0 2.75rem; padding: 1.5rem 1.6rem; border: 1px solid var(--riplrt-line); border-radius: 1rem; background: linear-gradient(135deg, var(--riplrt-bg-soft), var(--riplrt-hero-end)); }
+.manual-hero-badges { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: 1.1rem; }
+.badge-pill { display: inline-block; font-size: .78rem; font-weight: 600; letter-spacing: .02em; padding: .25rem .75rem; border-radius: 999px; background: var(--riplrt-cyan-100); color: var(--riplrt-navy); text-decoration: none; }
+a.badge-pill:hover { background: var(--riplrt-cyan); color: #fff; text-decoration: none; }
+.manual-hero-actions { display: flex; flex-wrap: wrap; gap: .6rem; align-items: center; margin-bottom: 1.5rem; }
+.manual-hero-actions .btn { font-weight: 600; border-radius: .6rem; padding: .5rem 1rem; }
+.manual-hero-actions .btn i { margin-right: .3rem; }
+.manual-hero-cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .9rem; }
+.manual-card { display: flex; flex-direction: column; gap: .3rem; padding: 1rem 1.1rem; border-radius: .8rem; background: var(--riplrt-card-bg); border: 1px solid var(--riplrt-line); text-decoration: none; color: inherit; transition: border-color .15s, box-shadow .15s, transform .15s; }
+.manual-card:hover, .manual-card:focus-visible { border-color: var(--riplrt-cyan); box-shadow: 0 8px 24px rgba(15, 39, 72, .10); transform: translateY(-1px); text-decoration: none; color: inherit; }
+.manual-card-kicker { font-size: .74rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--riplrt-blue); }
+.manual-card-title { font-family: $headings-font-family; font-weight: 650; font-size: 1.05rem; line-height: 1.25; color: var(--riplrt-navy); }
+.manual-card-text { font-size: .9rem; line-height: 1.5; color: var(--riplrt-muted); }
+.manual-hero-templates { margin-top: 1.1rem; font-size: .88rem; color: var(--riplrt-muted); }
+.manual-hero-templates a { font-weight: 600; }
+
+// 404
+.manual-404 { max-width: 40rem; font-size: 1.1rem; }
+
+// Back to top
+#quarto-back-to-top { border-radius: 999px; font-weight: 600; box-shadow: 0 6px 20px rgba(15, 39, 72, .18); }
+
 // Mobile
 @media (max-width: 991.98px) {
   .quarto-title-block .quarto-title .title { font-size: 2rem; }
   .navbar .navbar-brand { font-size: 1rem; }
   .navbar .navbar-logo { max-height: 30px; }
   .table-responsive-auto { overflow-x: auto; }
+  // Breadcrumb under the top bar: current page only, one line
+  .quarto-secondary-nav .quarto-page-breadcrumbs { min-width: 0; flex: 1 1 auto; overflow: hidden; }
+  .quarto-secondary-nav .quarto-page-breadcrumbs .breadcrumb { flex-wrap: nowrap; overflow: hidden; }
+  .quarto-secondary-nav .quarto-page-breadcrumbs .breadcrumb-item:not(:last-child) { display: none; }
+  .quarto-secondary-nav .quarto-page-breadcrumbs .breadcrumb-item:last-child { flex: 0 1 auto; min-width: 0; padding-left: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .quarto-secondary-nav .quarto-page-breadcrumbs .breadcrumb-item:last-child::before { content: none; }
+}
+@media (max-width: 767.98px) {
+  .manual-hero { padding: 1.1rem 1rem; }
+  .manual-hero-cards { grid-template-columns: 1fr; }
+  // Mermaid diagrams: keep a legible width and scroll sideways instead of shrinking to a thumbnail
+  .cell-output-display div:has(> svg.mermaid-js) { overflow-x: auto; -webkit-overflow-scrolling: touch; padding-bottom: .5rem; }
+  .cell-output-display svg.mermaid-js { min-width: 640px; height: auto; }
+  // Tables: scroll sideways instead of crushing columns
+  #quarto-content table.table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  #quarto-content table.table th, #quarto-content table.table td { min-width: 8rem; }
+  #quarto-content table.table th:first-child, #quarto-content table.table td:first-child { min-width: 10rem; }
 }
