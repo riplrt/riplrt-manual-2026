@@ -64,7 +64,8 @@ The HTML manual is deployed on [Vercel](https://vercel.com) at <https://manual.r
 
 - Every pull request gets a Preview deployment URL (posted on the PR).
 - Merging to `main` deploys production automatically.
-- The build runs `scripts/vercel-build.sh`, which installs the pinned Quarto version (`QUARTO_VERSION` in that script) and renders `quarto render --to html` into `_book/` (see `vercel.json`). To upgrade Quarto, bump the version in the script and let the Preview deployment verify the render.
+- The build runs `scripts/vercel-build.sh`, which installs the pinned Quarto and TinyTeX versions (`QUARTO_VERSION`, `TINYTEX_VERSION` in that script) and runs `quarto render` for every format in `_quarto.yml` into `_book/` (see `vercel.json`). To upgrade either tool, bump the version in the script and let the Preview deployment verify the render.
+- The whole manual is also published as a single PDF and DOCX (linked from the download icon in the sidebar toolbar): <https://manual.riplrt.com/RIPLRT-Institute-Research-Group-Manual.pdf> and <https://manual.riplrt.com/RIPLRT-Institute-Research-Group-Manual.docx>.
 
 ## Live preview while editing
 
