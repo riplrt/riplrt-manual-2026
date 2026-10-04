@@ -6,3 +6,4 @@
 .DS_Store
 **/*.quarto_ipynb
 /.tinytex/
+/.chrome-headless-shell/
