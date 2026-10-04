@@ -45,7 +45,6 @@ book:
     collapse-level: 1
     title: false
   sharing: [twitter, linkedin]
-  downloads: [pdf, docx]
   search: true
   page-footer:
     left: "© 2026 RIPLRT Institute · Felix E. Rivera-Mariani PhD LLC"
@@ -117,31 +116,6 @@ format:
     include-in-header:
       - assets/head.html
       - assets/amplitude.html
-  pdf:
-    documentclass: scrreprt
-    toc: true
-    toc-depth: 2
-    number-sections: true
-    date-format: "MMMM YYYY"
-    geometry:
-      - top=30mm
-      - left=25mm
-      - right=25mm
-      - bottom=30mm
-    colorlinks: true
-    linkcolor: riplrtblue
-    urlcolor: riplrtblue
-    citecolor: riplrtblue
-    include-in-header:
-      - assets/pdf/header.tex
-    template-partials:
-      - assets/pdf/before-body.tex
-  docx:
-    toc: true
-    toc-depth: 2
-    number-sections: true
-    date-format: "MMMM YYYY"
-    reference-doc: assets/reference.docx
 
 execute:
   freeze: auto
