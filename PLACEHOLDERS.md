@@ -9,7 +9,7 @@ One-page confirmation sweep. **Nothing ships externally until every gating row i
 | ✔ | Item | Where it lives | What's needed | Owner | Gating? |
 |---|---|---|---|---|---|
 | ☐ | **IRB-of-record** | `policies/data-governance.qmd`, `chapters/11`, `forms/onboarding-checklist.md`, `chapters/20`, `chapters/21` | Confirm IRB of record per project/partnership and the protocol-listing process | PI | **Yes** |
-| ☐ | **CITI training link** | `forms/onboarding-checklist.md`, `chapters/11` | Insert institutional CITI access URL/instructions | PI | **Yes** |
+| ✔ | **CITI training link** | `forms/onboarding-checklist.md`, `chapters/11` | Insert institutional CITI access URL/instructions | PI | **Yes** |
 | ☐ | **Code of Conduct reporting channel** | `CODE_OF_CONDUCT.md` | Add Lynn reporting office / Title IX / ombuds contact + any anonymous mechanism | PI | **Yes** |
 | ☐ | **Institutional affiliations / framing** | `chapters/02`, `chapters/20` | Confirm how Lynn / RIPLRT Institute / LLC / partners are named per context | PI | **Yes** |
 | ☐ | **License compatibility** | `LICENSE.md` | Confirm CC BY 4.0 (text) + MIT (code) clear Lynn IP policy and sponsor/dataset terms | PI + Lynn IP office | **Yes** |

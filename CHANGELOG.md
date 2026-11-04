@@ -2,6 +2,11 @@
 
 All notable changes to the RIPLRT Institute Research Group Manual are recorded here. This manual is a living document; we log substantive changes so members can see how our shared operating system evolves. Format is loosely based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [Unreleased]
+
+### Added
+- **CITI Program** link (https://www.citiprogram.org) in Ch. 11 (human-subjects training, now `@sec-citi-irb`), the onboarding checklist form, and Appendix E; Ch. 19 cross-references it. Closes the CITI row in `PLACEHOLDERS.md`.
+
 ## [2.0.2] — 2026-08-16
 
 ### Added
