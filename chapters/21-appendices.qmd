@@ -74,7 +74,7 @@ Sign-and-submit forms live in `/forms`. See the [Forms appendix](../forms/index.
 
 ### Other tools and resources
 
-- **Research-ethics training:** CITI Program ([www.citiprogram.org](https://www.citiprogram.org); @sec-citi-irb)
+- **Research-ethics training:** CITI Program ([www.citiprogram.org](https://www.citiprogram.org); course list and steps in @sec-citi-steps)
 - **Code & versioning:** GitHub (Git), GitHub Projects
 - **Project management:** ClickUp
 - **Documents:** Google Drive / OneDrive

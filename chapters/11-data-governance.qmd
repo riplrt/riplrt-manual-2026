@@ -10,13 +10,33 @@ We work with sensitive human-related data: clinical records, claims and pharmacy
 
 Before touching any human-subjects data (including tissues, raw data, or derived data), you must:
 
-1. Complete and maintain **[CITI Program](https://www.citiprogram.org)** training appropriate to your role — typically Biomedical Research (Basic), Responsible Conduct of Research, Data or Specimens, Conflicts of Interest, and Information Privacy for Researchers. Add bloodborne-pathogen training if any biospecimen work applies. Register under your umbrella's institution (Lynn University for EBDL; your home institution, e.g., UPR, otherwise), not as an independent learner.
+1. Complete and maintain the RIPLRT standard set of **[CITI Program](https://www.citiprogram.org)** courses (@sec-citi-steps).
 2. Be **added by name to the approved IRB protocol** for your project. If you are not on the protocol, you cannot access the data or participate in the project — no exceptions.
 3. Confirm the **IRB-of-record** for your project (it varies by institution and partnership).
 
+### Completing CITI training, step by step {#sec-citi-steps}
+
+1. **Register under your institution.** At [citiprogram.org](https://www.citiprogram.org), affiliate with **Lynn University**, not as an independent learner. Members joining under another umbrella (e.g., UPR) register under their home institution and choose the equivalent courses (@sec-onboarding).
+2. **At curriculum selection, choose these courses:**
+
+   | Course | What to select | Why |
+   |---|---|---|
+   | **Human Subjects Research** | Biomedical Research, **Basic** course | We handle human samples, so choose Biomedical — not Social-Behavioral or "Data or Specimens Only." |
+   | **Responsible Conduct of Research (RCR)** | Biomedical track | Research-integrity foundation for every member. |
+   | **Conflicts of Interest** | — | Required for everyone. |
+   | **Information Privacy and Security** | For researchers | We work with sensitive human-related data. |
+   | **OSHA Bloodborne Pathogens** | Under the Biosafety section | Required for anyone who will work with human biospecimens. |
+
+   If a question asks about **Good Clinical Practice** or **animal research**, skip it or answer "No."
+3. **Send your completion reports.** Download the completion report for each course as a PDF and email them all to the PI.
+4. **Get listed on the IRB protocol.** The PI adds you by name to the IRB protocol for your project. You cannot handle samples or data until you are listed on the protocol.
+5. **Finish onboarding before samples.** Go through the [new-member onboarding checklist](/templates/pdf/new-member-onboarding-checklist.pdf) and the lab safety training (@sec-biospecimens) before your first session with samples.
+
+When CITI notifies you that a course is due for renewal, complete the refresher and email the new completion report to the PI.
+
 ::: {.callout-important}
-## Placeholder: IRB and training specifics
-The IRB-of-record, protocol numbers, and required CITI module list **must be confirmed per project** with the PI. Links and exact requirements are recorded in each project's pod charter. Do not assume; ask.
+## Placeholder: IRB specifics
+The IRB-of-record and protocol numbers **must be confirmed per project** with the PI, and a project may require CITI courses beyond the standard set. These are recorded in each project's pod charter. Do not assume; ask.
 :::
 
 ## Dataset-specific rules

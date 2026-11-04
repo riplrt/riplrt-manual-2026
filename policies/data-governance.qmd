@@ -8,7 +8,7 @@ title: "Data Governance Policy"
 Access is a privilege tied to training, approval, and need. We collect the minimum, protect it rigorously, and honor every agreement that permits our use.
 
 ## 2. Authorization (required before any data access)
-- Current CITI training appropriate to role.
+- Current CITI training: the RIPLRT standard course set ([Ch. 11, Completing CITI training](/chapters/11-data-governance.qmd#sec-citi-steps)), with completion reports emailed to the PI.
 - Named on the approved IRB protocol for the project (human-subjects data).
 - IRB-of-record confirmed per project *(placeholder — varies by institution/partnership)*.
 - Relevant Data Use Agreement (DUA) reviewed and understood.
