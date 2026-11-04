@@ -25,7 +25,7 @@ This is the **signable record** version of onboarding. The working version membe
 
 ## Weeks 1–2 — Compliance and training (before any data or human-subjects work)
 
-- [ ] **CITI training** completed/current — *placeholder: institutional CITI link*
+- [ ] **CITI training** completed/current (<https://www.citiprogram.org>) — registered under the member's umbrella institution
 - [ ] Listed on the relevant **IRB protocol** (if the project involves human subjects/data) — *placeholder: IRB link*
 - [ ] Reviewed **Data Governance Policy**; understands de-identification and access rules
 - [ ] Signed any required **data-use agreements (DUAs)** for assigned datasets
