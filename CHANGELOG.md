@@ -6,6 +6,7 @@ All notable changes to the RIPLRT Institute Research Group Manual are recorded h
 
 ### Added
 - **CITI Program** link (https://www.citiprogram.org) in Ch. 11 (human-subjects training, now `@sec-citi-irb`), the onboarding checklist form, and Appendix E; Ch. 19 cross-references it. Closes the CITI row in `PLACEHOLDERS.md`.
+- **Completing CITI training, step by step** (Ch. 11, `@sec-citi-steps`): register under Lynn University; the RIPLRT standard course set (Human Subjects Research — Biomedical Basic, RCR — Biomedical, Conflicts of Interest, Information Privacy and Security, OSHA Bloodborne Pathogens for biospecimen work); skip GCP/animal questions; email completion reports to the PI; IRB listing, onboarding checklist, and lab safety training before the first session with samples. Mirrored in the onboarding form, new-member template, Data Governance Policy, Ch. 16, and Ch. 19.
 
 ## [2.0.2] — 2026-08-16
 

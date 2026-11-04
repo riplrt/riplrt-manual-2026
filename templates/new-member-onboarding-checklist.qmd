@@ -24,8 +24,10 @@ title: "New Member Onboarding Checklist"
 - [ ] Set/share availability
 
 ## First 30 days
-- [ ] CITI/IRB training appropriate to role completed
-- [ ] Added by name to relevant IRB protocol(s) (if human-subjects data)
+- [ ] CITI standard courses completed under Lynn University or home institution (Ch. 11, Completing CITI training)
+- [ ] CITI completion reports (one PDF per course) emailed to the PI
+- [ ] Added by name to relevant IRB protocol(s) (if human-subjects data or samples)
+- [ ] Lab safety training completed before first session with samples (Ch. 16; if role involves samples)
 - [ ] Tool onboarding: Git/GitHub basics
 - [ ] Tool onboarding: R or Python environment set up
 - [ ] Tool onboarding: reproducible-notebook walkthrough

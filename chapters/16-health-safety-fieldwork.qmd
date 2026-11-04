@@ -28,11 +28,12 @@ When work happens in communities, partner clinics, or field settings:
 - **Travel safely.** Follow institutional travel and safety policies; don't work alone in unfamiliar settings without a check-in plan.
 - **Protect data in transit.** Field-collected data follows the same security and de-identification rules from the moment it's captured.
 
-## Biospecimens (when applicable)
+## Biospecimens (when applicable) {#sec-biospecimens}
 
 If a project involves biological specimens (human blood, tissue, or environmental bioaerosol samples):
 
-- Complete required bloodborne-pathogen and biosafety training and maintain relevant vaccinations (e.g., Hepatitis B) per institutional policy when handling human blood/fluids.
+- Complete the lab safety training with the PI before your first session with samples.
+- Complete required bloodborne-pathogen (CITI **OSHA Bloodborne Pathogens**, @sec-citi-steps) and biosafety training and maintain relevant vaccinations (e.g., Hepatitis B) per institutional policy when handling human blood/fluids.
 - Follow the biosafety level, PPE, and handling procedures for the facility and protocol.
 - Label, store, log, and chain-of-custody specimens per the protocol; never improvise. Inventory and location of record live in **Aliquary** (@sec-aliquary).
 - Dispose of biological and chemical waste per institutional and regulatory rules.

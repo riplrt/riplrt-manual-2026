@@ -25,11 +25,17 @@ This is the **signable record** version of onboarding. The working version membe
 
 ## Weeks 1–2 — Compliance and training (before any data or human-subjects work)
 
-- [ ] **CITI training** completed/current (<https://www.citiprogram.org>) — registered under the member's umbrella institution
+- [ ] **CITI training** completed/current (<https://www.citiprogram.org>), registered under Lynn University (or the member's home institution), with the standard courses *(Ch. 11)*:
+  - [ ] Human Subjects Research — Biomedical Research, Basic
+  - [ ] Responsible Conduct of Research — Biomedical track
+  - [ ] Conflicts of Interest
+  - [ ] Information Privacy and Security (for researchers)
+  - [ ] OSHA Bloodborne Pathogens (Biosafety section) — if working with human biospecimens
+- [ ] CITI **completion reports** (one PDF per course) emailed to the PI
 - [ ] Listed on the relevant **IRB protocol** (if the project involves human subjects/data) — *placeholder: IRB link*
 - [ ] Reviewed **Data Governance Policy**; understands de-identification and access rules
 - [ ] Signed any required **data-use agreements (DUAs)** for assigned datasets
-- [ ] Any required health/safety or fieldwork training completed for the assigned work *(see Ch. 16)*
+- [ ] **Lab safety training** completed before the first session with samples, plus any other health/safety or fieldwork training for the assigned work *(see Ch. 16)*
 - [ ] GitHub account created and added to the appropriate repositories
 
 ## Weeks 2–4 — Project integration
